@@ -1,0 +1,150 @@
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Data migration commands."
+msgstr "数据迁移命令。"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Migrations"
+msgstr "迁移"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Data migration commands."
+msgstr "数据迁移命令。"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations.Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "开发者"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Database Update"
+msgstr "数据库更新"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Description"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Commands for updating the database schema according to the definition of the \"Record\" classes in code."
+msgstr "更新数据库模式的命令是根据代码中“记录”类的定义。"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "DatabaseUpdate.Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "开发者"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while updating the database: "
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while updating the database: "
+msgstr "更新数据库时发生错误："
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while creating the tables: "
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while creating the tables: "
+msgstr "创建表时发生错误："
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while upgrading the database: "
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while upgrading the database: "
+msgstr "升级数据库时发生错误："
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while updating the database."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while updating the database."
+msgstr "An error occured while updating the database."
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "Database updated"
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "Database updated"
+msgstr "Database updated"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "There are no tables to create for feature {0}."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "There are no tables to create for feature {0}."
+msgstr "There are no tables to create for feature {0}."
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "An error occured while creating the tables."
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while creating the tables."
+msgstr "An error occured while creating the tables."
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid "Tables created"
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "Tables created"
+msgstr "Tables created"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while upgrading the database."
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while upgrading the database."
+msgstr "An error occured while upgrading the database."
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "Database upgraded"
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "Database upgraded"
+msgstr "Database upgraded"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Migrations"
+msgstr "迁移"
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Migrations"
+msgstr "迁移"
+
+#: Orchard.Migrations.Commands.DatabaseUpdateCommands
+#| msgid ""
+msgctxt "Orchard.Migrations.Commands.DatabaseUpdateCommands"
+msgid "An error occured while updating the database."
+msgstr "An error occured while updating the database."
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid ""
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while upgrading the database."
+msgstr "An error occured while upgrading the database."
+
+#: ~/Modules/Orchard.Migrations/Module.txt
+#| msgid "Orchard.Migrations Category"
+msgctxt "~/Modules/Orchard.Migrations/Module.txt"
+msgid "Developer"
+msgstr "开发者"
+
+#: Orchard.Migrations.Commands.DataMigrationCommands
+#| msgid "An error occured while updating the database: "
+msgctxt "Orchard.Migrations.Commands.DataMigrationCommands"
+msgid "An error occured while updating the database: "
+msgstr "An error occured while updating the database: "
+

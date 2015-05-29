@@ -1,0 +1,444 @@
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Roles"
+msgstr "角色"
+
+#: Orchard.Roles.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Roles.AdminMenu"
+msgid "Users"
+msgstr "用户"
+
+#: Orchard.Roles.Activities.AssignRoleActivity
+#| msgid ""
+msgctxt "Orchard.Roles.Activities.AssignRoleActivity"
+msgid "User"
+msgstr "User"
+
+#: Orchard.Roles.Activities.IsInRoleActivity
+#| msgid ""
+msgctxt "Orchard.Roles.Activities.IsInRoleActivity"
+msgid "Conditions"
+msgstr "Conditions"
+
+#: Orchard.Roles.Activities.UserTaskActivity
+#| msgid ""
+msgctxt "Orchard.Roles.Activities.UserTaskActivity"
+msgid "Tasks"
+msgstr "Tasks"
+
+#: Orchard.Roles.Commands.RoleCommands
+#| msgid ""
+msgctxt "Orchard.Roles.Commands.RoleCommands"
+msgid "List of Roles"
+msgstr "List of Roles"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Not authorized to manage roles"
+msgstr "没有权限管理角色"
+
+#: Orchard.Roles.Drivers.UserRolesPartDriver
+#| msgid ""
+msgctxt "Orchard.Roles.Drivers.UserRolesPartDriver"
+msgid "Adding role {0} to user {1}"
+msgstr "给{1}用户添加{0}角色"
+
+#: Orchard.Roles.Drivers.UserTaskDriver
+#| msgid ""
+msgctxt "Orchard.Roles.Drivers.UserTaskDriver"
+msgid "Not authorized to trigger {0}."
+msgstr "Not authorized to trigger {0}."
+
+#: Orchard.Roles.Forms.SelectRolesForms
+#| msgid ""
+msgctxt "Orchard.Roles.Forms.SelectRolesForms"
+msgid "Roles"
+msgstr "Roles"
+
+#: Orchard.Roles.Forms.UserTaskForms
+#| msgid ""
+msgctxt "Orchard.Roles.Forms.UserTaskForms"
+msgid "Roles"
+msgstr "Roles"
+
+#: Orchard.Roles.Services.RolesBasedAuthorizationService
+#| msgid ""
+msgctxt "Orchard.Roles.Services.RolesBasedAuthorizationService"
+msgid "A security exception occurred in the content management system."
+msgstr "系统出现了一个安全性异常。"
+
+#: Orchard.Roles.Services.RoleService
+#| msgid ""
+msgctxt "Orchard.Roles.Services.RoleService"
+msgid "Permission {0} was not found in any of the installed modules."
+msgstr "安装模块中没有找到{0}权限。"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Add Role"
+msgstr "添加角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Edit Role"
+msgstr "编辑角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "The roles module is adding the ability to assign roles to users. It's also providing a set of default roles for which other modules can define default permissions."
+msgstr "角色模块用来给用户分配角色。同时该模块提供一套默认的角色，供其他模块定义默认权限。"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Name"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Description"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Standard user roles."
+msgstr "Standard user roles."
+
+#: ~/Modules/Orchard.Roles/Module.txt
+#| msgid "Orchard.Roles.Category"
+msgctxt "~/Modules/Orchard.Roles/Module.txt"
+msgid "Core"
+msgstr "Core"
+
+#: Orchard.Roles.AdminMenu
+#| msgid "Users"
+msgctxt "Orchard.Roles.AdminMenu"
+msgid "Users"
+msgstr "用户"
+
+#: Orchard.Roles.AdminMenu
+#| msgid "Roles"
+msgctxt "Orchard.Roles.AdminMenu"
+msgid "Roles"
+msgstr "角色"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Not authorized to manage roles"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Not authorized to manage roles"
+msgstr "没有权限管理角色"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Deleting Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Deleting Role failed: {0}"
+msgstr "删除角色失败：{0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Creating Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Creating Role failed: {0}"
+msgstr "创建角色失败：{0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Your Role has been saved."
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Your Role has been saved."
+msgstr "您的角色已被保存。"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Editing Role failed: {0}"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Editing Role failed: {0}"
+msgstr "修改角色失败：{0}"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role was successfully deleted."
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role was successfully deleted."
+msgstr "角色成功删除。"
+
+#: Orchard.Roles.Drivers.UserRolesPartDriver
+#| msgid "Adding role {0} to user {1}"
+msgctxt "Orchard.Roles.Drivers.UserRolesPartDriver"
+msgid "Adding role {0} to user {1}"
+msgstr "给{1}用户添加{0}角色"
+
+#: Orchard.Roles.Drivers.UserRolesPartDriver
+#| msgid "Removing role {0} from user {1}"
+msgctxt "Orchard.Roles.Drivers.UserRolesPartDriver"
+msgid "Removing role {0} from user {1}"
+msgstr "为{1}用户移除{0}角色"
+
+#: Orchard.Roles.Services.RolesBasedAuthorizationService
+#| msgid "A security exception occurred in the content management system."
+msgctxt "Orchard.Roles.Services.RolesBasedAuthorizationService"
+msgid "A security exception occurred in the content management system."
+msgstr "系统出现了一个安全性异常。"
+
+#: Orchard.Roles.Services.RoleService
+#| msgid "Permission {0} was not found in any of the installed modules."
+msgctxt "Orchard.Roles.Services.RoleService"
+msgid "Permission {0} was not found in any of the installed modules."
+msgstr "安装模块中没有找到{0}权限。"
+
+#: Orchard.Roles.Services.RoleService
+#| msgid "{0} Feature"
+msgctxt "Orchard.Roles.Services.RoleService"
+msgid "{0} Feature"
+msgstr "{0}功能"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Add Role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Add Role"
+msgstr "添加角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Information"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Information"
+msgstr "信息"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Role Name:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Role Name:"
+msgstr "角色名称："
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Permissions"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Permissions"
+msgstr "权限"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "{0} Module"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "{0} Module"
+msgstr "{0} 模块"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Permission"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Permission"
+msgstr "权限"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Allow"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Allow"
+msgstr "允许"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Checkbox.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Checkbox.{0}"
+msgstr "检查框.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Create.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Create.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Edit Role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Edit Role"
+msgstr "编辑角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Information"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Information"
+msgstr "信息"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Role Name:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Role Name:"
+msgstr "角色名称"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Permissions"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Permissions"
+msgstr "权限"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Permission"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Permission"
+msgstr "权限"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Allow"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Allow"
+msgstr "允许"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Effective"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Effective"
+msgstr "有效"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Checkbox.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Checkbox.{0}"
+msgstr "检查框.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Effective.{0}"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Effective.{0}"
+msgstr "有效.{0}"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Edit.cshtml"
+msgid "Remove"
+msgstr "Remove"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Manage Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Manage Roles"
+msgstr "Manage Roles"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "行为："
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "Remove"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Add a role"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Add a role"
+msgstr "添加角色"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "This is a table of the roles currently available for use in your application."
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "This is a table of the roles currently available for use in your application."
+msgstr "下表列出了您应用中可以使用的角色。"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Modules/Orchard.Roles/Views/Admin/Index.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Roles/Views/Admin/Index.cshtml"
+msgid " | "
+msgstr "| "
+
+#: ~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml
+#| msgid "Roles"
+msgctxt "~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml"
+msgid "Roles"
+msgstr "角色"
+
+#: ~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml
+#| msgid "There are no roles."
+msgctxt "~/Modules/Orchard.Roles/Views/EditorTemplates/Parts/Roles.UserRoles.cshtml"
+msgid "There are no roles."
+msgstr "没有角色。"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role name can't be empty"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role name can't be empty"
+msgstr "Role name can't be empty"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Role with same name already exists"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Role with same name already exists"
+msgstr "Role with same name already exists"
+
+#: Orchard.Roles.Controllers.AdminController
+#| msgid "Creating Role {0} failed: Role with same name already exists"
+msgctxt "Orchard.Roles.Controllers.AdminController"
+msgid "Creating Role {0} failed: Role with same name already exists"
+msgstr "创建{0}角色失败： 已存在同名角色"
+

@@ -1,0 +1,48 @@
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Forms"
+msgstr "表单"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Forms"
+msgstr "表单"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 团队"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "http://orchardforms.codeplex.com"
+msgstr "http://orchardforms.codeplex.com"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Provides a system to publish and alter html forms."
+msgstr "提供用于发布和修改 HTML 表单的系统。"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Orchard.Forms.Name"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Forms"
+msgstr "表单"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Orchard.Forms.Description"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Provides a system to publish and alter html forms."
+msgstr "提供用于发布和修改 HTML 表单的系统。"
+
+#: ~/Modules/Orchard.Forms/Module.txt
+#| msgid "Orchard.Forms.Category"
+msgctxt "~/Modules/Orchard.Forms/Module.txt"
+msgid "Developer"
+msgstr "开发者"
+

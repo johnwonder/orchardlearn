@@ -1,0 +1,204 @@
+#: ~/Modules/UpgradeTo16/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/UpgradeTo16/Module.txt"
+msgid "UpgradeTo16"
+msgstr "UpgradeTo16"
+
+#: ~/Modules/UpgradeTo16/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/UpgradeTo16/Module.txt"
+msgid "The Orchard Team"
+msgstr "The Orchard Team"
+
+#: ~/Modules/UpgradeTo16/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/UpgradeTo16/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/UpgradeTo16/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/UpgradeTo16/Module.txt"
+msgid "Description for the module"
+msgstr "Description for the module"
+
+#: ~/Modules/UpgradeTo16/Module.txt
+#| msgid "UpgradeTo16.Description"
+msgctxt "~/Modules/UpgradeTo16/Module.txt"
+msgid "Description for feature UpgradeTo16."
+msgstr "Description for feature UpgradeTo16."
+
+#: UpgradeTo16.AdminMenu
+#| msgid "Upgrade to 1.6"
+msgctxt "UpgradeTo16.AdminMenu"
+msgid "Upgrade to 1.6"
+msgstr "Upgrade to 1.6"
+
+#: UpgradeTo16.AdminMenu
+#| msgid "Migrate Routes"
+msgctxt "UpgradeTo16.AdminMenu"
+msgid "Migrate Routes"
+msgstr "Migrate Routes"
+
+#: UpgradeTo16.AdminMenu
+#| msgid "Migrate Fields"
+msgctxt "UpgradeTo16.AdminMenu"
+msgid "Migrate Fields"
+msgstr "Migrate Fields"
+
+#: UpgradeTo16.AdminMenu
+#| msgid "Migrate Menu"
+msgctxt "UpgradeTo16.AdminMenu"
+msgid "Migrate Menu"
+msgstr "Migrate Menu"
+
+#: UpgradeTo16.Controllers.FieldController
+#| msgid "There are no content types with custom fields"
+msgctxt "UpgradeTo16.Controllers.FieldController"
+msgid "There are no content types with custom fields"
+msgstr "There are no content types with custom fields"
+
+#: UpgradeTo16.Controllers.FieldController
+#| msgid "You need to enable Orchard.Fields in order to migrate current fields. Then you can safely remove Contrib.DateTimeField and Contrib.MediaPickerField."
+msgctxt "UpgradeTo16.Controllers.FieldController"
+msgid "You need to enable Orchard.Fields in order to migrate current fields. Then you can safely remove Contrib.DateTimeField and Contrib.MediaPickerField."
+msgstr "You need to enable Orchard.Fields in order to migrate current fields. Then you can safely remove Contrib.DateTimeField and Contrib.MediaPickerField."
+
+#: UpgradeTo16.Controllers.FieldController
+#| msgid "Not allowed to migrate fields."
+msgctxt "UpgradeTo16.Controllers.FieldController"
+msgid "Not allowed to migrate fields."
+msgstr "Not allowed to migrate fields."
+
+#: UpgradeTo16.Controllers.FieldController
+#| msgid "{0} fields were migrated successfully"
+msgctxt "UpgradeTo16.Controllers.FieldController"
+msgid "{0} fields were migrated successfully"
+msgstr "{0} fields were migrated successfully"
+
+#: UpgradeTo16.Controllers.MenuController
+#| msgid "This step is unnecessary as some menus already exist."
+msgctxt "UpgradeTo16.Controllers.MenuController"
+msgid "This step is unnecessary as some menus already exist."
+msgstr "This step is unnecessary as some menus already exist."
+
+#: UpgradeTo16.Controllers.MenuController
+#| msgid "Not allowed to migrate the navigation."
+msgctxt "UpgradeTo16.Controllers.MenuController"
+msgid "Not allowed to migrate the navigation."
+msgstr "Not allowed to migrate the navigation."
+
+#: UpgradeTo16.Controllers.MenuController
+#| msgid "Main menu created"
+msgctxt "UpgradeTo16.Controllers.MenuController"
+msgid "Main menu created"
+msgstr "Main menu created"
+
+#: UpgradeTo16.Controllers.MenuController
+#| msgid "Menu items moved to Main menu"
+msgctxt "UpgradeTo16.Controllers.MenuController"
+msgid "Menu items moved to Main menu"
+msgstr "Menu items moved to Main menu"
+
+#: UpgradeTo16.Controllers.MenuController
+#| msgid "Widget could not be created. Please create it manually."
+msgctxt "UpgradeTo16.Controllers.MenuController"
+msgid "Widget could not be created. Please create it manually."
+msgstr "Widget could not be created. Please create it manually."
+
+#: UpgradeTo16.Controllers.RouteController
+#| msgid "There are no content types with RoutePart"
+msgctxt "UpgradeTo16.Controllers.RouteController"
+msgid "There are no content types with RoutePart"
+msgstr "There are no content types with RoutePart"
+
+#: UpgradeTo16.Controllers.RouteController
+#| msgid "Not allowed to migrate routes."
+msgctxt "UpgradeTo16.Controllers.RouteController"
+msgid "Not allowed to migrate routes."
+msgstr "Not allowed to migrate routes."
+
+#: UpgradeTo16.Controllers.RouteController
+#| msgid "Some content items could not be imported. Please refer to the corresponding Report."
+msgctxt "UpgradeTo16.Controllers.RouteController"
+msgid "Some content items could not be imported. Please refer to the corresponding Report."
+msgstr "Some content items could not be imported. Please refer to the corresponding Report."
+
+#: UpgradeTo16.Controllers.RouteController
+#| msgid "{0} was migrated successfully"
+msgctxt "UpgradeTo16.Controllers.RouteController"
+msgid "{0} was migrated successfully"
+msgstr "{0} was migrated successfully"
+
+#: ~/Modules/UpgradeTo16/Views/Field/Index.cshtml
+#| msgid "Migrate Fields"
+msgctxt "~/Modules/UpgradeTo16/Views/Field/Index.cshtml"
+msgid "Migrate Fields"
+msgstr "Migrate Fields"
+
+#: ~/Modules/UpgradeTo16/Views/Field/Index.cshtml
+#| msgid "Choose the types to migrate:"
+msgctxt "~/Modules/UpgradeTo16/Views/Field/Index.cshtml"
+msgid "Choose the types to migrate:"
+msgstr "Choose the types to migrate:"
+
+#: ~/Modules/UpgradeTo16/Views/Field/Index.cshtml
+#| msgid "The migration process fields data. You will still need to enable Orchard.Fields, and remove Contrib.DateTime and Contrib.MediaPicker if you have installed them."
+msgctxt "~/Modules/UpgradeTo16/Views/Field/Index.cshtml"
+msgid "The migration process fields data. You will still need to enable Orchard.Fields, and remove Contrib.DateTime and Contrib.MediaPicker if you have installed them."
+msgstr "The migration process fields data. You will still need to enable Orchard.Fields, and remove Contrib.DateTime and Contrib.MediaPicker if you have installed them."
+
+#: ~/Modules/UpgradeTo16/Views/Field/Index.cshtml
+#| msgid "Migrate"
+msgctxt "~/Modules/UpgradeTo16/Views/Field/Index.cshtml"
+msgid "Migrate"
+msgstr "Migrate"
+
+#: ~/Modules/UpgradeTo16/Views/Menu/Index.cshtml
+#| msgid "Migrate Menu"
+msgctxt "~/Modules/UpgradeTo16/Views/Menu/Index.cshtml"
+msgid "Migrate Menu"
+msgstr "Migrate Menu"
+
+#: ~/Modules/UpgradeTo16/Views/Menu/Index.cshtml
+#| msgid "Migrating Menu:"
+msgctxt "~/Modules/UpgradeTo16/Views/Menu/Index.cshtml"
+msgid "Migrating Menu:"
+msgstr "Migrating Menu:"
+
+#: ~/Modules/UpgradeTo16/Views/Menu/Index.cshtml
+#| msgid "This migration step will create a new Menu named \"Main Menu\" and add all your previous menu items to it. Finally it will create a new \"Menu Widget\" instance to render this menu on the website."
+msgctxt "~/Modules/UpgradeTo16/Views/Menu/Index.cshtml"
+msgid "This migration step will create a new Menu named \"Main Menu\" and add all your previous menu items to it. Finally it will create a new \"Menu Widget\" instance to render this menu on the website."
+msgstr "This migration step will create a new Menu named \"Main Menu\" and add all your previous menu items to it. Finally it will create a new \"Menu Widget\" instance to render this menu on the website."
+
+#: ~/Modules/UpgradeTo16/Views/Menu/Index.cshtml
+#| msgid "Migrate"
+msgctxt "~/Modules/UpgradeTo16/Views/Menu/Index.cshtml"
+msgid "Migrate"
+msgstr "Migrate"
+
+#: ~/Modules/UpgradeTo16/Views/Route/Index.cshtml
+#| msgid "Migrate Routes"
+msgctxt "~/Modules/UpgradeTo16/Views/Route/Index.cshtml"
+msgid "Migrate Routes"
+msgstr "Migrate Routes"
+
+#: ~/Modules/UpgradeTo16/Views/Route/Index.cshtml
+#| msgid "Choose the types to migrate:"
+msgctxt "~/Modules/UpgradeTo16/Views/Route/Index.cshtml"
+msgid "Choose the types to migrate:"
+msgstr "Choose the types to migrate:"
+
+#: ~/Modules/UpgradeTo16/Views/Route/Index.cshtml
+#| msgid "The migration process will move the Route and Title properties by adding an Autoroute and a Title part to all the content items for the selected content types."
+msgctxt "~/Modules/UpgradeTo16/Views/Route/Index.cshtml"
+msgid "The migration process will move the Route and Title properties by adding an Autoroute and a Title part to all the content items for the selected content types."
+msgstr "The migration process will move the Route and Title properties by adding an Autoroute and a Title part to all the content items for the selected content types."
+
+#: ~/Modules/UpgradeTo16/Views/Route/Index.cshtml
+#| msgid "Migrate"
+msgctxt "~/Modules/UpgradeTo16/Views/Route/Index.cshtml"
+msgid "Migrate"
+msgstr "Migrate"
+

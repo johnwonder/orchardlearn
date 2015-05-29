@@ -1,0 +1,1 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleDynamicProxy\obj\x86\Debug\ConsoleDynamicProxy.csprojResolveAssemblyReference.cache

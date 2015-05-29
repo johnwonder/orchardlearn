@@ -1,0 +1,12 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\bin\Debug\Orchard.Profile.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\bin\Debug\Orchard.Profile.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\bin\Debug\nunit.framework.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\bin\Debug\TechTalk.SpecFlow.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\obj\Debug\Orchard.Profile.csprojResolveAssemblyReference.cache
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\obj\Debug\Orchard.Profile.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Profile\obj\Debug\Orchard.Profile.pdb
+E:\dev\orchard\src\Orchard.Profile\bin\Debug\Orchard.Profile.dll
+E:\dev\orchard\src\Orchard.Profile\bin\Debug\Orchard.Profile.pdb
+E:\dev\orchard\src\Orchard.Profile\obj\Debug\Orchard.Profile.dll
+E:\dev\orchard\src\Orchard.Profile\obj\Debug\Orchard.Profile.pdb
+E:\dev\orchard\src\Orchard.Profile\obj\Debug\Orchard.Profile.csprojResolveAssemblyReference.cache

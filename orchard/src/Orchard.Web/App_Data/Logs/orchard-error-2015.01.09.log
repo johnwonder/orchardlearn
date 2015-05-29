@@ -1,0 +1,837 @@
+2015-01-09 14:29:24,276 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 14:32:57,646 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 14:35:23,736 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 14:35:41,295 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 14:52:57,607 [10] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:03:55,840 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:03:56,317 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:03:56,852 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:03:57,886 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:14:58,302 [5] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:32:00,692 [11] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:32:01,155 [11] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:32:01,540 [11] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:44:06,110 [7] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:44:06,726 [7] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:44:07,298 [7] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 15:55:57,466 [11] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:00:45,162 [11] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:32:04,370 [10] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:32:04,748 [10] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:32:05,087 [10] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:43:48,530 [10] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:48:31,048 [15] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-01-09 16:56:21,044 [20] Orchard.Environment.DefaultOrchardHost - A tenant could not be started: Default
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): 系统找不到指定的文件。
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   at NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   at NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   at NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   at NHibernate.Cfg.Configuration.BuildSessionFactory()
+   at Orchard.Data.SessionFactoryHolder.BuildSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 87
+   at Orchard.Data.SessionFactoryHolder.GetSessionFactory() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionFactoryHolder.cs:line 65
+   at Orchard.Data.SessionLocator.For(Type entityType) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\SessionLocator.cs:line 29
+   at Orchard.Data.Repository`1.get_Session() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 26
+   at Orchard.Data.Repository`1.get_Table() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 30
+   at Orchard.Data.Repository`1.Fetch(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 126
+   at Orchard.Data.Repository`1.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 91
+   at Orchard.Data.Repository`1.Orchard.Data.IRepository<T>.Get(Expression`1 predicate) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Data\Repository.cs:line 60
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetDescriptorRecord() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 57
+   at Orchard.Core.Settings.Descriptor.ShellDescriptorManager.GetShellDescriptor() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Core\Settings\Descriptor\ShellDescriptorManager.cs:line 30
+   at Orchard.Environment.ShellBuilders.ShellContextFactory.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\ShellBuilders\ShellContextFactory.cs:line 66
+   at Orchard.Environment.DefaultOrchardHost.CreateShellContext(ShellSettings settings) in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 176
+   at Orchard.Environment.DefaultOrchardHost.CreateAndActivateShells() in E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard\Environment\DefaultOrchardHost.cs:line 135
+ClientConnectionId:00000000-0000-0000-0000-000000000000

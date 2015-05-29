@@ -1,0 +1,6 @@
+#: ~/Modules/Orchard.Azure/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure/Module.txt"
+msgid "Windows Azure Services"
+msgstr "Windows Azure Services"
+

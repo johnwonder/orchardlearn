@@ -1,0 +1,348 @@
+#: Orchard.Email.Handlers.SmtpSettingsPartHandler
+#| msgid "Email"
+msgctxt "Orchard.Email.Handlers.SmtpSettingsPartHandler"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Email"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Rules"
+msgstr "电子邮件规则"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Rules for the Email modules"
+msgstr "电子邮件规则模块"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Rules.Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Rules"
+msgstr "规则"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Send an e-mail"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Send an e-mail"
+msgstr "发送电子邮件"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Messaging"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Messaging"
+msgstr "消息传递"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Messages"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Messages"
+msgstr "消息"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Send e-mail"
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Send e-mail"
+msgstr "发送电子邮件"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid "Sends an e-mail to a specific user."
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Sends an e-mail to a specific user."
+msgstr "向特定用户发送一封电子邮件。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Send to"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Send to"
+msgstr "发送给"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Select who should be the recipient of this e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Select who should be the recipient of this e-mail."
+msgstr "选择邮件的收件人"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Owner"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Owner"
+msgstr "拥有者"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Author"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Author"
+msgstr "作者"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Site Admin"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Site Admin"
+msgstr "网站管理员"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Subject"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Subject"
+msgstr "主题"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The subject of the e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The subject of the e-mail."
+msgstr "电子邮件的主题。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Body"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Body"
+msgstr "正文"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The body of the e-mail."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The body of the e-mail."
+msgstr "电子邮件正文。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must select at least one recipient"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must select at least one recipient"
+msgstr "您必须选择至少一个收件人"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide a Subject"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide a Subject"
+msgstr "您必须提供主题"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide a Body"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide a Body"
+msgstr "您必须提供正文"
+
+#: Orchard.Email.Services.MissingSettingsBanner
+#| msgid "The <a href=\"{0}\">SMTP settings</a> needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner"
+msgid "The <a href=\"{0}\">SMTP settings</a> needs to be configured."
+msgstr "<a href=\"{0}\">SMTP 设置</a> 需要进行配置。"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging"
+msgstr "电子邮件通讯"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging"
+msgstr "电子邮件通讯"
+
+#: Orchard.Email.Activities.EmailActivity
+#| msgid ""
+msgctxt "Orchard.Email.Activities.EmailActivity"
+msgid "Done"
+msgstr "完成"
+
+#: Orchard.Email.Forms.EmailForm
+#| msgid ""
+msgctxt "Orchard.Email.Forms.EmailForm"
+msgid "Send to"
+msgstr "发送给"
+
+#: Orchard.Email.Forms.MailForms
+#| msgid ""
+msgctxt "Orchard.Email.Forms.MailForms"
+msgid "Send to"
+msgstr "发送给"
+
+#: Orchard.Email.Handlers.SmtpSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.Email.Handlers.SmtpSettingsPartHandler"
+msgid "Email"
+msgstr "电子邮件"
+
+#: Orchard.Email.Rules.MailActions
+#| msgid ""
+msgctxt "Orchard.Email.Rules.MailActions"
+msgid "Send an e-mail"
+msgstr "发送电子邮件"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid ""
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Send to"
+msgstr "发送给"
+
+#: Orchard.Email.Services.MissingSettingsBanner
+#| msgid ""
+msgctxt "Orchard.Email.Services.MissingSettingsBanner"
+msgid "The <a href=\"{0}\">SMTP settings</a> need to be configured."
+msgstr "<a href=\"{0}\">SMTP 设置</a> 需要进行配置。"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "The Email Messaging module adds Email sending functionalities."
+msgstr "电子邮件通讯模块添加电子邮件发送功能。"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Name"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging services."
+msgstr "电子邮件消息传递服务。"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email.Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Messaging"
+msgstr "消息传递"
+
+#: Orchard.Email.Services.MissingSettingsBanner:
+#| msgid "The SMTP settings needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner:"
+msgid "The SMTP settings needs to be configured."
+msgstr "需要设置SMTP。"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "SMTP"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "SMTP"
+msgstr "SMTP"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Sender email address"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Sender email address"
+msgstr "发送者电子邮件地址"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Host name"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Host name"
+msgstr "服务器名称"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Port number"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Port number"
+msgstr "端口号"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Enable SSL communications"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Enable SSL communications"
+msgstr "启用SSL加密"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Require credentials"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Require credentials"
+msgstr "需要加密"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "User name"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "User name"
+msgstr "用户名"
+
+#: ~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml
+#| msgid "Password"
+msgctxt "~/Modules/Orchard.Email/Views/EditorTemplates/Parts/SmtpSettings.cshtml"
+msgid "Password"
+msgstr "密码"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The owner of the content item in context, such as a blog post's author."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The owner of the content item in context, such as a blog post's author."
+msgstr "上下文中的内容条目所有者，就像博客文章的作者一样。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The current user when this action executes."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The current user when this action executes."
+msgstr "执行此操作的当前用户。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "The site administrator."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "The site administrator."
+msgstr "网站管理员。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Other:"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Other:"
+msgstr "其他："
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "E-mail"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "Specify a comma-separated list of e-mail recipients."
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "Specify a comma-separated list of e-mail recipients."
+msgstr "指定一个逗号分隔的电子邮件收件人列表。"
+
+#: Orchard.Email.Rules.MailForms
+#| msgid "You must provide an e-mail address"
+msgctxt "Orchard.Email.Rules.MailForms"
+msgid "You must provide an e-mail address"
+msgstr "您必须提供一个电子邮件地址"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email Description"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Email Messaging services."
+msgstr "电子邮件消息传递服务。"
+
+#: ~/Modules/Orchard.Email/Module.txt
+#| msgid "Orchard.Email Category"
+msgctxt "~/Modules/Orchard.Email/Module.txt"
+msgid "Messaging"
+msgstr "消息传递"
+
+#: Orchard.Email.Services.MissingSettingsBanner:
+#| msgid "The default channel service needs to be configured."
+msgctxt "Orchard.Email.Services.MissingSettingsBanner:"
+msgid "The default channel service needs to be configured."
+msgstr "默认通道服务需要进行配置。"
+

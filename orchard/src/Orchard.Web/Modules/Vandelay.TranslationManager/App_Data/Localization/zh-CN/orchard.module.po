@@ -1,0 +1,36 @@
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "Bertrand Le Roy"
+msgstr "Bertrand Le Roy"
+
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "http://weblogs.asp.net/bleroy"
+msgstr "http://weblogs.asp.net/bleroy"
+
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "Translation management without leaving the Orchard admin UI"
+msgstr "在Orchard管理UI中的翻译管理"
+
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Vandelay.TranslationManager.Description"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "Translation management without leaving the Orchard admin UI"
+msgstr "在Orchard管理UI中的翻译管理"
+
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Vandelay.TranslationManager.Category"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: ~/Modules/Vandelay.TranslationManager/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Vandelay.TranslationManager/Module.txt"
+msgid "Vandelay.TranslationManager"
+msgstr "Vandelay.TranslationManager"
+

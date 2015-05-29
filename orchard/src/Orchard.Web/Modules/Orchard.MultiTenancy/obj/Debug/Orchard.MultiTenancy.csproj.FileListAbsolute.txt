@@ -1,0 +1,5 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Modules\Orchard.MultiTenancy\bin\Orchard.MultiTenancy.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Orchard.Web\Modules\Orchard.MultiTenancy\obj\Debug\Orchard.MultiTenancy.csprojResolveAssemblyReference.cache

@@ -1,0 +1,366 @@
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Alias"
+msgstr "Alias"
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "The Orchard Team"
+msgstr "The Orchard Team"
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Description for the module"
+msgstr "Description for the module"
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Orchard.Alias.UI.Name"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Alias UI"
+msgstr "Alias UI"
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Orchard.Alias.UI.Description"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Admin user interace for Orchard.Alias."
+msgstr "Admin user interace for Orchard.Alias."
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid "Orchard.Alias.UI.Category"
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Content"
+msgstr "Content"
+
+#: Orchard.Alias.AdminMenu
+#| msgid "Aliases"
+msgctxt "Orchard.Alias.AdminMenu"
+msgid "Aliases"
+msgstr "Aliases"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Not authorized to manage aliases"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Not authorized to manage aliases"
+msgstr "Not authorized to manage aliases"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Path can't be empty"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Path can't be empty"
+msgstr "Path can't be empty"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Route can't be empty"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Route can't be empty"
+msgstr "Route can't be empty"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "An error occured while creating the alias. Please check the values are correct."
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "An error occured while creating the alias. Please check the values are correct."
+msgstr "An error occured while creating the alias. Please check the values are correct."
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Alias {0} created"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Alias {0} created"
+msgstr "Alias {0} created"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Alias {0} updated"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Alias {0} updated"
+msgstr "Alias {0} updated"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Alias {0} deleted"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Alias {0} deleted"
+msgstr "Alias {0} deleted"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "Create Alias"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Create Alias"
+msgstr "Create Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "Alias Path"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Alias Path"
+msgstr "Alias Path"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "The path of the alias e.g., my-blog/my-post"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "The path of the alias e.g., my-blog/my-post"
+msgstr "The path of the alias e.g., my-blog/my-post"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "Route Path"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Route Path"
+msgstr "Route Path"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+msgstr "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Save"
+msgstr "Save"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid "Cancel"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml
+#| msgid "Delete Alias"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml"
+msgid "Delete Alias"
+msgstr "Delete Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml
+#| msgid "Removing alias '{0}'. Are you sure?"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml"
+msgid "Removing alias '{0}'. Are you sure?"
+msgstr "Removing alias '{0}'. Are you sure?"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml
+#| msgid "Yes"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml"
+msgid "Yes"
+msgstr "Yes"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "Edit Alias"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Edit Alias"
+msgstr "Edit Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "Alias Path"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Alias Path"
+msgstr "Alias Path"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "The path of the alias e.g., my-blog/my-post"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "The path of the alias e.g., my-blog/my-post"
+msgstr "The path of the alias e.g., my-blog/my-post"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "Route Path"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Route Path"
+msgstr "Route Path"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+msgstr "The actual route Orchard should call when the path is requested e.g., Blogs/Blog/Item?blogId=18"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Save"
+msgstr "Save"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid "Cancel"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Manage Aliases"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Manage Aliases"
+msgstr "Manage Aliases"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Add new Alias"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Add new Alias"
+msgstr "Add new Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "Actions:"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "Choose action..."
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "Delete"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "Apply"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Sort by:"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Sort by:"
+msgstr "Sort by:"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Path"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Path"
+msgstr "Path"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Show:"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Show:"
+msgstr "Show:"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "All"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "All"
+msgstr "All"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Filter"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Filter"
+msgstr "Filter"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Alias"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Alias"
+msgstr "Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Route"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Route"
+msgstr "Route"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "Edit"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "An error occured while creating the alias {0}: {1}. Please check the values are correct."
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "An error occured while creating the alias {0}: {1}. Please check the values are correct."
+msgstr "An error occured while creating the alias {0}: {1}. Please check the values are correct."
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "An error occured while creating the alias {0}"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "An error occured while creating the alias {0}"
+msgstr "An error occured while creating the alias {0}"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "An error occured while editing the alias '{0}': {1}. Please check the values are correct."
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "An error occured while editing the alias '{0}': {1}. Please check the values are correct."
+msgstr "An error occured while editing the alias '{0}': {1}. Please check the values are correct."
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "An error occured while creating the alias '{0}'"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "An error occured while creating the alias '{0}'"
+msgstr "An error occured while creating the alias '{0}'"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "<a href=\"{0}\">{0}</a>"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "<a href=\"{0}\">{0}</a>"
+msgstr "<a href=\"{0}\">{0}</a>"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "<a href=\"{0}\">change</a>"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "<a href=\"{0}\">change</a>"
+msgstr "<a href=\"{0}\">change</a>"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "<a href=\"{0}\" itemprop=\"UnsafeUrl RemoveUrl\">delete</a>"
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "<a href=\"{0}\" itemprop=\"UnsafeUrl RemoveUrl\">delete</a>"
+msgstr "<a href=\"{0}\" itemprop=\"UnsafeUrl RemoveUrl\">delete</a>"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid "Cannot save alias <i>{0}</i>. It conflicts with existing one pointing to {1}. Please {2} or {3} the existing alias first."
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Cannot save alias <i>{0}</i>. It conflicts with existing one pointing to {1}. Please {2} or {3} the existing alias first."
+msgstr "Cannot save alias <i>{0}</i>. It conflicts with existing one pointing to {1}. Please {2} or {3} the existing alias first."
+
+#: ~/Modules/Orchard.Alias/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Alias/Module.txt"
+msgid "Alias"
+msgstr "Alias"
+
+#: Orchard.Alias.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Alias.AdminMenu"
+msgid "Aliases"
+msgstr "Aliases"
+
+#: Orchard.Alias.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Alias.Controllers.AdminController"
+msgid "Not authorized to manage aliases"
+msgstr "Not authorized to manage aliases"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Add.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Add.cshtml"
+msgid "Create Alias"
+msgstr "Create Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Delete.cshtml"
+msgid "Delete Alias"
+msgstr "Delete Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Edit.cshtml"
+msgid "Edit Alias"
+msgstr "Edit Alias"
+
+#: ~/Modules/Orchard.Alias/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Alias/Views/Admin/Index.cshtml"
+msgid "Manage Aliases"
+msgstr "Manage Aliases"
+

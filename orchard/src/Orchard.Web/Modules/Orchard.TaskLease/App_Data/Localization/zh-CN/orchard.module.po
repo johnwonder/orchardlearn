@@ -1,0 +1,30 @@
+#: ~/Modules/Orchard.TaskLease/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "Task Lease"
+msgstr "Task Lease"
+
+#: ~/Modules/Orchard.TaskLease/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "Task Lease"
+msgstr "Task Lease"
+
+#: ~/Modules/Orchard.TaskLease/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "The Orchard Team"
+msgstr "The Orchard Team"
+
+#: ~/Modules/Orchard.TaskLease/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "http://orchardtasklease.codeplex.com"
+msgstr "http://orchardtasklease.codeplex.com"
+
+#: ~/Modules/Orchard.TaskLease/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.TaskLease/Module.txt"
+msgid "Provides services to synchronize tasks in a farm environment"
+msgstr "Provides services to synchronize tasks in a farm environment"
+

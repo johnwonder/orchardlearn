@@ -1,0 +1,702 @@
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "AntiSpam"
+msgstr "AntiSpam"
+
+#: Orchard.AntiSpam.AdminMenu
+#| msgid ""
+msgctxt "Orchard.AntiSpam.AdminMenu"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Controllers.AdminController"
+msgid "Not authorized to manage spam"
+msgstr "Not authorized to manage spam"
+
+#: Orchard.AntiSpam.Drivers.JavaScriptAntiSpamPartDriver
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Drivers.JavaScriptAntiSpamPartDriver"
+msgid "You are either a bot (we only serve humans, sorry) or have JavaScript turned off. If the latter, please turn on JavaScript to post this form."
+msgstr "You are either a bot (we only serve humans, sorry) or have JavaScript turned off. If the latter, please turn on JavaScript to post this form."
+
+#: Orchard.AntiSpam.Drivers.ReCaptchaPartDriver
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Drivers.ReCaptchaPartDriver"
+msgid "The text you entered in the Captcha field does not match the image"
+msgstr "The text you entered in the Captcha field does not match the image"
+
+#: Orchard.AntiSpam.Drivers.SpamFilterPartDriver
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Drivers.SpamFilterPartDriver"
+msgid "Spam detected."
+msgstr "Spam detected."
+
+#: Orchard.AntiSpam.Drivers.SubmissionLimitPartDriver
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Drivers.SubmissionLimitPartDriver"
+msgid "The limit of submissions has been reached."
+msgstr "The limit of submissions has been reached."
+
+#: Orchard.AntiSpam.Handlers.AkismetSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Handlers.AkismetSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Handlers.ReCaptchaSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Handlers.ReCaptchaSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Handlers.TypePadSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Handlers.TypePadSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+#: Orchard.AntiSpam.Services.MissingFilterBanner
+#| msgid ""
+msgctxt "Orchard.AntiSpam.Services.MissingFilterBanner"
+msgid "Anti-spam protection requires at least one anti-spam filter to be enabled and configured."
+msgstr "Anti-spam protection requires at least one anti-spam filter to be enabled and configured."
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Manage Spam"
+msgstr "Manage Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "When should items for this content type be categorized as Spam ?"
+msgstr "When should items for this content type be categorized as Spam ?"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "The number of allowed submissions."
+msgstr "The number of allowed submissions."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "Akismet"
+msgstr "Akismet"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "ReCaptcha"
+msgstr "ReCaptcha"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "TypePad"
+msgstr "TypePad"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml"
+msgid "Not Spam"
+msgstr "Not Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Drivers.ReCaptchaPartDriver
+#| msgid "The text you entered in the Captcha field does not match the image"
+msgctxt "Orchard.AntiSpam.Drivers.ReCaptchaPartDriver"
+msgid "The text you entered in the Captcha field does not match the image"
+msgstr "The text you entered in the Captcha field does not match the image"
+
+#: Orchard.AntiSpam.Drivers.SpamFilterPartDriver
+#| msgid "Spam detected."
+msgctxt "Orchard.AntiSpam.Drivers.SpamFilterPartDriver"
+msgid "Spam detected."
+msgstr "Spam detected."
+
+#: Orchard.AntiSpam.Handlers.ReCaptchaSettingsPartHandler
+#| msgid "Spam"
+msgctxt "Orchard.AntiSpam.Handlers.ReCaptchaSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Services.MissingFilterBanner
+#| msgid "Anti-spam protection requires at least one anti-spam filter to be enabled and configured."
+msgctxt "Orchard.AntiSpam.Services.MissingFilterBanner"
+msgid "Anti-spam protection requires at least one anti-spam filter to be enabled and configured."
+msgstr "Anti-spam protection requires at least one anti-spam filter to be enabled and configured."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Delete spam when found"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Delete spam when found"
+msgstr "Delete spam when found"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Enable to have spam automatically deleted when found. You won't be able to find false positive."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Enable to have spam automatically deleted when found. You won't be able to find false positive."
+msgstr "Enable to have spam automatically deleted when found. You won't be able to find false positive."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Url"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Url"
+msgstr "Url"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "The front page or home URL of the instance making the request. For a blog or wiki this would be the front page. Note: Must be a full URI, including http://."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "The front page or home URL of the instance making the request. For a blog or wiki this would be the front page. Note: Must be a full URI, including http://."
+msgstr "The front page or home URL of the instance making the request. For a blog or wiki this would be the front page. Note: Must be a full URI, including http://."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Permalink"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Permalink"
+msgstr "Permalink"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "The permanent location of the entry the content item was submitted to."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "The permanent location of the entry the content item was submitted to."
+msgstr "The permanent location of the entry the content item was submitted to."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Author"
+msgstr "Author"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Name submitted with the content item."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Name submitted with the content item."
+msgstr "Name submitted with the content item."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Author's email"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Author's email"
+msgstr "Author's email"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Email address submitted with the content item."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Email address submitted with the content item."
+msgstr "Email address submitted with the content item."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Author's url"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Author's url"
+msgstr "Author's url"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "URL submitted with the content item."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "URL submitted with the content item."
+msgstr "URL submitted with the content item."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Comment content"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Comment content"
+msgstr "Comment content"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "The content that was submitted."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "The content that was submitted."
+msgstr "The content that was submitted."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "ReCaptcha"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "ReCaptcha"
+msgstr "ReCaptcha"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "Your public key."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "Your public key."
+msgstr "Your public key."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "Your private key."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "Your private key."
+msgstr "Your private key."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "Get custom keys:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "Get custom keys:"
+msgstr "Get custom keys:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "Hide for authenticated users"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "Hide for authenticated users"
+msgstr "Hide for authenticated users"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml
+#| msgid "Enable to hide reCaptcha when the user is authenticated."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.ReCaptchaSettings.cshtml"
+msgid "Enable to hide reCaptcha when the user is authenticated."
+msgstr "Enable to hide reCaptcha when the user is authenticated."
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml
+#| msgid "Not Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml"
+msgid "Not Spam"
+msgstr "Not Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml
+#| msgid "Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml"
+msgid "Spam"
+msgstr "Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.Actions.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "AntiSpam"
+msgstr "AntiSpam"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "The Orchard Team"
+msgstr "The Orchard Team"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Provides anti-spam services to protect your content from malicious submissions."
+msgstr "Provides anti-spam services to protect your content from malicious submissions."
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Orchard.AntiSpam.Name"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Orchard.AntiSpam.Description"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Provides anti-spam services to protect your content from malicious submissions."
+msgstr "Provides anti-spam services to protect your content from malicious submissions."
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Orchard.AntiSpam.Category"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Security"
+msgstr "Security"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Akismet.Filter.Name"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Akismet Anti-Spam Filter"
+msgstr "Akismet Anti-Spam Filter"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Akismet.Filter.Description"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Provides an anti-spam filter based on Akismet."
+msgstr "Provides an anti-spam filter based on Akismet."
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "Akismet.Filter.Category"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Security"
+msgstr "Security"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "TypePad.Filter.Name"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "TypePad Anti-Spam Filter"
+msgstr "TypePad Anti-Spam Filter"
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "TypePad.Filter.Description"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Provides an anti-spam filter based on TypePad."
+msgstr "Provides an anti-spam filter based on TypePad."
+
+#: ~/Modules/Orchard.AntiSpam/Module.txt
+#| msgid "TypePad.Filter.Category"
+msgctxt "~/Modules/Orchard.AntiSpam/Module.txt"
+msgid "Security"
+msgstr "Security"
+
+#: Orchard.AntiSpam.AdminMenu
+#| msgid "Spam"
+msgctxt "Orchard.AntiSpam.AdminMenu"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.AdminMenu
+#| msgid "Manage Spam"
+msgctxt "Orchard.AntiSpam.AdminMenu"
+msgid "Manage Spam"
+msgstr "Manage Spam"
+
+#: Orchard.AntiSpam.Controllers.AdminController
+#| msgid "Not authorized to manage spam"
+msgctxt "Orchard.AntiSpam.Controllers.AdminController"
+msgid "Not authorized to manage spam"
+msgstr "Not authorized to manage spam"
+
+#: Orchard.AntiSpam.Drivers.ReCaptchaPartDriver
+#| msgid "Incorrect word"
+msgctxt "Orchard.AntiSpam.Drivers.ReCaptchaPartDriver"
+msgid "Incorrect word"
+msgstr "Incorrect word"
+
+#: Orchard.AntiSpam.Drivers.SubmissionLimitPartDriver
+#| msgid "The limit of submissions has been reached."
+msgctxt "Orchard.AntiSpam.Drivers.SubmissionLimitPartDriver"
+msgid "The limit of submissions has been reached."
+msgstr "The limit of submissions has been reached."
+
+#: Orchard.AntiSpam.Handlers.AkismetSettingsPartHandler
+#| msgid "Spam"
+msgctxt "Orchard.AntiSpam.Handlers.AkismetSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Handlers.TypePadSettingsPartHandler
+#| msgid "Spam"
+msgctxt "Orchard.AntiSpam.Handlers.TypePadSettingsPartHandler"
+msgid "Spam"
+msgstr "Spam"
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "Anti-Spam"
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "Spam Reported"
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Spam Reported"
+msgstr "Spam Reported"
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "Content is categorized as spam."
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Content is categorized as spam."
+msgstr "Content is categorized as spam."
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "When content is categorized as spam."
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "When content is categorized as spam."
+msgstr "When content is categorized as spam."
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "Ham Reported"
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Ham Reported"
+msgstr "Ham Reported"
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "Content is categorized as ham."
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "Content is categorized as ham."
+msgstr "Content is categorized as ham."
+
+#: Orchard.AntiSpam.Rules.AntiSpamEvents
+#| msgid "When content is categorized as ham."
+msgctxt "Orchard.AntiSpam.Rules.AntiSpamEvents"
+msgid "When content is categorized as ham."
+msgstr "When content is categorized as ham."
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Manage Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Manage Spam"
+msgstr "Manage Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "Actions:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "Choose action..."
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Mark as Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Mark as Spam"
+msgstr "Mark as Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Mark as Ham"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Mark as Ham"
+msgstr "Mark as Ham"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "Delete"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "Apply"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Filter:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Filter:"
+msgstr "Filter:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "any (show all)"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "any (show all)"
+msgstr "any (show all)"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Spam"
+msgstr "Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Ham"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Ham"
+msgstr "Ham"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Sort by:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Sort by:"
+msgstr "Sort by:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Creation date"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Creation date"
+msgstr "Creation date"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Show:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Show:"
+msgstr "Show:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "All"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "All"
+msgstr "All"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml
+#| msgid "Filter"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Admin/Index.cshtml"
+msgid "Filter"
+msgstr "Filter"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml
+#| msgid "Your public key."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml"
+msgid "Your public key."
+msgstr "Your public key."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml
+#| msgid "Your private key."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml"
+msgid "Your private key."
+msgstr "Your private key."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml
+#| msgid "Get custom keys:"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/ReCaptchaPartSettings.cshtml"
+msgid "Get custom keys:"
+msgstr "Get custom keys:"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "When should items for this content type be categorized as Spam ?"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "When should items for this content type be categorized as Spam ?"
+msgstr "When should items for this content type be categorized as Spam ?"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "At least one filter reports spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "At least one filter reports spam"
+msgstr "At least one filter reports spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "All filters report spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "All filters report spam"
+msgstr "All filters report spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "Analyzed text"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "Analyzed text"
+msgstr "Analyzed text"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml
+#| msgid "The tokenized pattern generating the text to submit to spam filters."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SpamFilterPartSettings.cshtml"
+msgid "The tokenized pattern generating the text to submit to spam filters."
+msgstr "The tokenized pattern generating the text to submit to spam filters."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "The number of allowed submissions."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "The number of allowed submissions."
+msgstr "The number of allowed submissions."
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "Day"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "Day"
+msgstr "Day"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "Hour"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "Hour"
+msgstr "Hour"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "Month"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "Month"
+msgstr "Month"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "Year"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "Year"
+msgstr "Year"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "Overall"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "Overall"
+msgstr "Overall"
+
+#: ~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml
+#| msgid "The period to take into account."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/DefinitionTemplates/SubmissionLimitPartSettings.cshtml"
+msgid "The period to take into account."
+msgstr "The period to take into account."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid "Akismet"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "Akismet"
+msgstr "Akismet"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid "Trust content submitted by authenticated users"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "Trust content submitted by authenticated users"
+msgstr "Trust content submitted by authenticated users"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid "Check if authenticated users should have their content automatically approved."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "Check if authenticated users should have their content automatically approved."
+msgstr "Check if authenticated users should have their content automatically approved."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid "Api key"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "Api key"
+msgstr "Api key"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml
+#| msgid "API key for <a href=\"http://akismet.com/personal/\">Akismet</a> service."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.AkismetSettings.cshtml"
+msgid "API key for <a href=\"http://akismet.com/personal/\">Akismet</a> service."
+msgstr "API key for <a href=\"http://akismet.com/personal/\">Akismet</a> service."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid "TypePad"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "TypePad"
+msgstr "TypePad"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid "Trust content submitted by authenticated users"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "Trust content submitted by authenticated users"
+msgstr "Trust content submitted by authenticated users"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid "Check if authenticated users should have their content automatically approved."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "Check if authenticated users should have their content automatically approved."
+msgstr "Check if authenticated users should have their content automatically approved."
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid "Api key"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "Api key"
+msgstr "Api key"
+
+#: ~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml
+#| msgid "API key for <a href=\"http://antispam.typepad.com/info/get-api-key.html\">TypePad AntiSpam</a> service."
+msgctxt "~/Modules/Orchard.AntiSpam/Views/EditorTemplates/Parts/AntiSpam.TypePadSettings.cshtml"
+msgid "API key for <a href=\"http://antispam.typepad.com/info/get-api-key.html\">TypePad AntiSpam</a> service."
+msgstr "API key for <a href=\"http://antispam.typepad.com/info/get-api-key.html\">TypePad AntiSpam</a> service."
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml
+#| msgid "Spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml"
+msgid "Spam"
+msgstr "Spam"
+
+#: ~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml
+#| msgid "The content has been categorized as spam"
+msgctxt "~/Modules/Orchard.AntiSpam/Views/Parts/SpamFilter.Metadata.SummaryAdmin.cshtml"
+msgid "The content has been categorized as spam"
+msgstr "The content has been categorized as spam"
+

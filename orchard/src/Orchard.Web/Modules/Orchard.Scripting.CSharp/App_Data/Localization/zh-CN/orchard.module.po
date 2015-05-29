@@ -1,0 +1,78 @@
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "C# Scripting"
+msgstr "C# Scripting"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "The Orchard Team"
+msgstr "The Orchard Team"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "Description for the module"
+msgstr "Description for the module"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Orchard.Scripting.CSharp.Description"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "Provides C# compiler services."
+msgstr "Provides C# compiler services."
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Orchard.Scripting.CSharp.Category"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "Scripting"
+msgstr "Scripting"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid "Orchard.Scripting.CSharp.Name"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "Script Validation"
+msgstr "Script Validation"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml
+#| msgid "Script"
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml"
+msgid "Script"
+msgstr "Script"
+
+#: ~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml
+#| msgid "The script to run everytime the content item is edited. You can use ContentItem, Services, WorkContext, T() and AddModelError()."
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml"
+msgid "The script to run everytime the content item is edited. You can use ContentItem, Services, WorkContext, T() and AddModelError()."
+msgstr "The script to run everytime the content item is edited. You can use ContentItem, Services, WorkContext, T() and AddModelError()."
+
+#: ~/Modules/Orchard.Scripting.CSharp/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Module.txt"
+msgid "C# Scripting"
+msgstr "C# Scripting"
+
+#: Orchard.Scripting.CSharp.Activities.DecisionActivity
+#| msgid ""
+msgctxt "Orchard.Scripting.CSharp.Activities.DecisionActivity"
+msgid "Misc"
+msgstr "Misc"
+
+#: Orchard.Scripting.CSharp.Forms.DecisionForms
+#| msgid ""
+msgctxt "Orchard.Scripting.CSharp.Forms.DecisionForms"
+msgid "Possible Outcomes."
+msgstr "Possible Outcomes."
+
+#: ~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Scripting.CSharp/Views/DefinitionTemplates/ScriptValidationPartSettings.cshtml"
+msgid "Script"
+msgstr "Script"
+

@@ -1,0 +1,228 @@
+#: ~/Modules/Orchard.Azure.MediaServices/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Module.txt"
+msgid "Windows Azure Media Services"
+msgstr "Windows Azure Media Services"
+
+#: Orchard.Azure.MediaServices.Controllers.AssetController
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Controllers.AssetController"
+msgid "The Asset has been saved."
+msgstr "The Asset has been saved."
+
+#: Orchard.Azure.MediaServices.Controllers.JobController
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Controllers.JobController"
+msgid "You are not authorized to manage cloud jobs."
+msgstr "You are not authorized to manage cloud jobs."
+
+#: Orchard.Azure.MediaServices.Controllers.MediaController
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Controllers.MediaController"
+msgid "The cloud video item was successfully created."
+msgstr "The cloud video item was successfully created."
+
+#: Orchard.Azure.MediaServices.Controllers.SettingsController
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Controllers.SettingsController"
+msgid "You are not authorized to manage Windows Azure Media settings."
+msgstr "You are not authorized to manage Windows Azure Media settings."
+
+#: Orchard.Azure.MediaServices.Drivers.CloudVideoPartDriver
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Drivers.CloudVideoPartDriver"
+msgid "Your {0} has been unpublished."
+msgstr "Your {0} has been unpublished."
+
+#: Orchard.Azure.MediaServices.Drivers.ThumbnailAssetDriver
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Drivers.ThumbnailAssetDriver"
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: Orchard.Azure.MediaServices.Drivers.VideoAssetDriver
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Drivers.VideoAssetDriver"
+msgid "Files"
+msgstr "Files"
+
+#: Orchard.Azure.MediaServices.Handlers.CloudVideoPartHandler
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Handlers.CloudVideoPartHandler"
+msgid "The cloud video item was saved, but will not be published until the primary video asset has finished uploading to Windows Azure Media Services."
+msgstr "The cloud video item was saved, but will not be published until the primary video asset has finished uploading to Windows Azure Media Services."
+
+#: Orchard.Azure.MediaServices.Navigation.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Navigation.AdminMenu"
+msgid "Media"
+msgstr "Media"
+
+#: Orchard.Azure.MediaServices.Navigation.MediaMenu
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Navigation.MediaMenu"
+msgid "Windows Azure Media"
+msgstr "Windows Azure Media"
+
+#: Orchard.Azure.MediaServices.Services.Tasks.Providers.CreateThumbnailTaskProvider
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Services.Tasks.Providers.CreateThumbnailTaskProvider"
+msgid "Generate a thumbnail image for the cloud video item."
+msgstr "Generate a thumbnail image for the cloud video item."
+
+#: Orchard.Azure.MediaServices.Services.Tasks.Providers.EncodeTaskProvider
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Services.Tasks.Providers.EncodeTaskProvider"
+msgid "Create a new encoding version of the cloud video item"
+msgstr "Create a new encoding version of the cloud video item"
+
+#: Orchard.Azure.MediaServices.Services.Tasks.Providers.EncryptTaskProvider
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Services.Tasks.Providers.EncryptTaskProvider"
+msgid "Create an encrypted version of the cloud video item."
+msgstr "Create an encrypted version of the cloud video item."
+
+#: Orchard.Azure.MediaServices.Services.Wams.MissingSettingsBanner
+#| msgid ""
+msgctxt "Orchard.Azure.MediaServices.Services.Wams.MissingSettingsBanner"
+msgid "The <a href=\"{0}\">Windows Azure Media settings</a> are either missing or invalid and need to be configured."
+msgstr "The <a href=\"{0}\">Windows Azure Media settings</a> are either missing or invalid and need to be configured."
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.Assets.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.Assets.cshtml"
+msgid "Manifest (Smooth Streaming)"
+msgstr "Manifest (Smooth Streaming)"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.Jobs.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.Jobs.cshtml"
+msgid "Jobs"
+msgstr "Jobs"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.UnpublishButton.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideo.Edit.UnpublishButton.cshtml"
+msgid "Unpublish"
+msgstr "Unpublish"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoEditor.Direct.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoEditor.Direct.cshtml"
+msgid "Preparing to upload..."
+msgstr "Preparing to upload..."
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoEditor.Proxied.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoEditor.Proxied.cshtml"
+msgid "The selected file must have one of the following filename extensions: {0}"
+msgstr "The selected file must have one of the following filename extensions: {0}"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoPlayer.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/CloudVideoPlayer.cshtml"
+msgid "This video item could not be played back on your computer."
+msgstr "This video item could not be played back on your computer."
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/OpenJobsTable.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/OpenJobsTable.cshtml"
+msgid "Name"
+msgstr "Name"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/Asset/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/Asset/Edit.cshtml"
+msgid "Edit {0}"
+msgstr "Edit {0}"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Asset.Edit.General.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Asset.Edit.General.cshtml"
+msgid "Name"
+msgstr "Name"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Asset.Edit.Locators.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Asset.Edit.Locators.cshtml"
+msgid "Type"
+msgstr "Type"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/EncodingSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/EncodingSettingsViewModel.cshtml"
+msgid "Encoding presets"
+msgstr "Encoding presets"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/EncryptionSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/EncryptionSettingsViewModel.cshtml"
+msgid "Encryption settings"
+msgstr "Encryption settings"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/GeneralSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/GeneralSettingsViewModel.cshtml"
+msgid "Account credentials"
+msgstr "Account credentials"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/SubtitleLanguagesSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/SubtitleLanguagesSettingsViewModel.cshtml"
+msgid "Subtitle languages"
+msgstr "Subtitle languages"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Assets/Video.Files.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Assets/Video.Files.cshtml"
+msgid "Asset Files"
+msgstr "Asset Files"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Parts/CloudVideo.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/Parts/CloudVideo.cshtml"
+msgid "Upload"
+msgstr "Upload"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Encode.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Encode.cshtml"
+msgid "Encoding preset"
+msgstr "Encoding preset"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Encrypt.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Encrypt.cshtml"
+msgid "Adjust Sub Samples"
+msgstr "Adjust Sub Samples"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Thumbnail.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/EditorTemplates/TaskSettings/Thumbnail.cshtml"
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/Job/Create.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/Job/Create.cshtml"
+msgid "Input Asset"
+msgstr "Input Asset"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/Job/SelectTask.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/Job/SelectTask.cshtml"
+msgid "Select a Windows Azure Media task to perform"
+msgstr "Select a Windows Azure Media task to perform"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/Parts/CloudVideo.Metadata.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/Parts/CloudVideo.Metadata.cshtml"
+msgid "Published"
+msgstr "Published"
+
+#: ~/Modules/Orchard.Azure.MediaServices/Views/Settings/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Azure.MediaServices/Views/Settings/Index.cshtml"
+msgid "Windows Azure Media Settings"
+msgstr "Windows Azure Media Settings"
+

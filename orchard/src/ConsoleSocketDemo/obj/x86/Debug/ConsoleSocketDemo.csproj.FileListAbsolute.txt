@@ -1,0 +1,14 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.exe
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.exe
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.csprojResolveAssemblyReference.cache
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\bin\Debug\Autofac.Configuration.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\bin\Debug\Autofac.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\ConsoleSocketDemo\bin\Debug\Autofac.xml
+E:\dev\orchard\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.exe
+E:\dev\orchard\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.pdb
+E:\dev\orchard\src\ConsoleSocketDemo\bin\Debug\Autofac.xml
+E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.exe
+E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.pdb
+E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.csprojResolveAssemblyReference.cache

@@ -1,0 +1,174 @@
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "The Admin"
+msgstr "后台管理主题"
+
+#: ~/Themes/TheAdmin/Views/ErrorPage.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/ErrorPage.cshtml"
+msgid "Oops. Something went wrong ... sorry"
+msgstr "哎呀。出事了......抱歉"
+
+#: ~/Themes/TheAdmin/Views/Header.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/Header.cshtml"
+msgid "Your site"
+msgstr "您的网站"
+
+#: ~/Themes/TheAdmin/Views/Layout.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/Layout.cshtml"
+msgid "Skip to navigation"
+msgstr "跳转到导航"
+
+#: ~/Themes/TheAdmin/Views/OrchardVersion.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/OrchardVersion.cshtml"
+msgid "Orchard v.{0}"
+msgstr "Orchard v.{0}"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "<"
+msgstr "<"
+
+#: ~/Themes/TheAdmin/Views/User.cshtml
+#| msgid ""
+msgctxt "~/Themes/TheAdmin/Views/User.cshtml"
+msgid "User:"
+msgstr "用户："
+
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid "Name"
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "The Admin"
+msgstr "后台管理主题"
+
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid "Author"
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "Jon Wall"
+msgstr "Jon Wall"
+
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid "Tags"
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "hidden, admin"
+msgstr "隐藏，管理员"
+
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid "Description"
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "An admin theme not to be used for the site so don't click \"Activate\" (or \"Uninstall\"). In the near future admin themes won't be mixed in with site themes."
+msgstr "管理主题在网站中不启用，则不要点击“激活”（或“删除”）。不久的将来，管理主题将不混于网站主题中。"
+
+#: ~/Themes/TheAdmin/Theme.txt
+#| msgid "Website"
+msgctxt "~/Themes/TheAdmin/Theme.txt"
+msgid "http://www.orchardproject.net"
+msgstr "http://www.orchardproject.net"
+
+#: ~/Themes/TheAdmin/Views/Header.cshtml
+#| msgid "Project Orchard"
+msgctxt "~/Themes/TheAdmin/Views/Header.cshtml"
+msgid "Project Orchard"
+msgstr "Orchard项目"
+
+#: ~/Themes/TheAdmin/Views/Header.cshtml
+#| msgid "Your Site"
+msgctxt "~/Themes/TheAdmin/Views/Header.cshtml"
+msgid "Your Site"
+msgstr "您的网站"
+
+#: ~/Themes/TheAdmin/Views/Layout.cshtml
+#| msgid "Skip to navigation"
+msgctxt "~/Themes/TheAdmin/Views/Layout.cshtml"
+msgid "Skip to navigation"
+msgstr "跳转到导航"
+
+#: ~/Themes/TheAdmin/Views/OrchardVersion.cshtml
+#| msgid "Orchard v.{0}"
+msgctxt "~/Themes/TheAdmin/Views/OrchardVersion.cshtml"
+msgid "Orchard v.{0}"
+msgstr "Orchard v.{0}"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid ">"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid ">"
+msgstr ">"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "<"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "<"
+msgstr "<"
+
+#: ~/Themes/TheAdmin/Views/User.cshtml
+#| msgid "User:"
+msgctxt "~/Themes/TheAdmin/Views/User.cshtml"
+msgid "User:"
+msgstr "用户："
+
+#: ~/Themes/TheAdmin/Views/User.cshtml
+#| msgid "Logout"
+msgctxt "~/Themes/TheAdmin/Views/User.cshtml"
+msgid "Logout"
+msgstr "注销"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "Show:"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "Show:"
+msgstr "显示："
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "All"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "All"
+msgstr "全部"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "Apply"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "Showing items {0} - {1} of {2}"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "Showing items {0} - {1} of {2}"
+msgstr "显示{2}中的项目{0} - {1}"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid "<<"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid "<<"
+msgstr "<<"
+
+#: ~/Themes/TheAdmin/Views/Pager.cshtml
+#| msgid ">>"
+msgctxt "~/Themes/TheAdmin/Views/Pager.cshtml"
+msgid ">>"
+msgstr ">>"
+
+#: ~/Themes/TheAdmin/Views/ErrorPage.cshtml
+#| msgid "Oops. Something went wrong ... sorry"
+msgctxt "~/Themes/TheAdmin/Views/ErrorPage.cshtml"
+msgid "Oops. Something went wrong ... sorry"
+msgstr "哎呀。出事了......抱歉"
+
+#: ~/Themes/TheAdmin/Views/ErrorPage.cshtml
+#| msgid "An unhandled exception has occurred and the request was terminated. Please refresh the page. If the error persists, go back"
+msgctxt "~/Themes/TheAdmin/Views/ErrorPage.cshtml"
+msgid "An unhandled exception has occurred and the request was terminated. Please refresh the page. If the error persists, go back"
+msgstr "发生了未处理的异常，该请求被终止。请刷新页面。如果错误仍然存在，请返回"
+
+#: ~/Themes/TheAdmin/Views/Layout.cshtml
+#| msgid "Are you sure you want to remove this element ?"
+msgctxt "~/Themes/TheAdmin/Views/Layout.cshtml"
+msgid "Are you sure you want to remove this element ?"
+msgstr "你确定你想要删除此元素？"
+

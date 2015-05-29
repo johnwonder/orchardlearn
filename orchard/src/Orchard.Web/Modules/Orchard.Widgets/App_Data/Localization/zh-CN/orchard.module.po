@@ -1,0 +1,738 @@
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widgets"
+msgstr "部件"
+
+#: Orchard.Widgets.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Widgets.AdminMenu"
+msgid "Widgets"
+msgstr "部件"
+
+#: Orchard.Widgets.Commands.LayerCommands
+#| msgid ""
+msgctxt "Orchard.Widgets.Commands.LayerCommands"
+msgid "Creating Layer {0}"
+msgstr "正创建层{0}"
+
+#: Orchard.Widgets.Commands.WidgetCommands
+#| msgid ""
+msgctxt "Orchard.Widgets.Commands.WidgetCommands"
+msgid "Creating widget failed : type {0} was not found. Supported widget types are: {1}."
+msgstr "创建部件失败：类型{0}未找到。支持的部件类型为：{1}。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "To manage widgets you must have a theme enabled."
+msgstr "必须先启用一个主题才能管理部件。"
+
+#: Orchard.Widgets.Drivers.LayerPartDriver
+#| msgid ""
+msgctxt "Orchard.Widgets.Drivers.LayerPartDriver"
+msgid "A Layer with the same name already exists"
+msgstr "一个重名层已存在。"
+
+#: Orchard.Widgets.Drivers.WidgetPartDriver
+#| msgid ""
+msgctxt "Orchard.Widgets.Drivers.WidgetPartDriver"
+msgid "Title can't be empty."
+msgstr "标题不能为空。"
+
+#: Orchard.Widgets.Filters.WidgetFilter
+#| msgid ""
+msgctxt "Orchard.Widgets.Filters.WidgetFilter"
+msgid "An error occured during layer evaluation on: {0}"
+msgstr "层评估过程中发生错误于：{0}"
+
+#: Orchard.Widgets.Handlers.LayerHintHandler
+#| msgid ""
+msgctxt "Orchard.Widgets.Handlers.LayerHintHandler"
+msgid "Would you like to <a href=\"{0}\">add a widget layer</a> for \"{1}\"?"
+msgstr "你要为“{1}”添加一个<a href=\"{0\"}>部件层</a>吗？"
+
+#: Orchard.Widgets.RuleEngine.RuleManager
+#| msgid ""
+msgctxt "Orchard.Widgets.RuleEngine.RuleManager"
+msgid "There are currently not scripting engine enabled"
+msgstr "当前无启用的脚本引擎"
+
+#: ~/Modules/Orchard.Widgets/Views/Widget.ControlWrapper.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Widget.ControlWrapper.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Modules/Orchard.Widgets/Views/Widget.DeleteButton.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Widget.DeleteButton.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml"
+msgid "Current Layer:"
+msgstr "当前层："
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayerVisibility.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayerVisibility.cshtml"
+msgid "All Layers:"
+msgstr "所有层："
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml"
+msgid "Zones for other enabled themes."
+msgstr "其他启用的主题的区域。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml"
+msgid "Widgets with problems."
+msgstr "存在问题的部件。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetSimplePreview.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetSimplePreview.cshtml"
+msgid "{0} zone preview"
+msgstr "{0}区域预览"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/AddLayer.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/AddLayer.cshtml"
+msgid "Add Layer"
+msgstr "添加层"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/AddWidget.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/AddWidget.cshtml"
+msgid "Add Widget"
+msgstr "添加部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml"
+msgid "Choose A Widget"
+msgstr "选择一个部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/EditLayer.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/EditLayer.cshtml"
+msgid "Edit Layer"
+msgstr "编辑层"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/EditWidget.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/EditWidget.cshtml"
+msgid "Edit Widget"
+msgstr "编辑部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Widgets"
+msgstr "部件（Widget）"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Zone"
+msgstr "区域"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Not authorized to manage widgets"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Not authorized to manage widgets"
+msgstr "未授权管理部件"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widgets"
+msgstr "部件"
+
+#: Orchard.Widgets.Handlers.LayerHintHandler
+#| msgid "Would you like to <a href=\"{0}\">add a widget layer</a> for \"{1}\"?"
+msgctxt "Orchard.Widgets.Handlers.LayerHintHandler"
+msgid "Would you like to <a href=\"{0}\">add a widget layer</a> for \"{1}\"?"
+msgstr "你要为“{1}”添加一个<a href=\"{0\"}>部件层</a>吗？"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml
+#| msgid "These widgets aren't going to appear anywhere because they're missing the CommonPart from their content type. To fix these widgets, if you still want to keep them around, start by fixing their <a href=\"{0}\">Content Types</a>."
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml"
+msgid "These widgets aren't going to appear anywhere because they're missing the CommonPart from their content type. To fix these widgets, if you still want to keep them around, start by fixing their <a href=\"{0}\">Content Types</a>."
+msgstr "这些部件不会显示于任何位置，因为它们的内容类型缺少 CommonPart。若要修复这些部件，请从修复它们的<a href=\"{0}\">内容类型</a>开始。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.PageLayerHinting.Name"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Page Layer Hinting"
+msgstr "页面层微调"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.PageLayerHinting.Description"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Adds a notification after creating a new Page with a direct link to create a Widget Layer for that specific page by URL."
+msgstr "添加新页面后创建一个直接链接到该页面 URL 的部件层的通知。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.PageLayerHinting.Category"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widget"
+msgstr "部件"
+
+#: Orchard.Widgets.Commands.LayerCommands
+#| msgid "Creating Layer {0}"
+msgctxt "Orchard.Widgets.Commands.LayerCommands"
+msgid "Creating Layer {0}"
+msgstr "正创建层{0}"
+
+#: Orchard.Widgets.Commands.LayerCommands
+#| msgid "Layer created successfully."
+msgctxt "Orchard.Widgets.Commands.LayerCommands"
+msgid "Layer created successfully."
+msgstr "层创建成功。"
+
+#: Orchard.Widgets.Commands.WidgetCommands
+#| msgid "Creating widget failed : type {0} was not found. Supported widget types are: {1}."
+msgctxt "Orchard.Widgets.Commands.WidgetCommands"
+msgid "Creating widget failed : type {0} was not found. Supported widget types are: {1}."
+msgstr "创建部件失败：类型{0}未找到。支持的部件类型为：{1}。"
+
+#: Orchard.Widgets.Commands.WidgetCommands
+#| msgid "Creating widget failed : layer {0} was not found."
+msgctxt "Orchard.Widgets.Commands.WidgetCommands"
+msgid "Creating widget failed : layer {0} was not found."
+msgstr "创建微件失败：层{0}未找到。"
+
+#: Orchard.Widgets.Commands.WidgetCommands
+#| msgid "Widget created successfully."
+msgctxt "Orchard.Widgets.Commands.WidgetCommands"
+msgid "Widget created successfully."
+msgstr "小工具创建成功。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "There are no widget layers defined. A layer will need to be added in order to add widgets to any part of the site."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "There are no widget layers defined. A layer will need to be added in order to add widgets to any part of the site."
+msgstr "没有定义部件层。在网站任意部分添加部件前，需要添加一个层。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Need a zone specified for widget placement."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Need a zone specified for widget placement."
+msgstr "必须指定部件放置区域。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Your {0} has been added."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Your {0} has been added."
+msgstr "你的 {0} 已添加。"
+
+#: Orchard.Widgets.Handlers.LayerHintHandler
+#| msgid "A widget layer for \"{0}\" at \"{1}\"."
+msgctxt "Orchard.Widgets.Handlers.LayerHintHandler"
+msgid "A widget layer for \"{0}\" at \"{1}\"."
+msgstr "在\"{1}\"中的部件层\"{0}\"。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml
+#| msgid "Current Layer:"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml"
+msgid "Current Layer:"
+msgstr "当前层："
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml
+#| msgid "Show"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml"
+msgid "Show"
+msgstr "显示"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml
+#| msgid "Add a new layer..."
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayersControl.cshtml"
+msgid "Add a new layer..."
+msgstr "添加一个新层..."
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml
+#| msgid "Zones for other enabled themes."
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml"
+msgid "Zones for other enabled themes."
+msgstr "其他启用的主题的区域。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml
+#| msgid "Widgets in these zones will not appear anywhere when your currently active theme is applied. They might still appear in selectively applied (e.g. mobile) themes."
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.cshtml"
+msgid "Widgets in these zones will not appear anywhere when your currently active theme is applied. They might still appear in selectively applied (e.g. mobile) themes."
+msgstr "这些区域的部件在当前使用的主题下不会显示。他们仍可能有选择性的在已应用（如Mobile）的主题中显示。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml
+#| msgid "Widgets with problems."
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml"
+msgid "Widgets with problems."
+msgstr "存在问题的部件。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Orphans.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid "Add"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid "Move to current layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Move to current layer"
+msgstr "移至当前层"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid "Move up"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Move up"
+msgstr "上移"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml
+#| msgid "Move down"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetPlacement.Zones.cshtml"
+msgid "Move down"
+msgstr "下移"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetSimplePreview.cshtml
+#| msgid "{0} zone preview"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetSimplePreview.cshtml"
+msgid "{0} zone preview"
+msgstr "{0}区域预览"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml
+#| msgid "Choose A Widget"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml"
+msgid "Choose A Widget"
+msgstr "选择一个部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml
+#| msgid "There are no widgets available to add."
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/ChooseWidget.cshtml"
+msgid "There are no widgets available to add."
+msgstr "没有可以添加的部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "Widgets"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Widgets"
+msgstr "部件（Widget）"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "To manage widgets you must have a theme enabled."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "To manage widgets you must have a theme enabled."
+msgstr "必须先启用一个主题才能管理部件。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Not authorized to manage widgets."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Not authorized to manage widgets."
+msgstr "未授权管理部件"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The Layer where the Widget will be rendered."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The Layer where the Widget will be rendered."
+msgstr "部件将会呈现的层。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.ControlWrapper.Name"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widget Control Wrapper"
+msgstr "部件控件包装器"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.ControlWrapper.Description"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Add an Edit button on the front-end for authenticated users"
+msgstr "为经过身份验证的用户添加前端编辑按钮"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.ControlWrapper.Category"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widget"
+msgstr "部件"
+
+#: Orchard.Widgets.Drivers.WidgetPartDriver
+#| msgid "Title can't be empty."
+msgctxt "Orchard.Widgets.Drivers.WidgetPartDriver"
+msgid "Title can't be empty."
+msgstr "标题不能为空。"
+
+#: Orchard.Widgets.Drivers.WidgetPartDriver
+#| msgid "A Widget with the same Name already exists."
+msgctxt "Orchard.Widgets.Drivers.WidgetPartDriver"
+msgid "A Widget with the same Name already exists."
+msgstr "已存在具有相同名称的部件。"
+
+#: ~/Modules/Orchard.Widgets/Views/WidgetLayerVisibility.cshtml
+#| msgid "All Layers:"
+msgctxt "~/Modules/Orchard.Widgets/Views/WidgetLayerVisibility.cshtml"
+msgid "All Layers:"
+msgstr "所有层："
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "The name of the Layer as it will be displayed in the admin pages."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "The name of the Layer as it will be displayed in the admin pages."
+msgstr "层的名称将显示在后台管理页面中。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "Some text describing the purpose of this Layer."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "Some text describing the purpose of this Layer."
+msgstr "一些用于描述层用途的文字。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "An expression that evaluates to true when the widgets in this layer must be displayed. See <a href=\"http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer\">http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer</a> for more information."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "An expression that evaluates to true when the widgets in this layer must be displayed. See <a href=\"http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer\">http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer</a> for more information."
+msgstr "一个表达式，如果计算结果为真将显示该层中的部件。请参阅文档 <a href=\"http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer\">http://docs.orchardproject.net/Documentation/Managing-widgets#AddingaLayer</a> 中的详细信息。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The Zone in the Layout where the Widget will be rendered."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The Zone in the Layout where the Widget will be rendered."
+msgstr "部件将显示于所在层中的该区域"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The Layer where the Widget when be rendered."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The Layer where the Widget when be rendered."
+msgstr "显示部件的层。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The position of the Widget inside the Zone."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The position of the Widget inside the Zone."
+msgstr "部件在区域内的位置。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The title of the Widget."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The title of the Widget."
+msgstr "部件的标题。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Check to render the title on the front-end, uncheck to hide"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Check to render the title on the front-end, uncheck to hide"
+msgstr "选中将在前台显示标题，未选中则将会隐藏。"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "The technical name of the Widget, used for css class and alternates."
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "The technical name of the Widget, used for css class and alternates."
+msgstr "部件的技术名称，用于 CSS 类和部件替换。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "An implementation of widgets for Orchard."
+msgstr "安装 Orchard 部件。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.Name"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widgets"
+msgstr "部件"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.Description"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "An implementation of widgets."
+msgstr "实现了部件功能。"
+
+#: ~/Modules/Orchard.Widgets/Module.txt
+#| msgid "Orchard.Widgets.Category"
+msgctxt "~/Modules/Orchard.Widgets/Module.txt"
+msgid "Widget"
+msgstr "部件"
+
+#: Orchard.Widgets.AdminMenu
+#| msgid "Widgets"
+msgctxt "Orchard.Widgets.AdminMenu"
+msgid "Widgets"
+msgstr "部件"
+
+#: Orchard.Widgets.AdminMenu
+#| msgid "Configure"
+msgctxt "Orchard.Widgets.AdminMenu"
+msgid "Configure"
+msgstr "设置"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Layer not found: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Layer not found: {0}"
+msgstr "未找到层：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Moving widget failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Moving widget failed: {0}"
+msgstr "移动部件失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Creating widget failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Creating widget failed: {0}"
+msgstr "创建部件失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Your {0} has been created."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Your {0} has been created."
+msgstr "你的{0}已创建。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Creating layer failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Creating layer failed: {0}"
+msgstr "创建层失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Editing layer failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Editing layer failed: {0}"
+msgstr "编辑层失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Your {0} has been saved."
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Your {0} has been saved."
+msgstr "你的{0}已保存。"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Layer was successfully deleted"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Layer was successfully deleted"
+msgstr "层已成功删除"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Removing Layer failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Removing Layer failed: {0}"
+msgstr "移除层失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Widget not found: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Widget not found: {0}"
+msgstr "部件未找到：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Editing widget failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Editing widget failed: {0}"
+msgstr "编辑部件失败：{0}"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Widget was successfully deleted"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Widget was successfully deleted"
+msgstr "部件成功删除"
+
+#: Orchard.Widgets.Controllers.AdminController
+#| msgid "Removing Widget failed: {0}"
+msgctxt "Orchard.Widgets.Controllers.AdminController"
+msgid "Removing Widget failed: {0}"
+msgstr "移除部件失败：{0}"
+
+#: Orchard.Widgets.Drivers.LayerPartDriver
+#| msgid "A Layer with the same name already exists"
+msgctxt "Orchard.Widgets.Drivers.LayerPartDriver"
+msgid "A Layer with the same name already exists"
+msgstr "一个重名层已存在。"
+
+#: Orchard.Widgets.Drivers.LayerPartDriver
+#| msgid "The rule is not valid: {0}"
+msgctxt "Orchard.Widgets.Drivers.LayerPartDriver"
+msgid "The rule is not valid: {0}"
+msgstr "无效的规则：{0}"
+
+#: Orchard.Widgets.Filters.WidgetFilter
+#| msgid "An error occured during layer evaluation on: {0}"
+msgctxt "Orchard.Widgets.Filters.WidgetFilter"
+msgid "An error occured during layer evaluation on: {0}"
+msgstr "层评估过程中发生错误于：{0}"
+
+#: Orchard.Widgets.RuleEngine.RuleManager
+#| msgid "There are currently not scripting engine enabled"
+msgctxt "Orchard.Widgets.RuleEngine.RuleManager"
+msgid "There are currently not scripting engine enabled"
+msgstr "当前无启用的脚本引擎"
+
+#: Orchard.Widgets.RuleEngine.RuleManager
+#| msgid "Expression is not a boolean value"
+msgctxt "Orchard.Widgets.RuleEngine.RuleManager"
+msgid "Expression is not a boolean value"
+msgstr "表达式非布尔值"
+
+#: ~/Modules/Orchard.Widgets/Views/Widget.ControlWrapper.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Widgets/Views/Widget.ControlWrapper.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Modules/Orchard.Widgets/Views/Widget.DeleteButton.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Widgets/Views/Widget.DeleteButton.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/AddLayer.cshtml
+#| msgid "Add Layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/AddLayer.cshtml"
+msgid "Add Layer"
+msgstr "添加层"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/AddWidget.cshtml
+#| msgid "Add Widget"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/AddWidget.cshtml"
+msgid "Add Widget"
+msgstr "添加部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/EditLayer.cshtml
+#| msgid "Edit Layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/EditLayer.cshtml"
+msgid "Edit Layer"
+msgstr "编辑层"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/EditWidget.cshtml
+#| msgid "Edit Widget"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/EditWidget.cshtml"
+msgid "Edit Widget"
+msgstr "编辑部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "Manage Widgets"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Manage Widgets"
+msgstr "管理部件"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "Edit {0} layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Edit {0} layer"
+msgstr "编辑层 {0}"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "+ Add a layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "+ Add a layer"
+msgstr "+ 添加层"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "This is a table of the widgets currently available for use in your application."
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "This is a table of the widgets currently available for use in your application."
+msgstr "下表列出在您的应用中能使用的部件。"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml
+#| msgid "Add to zone"
+msgctxt "~/Modules/Orchard.Widgets/Views/Admin/Index.cshtml"
+msgid "Add to zone"
+msgstr "添加到区域"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "Description"
+msgstr "描述"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml
+#| msgid "Layer Rule"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.LayerPart.cshtml"
+msgid "Layer Rule"
+msgstr "层规则"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Zone"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Zone"
+msgstr "区域"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Layer"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Layer"
+msgstr "层"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Position"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Position"
+msgstr "位置"
+
+#: ~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Orchard.Widgets/Views/EditorTemplates/Parts.Widgets.WidgetPart.cshtml"
+msgid "Title"
+msgstr "标题"
+

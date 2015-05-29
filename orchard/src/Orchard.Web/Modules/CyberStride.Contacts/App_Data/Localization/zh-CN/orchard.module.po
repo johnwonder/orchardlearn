@@ -1,0 +1,234 @@
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "CyberStride.Contacts"
+msgstr "CyberStride.Contacts"
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "CyberStride, LLC"
+msgstr "CyberStride, LLC"
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "http://cyberstride.net"
+msgstr "http://cyberstride.net"
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "This module allows you to create one or more Contact Pages, alternatively you can assign a ContactForm as a content part or widget to an arbitrary page. In all cases, the posted request will be shown in the admin panel under the Contact Requests menu item, and you may optionally designate an email address to be sent the contact request as well, if you have the Email module configured. 0.9.2 is a minor update to the previous version, improving the output of the email to the admin to include info entered by the user on the form."
+msgstr "This module allows you to create one or more Contact Pages, alternatively you can assign a ContactForm as a content part or widget to an arbitrary page. In all cases, the posted request will be shown in the admin panel under the Contact Requests menu item, and you may optionally designate an email address to be sent the contact request as well, if you have the Email module configured. 0.9.2 is a minor update to the previous version, improving the output of the email to the admin to include info entered by the user on the form."
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "CyberStride.Contacts.Name"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "CyberStride.Contacts.Description"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "Description for feature CyberStride.Contacts."
+msgstr "Description for feature CyberStride.Contacts."
+
+#: ~/Modules/CyberStride.Contacts/Module.txt
+#| msgid "CyberStride.Contacts.Category"
+msgctxt "~/Modules/CyberStride.Contacts/Module.txt"
+msgid "Messaging"
+msgstr "Messaging"
+
+#: CyberStride.Contacts.AdminMenu
+#| msgid "List"
+msgctxt "CyberStride.Contacts.AdminMenu"
+msgid "List"
+msgstr "List"
+
+#: CyberStride.Contacts.Controllers.AdminController
+#| msgid "Contact request not found, please check your URL"
+msgctxt "CyberStride.Contacts.Controllers.AdminController"
+msgid "Contact request not found, please check your URL"
+msgstr "Contact request not found, please check your URL"
+
+#: CyberStride.Contacts.Controllers.AdminController
+#| msgid "Couldn't delete contactRequest"
+msgctxt "CyberStride.Contacts.Controllers.AdminController"
+msgid "Couldn't delete contactRequest"
+msgstr "Couldn't delete contactRequest"
+
+#: CyberStride.Contacts.Controllers.AdminController
+#| msgid "Item not found"
+msgctxt "CyberStride.Contacts.Controllers.AdminController"
+msgid "Item not found"
+msgstr "Item not found"
+
+#: CyberStride.Contacts.Controllers.ContactController
+#| msgid "Form submission was not from a valid source"
+msgctxt "CyberStride.Contacts.Controllers.ContactController"
+msgid "Form submission was not from a valid source"
+msgstr "Form submission was not from a valid source"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Contact Us"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Contact Us"
+msgstr "联系我们"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Name"
+msgstr "Name"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Email"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Email"
+msgstr "Email"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Phone"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Phone"
+msgstr "电话"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Company"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Company"
+msgstr "公司"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Current Website"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Current Website"
+msgstr "Current Website"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Topic of Inquiry"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Topic of Inquiry"
+msgstr "Topic of Inquiry"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Details"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Details"
+msgstr "Details"
+
+#: ~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml
+#| msgid "Send"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Parts/ContactForm.cshtml"
+msgid "Send"
+msgstr "Send"
+
+#: ~/Modules/CyberStride.Contacts/Views/EditorTemplates/Parts.ContactForm.cshtml
+#| msgid "Email notification to: "
+msgctxt "~/Modules/CyberStride.Contacts/Views/EditorTemplates/Parts.ContactForm.cshtml"
+msgid "Email notification to: "
+msgstr "Email notification to: "
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Manage Contact Requests"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Manage Contact Requests"
+msgstr "Manage Contact Requests"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "This is a table of the contact requests of your application"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "This is a table of the contact requests of your application"
+msgstr "This is a table of the contact requests of your application"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Contact Date"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Contact Date"
+msgstr "Contact Date"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Name"
+msgstr "姓名"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Topic"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Topic"
+msgstr "主题"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Details"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Details"
+msgstr "详情"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml
+#| msgid "Contact request from {0}"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml"
+msgid "Contact request from {0}"
+msgstr "Contact request from {0}"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml
+#| msgid "Contact made at {0}"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml"
+msgid "Contact made at {0}"
+msgstr "Contact made at {0}"
+
+#: ~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml
+#| msgid "Back to List"
+msgctxt "~/Modules/CyberStride.Contacts/Views/Admin/details.cshtml"
+msgid "Back to List"
+msgstr "返回列表"
+
+#: CyberStride.Contacts.AdminMenu
+#| msgid "Contact Requests"
+msgctxt "CyberStride.Contacts.AdminMenu"
+msgid "Contact Requests"
+msgstr "Contact Requests"
+
+#: CyberStride.Contacts.Models.RequiredAttribute
+#| msgid "The {0} field is required."
+msgctxt "CyberStride.Contacts.Models.RequiredAttribute"
+msgid "The {0} field is required."
+msgstr "The {0} field is required."
+
+#: CyberStride.Contacts.Models.RequiredAttribute
+#| msgid "The Name is required."
+msgctxt "CyberStride.Contacts.Models.RequiredAttribute"
+msgid "The Name is required."
+msgstr "The Name is required."
+
+#: CyberStride.Contacts.Controllers.AdminController
+#| msgid "Contact request deleted"
+msgctxt "CyberStride.Contacts.Controllers.AdminController"
+msgid "Contact request deleted"
+msgstr "Contact request deleted"
+
+#: CyberStride.Contacts.Controllers.ContactController
+#| msgid "Thanks for your inquiry, someone will respond to you shortly."
+msgctxt "CyberStride.Contacts.Controllers.ContactController"
+msgid "Thanks for your inquiry, someone will respond to you shortly."
+msgstr "Thanks for your inquiry, someone will respond to you shortly."
+
+#: Orchard.Users.Handlers.ContactMessagesAlteration
+#| msgid "[New Contact Request]: {0}"
+msgctxt "Orchard.Users.Handlers.ContactMessagesAlteration"
+msgid "[New Contact Request]: {0}"
+msgstr "[New Contact Request]: {0}"
+
+#: Orchard.Users.Handlers.ContactMessagesAlteration
+#| msgid "<p>The visitor <b>{0}</b> with email <b>{1}</b> has requested contact.</p><ul><li>Company: {2}</li><li>Current Website: {3}</li><li>Phone: {4}</li><li>Message: {5}</li></ul>"
+msgctxt "Orchard.Users.Handlers.ContactMessagesAlteration"
+msgid "<p>The visitor <b>{0}</b> with email <b>{1}</b> has requested contact.</p><ul><li>Company: {2}</li><li>Current Website: {3}</li><li>Phone: {4}</li><li>Message: {5}</li></ul>"
+msgstr "<p>The visitor <b>{0}</b> with email <b>{1}</b> has requested contact.</p><ul><li>Company: {2}</li><li>Current Website: {3}</li><li>Phone: {4}</li><li>Message: {5}</li></ul>"
+

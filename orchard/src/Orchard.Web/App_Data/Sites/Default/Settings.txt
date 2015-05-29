@@ -1,0 +1,12 @@
+Name: Default
+DataProvider: SqlServer
+DataConnectionString: Data Source=.;Initial Catalog=OrchardWebshopDemo;Persist Security Info=True;User ID=sa;Password=123456
+DataPrefix: default
+RequestUrlHost: null
+RequestUrlPrefix: null
+State: Uninitialized
+EncryptionAlgorithm: AES
+EncryptionKey: C33E1C0A67E0099EA3077586AA7BB79254D669A3F9D9B3ACA10E9AD47E5B7BA0
+HashAlgorithm: HMACSHA256
+HashKey: C055077A93E021700DB2DA44C592E26E0D88A090522D26FE0A10E639531FEBB23FA1CE11EEEB4A6F5D838612C504E4BFE0C81E77CF7BD4930A6DC1C1F37AD52C
+Themes: 

@@ -1,0 +1,12 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\bin\Debug\Orchard.exe
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\bin\Debug\Orchard.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\obj\Debug\Orchard.exe
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\obj\Debug\Orchard.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+E:\dev\orchard\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+E:\dev\orchard\src\Tools\Orchard\bin\Debug\Orchard.exe
+E:\dev\orchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
+E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.exe
+E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.pdb
+E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache

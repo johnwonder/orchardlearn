@@ -1,0 +1,10 @@
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
+E:\sourcecode\ASP.NET开源\Orchard.Source.1.6\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
+E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
+E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
