@@ -74,7 +74,7 @@ namespace Orchard.Environment.ShellBuilders {
                         foreach (var interfaceType in item.Type.GetInterfaces()
                             .Where(itf => typeof(IDependency).IsAssignableFrom(itf) 
                                       && !typeof(IEventHandler).IsAssignableFrom(itf))) {
-                            registration = registration.As(interfaceType);
+                            registration = registration.As(interfaceType);//通过接口，比如IRouteProvider
                             if (typeof(ISingletonDependency).IsAssignableFrom(interfaceType)) {
                                 registration = registration.InstancePerMatchingLifetimeScope("shell");
                             } 
