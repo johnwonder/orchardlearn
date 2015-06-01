@@ -55,7 +55,7 @@ namespace Orchard.Environment.ShellBuilders {
                     var dynamicProxyContext = new DynamicProxyContext();
 
                     builder.Register(ctx => dynamicProxyContext);
-                    builder.Register(ctx => settings);
+                    builder.Register(ctx => settings);//这里注册了ShellSettings
                     builder.Register(ctx => blueprint.Descriptor);
                     builder.Register(ctx => blueprint);
                     //Autofac.Features.Indexed.IIndex<K,V>是autofac自动实现的一个关联类型。component可以使用IIndex<K,V>作为参数的构造函数从基于键的服务中选择需要的实现。
