@@ -115,7 +115,7 @@ namespace Orchard.Environment.ShellBuilders {
                                     controller.ActionInvoker = (IActionInvoker)e.Context.ResolveService(new TypedService(typeof(IActionInvoker)));
                             });
                     }
-
+                    //WebAPI
                     foreach (var item in blueprint.HttpControllers) {
                         var serviceKeyName = (item.AreaName + "/" + item.ControllerName).ToLowerInvariant();
                         var serviceKeyType = item.Type;
