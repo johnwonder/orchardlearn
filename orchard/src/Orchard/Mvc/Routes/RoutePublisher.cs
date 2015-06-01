@@ -19,7 +19,7 @@ namespace Orchard.Mvc.Routes {
         private readonly IExtensionManager _extensionManager;
 
         public RoutePublisher(
-            RouteCollection routeCollection,
+            RouteCollection routeCollection,//在程序启动时通过MvcSingleton注入
             ShellSettings shellSettings,
             IWorkContextAccessor workContextAccessor,
             IRunningShellTable runningShellTable,
