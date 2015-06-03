@@ -137,7 +137,12 @@ namespace Orchard.ContentManagement.Drivers {
         public ContentShapeResult ContentShape(IShape shape) {
             return ContentShapeImplementation(shape.Metadata.Type, ctx => shape).Location("Content");
         }
-
+        /// <summary>
+        /// 虽然ContentShape方法有很多重载，但通常只使用它有两个参数的那个重载。
+        /// </summary>
+        /// <param name="shapeType">形状类型</param>
+        /// <param name="factory">用于定义形状的动态对象的表达式。</param>
+        /// <returns></returns>
         public ContentShapeResult ContentShape(string shapeType, Func<dynamic> factory) {
             return ContentShapeImplementation(shapeType, ctx => factory());
         }

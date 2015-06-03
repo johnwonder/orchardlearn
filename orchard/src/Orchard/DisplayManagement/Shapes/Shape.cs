@@ -22,7 +22,7 @@ namespace Orchard.DisplayManagement.Shapes {
     /// 数据模型对象
     /// 在形状对象创建以后，形状里面的数据就可通过形状模板中的Help方法来呈现出来。
     /// 一个形状模板是一个段Html标记（部分视图，partial view)是负责显示形状的。
-    /// 也可以通过代码来呈现形状。如 定义一个方法并加上Shape属性即可。
+    /// 也可以通过代码来呈现形状。如 定义一个方法并加上Shape特性即可。
     /// 可以在ChoreShapes.cs中找到这种写法。
     /// </summary>
     [DebuggerTypeProxy(typeof(ShapeDebugView))]
