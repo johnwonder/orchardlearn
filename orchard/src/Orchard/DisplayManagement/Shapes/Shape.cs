@@ -8,6 +8,23 @@ using ClaySharp;
 using ClaySharp.Implementation;
 
 namespace Orchard.DisplayManagement.Shapes {
+    /// <summary>
+    /// 形状是一个动态对象，利用形状模板，可以使数据以你想要的方式呈现给用户。
+    /// 形状模板是一段呈现形状的标记。
+    /// 形状的例子有：菜单 菜单项 内容项 文档和消息等。
+    /// 一个形状是一个数据模型对象。它继承于Orchard.DisplayManagement.Shapes.Shape类。
+    /// 形状类是没有实例化的。相反，形状是在运行时由一个形状工厂创建的
+    /// 默认的形状工厂是Orchard.DisplayManagement.Implementation.DefaultShapeFactory.
+    /// 形状的信息是包含在自身的ShapeMetadata属性里面。
+    /// 这些信息包括形状的类型，显示类型，位置，前缀，包装，替换名称
+    /// 子内容和一个是否已执行的标记。
+    /// 可以通过shapeName.Metadata.Type来访问形状的元数据。
+    /// 数据模型对象
+    /// 在形状对象创建以后，形状里面的数据就可通过形状模板中的Help方法来呈现出来。
+    /// 一个形状模板是一个段Html标记（部分视图，partial view)是负责显示形状的。
+    /// 也可以通过代码来呈现形状。如 定义一个方法并加上Shape属性即可。
+    /// 可以在ChoreShapes.cs中找到这种写法。
+    /// </summary>
     [DebuggerTypeProxy(typeof(ShapeDebugView))]
     public class Shape : IShape, IEnumerable {
         private const string DefaultPosition = "5";
