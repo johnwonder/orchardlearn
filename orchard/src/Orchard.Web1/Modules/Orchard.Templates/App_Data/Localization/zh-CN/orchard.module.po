@@ -1,0 +1,48 @@
+#: ~/Modules/Orchard.Templates/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Templates/Module.txt"
+msgid "Orchard.Templates"
+msgstr "Orchard.Templates"
+
+#: Orchard.Templates.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Templates.AdminMenu"
+msgid "Templates"
+msgstr "模板"
+
+#: Orchard.Templates.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Templates.Controllers.AdminController"
+msgid "Couldn't publish selected content."
+msgstr "不能发布所选的内容。"
+
+#: Orchard.Templates.Drivers.ShapePartDriver
+#| msgid ""
+msgctxt "Orchard.Templates.Drivers.ShapePartDriver"
+msgid "Template processing error: {0}"
+msgstr "模板处理错误: {0}"
+
+#: ~/Modules/Orchard.Templates/Views/Admin/CreatableTypeList.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Templates/Views/Admin/CreatableTypeList.cshtml"
+msgid "Create New Template"
+msgstr "创建新模板"
+
+#: ~/Modules/Orchard.Templates/Views/Admin/List.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Templates/Views/Admin/List.cshtml"
+msgid "Manage Templates"
+msgstr "管理模板"
+
+#: ~/Modules/Orchard.Templates/Views/DefinitionTemplates/Parts.Shape.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Templates/Views/DefinitionTemplates/Parts.Shape.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Templates/Views/DefinitionTemplates/ShapePartSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Templates/Views/DefinitionTemplates/ShapePartSettingsViewModel.cshtml"
+msgid "Template Processor"
+msgstr "模板处理器"
+

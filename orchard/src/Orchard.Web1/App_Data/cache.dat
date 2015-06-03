@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Tenants>
+  <Default>1|Orchard.Framework;Common;Containers;Contents;Dashboard;Feeds;Navigation;Reports;Scheduling;Settings;Shapes;Title;Orchard.Pages;Orchard.Themes;Orchard.Users;Orchard.Roles;Orchard.Modules;PackagingServices;Orchard.Packaging;Gallery;Orchard.Recipes;|</Default>
+</Tenants>

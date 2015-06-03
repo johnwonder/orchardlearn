@@ -1,0 +1,30 @@
+#: ~/Modules/Orchard.SecureSocketsLayer/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.SecureSocketsLayer/Module.txt"
+msgid "Secure Sockets Layer"
+msgstr "Secure Sockets Layer"
+
+#: Orchard.SecureSocketsLayer.Commands.SecureSocketsLayersCommand
+#| msgid ""
+msgctxt "Orchard.SecureSocketsLayer.Commands.SecureSocketsLayersCommand"
+msgid "'Urls' site setting invalid"
+msgstr "'Urls' site setting invalid"
+
+#: Orchard.SecureSocketsLayer.Filters.SecureSocketsLayersFilter
+#| msgid ""
+msgctxt "Orchard.SecureSocketsLayer.Filters.SecureSocketsLayersFilter"
+msgid "You need to configure the SSL settings."
+msgstr "You need to configure the SSL settings."
+
+#: Orchard.SecureSocketsLayer.Handlers.SslSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.SecureSocketsLayer.Handlers.SslSettingsPartHandler"
+msgid "SSL"
+msgstr "SSL"
+
+#: ~/Modules/Orchard.SecureSocketsLayer/Views/EditorTemplates/Parts/SecureSocketsLayer.Settings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.SecureSocketsLayer/Views/EditorTemplates/Parts/SecureSocketsLayer.Settings.cshtml"
+msgid "SSL Settings"
+msgstr "SSL Settings"
+

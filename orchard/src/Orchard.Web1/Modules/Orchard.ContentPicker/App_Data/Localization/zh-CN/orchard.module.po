@@ -1,0 +1,456 @@
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Check to allow the user to select multiple content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Check to allow the user to select multiple content items."
+msgstr "选中以允许用户选择多个内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "You need to save your changes."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "You need to save your changes."
+msgstr "你需要保存更改。"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "Orchard.ContentPicker"
+msgstr "Orchard.ContentPicker"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "http://orchardcontentpicker.codeplex.com"
+msgstr "http://orchardcontentpicker.codeplex.com"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "UI for selecting Content Items."
+msgstr "用于选择内容项的用户界面。"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Orchard.ContentPicker.Description"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "UI for selecting Content Items."
+msgstr "用于选择内容项的用户界面。"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid "Orchard.ContentPicker.Category"
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "Input Editor"
+msgstr "输入编辑器"
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "The field {0} is mandatory"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "Ids"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "Ids"
+msgstr "ID"
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid "A formatted list of the ids, e.g., {1},{42}"
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "A formatted list of the ids, e.g., {1},{42}"
+msgstr "ID 的格式化列表例如，{1}、 {42}"
+
+#: Orchard.ContentPicker.Services.ContentPickerNavigationProvider
+#| msgid "Content Picker"
+msgctxt "Orchard.ContentPicker.Services.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr "内容选取器"
+
+#: Orchard.ContentPicker.Services.ContentPickerNavigationProvider
+#| msgid "Recent Content"
+msgctxt "Orchard.ContentPicker.Services.ContentPickerNavigationProvider"
+msgid "Recent Content"
+msgstr "最近内容"
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Content Picker Field"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Content Picker Field"
+msgstr "内容选取器字段"
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Tokens for Content Picker Fields"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Tokens for Content Picker Fields"
+msgstr "内容选择器字段的标记"
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "Content Item"
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Content Item"
+msgstr "内容项"
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid "The content item."
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "The content item."
+msgstr "内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Select Content Item"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Select Content Item"
+msgstr "选择内容项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Cannot perform requested operation"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Cannot perform requested operation"
+msgstr "不能执行请求的操作"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid "Authentication timed-out: please log-on again"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Authentication timed-out: please log-on again"
+msgstr "身份验证超时： 请再次登录"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml"
+msgid "Select"
+msgstr "选择"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Recent Content"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Recent Content"
+msgstr "最近内容"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Manage {0} Content"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Manage {0} Content"
+msgstr "管理 {0} 的内容"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Show"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Show"
+msgstr "显示"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "any (show all)"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "any (show all)"
+msgstr "任意（显示所有）"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Ordered by"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Ordered by"
+msgstr "排序依据"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently created"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently created"
+msgstr "最近创建的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently modified"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently modified"
+msgstr "最近编辑过的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "recently published"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "recently published"
+msgstr "最近发布的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "A content item is required"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "A content item is required"
+msgstr "内容项是必需的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Check to ensure the user is providing at least one content item."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Check to ensure the user is providing at least one content item."
+msgstr "选中以确保用户提供至少一个内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Allow multiple content items"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Allow multiple content items"
+msgstr "允许多个内容项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Check to ensure the allow the user to select multiple content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Check to ensure the allow the user to select multiple content items."
+msgstr "选中以允许用户选择多个内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "The help text is written under the field when authors are selecting content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are selecting content items."
+msgstr "当作者选取内容项时显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Your need to save your changes."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Your need to save your changes."
+msgstr "你需要保存更改。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Content Item"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Content Item"
+msgstr "内容项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml
+#| msgid "Add"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Fields/ContentPicker.Edit.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml
+#| msgid "No content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml"
+msgid "No content items."
+msgstr "无内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml
+#| msgid "No content items."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml"
+msgid "No content items."
+msgstr "无内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Module.txt"
+msgid "Orchard.ContentPicker"
+msgstr "Orchard.ContentPicker"
+
+#: Orchard.ContentPicker.Drivers.ContentMenuItemPartDriver
+#| msgid ""
+msgctxt "Orchard.ContentPicker.Drivers.ContentMenuItemPartDriver"
+msgid "You must select a Content Item"
+msgstr "您必须选择一个内容项"
+
+#: Orchard.ContentPicker.Drivers.ContentPickerFieldDriver
+#| msgid ""
+msgctxt "Orchard.ContentPicker.Drivers.ContentPickerFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.ContentPicker.Drivers.NavigationPartDriver
+#| msgid ""
+msgctxt "Orchard.ContentPicker.Drivers.NavigationPartDriver"
+msgid "The MenuText field is required"
+msgstr "MenuText 字段是必须的"
+
+#: Orchard.ContentPicker.Services.ContentPickerNavigationProvider
+#| msgid ""
+msgctxt "Orchard.ContentPicker.Services.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr "内容选取器"
+
+#: Orchard.ContentPicker.Tokens.ContentPickerFieldTokens
+#| msgid ""
+msgctxt "Orchard.ContentPicker.Tokens.ContentPickerFieldTokens"
+msgid "Content Picker Field"
+msgstr "内容选取器字段"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.cshtml"
+msgid "Select Content Item"
+msgstr "选择内容项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.Edit.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/ContentPicker.SummaryAdmin.cshtml"
+msgid "Select"
+msgstr "选择"
+
+#: ~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/RecentContentTab.cshtml"
+msgid "Recent Content"
+msgstr "最近内容"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "A content item is required"
+msgstr "内容项是必需的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Empty"
+msgstr "空"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.cshtml"
+msgid "No content items."
+msgstr "无内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.ContentPicker/Views/Fields/ContentPicker.SummaryAdmin.cshtml"
+msgid "No content items."
+msgstr "无内容项。"
+
+#: Orchard.ContentPicker.Controllers.AdminController
+#| msgid "Recent Content"
+msgctxt "Orchard.ContentPicker.Controllers.AdminController"
+msgid "Recent Content"
+msgstr "最近内容"
+
+#: Orchard.ContentPicker.Drivers.ContentMenuItemPartDriver
+#| msgid "You must select a Content Item"
+msgctxt "Orchard.ContentPicker.Drivers.ContentMenuItemPartDriver"
+msgid "You must select a Content Item"
+msgstr "您必须选择一个内容项"
+
+#: Orchard.ContentPicker.Drivers.NavigationPartDriver
+#| msgid "The MenuText field is required"
+msgctxt "Orchard.ContentPicker.Drivers.NavigationPartDriver"
+msgid "The MenuText field is required"
+msgstr "MenuText 字段是必须的"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Show Content tab"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Show Content tab"
+msgstr "显示内容选项卡"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Uncheck to hide the Content tab from the picker window."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Uncheck to hide the Content tab from the picker window."
+msgstr "取消选中将隐藏选取窗口的内容选项卡。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "Content Types and Parts"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "Content Types and Parts"
+msgstr "内容类型和元件"
+
+#: ~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml
+#| msgid "A comma separated value of all the content types or content parts to display."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/DefinitionTemplates/ContentPickerFieldSettings.cshtml"
+msgid "A comma separated value of all the content types or content parts to display."
+msgstr "以逗号分隔的值包含所有要显示的内容类型或内容元件。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Empty"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Empty"
+msgstr "空"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Content Item"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Content Item"
+msgstr "内容项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Browse"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Browse"
+msgstr "浏览"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Select the Content Item to display in the menu."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Select the Content Item to display in the menu."
+msgstr "选择要显示在菜单中的内容项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Menu Items"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "The menu items linking to this content item."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "The menu items linking to this content item."
+msgstr "链接到此内容项的菜单项。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "on"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "on"
+msgstr "在"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Not displayed in any menu."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Not displayed in any menu."
+msgstr "不会显示任何菜单中。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Add on a menu"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Add on a menu"
+msgstr "在菜单上添加"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Select which menu you want the content item to be added on."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Select which menu you want the content item to be added on."
+msgstr "选择要添加内容项的菜单。"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Menu text"
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: ~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "The text that should appear in the menu."
+msgctxt "~/Modules/Orchard.ContentPicker/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "The text that should appear in the menu."
+msgstr "应在菜单中显示的文本。"
+

@@ -1,0 +1,60 @@
+#: ~/Modules/Markdown/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Markdown/Module.txt"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: Markdown.Handlers.MarkdownSiteSettingsPartHandler
+#| msgid ""
+msgctxt "Markdown.Handlers.MarkdownSiteSettingsPartHandler"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: ~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml
+#| msgid ""
+msgctxt "~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml"
+msgid "Insert/Update Media"
+msgstr "插入/更新媒体"
+
+#: ~/Modules/Markdown/Views/EditorTemplates/Parts/Markdown.MarkdownSiteSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Markdown/Views/EditorTemplates/Parts/Markdown.MarkdownSiteSettings.cshtml"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: ~/Modules/Markdown/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Markdown/Module.txt"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: ~/Modules/Markdown/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Markdown/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Markdown/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Markdown/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Markdown/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Markdown/Module.txt"
+msgid "The Markdown module enables rich text contents to be created using the Markdown syntax."
+msgstr "Markdown 模块允许使用 Markdown 语法来创建富文本内容。"
+
+#: ~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml
+#| msgid "Insert/Update Media"
+msgctxt "~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml"
+msgid "Insert/Update Media"
+msgstr "插入/更新媒体"
+
+#: ~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml
+#| msgid "Preview"
+msgctxt "~/Modules/Markdown/Views/Body-Markdown.Editor.cshtml"
+msgid "Preview"
+msgstr "预览"
+

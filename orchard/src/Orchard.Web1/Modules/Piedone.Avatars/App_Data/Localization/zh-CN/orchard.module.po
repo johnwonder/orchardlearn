@@ -1,0 +1,150 @@
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Avatars"
+msgstr "Avatars"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Piedone"
+msgstr "Piedone"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "http://orchardavatars.codeplex.com"
+msgstr "http://orchardavatars.codeplex.com"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Avatar images can be added to content types and users can upload avatars"
+msgstr "Avatar images can be added to content types and users can upload avatars"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Piedone.Avatars.Name"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Avatars"
+msgstr "Avatars"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Piedone.Avatars.Description"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Avatar images can be added to content types and users can upload avatars"
+msgstr "Avatar images can be added to content types and users can upload avatars"
+
+#: ~/Modules/Piedone.Avatars/Module.txt
+#| msgid "Piedone.Avatars.Category"
+msgctxt "~/Modules/Piedone.Avatars/Module.txt"
+msgid "Social"
+msgstr "Social"
+
+#: Piedone.Avatars.Services.AvatarsService
+#| msgid "The file was too large for an avatar ({0}KB), maximum file size is {1}KB"
+msgctxt "Piedone.Avatars.Services.AvatarsService"
+msgid "The file was too large for an avatar ({0}KB), maximum file size is {1}KB"
+msgstr "The file was too large for an avatar ({0}KB), maximum file size is {1}KB"
+
+#: Piedone.Avatars.Services.AvatarsService
+#| msgid "This file type is not allowed as an avatar."
+msgctxt "Piedone.Avatars.Services.AvatarsService"
+msgid "This file type is not allowed as an avatar."
+msgstr "This file type is not allowed as an avatar."
+
+#: ~/Modules/Piedone.Avatars/Views/User.cshtml
+#| msgid "Welcome, <strong>{0}</strong>!"
+msgctxt "~/Modules/Piedone.Avatars/Views/User.cshtml"
+msgid "Welcome, <strong>{0}</strong>!"
+msgstr "Welcome, <strong>{0}</strong>!"
+
+#: ~/Modules/Piedone.Avatars/Views/User.cshtml
+#| msgid "Change password"
+msgctxt "~/Modules/Piedone.Avatars/Views/User.cshtml"
+msgid "Change password"
+msgstr "Change password"
+
+#: ~/Modules/Piedone.Avatars/Views/User.cshtml
+#| msgid "Sign Out"
+msgctxt "~/Modules/Piedone.Avatars/Views/User.cshtml"
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: ~/Modules/Piedone.Avatars/Views/User.cshtml
+#| msgid "Dashboard"
+msgctxt "~/Modules/Piedone.Avatars/Views/User.cshtml"
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: ~/Modules/Piedone.Avatars/Views/User.cshtml
+#| msgid "Sign In"
+msgctxt "~/Modules/Piedone.Avatars/Views/User.cshtml"
+msgid "Sign In"
+msgstr "Sign In"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml
+#| msgid "Avatar"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml"
+msgid "Avatar"
+msgstr "Avatar"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml
+#| msgid "Current avatar"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml"
+msgid "Current avatar"
+msgstr "Current avatar"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml
+#| msgid "Your avatar image"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml"
+msgid "Your avatar image"
+msgstr "Your avatar image"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml
+#| msgid "Upload a new avatar image"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml"
+msgid "Upload a new avatar image"
+msgstr "Upload a new avatar image"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml
+#| msgid "If you can't see the new avatar picture after uploading, just refresh the page in your browser."
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarProfile.cshtml"
+msgid "If you can't see the new avatar picture after uploading, just refresh the page in your browser."
+msgstr "If you can't see the new avatar picture after uploading, just refresh the page in your browser."
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml
+#| msgid "Avatars Settings"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml"
+msgid "Avatars Settings"
+msgstr "Avatars Settings"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml
+#| msgid "Allowed file types to use as avatars (list of extensions separated by spaces)"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml"
+msgid "Allowed file types to use as avatars (list of extensions separated by spaces)"
+msgstr "Allowed file types to use as avatars (list of extensions separated by spaces)"
+
+#: ~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml
+#| msgid "Maximal size of avatar files (in bytes)"
+msgctxt "~/Modules/Piedone.Avatars/Views/EditorTemplates/Parts.AvatarsSettings.SiteSettings.cshtml"
+msgid "Maximal size of avatar files (in bytes)"
+msgstr "Maximal size of avatar files (in bytes)"
+
+#: ~/Modules/Piedone.Avatars/Views/Parts/Avatar.cshtml
+#| msgid "{0}'s avatar"
+msgctxt "~/Modules/Piedone.Avatars/Views/Parts/Avatar.cshtml"
+msgid "{0}'s avatar"
+msgstr "{0}'s avatar"
+
+#: ~/Modules/Piedone.Avatars/Views/Parts/AvatarProfile.cshtml
+#| msgid "{0}'s avatar"
+msgctxt "~/Modules/Piedone.Avatars/Views/Parts/AvatarProfile.cshtml"
+msgid "{0}'s avatar"
+msgstr "{0}'s avatar"
+
+#: ~/Modules/Piedone.Avatars/Views/Parts/Common.Metadata.cshtml
+#| msgid "Author:"
+msgctxt "~/Modules/Piedone.Avatars/Views/Parts/Common.Metadata.cshtml"
+msgid "Author:"
+msgstr "Author:"
+

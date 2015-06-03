@@ -52,6 +52,7 @@ namespace Orchard.Environment.ShellBuilders {
             return intermediateScope.BeginLifetimeScope(
                 "shell",
                 builder => {
+                    //AOP 
                     var dynamicProxyContext = new DynamicProxyContext();
 
                     builder.Register(ctx => dynamicProxyContext);
@@ -65,7 +66,7 @@ namespace Orchard.Environment.ShellBuilders {
                     foreach (var item in blueprint.Dependencies.Where(t => typeof(IModule).IsAssignableFrom(t.Type))) {
                         builder.RegisterModule(moduleIndex[item.Type]);//根据IIndex来获取IModule并注册
                     }
-
+                    //实现IDependency接口的依赖都可以使用动态代理 AOP
                     foreach (var item in blueprint.Dependencies.Where(t => typeof(IDependency).IsAssignableFrom(t.Type))) {
                         var registration = RegisterType(builder, item)
                             .EnableDynamicProxy(dynamicProxyContext)

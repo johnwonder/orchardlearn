@@ -1,0 +1,402 @@
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Admin Content Search"
+msgstr "管理后台内容搜索"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Provides a Content Search tab in Admin."
+msgstr "为管理后台提供搜索标签页。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Content.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Content Picker Search"
+msgstr "内容选取器搜索"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Provides a search tab in Content Picker."
+msgstr "提供内容选取器的搜索标签页。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.ContentPicker.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: Orchard.Search.ContentAdminMenu
+#| msgid "Content"
+msgctxt "Orchard.Search.ContentAdminMenu"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Search.ContentAdminMenu
+#| msgid "Search"
+msgctxt "Orchard.Search.ContentAdminMenu"
+msgid "Search"
+msgstr "搜索"
+
+#: Orchard.Search.ContentPickerNavigationProvider
+#| msgid "Content Picker"
+msgctxt "Orchard.Search.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr "内容选取器"
+
+#: Orchard.Search.ContentPickerNavigationProvider
+#| msgid "Search Content"
+msgctxt "Orchard.Search.ContentPickerNavigationProvider"
+msgid "Search Content"
+msgstr "搜索内容"
+
+#: Orchard.Search.Controllers.AdminController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.AdminController"
+msgid "Invalid search query: {0}"
+msgstr "无效搜索查询：{0}"
+
+#: Orchard.Search.Controllers.ContentPickerController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.ContentPickerController"
+msgid "Invalid search query: {0}"
+msgstr "无效搜索查询：{0}"
+
+#: ~/Modules/Orchard.Search/Views/SearchContentTab.cshtml
+#| msgid "Search Content"
+msgctxt "~/Modules/Orchard.Search/Views/SearchContentTab.cshtml"
+msgid "Search Content"
+msgstr "搜索内容"
+
+#: ~/Modules/Orchard.Search/Views/SearchContentTab.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/SearchContentTab.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "Search Content"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "Search Content"
+msgstr "搜索内容"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid "There are no results"
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "There are no results"
+msgstr "没有结果"
+
+#: Orchard.Search.Commands.SearchCommands
+#| msgid "Invalid index name."
+msgctxt "Orchard.Search.Commands.SearchCommands"
+msgid "Invalid index name."
+msgstr "无效的索引名称。"
+
+#: Orchard.Search.Controllers.SearchController
+#| msgid "Please define a default search index"
+msgctxt "Orchard.Search.Controllers.SearchController"
+msgid "Please define a default search index"
+msgstr "请定义一个默认的搜索索引"
+
+#: ~/Modules/Orchard.Search/Views/ContentPicker/NoIndex.cshtml
+#| msgid "You need to enable a search index module."
+msgctxt "~/Modules/Orchard.Search/Views/ContentPicker/NoIndex.cshtml"
+msgid "You need to enable a search index module."
+msgstr "您需要启用搜索索引模块。"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "Show Search tab"
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "Show Search tab"
+msgstr "显示搜索标签页"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "Uncheck to hide the Search tab from the picker window."
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "Uncheck to hide the Search tab from the picker window."
+msgstr "未选中将从选取器窗口隐藏搜索选项卡。"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "Search index"
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "Search index"
+msgstr "搜索索引"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "The index to use when displaying this tab."
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "The index to use when displaying this tab."
+msgstr "要显示此选项卡时使用的索引。"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "Content Types and Parts"
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "Content Types and Parts"
+msgstr "内容类型和元件"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid "A comma separated value of all the content types or content parts to display."
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "A comma separated value of all the content types or content parts to display."
+msgstr "以逗号分隔的值包含所有要显示的内容类型或内容元件。"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Indexes"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Indexes"
+msgstr "索引"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Select which index to use in search queries."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Select which index to use in search queries."
+msgstr "选择要在搜索查询中使用哪些索引。"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Fields"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Fields"
+msgstr "字段"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "There is currently no index to search from. Please update you index, and check some indexable content exists."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "There is currently no index to search from. Please update you index, and check some indexable content exists."
+msgstr "目前没有字段可进行搜索。请更新你的索引并确定可索引的内容存在。"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "If checked, search results will only include content items localized in the current culture of the request."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "If checked, search results will only include content items localized in the current culture of the request."
+msgstr "如果选中此选项，搜索结果将仅包括在请求的当前区域性中的本地化内容项。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: Orchard.Search.Handlers.SearchSettingsPartHandler
+#| msgid "Search"
+msgctxt "Orchard.Search.Handlers.SearchSettingsPartHandler"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "The search module enables the management of the search index and provides the front-end searching user interface."
+msgstr "搜索模块允许对管理索引进行管理并提供前端搜索用户界面。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Name"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Description"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Standard interface to Orchard's built-in search."
+msgstr "Orchard 内置搜索的标准接口。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid "Orchard.Search.Category"
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: Orchard.Search.Controllers.SearchController
+#| msgid "Invalid search query: {0}"
+msgctxt "Orchard.Search.Controllers.SearchController"
+msgid "Invalid search query: {0}"
+msgstr "无效搜索查询：{0}"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "There are currently no fields to search from. Please update you index, and check some indexable content exists."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "There are currently no fields to search from. Please update you index, and check some indexable content exists."
+msgstr "目前没有字段可进行搜索。请更新你的索引并确定可索引的内容存在。"
+
+#: ~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "There is <em>one</em> result"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "There is <em>one</em> result"
+msgstr "有<em>1</em>个结果"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "<em>zero</em> results"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "<em>zero</em> results"
+msgstr "<em>0</em>结果"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgstr "<em>{0}</em>结果中的<em>{1} - {2}</em>"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Searched fields"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Searched fields"
+msgstr "搜索的字段"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Check any property which should be used for search queries."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Check any property which should be used for search queries."
+msgstr "选择任何应该用于搜索查询的属性。"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Localization"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Localization"
+msgstr "本地化"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Narrow search to current culture only"
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Narrow search to current culture only"
+msgstr "搜索范围缩小到只有当前区域性"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid "Is checked, search results will only include content items localized in the current culture of the request."
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Is checked, search results will only include content items localized in the current culture of the request."
+msgstr "如果选中此选项，搜索结果将仅包括在请求的当前区域性中的本地化内容项。"
+
+#: ~/Modules/Orchard.Search/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Module.txt"
+msgid "Search"
+msgstr "搜索"
+
+#: Orchard.Search.ContentAdminMenu
+#| msgid ""
+msgctxt "Orchard.Search.ContentAdminMenu"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Search.ContentPickerNavigationProvider
+#| msgid ""
+msgctxt "Orchard.Search.ContentPickerNavigationProvider"
+msgid "Content Picker"
+msgstr "内容选取器"
+
+#: Orchard.Search.Commands.SearchCommands
+#| msgid ""
+msgctxt "Orchard.Search.Commands.SearchCommands"
+msgid "Invalid index name."
+msgstr "无效的索引名称。"
+
+#: Orchard.Search.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Search.Controllers.AdminController"
+msgid "Invalid search query: {0}"
+msgstr "无效搜索查询：{0}"
+
+#: Orchard.Search.Controllers.ContentPickerController
+#| msgid ""
+msgctxt "Orchard.Search.Controllers.ContentPickerController"
+msgid "Invalid search query: {0}"
+msgstr "无效搜索查询：{0}"
+
+#: Orchard.Search.Controllers.SearchController
+#| msgid ""
+msgctxt "Orchard.Search.Controllers.SearchController"
+msgid "Please define a default search index"
+msgstr "请定义一个默认的搜索索引"
+
+#: Orchard.Search.Handlers.SearchSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.Search.Handlers.SearchSettingsPartHandler"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/SearchContentTab.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/SearchContentTab.cshtml"
+msgid "Search Content"
+msgstr "搜索内容"
+
+#: ~/Modules/Orchard.Search/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/Admin/Index.cshtml"
+msgid "Search Content"
+msgstr "搜索内容"
+
+#: ~/Modules/Orchard.Search/Views/ContentPicker/NoIndex.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/ContentPicker/NoIndex.cshtml"
+msgid "You need to enable a search index module."
+msgstr "您需要启用搜索索引模块。"
+
+#: ~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/DefinitionTemplates/ContentPickerSearchFieldSettings.cshtml"
+msgid "Show Search tab"
+msgstr "显示搜索标签页"
+
+#: ~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/EditorTemplates/Parts/Search.SiteSettings.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/Parts/Search.SearchForm.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Search/Views/Search/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Search/Views/Search/Index.cshtml"
+msgid "Search"
+msgstr "搜索"
+

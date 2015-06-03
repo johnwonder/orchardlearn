@@ -1,0 +1,216 @@
+#: ~/Themes/TheJournalist/Theme.txt
+#| msgid "Name"
+msgctxt "~/Themes/TheJournalist/Theme.txt"
+msgid "The Journalist"
+msgstr "记者博客模板"
+
+#: ~/Themes/TheJournalist/Theme.txt
+#| msgid "Author"
+msgctxt "~/Themes/TheJournalist/Theme.txt"
+msgid "Lucian E. Martin, Sébastien Ros"
+msgstr "Lucian E. Martin, Sébastien Ros"
+
+#: ~/Themes/TheJournalist/Theme.txt
+#| msgid "Description"
+msgctxt "~/Themes/TheJournalist/Theme.txt"
+msgid "Journalist is a smart, minimal theme designed for professional journalists."
+msgstr "记者博客模板是一个为专业记者设计的灵巧并最简化的主题，。"
+
+#: ~/Themes/TheJournalist/Theme.txt
+#| msgid "Tags"
+msgctxt "~/Themes/TheJournalist/Theme.txt"
+msgid "clean, conservative, light, minimal"
+msgstr "清爽，保守的、轻巧、 最简化"
+
+#: ~/Themes/TheJournalist/Theme.txt
+#| msgid "Website"
+msgctxt "~/Themes/TheJournalist/Theme.txt"
+msgid "http://thejournalisttheme.codeplex.com"
+msgstr "http://thejournalisttheme.codeplex.com"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Please enter your username and password."
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Please enter your username and password."
+msgstr "请输入用户名和密码。"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Register"
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Register"
+msgstr "注册"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid " if you don't have an account."
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid " if you don't have an account."
+msgstr "如果您没有账户。"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Lost your Password?"
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Lost your Password?"
+msgstr "忘记密码？"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Login was unsuccessful. Please correct the errors and try again."
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Login was unsuccessful. Please correct the errors and try again."
+msgstr "登录失败。请检查后重试。"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Username"
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Username"
+msgstr "用户名"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Password"
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Password"
+msgstr "密码"
+
+#: ~/Themes/TheJournalist/Views/LogOn.cshtml
+#| msgid "Sign In"
+msgctxt "~/Themes/TheJournalist/Views/LogOn.cshtml"
+msgid "Sign In"
+msgstr "登录"
+
+#: ~/Themes/TheJournalist/Views/Pager.cshtml
+#| msgid "Older"
+msgctxt "~/Themes/TheJournalist/Views/Pager.cshtml"
+msgid "Older"
+msgstr "较早"
+
+#: ~/Themes/TheJournalist/Views/Pager.cshtml
+#| msgid "Newer"
+msgctxt "~/Themes/TheJournalist/Views/Pager.cshtml"
+msgid "Newer"
+msgstr "较新"
+
+#: ~/Themes/TheJournalist/Views/Parts.Blogs.BlogPost.List.cshtml
+#| msgid "There are no posts for this blog."
+msgctxt "~/Themes/TheJournalist/Views/Parts.Blogs.BlogPost.List.cshtml"
+msgid "There are no posts for this blog."
+msgstr "此博客中没有文章"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml
+#| msgid "leave a comment"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml"
+msgid "leave a comment"
+msgstr "留下你的评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml
+#| msgid "one comment"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml"
+msgid "one comment"
+msgstr "一条评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml
+#| msgid "{0} comments"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.Count.cshtml"
+msgid "{0} comments"
+msgstr "{0} 条评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "Comments are closed."
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "Comments are closed."
+msgstr "评论已关闭。"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "You must {0} to comment."
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "You must {0} to comment."
+msgstr "你必须 {0} 进行评论。"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "log on"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "log on"
+msgstr "登录"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "Name"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "(required)"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "(required)"
+msgstr "（必须）"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "Mail (will not be published)"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "Mail (will not be published)"
+msgstr "电子邮件（不会被公开）"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "Logged in as {0}."
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "Logged in as {0}."
+msgstr "登录为 {0}。"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "Please review your comment before submitting"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "Please review your comment before submitting"
+msgstr "请在提交之前检查你的评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "1 Comment"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "1 Comment"
+msgstr "1 条评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Comments.cshtml
+#| msgid "{0} Comments"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Comments.cshtml"
+msgid "{0} Comments"
+msgstr "{0} 条评论"
+
+#: ~/Themes/TheJournalist/Views/Parts.Common.Metadata.cshtml
+#| msgid "at"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Common.Metadata.cshtml"
+msgid "at"
+msgstr "在"
+
+#: ~/Themes/TheJournalist/Views/Parts.Tags.ShowTags.cshtml
+#| msgid "Tagged with"
+msgctxt "~/Themes/TheJournalist/Views/Parts.Tags.ShowTags.cshtml"
+msgid "Tagged with"
+msgstr "标记为"
+
+#: ~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml
+#| msgid "Search"
+msgctxt "~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml
+#| msgid "There is <em>one</em> result"
+msgctxt "~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml"
+msgid "There is <em>one</em> result"
+msgstr "<em>1</em>个结果"
+
+#: ~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml
+#| msgid "<em>zero</em> results"
+msgctxt "~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml"
+msgid "<em>zero</em> results"
+msgstr "<em>0</em>结果"
+
+#: ~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml
+#| msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgctxt "~/Themes/TheJournalist/Views/Orchard.Search/Search/Index.cshtml"
+msgid "<em>{1} - {2}</em> of <em>{0}</em> results"
+msgstr "<em>{1} - {2}</em> 的 <em>{0}</em> 个结果"
+
+#: ~/Themes/TheJournalist/Views/Parts/Search.SearchForm.cshtml
+#| msgid "Search"
+msgctxt "~/Themes/TheJournalist/Views/Parts/Search.SearchForm.cshtml"
+msgid "Search"
+msgstr "搜索"
+

@@ -6,3 +6,7 @@ E:\dev\orchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.dll
 E:\dev\orchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.pdb
 E:\dev\orchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
 E:\dev\orchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb
+E:\gitremote\orchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.dll
+E:\gitremote\orchard\src\Orchard.WarmupStarter\bin\Debug\Orchard.WarmupStarter.pdb
+E:\gitremote\orchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.dll
+E:\gitremote\orchard\src\Orchard.WarmupStarter\obj\Debug\Orchard.WarmupStarter.pdb

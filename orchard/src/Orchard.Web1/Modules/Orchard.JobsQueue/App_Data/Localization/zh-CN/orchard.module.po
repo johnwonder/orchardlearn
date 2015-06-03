@@ -1,0 +1,36 @@
+#: ~/Modules/Orchard.JobsQueue/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.JobsQueue/Module.txt"
+msgid "Jobs Queue"
+msgstr "工作队列"
+
+#: Orchard.JobsQueue.AdminMenu
+#| msgid ""
+msgctxt "Orchard.JobsQueue.AdminMenu"
+msgid "Jobs Queue"
+msgstr "工作队列"
+
+#: Orchard.JobsQueue.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.JobsQueue.Controllers.AdminController"
+msgid "The queue has been resumed."
+msgstr "已恢复队列。"
+
+#: ~/Modules/Orchard.JobsQueue/Views/Admin/Details.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.JobsQueue/Views/Admin/Details.cshtml"
+msgid "Job Details"
+msgstr "工作详细信息"
+
+#: ~/Modules/Orchard.JobsQueue/Views/Admin/List.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.JobsQueue/Views/Admin/List.cshtml"
+msgid "Jobs Queue"
+msgstr "工作队列"
+
+#: ~/Modules/Orchard.JobsQueue/Views/EditorTemplates/Parts/JobsQueueSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.JobsQueue/Views/EditorTemplates/Parts/JobsQueueSettings.cshtml"
+msgid "Messaging"
+msgstr "消息传递"
+

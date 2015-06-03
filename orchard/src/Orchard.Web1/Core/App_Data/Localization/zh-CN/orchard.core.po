@@ -1,0 +1,3869 @@
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "Slugs in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgstr "Slug冲突。\"{0}\"在已创建的{2}中设置，所以现在存在Slug\"{1}\""
+
+#: ~/Core/Common/Views/CommonMetadataOwner.cshtml
+#| msgid "unknown"
+msgctxt "~/Core/Common/Views/CommonMetadataOwner.cshtml"
+msgid "unknown"
+msgstr "未知"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=""http://docs.orchardproject.net"">Orchard Documentation</a> to learn about how everything connects together and what makes Orchard tick."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=\"\"http://docs.orchardproject.net\"\">Orchard Documentation</a> to learn about how everything connects together and what makes Orchard tick."
+msgstr "您准备好更深入的学习并成为 Orchard 专家？那么应该去看看<a href=\"http://docs.orchardproject.net\">Orchard 文档</a> 以学习所有的东西是怎么在一起协同工作让 Orchard 运行的。"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Some items where not saved."
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Some items where not saved."
+msgstr "一些项目未保存。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the âManage Themesâ menu entry. You can also create new pages and manage existing ones through the âManage Pagesâ menu entry or create blogs through âManage Blogsâ."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the âManage Themesâ menu entry. You can also create new pages and manage existing ones through the âManage Pagesâ menu entry or create blogs through âManage Blogsâ."
+msgstr "这是可以管理您的 web 站点以及它的外观和内容的地方。请花点时间探索在屏幕左侧的不同菜单项，让自己熟悉应用程序的功能。例如，试着通过 ג € 主题ג€ 菜单项改变主题。此外可以通过 ג € Pagesג€ 菜单条目创建新的页面和管理现有的页面或通过 ג € 管理博客ג€创建博客。"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Default Position"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Default Position"
+msgstr "默认位置"
+
+#: ~/Core/Common/Module.txt
+#| msgid ""
+msgctxt "~/Core/Common/Module.txt"
+msgid "Common"
+msgstr "通用"
+
+#: ~/Core/Containers/Module.txt
+#| msgid ""
+msgctxt "~/Core/Containers/Module.txt"
+msgid "Containers"
+msgstr "容器"
+
+#: ~/Core/Contents/Module.txt
+#| msgid ""
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Contents"
+msgstr "内容"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid ""
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid ""
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "Feeds"
+msgstr "源"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid ""
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Navigation"
+msgstr "导航"
+
+#: ~/Core/Reports/Module.txt
+#| msgid ""
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Reports"
+msgstr "报告"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid ""
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Scheduling"
+msgstr "调度"
+
+#: ~/Core/Settings/Module.txt
+#| msgid ""
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid ""
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Shapes"
+msgstr "形状"
+
+#: ~/Core/Title/Module.txt
+#| msgid ""
+msgctxt "~/Core/Title/Module.txt"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid ""
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "XmlRpc"
+msgstr "XmlRpc"
+
+#: Orchard.Core.Common.Shapes
+#| msgid ""
+msgctxt "Orchard.Core.Common.Shapes"
+msgid "Draft"
+msgstr "草稿"
+
+#: Orchard.Core.Common.DateEditor.DateEditorDriver
+#| msgid ""
+msgctxt "Orchard.Core.Common.DateEditor.DateEditorDriver"
+msgid "'{0} {1}' could not be parsed as a valid date and time."
+msgstr "“{0} {1}”不能解析为一个有效的日期和时间。"
+
+#: Orchard.Core.Common.Drivers.CommonPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Common.Drivers.CommonPartDriver"
+msgid "Invalid container"
+msgstr "无效容器"
+
+#: Orchard.Core.Common.Drivers.TextFieldDriver
+#| msgid ""
+msgctxt "Orchard.Core.Common.Drivers.TextFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Core.Common.OwnerEditor.OwnerEditorDriver
+#| msgid ""
+msgctxt "Orchard.Core.Common.OwnerEditor.OwnerEditorDriver"
+msgid "Invalid user name"
+msgstr "无效用户名"
+
+#: ~/Core/Common/Views/CommonMetadataOwner.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/CommonMetadataOwner.cshtml"
+msgid "By {0}"
+msgstr "由 {0}"
+
+#: ~/Core/Common/Views/Parts.Common.Body.Summary.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/Parts.Common.Body.Summary.cshtml"
+msgid "more"
+msgstr "更多"
+
+#: ~/Core/Common/Views/Parts.Common.Date.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/Parts.Common.Date.Edit.cshtml"
+msgid "Created On"
+msgstr "创建于"
+
+#: ~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml"
+msgid "Last modified: {0}"
+msgstr "最后修改："
+
+#: ~/Core/Common/Views/Parts.Common.Owner.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/Parts.Common.Owner.Edit.cshtml"
+msgid "Owner"
+msgstr "拥有者"
+
+#: ~/Core/Common/Views/DefinitionTemplates/BodyPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/DefinitionTemplates/BodyPartSettings.cshtml"
+msgid "Default flavor"
+msgstr "默认风格"
+
+#: ~/Core/Common/Views/DefinitionTemplates/BodyTypePartSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/DefinitionTemplates/BodyTypePartSettings.cshtml"
+msgid "Flavor"
+msgstr "风格"
+
+#: ~/Core/Common/Views/DefinitionTemplates/DateEditorSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/DefinitionTemplates/DateEditorSettings.cshtml"
+msgid "Show editor for creation date time"
+msgstr "显示创建日期时间的编辑器"
+
+#: ~/Core/Common/Views/DefinitionTemplates/OwnerEditorSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/DefinitionTemplates/OwnerEditorSettings.cshtml"
+msgid "Show editor for owner"
+msgstr "对拥有者显示编辑器"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Display options"
+msgstr "显示选项"
+
+#: ~/Core/Common/Views/EditorTemplates/DateTimeEditor.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/EditorTemplates/DateTimeEditor.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#: ~/Core/Common/Views/EditorTemplates/Parts.Common.Body.cshtml
+#| msgid ""
+msgctxt "~/Core/Common/Views/EditorTemplates/Parts.Common.Body.cshtml"
+msgid "Body"
+msgstr "正文"
+
+#: Orchard.Core.Containers.Controllers.ItemController
+#| msgid ""
+msgctxt "Orchard.Core.Containers.Controllers.ItemController"
+msgid "Container not found"
+msgstr "找不到容器"
+
+#: Orchard.Core.Containers.Drivers.ContainablePartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Containers.Drivers.ContainablePartDriver"
+msgid "(None)"
+msgstr "（无）"
+
+#: Orchard.Core.Containers.Drivers.ContainerPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Containers.Drivers.ContainerPartDriver"
+msgid "There are no content types in the system with a Containable part attached. Consider adding a Containable part to some content type, existing or new, in order to relate items to this (Container enabled) item."
+msgstr "系统中没有可包含的附加部分的内容类型。可考虑在一些现有的或新的内容类型增加可包含的部分，使其他项目与（容器启用的）项目相关联。"
+
+#: Orchard.Core.Containers.Drivers.ContainerWidgetPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Containers.Drivers.ContainerWidgetPartDriver"
+msgid "(None - create container enabled items first)"
+msgstr "（无 - 首先创建容器启用项目）"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainableTypePartSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainableTypePartSettings.cshtml"
+msgid "Show Container Picker"
+msgstr "显示容器选取器"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml"
+msgid "Default Page Size"
+msgstr "默认页面大小"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettingsViewModel.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettingsViewModel.cshtml"
+msgid "Default Page Size"
+msgstr "默认页大小"
+
+#: ~/Core/Containers/Views/EditorTemplates/Containable.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/EditorTemplates/Containable.cshtml"
+msgid "Member of"
+msgstr "成员"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Show contained items list"
+msgstr "显示包含的项列表"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Show items from"
+msgstr "显示项目自"
+
+#: ~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml
+#| msgid ""
+msgctxt "~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml"
+msgid "Custom One"
+msgstr "自定义一"
+
+#: Orchard.Core.Contents.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Core.Contents.AdminMenu"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't publish selected content."
+msgstr "无法发布已选内容。"
+
+#: Orchard.Core.Contents.Controllers.ItemController
+#| msgid ""
+msgctxt "Orchard.Core.Contents.Controllers.ItemController"
+msgid "Cannot view content"
+msgstr "不能查看内容"
+
+#: ~/Core/Contents/Views/Content.ControlWrapper.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Content.ControlWrapper.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Core/Contents/Views/Content.PublishButton.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Content.PublishButton.cshtml"
+msgid "Publish Now"
+msgstr "现在发布"
+
+#: ~/Core/Contents/Views/Content.SaveButton.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Content.SaveButton.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Core/Contents/Views/Content.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Content.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml"
+msgid "Clone"
+msgstr "复制"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "View"
+msgstr "视图"
+
+#: ~/Core/Contents/Views/Admin/CreatableTypeList.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Admin/CreatableTypeList.cshtml"
+msgid "Create New Content"
+msgstr "创建新内容"
+
+#: ~/Core/Contents/Views/Admin/Create.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Admin/Create.cshtml"
+msgid "New {0}"
+msgstr "新{0}"
+
+#: ~/Core/Contents/Views/Admin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Admin/Edit.cshtml"
+msgid "Edit Content"
+msgstr "编辑内容"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid ""
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Manage Content"
+msgstr "管理内容"
+
+#: Orchard.Core.Dashboard.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Core.Dashboard.AdminMenu"
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Welcome to Orchard"
+msgstr "欢迎使用Orchard！"
+
+#: Orchard.Core.Navigation.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.AdminMenu"
+msgid "Navigation"
+msgstr "导航"
+
+#: Orchard.Core.Navigation.Commands.MenuCommands
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Commands.MenuCommands"
+msgid "Menu not found."
+msgstr "找不到菜单。"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Not allowed to manage the main menu"
+msgstr "主菜单管理不被允许"
+
+#: Orchard.Core.Navigation.Drivers.AdminMenuPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Drivers.AdminMenuPartDriver"
+msgid "The AdminMenuText field is required"
+msgstr "需要AdminMenuText字段"
+
+#: Orchard.Core.Navigation.Drivers.MenuPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Drivers.MenuPartDriver"
+msgid "The MenuText field is required"
+msgstr "需要MenuText字段"
+
+#: Orchard.Core.Navigation.Drivers.MenuWidgetPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Drivers.MenuWidgetPartDriver"
+msgid "Home"
+msgstr "首页"
+
+#: Orchard.Core.Navigation.Drivers.ShapeMenuItemPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Navigation.Drivers.ShapeMenuItemPartDriver"
+msgid "The Shape Type is mandatory."
+msgstr "形状类型是必须的。"
+
+#: ~/Core/Navigation/Views/Menu.DeleteButton.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/Menu.DeleteButton.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Navigation/Views/Admin/CreateMenuItem.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/Admin/CreateMenuItem.cshtml"
+msgid "Create Menu Item"
+msgstr "创建菜单项"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Navigation"
+msgstr "导航"
+
+#: ~/Core/Navigation/Views/DefinitionTemplates/AdminMenuPartTypeSettings.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/DefinitionTemplates/AdminMenuPartTypeSettings.cshtml"
+msgid "Default Position"
+msgstr "默认位置"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "For Menu"
+msgstr "为菜单"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml"
+msgid "Show on admin menu"
+msgstr "在管理菜单中显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "Show on a menu"
+msgstr "在菜单上显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ShapeMenuItemPart.Edit.cshtml
+#| msgid ""
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ShapeMenuItemPart.Edit.cshtml"
+msgid "Type of the shape to display"
+msgstr "要显示的形状的类型"
+
+#: Orchard.Core.Reports.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Core.Reports.AdminMenu"
+msgid "Reports"
+msgstr "报告"
+
+#: Orchard.Core.Reports.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Core.Reports.Controllers.AdminController"
+msgid "Not authorized to list reports"
+msgstr "未授权显示报告清单"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid ""
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "Display Report"
+msgstr "显示报告"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Reports"
+msgstr "报告"
+
+#: Orchard.Core.Settings.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Core.Settings.AdminMenu"
+msgid "Settings"
+msgstr "设置"
+
+#: Orchard.Core.Settings.Commands.SiteSettingsCommands
+#| msgid ""
+msgctxt "Orchard.Core.Settings.Commands.SiteSettingsCommands"
+msgid "'BaseUrl' site setting is already set. Use the 'Force' flag to override."
+msgstr "网站设置“BaseUrl”成功。使用“Force”标志覆盖。"
+
+#: Orchard.Core.Settings.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Core.Settings.Controllers.AdminController"
+msgid "Not authorized to manage settings"
+msgstr "没有进行设置的权限"
+
+#: Orchard.Core.Settings.Descriptor.ShellDescriptorManager
+#| msgid ""
+msgctxt "Orchard.Core.Settings.Descriptor.ShellDescriptorManager"
+msgid "Invalid serial number for shell descriptor"
+msgstr "外壳描述的序号无效"
+
+#: Orchard.Core.Settings.Drivers.SiteSettingsPartDriver
+#| msgid ""
+msgctxt "Orchard.Core.Settings.Drivers.SiteSettingsPartDriver"
+msgid "The user {0} was not found"
+msgstr "没有找到{0}用户"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid ""
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Site Settings"
+msgstr "网站设置"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid ""
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Cultures"
+msgstr "语言"
+
+#: ~/Core/Settings/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Core/Settings/Views/Admin/Index.cshtml"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Core/Settings/Views/DisplayTemplates/RemovableCulture.cshtml
+#| msgid ""
+msgctxt "~/Core/Settings/Views/DisplayTemplates/RemovableCulture.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid ""
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Use web.config setting"
+msgstr "使用 web.config 设置"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid ""
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid "<<"
+msgstr "<<"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid ""
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "a moment ago"
+msgstr "1刻前"
+
+#: ~/Core/Shapes/Views/ErrorPage.cshtml
+#| msgid ""
+msgctxt "~/Core/Shapes/Views/ErrorPage.cshtml"
+msgid "Oops. Something went wrong ... sorry"
+msgstr "哎呀。出事了......抱歉"
+
+#: ~/Core/Shapes/Views/NotFound.cshtml
+#| msgid ""
+msgctxt "~/Core/Shapes/Views/NotFound.cshtml"
+msgid "Not found"
+msgstr "未找到"
+
+#: ~/Core/Shapes/Views/User.cshtml
+#| msgid ""
+msgctxt "~/Core/Shapes/Views/User.cshtml"
+msgid "Welcome, <strong>{0}</strong>!"
+msgstr "欢迎您，<strong>{0}</strong> ！"
+
+#: ~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml
+#| msgid ""
+msgctxt "~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "Please do not use any of the following characters in your permalink: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\", \"\\". No spaces are allowed (please use dashes or underscores instead)."
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "Please do not use any of the following characters in your permalink: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\", \"\". No spaces are allowed (please use dashes or underscores instead)."
+msgstr "请不要在您的静态连结中使用以下任何字符： \":\"，\"?\"，\"#\"，\"[\"，\"]\"，\"@\"，\"!\"，\"$\"，\"&\"，\"'\"，\"(\"，\")\"，\"*\"，\"+\"，\",\"，\";\"，\"=\"，\"，\"<\"，\">\"，\"\"。不允许有空格（请使用破折号或下划线代替）。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the Ã¢ÂÂManage ThemesÃ¢ÂÂ menu entry. You can also create new pages and manage existing ones through the Ã¢ÂÂManage PagesÃ¢ÂÂ menu entry or create blogs through Ã¢ÂÂManage BlogsÃ¢ÂÂ."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the Ã¢ÂÂManage ThemesÃ¢ÂÂ menu entry. You can also create new pages and manage existing ones through the Ã¢ÂÂManage PagesÃ¢ÂÂ menu entry or create blogs through Ã¢ÂÂManage BlogsÃ¢ÂÂ."
+msgstr "这是可以管理您的 web 站点以及它的外观和内容的地方。请花点时间探索在屏幕左侧的不同菜单项，让自己熟悉应用程序的功能。例如，试着通过 ג € 主题ג€ 菜单项改变主题。此外可以通过 ג € Pagesג€ 菜单条目创建新的页面和管理现有的页面或通过 ג € 管理博客ג€创建博客。"
+
+#: Orchard.Core.Common.DateEditor.DateEditorDriver
+#| msgid "{0} is an invalid date and time"
+msgctxt "Orchard.Core.Common.DateEditor.DateEditorDriver"
+msgid "{0} is an invalid date and time"
+msgstr "{0}是无效的日期时间"
+
+#: Orchard.Core.Common.DateEditor.DateEditorDriver
+#| msgid "Both the date and time need to be specified."
+msgctxt "Orchard.Core.Common.DateEditor.DateEditorDriver"
+msgid "Both the date and time need to be specified."
+msgstr "日期和时间都需要被指定。"
+
+#: Orchard.Core.Common.OwnerEditor.OwnerEditorDriver
+#| msgid "Invalid user name"
+msgctxt "Orchard.Core.Common.OwnerEditor.OwnerEditorDriver"
+msgid "Invalid user name"
+msgstr "无效用户名"
+
+#: ~/Core/Common/Views/Parts.Common.Date.Edit.cshtml
+#| msgid "Created On"
+msgctxt "~/Core/Common/Views/Parts.Common.Date.Edit.cshtml"
+msgid "Created On"
+msgstr "创建于"
+
+#: ~/Core/Common/Views/Parts.Common.Date.Edit.cshtml
+#| msgid "Date"
+msgctxt "~/Core/Common/Views/Parts.Common.Date.Edit.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#: ~/Core/Common/Views/Parts.Common.Date.Edit.cshtml
+#| msgid "Time"
+msgctxt "~/Core/Common/Views/Parts.Common.Date.Edit.cshtml"
+msgid "Time"
+msgstr "时间"
+
+#: ~/Core/Common/Views/Parts.Common.Owner.Edit.cshtml
+#| msgid "Owner"
+msgctxt "~/Core/Common/Views/Parts.Common.Owner.Edit.cshtml"
+msgid "Owner"
+msgstr "拥有者"
+
+#: ~/Core/Common/Views/DefinitionTemplates/DateEditorSettings.cshtml
+#| msgid "Show editor for creation date time"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/DateEditorSettings.cshtml"
+msgid "Show editor for creation date time"
+msgstr "显示创建日期时间的编辑器"
+
+#: ~/Core/Common/Views/DefinitionTemplates/OwnerEditorSettings.cshtml
+#| msgid "Show editor for owner"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/OwnerEditorSettings.cshtml"
+msgid "Show editor for owner"
+msgstr "对拥有者显示编辑器"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Get up and running"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Get up and running"
+msgstr "启动和运行"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Get more goodies"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Get more goodies"
+msgstr "随时获取最新功能"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Read the Docs"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Read the Docs"
+msgstr "阅读文档"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Make friends"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Make friends"
+msgstr "交友"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Contribute back"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Contribute back"
+msgstr "反馈"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Stay up to date"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Stay up to date"
+msgstr "保持最新"
+
+#: Orchard.Core.Settings.Commands.SiteSettingsCommands
+#| msgid "'BaseUrl' site setting is already set. Use the 'Force' flag to override."
+msgctxt "Orchard.Core.Settings.Commands.SiteSettingsCommands"
+msgid "'BaseUrl' site setting is already set. Use the 'Force' flag to override."
+msgstr "网站设置“BaseUrl”成功。使用“Force”标志覆盖。"
+
+#: Orchard.Core.Settings.Commands.SiteSettingsCommands
+#| msgid "No HTTP request available to determine the base url of the site"
+msgctxt "Orchard.Core.Settings.Commands.SiteSettingsCommands"
+msgid "No HTTP request available to determine the base url of the site"
+msgstr "无可用的HTTP Request 以确认该网站的Base url"
+
+#: Orchard.Core.Settings.Commands.SiteSettingsCommands
+#| msgid "'BaseUrl' site setting set to '{0}'"
+msgctxt "Orchard.Core.Settings.Commands.SiteSettingsCommands"
+msgid "'BaseUrl' site setting set to '{0}'"
+msgstr "BaseUrl设置为“{0}”"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Common/Module.txt"
+msgid "Common"
+msgstr "通用"
+
+#: ~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml
+#| msgid "By {0}"
+msgctxt "~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml"
+msgid "By {0}"
+msgstr "作者 {0}"
+
+#: ~/Core/Shapes/Views/User.cshtml
+#| msgid "Welcome, <strong>{0}</strong>!"
+msgctxt "~/Core/Shapes/Views/User.cshtml"
+msgid "Welcome, <strong>{0}</strong>!"
+msgstr "欢迎您，<strong>{0}</strong> ！"
+
+#: ~/Core/Contents/Module.txt
+#| msgid ".Name"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Contents"
+msgstr "内容"
+
+#: ~/Core/Contents/Module.txt
+#| msgid ".Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Default custom content type definition, creation and management."
+msgstr "默认的自定义内容类型定义、 创建和管理。"
+
+#: ~/Core/Contents/Module.txt
+#| msgid ".Category"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.Rules.Name"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Contents Rules"
+msgstr "内容规则"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.Rules.Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Rules for the Contents modules"
+msgstr "内容规则的模块"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.Rules.Category"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Rules"
+msgstr "规则"
+
+#: ~/Core/Title/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Title/Module.txt"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/Title/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Title/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Title/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Title/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Title/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Title/Module.txt"
+msgid "The title module enables content items to have titles."
+msgstr "标题模块允许内容条目具有标题。"
+
+#: ~/Core/Common/Views/CommonMetadataOwner.cshtml
+#| msgid "By {0}"
+msgctxt "~/Core/Common/Views/CommonMetadataOwner.cshtml"
+msgid "By {0}"
+msgstr "由 {0}"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Routable Title"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Routable Title"
+msgstr "可路由标题"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Routable Title"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Routable Title"
+msgstr "可路由标题"
+
+#: Orchard.Core.Contents.Controllers.ItemController
+#| msgid "Cannot preview content"
+msgctxt "Orchard.Core.Contents.Controllers.ItemController"
+msgid "Cannot preview content"
+msgstr "不能预览内容"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content Items"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content Items"
+msgstr "内容项目"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content Created"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content Created"
+msgstr "内容已创建"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content is actually created."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content is actually created."
+msgstr "内容已创建。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "When content with types ({0}) is created."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "When content with types ({0}) is created."
+msgstr "当创建了类型为（{0}）的内容时。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content Versioned"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content Versioned"
+msgstr "版本控制的内容"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content is actually versioned."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content is actually versioned."
+msgstr "内容已进行版本控制。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "When content with types ({0}) is versioned."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "When content with types ({0}) is versioned."
+msgstr "当进行版本控制类型为（{0}）的内容时。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content Published"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content Published"
+msgstr "内容已发布"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content is actually published."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content is actually published."
+msgstr "内容已实际发布"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "When content with types ({0}) is published."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "When content with types ({0}) is published."
+msgstr "当发布了类型为（{0}）的内容时。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content Removed"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content Removed"
+msgstr "内容已删除"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Content is actually removed."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Content is actually removed."
+msgstr "内容已实际删除。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "When content with types ({0}) is removed."
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "When content with types ({0}) is removed."
+msgstr "当删除了类型为（{0}）的内容时。"
+
+#: Orchard.Core.Contents.Rules.ContentEvents
+#| msgid "Any"
+msgctxt "Orchard.Core.Contents.Rules.ContentEvents"
+msgid "Any"
+msgstr "任意"
+
+#: Orchard.Core.Contents.Rules.ContentForms
+#| msgid "Content types"
+msgctxt "Orchard.Core.Contents.Rules.ContentForms"
+msgid "Content types"
+msgstr "内容类型"
+
+#: Orchard.Core.Contents.Rules.ContentForms
+#| msgid "Select some content types."
+msgctxt "Orchard.Core.Contents.Rules.ContentForms"
+msgid "Select some content types."
+msgstr "选择一些内容类型。"
+
+#: Orchard.Core.Contents.Rules.ContentForms
+#| msgid "Any"
+msgctxt "Orchard.Core.Contents.Rules.ContentForms"
+msgid "Any"
+msgstr "任意"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid "Preview"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "Preview"
+msgstr "预览"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Start by exploring the menu on the left and familiarize yourself with Orchard. As for the basics, we suggest <a href=""{0}"">changing the theme</a>, <a href=""{1}"">adding some pages</a>, <a href=""{2}"">setup up a blog</a>, and <a href=""{3}"">configuring basic settings</a>."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Start by exploring the menu on the left and familiarize yourself with Orchard. As for the basics, we suggest <a href=\"\"{0}\"\">changing the theme</a>, <a href=\"\"{1}\"\">adding some pages</a>, <a href=\"\"{2}\"\">setup up a blog</a>, and <a href=\"\"{3}\"\">configuring basic settings</a>."
+msgstr "通过探索左侧的菜单让你自己开始熟悉 Orchard。至于基础只是，我们建议<a href=\"\"{0}\"\">更改主题</a>，<a href=\"\"{1}\"\">添加一些页面</a>，<a href=\"\"{2}\"\">设置一个博客</a>，和<a href=\"\"{3}\"\">配置基本设置</a>。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Change the way your site works and looks with <a href=""{0}"">themes</a> and <a href=""{1}"">modules</a>. There’s plenty to choose from in the <a href=""http://orchardproject.net/gallery"">Orchard Gallery</a>. We’re always adding things, so be sure to check back often to see what’s new."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Change the way your site works and looks with <a href=\"\"{0}\"\">themes</a> and <a href=\"\"{1}\"\">modules</a>. There’s plenty to choose from in the <a href=\"\"http://orchardproject.net/gallery\"\">Orchard Gallery</a>. We’re always adding things, so be sure to check back often to see what’s new."
+msgstr "改变您网站工作的方式，看起来有 <a href=\"{0}\"> 主题</a> 和 <a href=\"{1}\"> 模块</a> 。在 <a href=\"http://orchardproject.net/gallery\"> 果园画廊</a>有很多可供选择。我们一直在增加一些东西，所以一定要常回来看看有什么新东西。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=""http://orchardproject.net/docs/"">Orchard Documentation Wiki</a> to learn about how everything connects together and what makes Orchard tick."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=\"\"http://orchardproject.net/docs/\"\">Orchard Documentation Wiki</a> to learn about how everything connects together and what makes Orchard tick."
+msgstr "您准备好更深入的学习并成为 Orchard 专家？那么应该去看看<a href=\"http://docs.orchardproject.net\">Orchard 文档</a> 以学习所有的东西是怎么在一起协同工作让 Orchard 运行的。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Find friends that share your interest of Orchard. There are a couple ways that you can <a href=""http://orchardproject.net/discussions"">discuss and get connected</a> to the project including mailing lists, forums and IRC."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Find friends that share your interest of Orchard. There are a couple ways that you can <a href=\"\"http://orchardproject.net/discussions\"\">discuss and get connected</a> to the project including mailing lists, forums and IRC."
+msgstr "找朋友分享你对果园的兴趣。有几种方法，你可以 <a href=\"http://orchardproject.net/discussions\"> 讨论，并得到连接</a> 到项目，包括邮件列表、 论坛和即时聊天。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Help grow Orchard. We encourage contributions of all sorts, including code submissions, documentation, translations, feature recommendations, and more.Here are some ways to  <a href=""http://orchardproject.net/contribution"">give back to the project</a>."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Help grow Orchard. We encourage contributions of all sorts, including code submissions, documentation, translations, feature recommendations, and more.Here are some ways to  <a href=\"\"http://orchardproject.net/contribution\"\">give back to the project</a>."
+msgstr "帮助 Orchard 成长。我们欢迎所有种类的贡献，包括提交代码、 文档、 翻译、 功能建议等等。这里有一些方法教您<a href=\"\"http://orchardproject.net/contribution\"\">回馈本项目</a>。"
+
+#: Orchard.Core.Routable.Controllers.ItemController
+#| msgid "Should not have passed path constraint"
+msgctxt "Orchard.Core.Routable.Controllers.ItemController"
+msgid "Should not have passed path constraint"
+msgstr "不被通过的路径约束"
+
+#: ~/Core/Shapes/Views/User.cshtml
+#| msgid "Dashboard"
+msgctxt "~/Core/Shapes/Views/User.cshtml"
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: ~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml
+#| msgid "Title"
+msgctxt "~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: 
+#| msgid "Name"
+msgid "Common"
+msgstr "常规"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Common Description"
+msgctxt "~/Core/Common/Module.txt"
+msgid "Core content parts."
+msgstr "核心内容元件。"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Common Category"
+msgctxt "~/Core/Common/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Default custom content type definition, creation and management."
+msgstr "默认的自定义内容类型定义、 创建和管理。"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents Category"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Dashboard Description"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Standard admin dashboard."
+msgstr "标准后台管理控制面板。"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Dashboard Category"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Feeds Description"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "RSS feeds for content items."
+msgstr "内容项的RSS 源。"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Feeds Category"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "Syndication"
+msgstr "联合组织"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "HomePage Description"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "Standard site home page that allows a specified content type or container to *be* the home page."
+msgstr "标准网站的主页允许制定一个内容类型或容器成为主页。"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "HomePage Category"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Navigation Description"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Menu management."
+msgstr "菜单管理。"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Navigation Category"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Reports Description"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Reports management."
+msgstr "报表管理。"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Reports Category"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Routable Description"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "Routable content part."
+msgstr "可路由内容元件。"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Routable Category"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Scheduling Description"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Scheduled background tasks."
+msgstr "计划的后台任务。"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Scheduling Category"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Settings Description"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Site settings."
+msgstr "网站设置"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Settings Category"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Shapes Description"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Core shape templates and display hooks."
+msgstr "核心形状模板和显示钩子。"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Shapes Category"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "XmlRpc Description"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "XML-RPC opt-in implementation."
+msgstr "XML-RPC 可选实现。"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "XmlRpc Category"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "Content Publishing"
+msgstr "内容发布"
+
+#: ~/Core/Common/Views/EditorTemplates/Parts/Common.Body.cshtml
+#| msgid "Body"
+msgctxt "~/Core/Common/Views/EditorTemplates/Parts/Common.Body.cshtml"
+msgid "Body"
+msgstr "内容"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the ג€Manage Themesג€ menu entry. You can also create new pages and manage existing ones through the ג€Manage Pagesג€ menu entry or create blogs through ג€Manage Blogsג€."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the ג€Manage Themesג€ menu entry. You can also create new pages and manage existing ones through the ג€Manage Pagesג€ menu entry or create blogs through ג€Manage Blogsג€."
+msgstr "这是可以管理您的 web 站点以及它的外观和内容的地方。请花点时间探索在屏幕左侧的不同菜单项，让自己熟悉应用程序的功能。例如，试着通过 ג € 主题ג€ 菜单项改变主题。此外可以通过 ג € Pagesג€ 菜单条目创建新的页面和管理现有的页面或通过 ג € 管理博客ג€创建博客。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts/Navigation.Menu.Edit.cshtml
+#| msgid "Show on main menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts/Navigation.Menu.Edit.cshtml"
+msgid "Show on main menu"
+msgstr "在主菜单中显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts/Navigation.Menu.Edit.cshtml
+#| msgid "Menu text"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts/Navigation.Menu.Edit.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "Slugs in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "Slugs in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgstr "Slug冲突。\"{0}\"在已创建的{2}中设置，所以现在存在Slug\"{1}\""
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Global Settings"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Site name"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Site name"
+msgstr "网站名称"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Default Site Culture"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Default Site Culture"
+msgstr "默认网站区域性"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Add or remove supported cultures for the site."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Add or remove supported cultures for the site."
+msgstr "添加或移除本网站支持的区域性。"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Page title separator"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Page title separator"
+msgstr "页面标题分隔符"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Super user"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Super user"
+msgstr "超级用户"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Resource Debug Mode"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Resource Debug Mode"
+msgstr "资源调试模式"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml
+#| msgid "Determines whether scripts and stylesheets load in their debuggable or minified form."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts/Settings.SiteSettingsPart.cshtml"
+msgid "Determines whether scripts and stylesheets load in their debuggable or minified form."
+msgstr "确定是否加载debug版或min版的脚本和样式表。"
+
+#: Orchard.Core.Containers.Drivers.ContainerPartDriver
+#| msgid "(Any)"
+msgctxt "Orchard.Core.Containers.Drivers.ContainerPartDriver"
+msgid "(Any)"
+msgstr "（任意）"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Contains"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Contains"
+msgstr "容器"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Only types with the Containable part can be contained in a list."
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Only types with the Containable part can be contained in a list."
+msgstr "只有含有容器部分的类型能被包含在一个目录中。"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Date Created"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Date Created"
+msgstr "创建日期"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Date Created"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Date Created"
+msgstr "创建日期"
+
+#: ~/Core/Contents/Views/Content.SummaryAdmin.cshtml
+#| msgid "Delete"
+msgctxt "~/Core/Contents/Views/Content.SummaryAdmin.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Contents/Views/Admin/Create.cshtml
+#| msgid "New {0}"
+msgctxt "~/Core/Contents/Views/Admin/Create.cshtml"
+msgid "New {0}"
+msgstr "新{0}"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Delete"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "changing the theme"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "changing the theme"
+msgstr "正在改变主题"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "adding some pages"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "adding some pages"
+msgstr "正在添加页面"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "setup up a blog"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "setup up a blog"
+msgstr "建立博客"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "configuring basic settings"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "configuring basic settings"
+msgstr "正在配置基本设置"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "themes"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "themes"
+msgstr "主题"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "modules"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "modules"
+msgstr "模块"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Stay up to date."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Stay up to date."
+msgstr "版本更新"
+
+#: Orchard.Core.Navigation.Commands.MenuCommands
+#| msgid "Menu item created successfully."
+msgctxt "Orchard.Core.Navigation.Commands.MenuCommands"
+msgid "Menu item created successfully."
+msgstr "菜单项创建成功。"
+
+#: Orchard.Core.Navigation.Drivers.AdminMenuPartDriver
+#| msgid "The AdminMenuText field is required"
+msgctxt "Orchard.Core.Navigation.Drivers.AdminMenuPartDriver"
+msgid "The AdminMenuText field is required"
+msgstr "需要AdminMenuText字段"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Navigation"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Navigation"
+msgstr "导航"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Navigation/Views/DefinitionTemplates/AdminMenuPartTypeSettings.cshtml
+#| msgid "Default Position"
+msgctxt "~/Core/Navigation/Views/DefinitionTemplates/AdminMenuPartTypeSettings.cshtml"
+msgid "Default Position"
+msgstr "默认位置"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml
+#| msgid "Show on admin menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml"
+msgid "Show on admin menu"
+msgstr "在管理菜单中显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml
+#| msgid "Menu text"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml
+#| msgid "Position"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.AdminMenu.Edit.cshtml"
+msgid "Position"
+msgstr "位置"
+
+#: Orchard.Core.Reports.AdminMenu
+#| msgid "View"
+msgctxt "Orchard.Core.Reports.AdminMenu"
+msgid "View"
+msgstr "视图"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "Reports"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Reports"
+msgstr "报告"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "The \".\" can't be used at either end of the permalink."
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "The \".\" can't be used at either end of the permalink."
+msgstr "\".\"无法在静态链接的任意端使用。"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "Please do not use any of the following characters in your permalink: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\", \"\\\". No spaces are allowed (please use dashes or underscores instead)."
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "Please do not use any of the following characters in your permalink: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\", \"\\\". No spaces are allowed (please use dashes or underscores instead)."
+msgstr "请不要在您的静态连结中使用以下任何字符： \":\"，\"?\"，\"#\"，\"[\"，\"]\"，\"@\"，\"!\"，\"$\"，\"&\"，\"'\"，\"(\"，\")\"，\"*\"，\"+\"，\",\"，\";\"，\"=\"，\"，\"<\"，\">\"，\"\"。不允许有空格（请使用破折号或下划线代替）。"
+
+#: Orchard.Core.Routable.Handlers.RoutePartHandler
+#| msgid "Permalinks in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgctxt "Orchard.Core.Routable.Handlers.RoutePartHandler"
+msgid "Permalinks in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgstr "静态链接冲突。\"{0}\"在已创建的{2}中设置，所以现在存在slug\"{1}\""
+
+#: Orchard.Core.Settings.AdminMenu
+#| msgid "General"
+msgctxt "Orchard.Core.Settings.AdminMenu"
+msgid "General"
+msgstr "综合设置"
+
+#: Orchard.Core.Settings.Drivers.SiteSettingsPartDriver
+#| msgid "The base url must be absolute."
+msgctxt "Orchard.Core.Settings.Drivers.SiteSettingsPartDriver"
+msgid "The base url must be absolute."
+msgstr "Base url必须是绝对路径。"
+
+#: Orchard.Core.Settings.Drivers.SiteSettingsPartDriver
+#| msgid "The base url you entered could not be requested from current location."
+msgctxt "Orchard.Core.Settings.Drivers.SiteSettingsPartDriver"
+msgid "The base url you entered could not be requested from current location."
+msgstr "无法从当前位置被请求该Base url。"
+
+#: ~/Core/Settings/Views/Admin/Index.cshtml
+#| msgid "Settings"
+msgctxt "~/Core/Settings/Views/Admin/Index.cshtml"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "General"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "General"
+msgstr "综合设置"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Base url "
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Base url "
+msgstr "Base url"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Enter the fully qualified base url of your website."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Enter the fully qualified base url of your website."
+msgstr "输入你的网站的完全合格的Base url。"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "e.g., http://localhost:30320/orchardlocal, http://www.yourdomain.com"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "e.g., http://localhost:30320/orchardlocal, http://www.yourdomain.com"
+msgstr "如，http://localhost:30320/orchardlocal，http://www.yourdomain.com"
+
+#: Orchard.Core.Common.Drivers.TextFieldDriver
+#| msgid "The field {0} is mandatory"
+msgctxt "Orchard.Core.Common.Drivers.TextFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Core.Containers.Controllers.ItemController
+#| msgid "Cannot view content"
+msgctxt "Orchard.Core.Containers.Controllers.ItemController"
+msgid "Cannot view content"
+msgstr "不能查看内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't clone content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't clone content"
+msgstr "不能复制内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Could not clone the content item."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Could not clone the content item."
+msgstr "不能复制该内容项。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Successfully cloned. The clone was saved as a draft."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Successfully cloned. The clone was saved as a draft."
+msgstr "复制成功。复制的内容将保存为草稿。"
+
+#: ~/Core/Contents/Views/Content.SaveButton.cshtml
+#| msgid "Cancel"
+msgctxt "~/Core/Contents/Views/Content.SaveButton.cshtml"
+msgid "Cancel"
+msgstr "取消"
+
+#: ~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml
+#| msgid "Clone"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml"
+msgid "Clone"
+msgstr "复制"
+
+#: ~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Core/Contents/Views/Parts.Contents.Clone.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Start by exploring the menu on the left and familiarize yourself with Orchard. As for the basics, we suggest <a href=\"{0}\">changing the theme</a>, <a href=\"{1}\">adding some pages</a>, <a href=\"{2}\">setup up a blog</a>, and <a href=\"{3}\">configuring basic settings</a>."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Start by exploring the menu on the left and familiarize yourself with Orchard. As for the basics, we suggest <a href=\"{0}\">changing the theme</a>, <a href=\"{1}\">adding some pages</a>, <a href=\"{2}\">setup up a blog</a>, and <a href=\"{3}\">configuring basic settings</a>."
+msgstr "通过探索左侧的菜单让你自己开始熟悉 Orchard。对于初学者我们建议<a href=\"\"{0}\"\">更改主题</a>，<a href=\"\"{1}\"\">添加一些页面</a>，<a href=\"\"{2}\"\">设置一个博客</a>和<a href=\"\"{3}\"\">调整基本设置</a>。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Change the way your site works and looks with<a href=\"{0}\">themes</a> and<a href=\"{1}\">modules</a>. There’s plenty to choose from in the<a href=\"http://orchardproject.net/gallery\">Orchard Gallery</a>. We’re always adding things, so be sure to check back often to see what’s new."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Change the way your site works and looks with<a href=\"{0}\">themes</a> and<a href=\"{1}\">modules</a>. There’s plenty to choose from in the<a href=\"http://orchardproject.net/gallery\">Orchard Gallery</a>. We’re always adding things, so be sure to check back often to see what’s new."
+msgstr "改变您网站工作的方式，看起来有 <a href=\"{0}\"> 主题</a> 和 <a href=\"{1}\"> 模块</a> 的方式。在 <a href=\"http://orchardproject.net/gallery\"> 果园画廊</a>有很多可供选择。我们一直在增加一些东西，所以一定要常回来看看有什么新东西。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=\"http://docs.orchardproject.net\">Orchard Documentation</a> to learn about how everything connects together and what makes Orchard tick."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Are you ready to go deeper and become an Orchard expert? Take a look at the <a href=\"http://docs.orchardproject.net\">Orchard Documentation</a> to learn about how everything connects together and what makes Orchard tick."
+msgstr "您准备好更深入的学习并成为 Orchard 专家？那么应该去看看<a href=\"http://docs.orchardproject.net\">Orchard 文档</a> 以学习所有的东西是怎么在一起协同工作让 Orchard 运行的。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Find friends that share your interest of Orchard. There are a couple ways that you can <a href=\"http://orchardproject.net/discussions\">discuss and get connected</a> to the project including mailing lists, forums and IRC."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Find friends that share your interest of Orchard. There are a couple ways that you can <a href=\"http://orchardproject.net/discussions\">discuss and get connected</a> to the project including mailing lists, forums and IRC."
+msgstr "找朋友分享你对果园的兴趣。有几种方法，你可以 <a href=\"http://orchardproject.net/discussions\"> 讨论，并得到连接</a> 到项目，包括邮件列表、 论坛和即时聊天。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Help grow Orchard. We encourage contributions of all sorts, including code submissions, documentation, translations, feature recommendations, and more.Here are some ways to  <a href=\"http://orchardproject.net/contribution\">give back to the project</a>."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Help grow Orchard. We encourage contributions of all sorts, including code submissions, documentation, translations, feature recommendations, and more.Here are some ways to  <a href=\"http://orchardproject.net/contribution\">give back to the project</a>."
+msgstr "帮助 Orchard 成长。我们欢迎所有种类的贡献，包括提交代码、 文档、 翻译、 功能建议等等。这里有一些方法教您<a href=\"\"http://orchardproject.net/contribution\"\">回馈本项目</a>。"
+
+#: Orchard.Core.Navigation.Drivers.ShapeMenuItemPartDriver
+#| msgid "The Shape Type is mandatory."
+msgctxt "Orchard.Core.Navigation.Drivers.ShapeMenuItemPartDriver"
+msgid "The Shape Type is mandatory."
+msgstr "形状类型是必须的。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ShapeMenuItemPart.Edit.cshtml
+#| msgid "Type of the shape to display"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ShapeMenuItemPart.Edit.cshtml"
+msgid "Type of the shape to display"
+msgstr "要显示的形状的类型"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Use web.config setting"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Use web.config setting"
+msgstr "使用 web.config 设置"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Enabled"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Enabled"
+msgstr "已启用"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Disabled"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Disabled"
+msgstr "已禁用"
+
+#: ~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml
+#| msgid "You must provide a title for this content item"
+msgctxt "~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml"
+msgid "You must provide a title for this content item"
+msgstr "你必须为此内容项目提供一个标题"
+
+#: Orchard.Core.Contents.Controllers.ItemController
+#| msgid "Cannot view content"
+msgctxt "Orchard.Core.Contents.Controllers.ItemController"
+msgid "Cannot view content"
+msgstr "不能查看内容"
+
+#: Orchard.Core.Navigation.Commands.MenuCommands
+#| msgid "Menu not found."
+msgctxt "Orchard.Core.Navigation.Commands.MenuCommands"
+msgid "Menu not found."
+msgstr "找不到菜单。"
+
+#: Orchard.Core.Navigation.Commands.MenuCommands
+#| msgid "Menu name can't be empty."
+msgctxt "Orchard.Core.Navigation.Commands.MenuCommands"
+msgid "Menu name can't be empty."
+msgstr "菜单名称不能为空。"
+
+#: Orchard.Core.Navigation.Commands.MenuCommands
+#| msgid "Menu created successfully."
+msgctxt "Orchard.Core.Navigation.Commands.MenuCommands"
+msgid "Menu created successfully."
+msgstr "已成功创建菜单。"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid "Menu not found: {0}"
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Menu not found: {0}"
+msgstr "找不到菜单： {0}"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid "Creating menu item failed: {0}"
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Creating menu item failed: {0}"
+msgstr "创建菜单项失败: {0}"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid "Your {0} has been added."
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Your {0} has been added."
+msgstr "您的 {0} 已添加。"
+
+#: Orchard.Core.Navigation.Drivers.ContentMenuItemPartDriver
+#| msgid "You must select a Content Item"
+msgctxt "Orchard.Core.Navigation.Drivers.ContentMenuItemPartDriver"
+msgid "You must select a Content Item"
+msgstr "您必须选择一个内容项"
+
+#: Orchard.Core.Navigation.Drivers.MenuWidgetPartDriver
+#| msgid "Home"
+msgctxt "Orchard.Core.Navigation.Drivers.MenuWidgetPartDriver"
+msgid "Home"
+msgstr "首页"
+
+#: Orchard.Core.Navigation.Drivers.NavigationPartDriver
+#| msgid "The MenuText field is required"
+msgctxt "Orchard.Core.Navigation.Drivers.NavigationPartDriver"
+msgid "The MenuText field is required"
+msgstr "MenuText 字段是必需的"
+
+#: ~/Core/Navigation/Views/Menu.DeleteButton.cshtml
+#| msgid "Delete"
+msgctxt "~/Core/Navigation/Views/Menu.DeleteButton.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Navigation/Views/Admin/CreateMenuItem.cshtml
+#| msgid "Create Menu Item"
+msgctxt "~/Core/Navigation/Views/Admin/CreateMenuItem.cshtml"
+msgid "Create Menu Item"
+msgstr "创建菜单项"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "You need to hit \"Save All\" in order to save your changes."
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "You need to hit \"Save All\" in order to save your changes."
+msgstr "需要点击\"全部保存\"以保存您的更改。"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Current Menu:"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Current Menu:"
+msgstr "当前菜单："
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Show"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Show"
+msgstr "显示"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Add a new menu..."
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Add a new menu..."
+msgstr "添加一个新的菜单..."
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "The menu is empty"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "The menu is empty"
+msgstr "菜单是空的"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Save All"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Save All"
+msgstr "全部保存"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid " | "
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Empty"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Empty"
+msgstr "空"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Content Item"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Content Item"
+msgstr "内容项目"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Browse"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Browse"
+msgstr "浏览"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml
+#| msgid "Select the Content Item to display in the menu."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.ContentMenuItem.Edit.cshtml"
+msgid "Select the Content Item to display in the menu."
+msgstr "选择要显示在菜单中的内容项。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml
+#| msgid "Url"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml
+#| msgid "A valid url, i.e. ~/my-page, http://orchardproject.net, /content/file.pdf, ..."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuItem.Edit.cshtml"
+msgid "A valid url, i.e. ~/my-page, http://orchardproject.net, /content/file.pdf, ..."
+msgstr "一个有效的 url，比如 ~/my-home，http://orchardproject.net，/content/file.pdf，......"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "For Menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "For Menu"
+msgstr "为菜单"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Select which menu you want to display"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Select which menu you want to display"
+msgstr "选择您想要显示的菜单"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Start Level"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Start Level"
+msgstr "起始层级"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "The level the menu should start at."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "The level the menu should start at."
+msgstr "菜单起始的层级"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Levels to display"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Levels to display"
+msgstr "显示层级"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "The number of levels to display, \"0\" meaning all levels."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "The number of levels to display, \"0\" meaning all levels."
+msgstr "要现实的层级，“0”表示显示所有层级。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Display as Breadcrumb"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Display as Breadcrumb"
+msgstr "显示为面包屑导航"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Check to render the path to the current content item."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Check to render the path to the current content item."
+msgstr "选择要呈现当前内容项目的路径。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Add the home page as the first element"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Add the home page as the first element"
+msgstr "添加主页作为第一个元素"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Check to render the home page as the first element of the breadcrumb."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Check to render the home page as the first element of the breadcrumb."
+msgstr "选中将在主页上呈现为面包屑导航上的第一个元素。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Add the current content item as the last element"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Add the current content item as the last element"
+msgstr "添加当前内容项作为最后一个元素"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml
+#| msgid "Check to render the current content item as the last element."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.MenuWidget.Edit.cshtml"
+msgid "Check to render the current content item as the last element."
+msgstr "选中将显示当前内容项作为最后一个元素。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Menu Items"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Menu Items"
+msgstr "菜单项"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "The menu items linking to this content item."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "The menu items linking to this content item."
+msgstr "菜单项链接到此内容项。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "on"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "on"
+msgstr "在"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Not displayed in any menu."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Not displayed in any menu."
+msgstr "不会显示任何菜单中。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Add on a menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Add on a menu"
+msgstr "在菜单上添加"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Select which menu you want the content item to be added on."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Select which menu you want the content item to be added on."
+msgstr "选择要添加内容项的菜单。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "Menu text"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml
+#| msgid "The text that should appear in the menu."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Edit.cshtml"
+msgid "The text that should appear in the menu."
+msgstr "应在菜单中显示的文本。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid "Show on a menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "Show on a menu"
+msgstr "在菜单上显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid "Select which menu you want the content item to be displayed on."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "Select which menu you want the content item to be displayed on."
+msgstr "选择内容项要显示的菜单。"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid "The text that should appear in the menu."
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "The text that should appear in the menu."
+msgstr "应在菜单中显示的文本。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Site Settings"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Site Settings"
+msgstr "网站设置"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Tokens for Site Settings"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Tokens for Site Settings"
+msgstr "网站设置的标记"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Site Name"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Site Name"
+msgstr "站点名称"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The name of the site."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The name of the site."
+msgstr "站点的名称。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Super User"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Super User"
+msgstr "超级用户"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The name of the super user."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The name of the super user."
+msgstr "超级用户的名称。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Site Culture"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Site Culture"
+msgstr "网站区域性"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The current culture of the site."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The current culture of the site."
+msgstr "站点的当前区域性。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Base Url"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Base Url"
+msgstr "基 URL"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The base url the site."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The base url the site."
+msgstr "网站的基 URL。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "Time Zone"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "Time Zone"
+msgstr "时区"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The current time zone of the site."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The current time zone of the site."
+msgstr "当前站点的时区。"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "{0}"
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "{0}"
+msgstr "{0}"
+
+#: Orchard.Core.Settings.Tokens.SettingsTokens
+#| msgid "The setting named {0}."
+msgctxt "Orchard.Core.Settings.Tokens.SettingsTokens"
+msgid "The setting named {0}."
+msgstr "设置命名为 {0}。"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in a moment"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in a moment"
+msgstr "不久前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in 1 day"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in 1 day"
+msgstr "一天以内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in {0} days"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in {0} days"
+msgstr "{0} 天以内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in 1 hour"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in 1 hour"
+msgstr "一小时内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in {0} hours"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in {0} hours"
+msgstr "{0} 小时内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in 1 minute"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in 1 minute"
+msgstr "一分钟内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in {0} minutes"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in {0} minutes"
+msgstr "{0} 分钟内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in 1 second"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in 1 second"
+msgstr "一秒内"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "in {0} seconds"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "in {0} seconds"
+msgstr "{0} 秒内"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Common/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Common/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Common/Module.txt"
+msgid "The common module introduces content parts that are going to be used by most content types (common, body and routable)."
+msgstr "通用模块引入多数类型内容中使用的部分（通用，内容与可路由性）"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Common.Description"
+msgctxt "~/Core/Common/Module.txt"
+msgid "Core content parts."
+msgstr "核心内容元件。"
+
+#: ~/Core/Common/Module.txt
+#| msgid "Common.Category"
+msgctxt "~/Core/Common/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "Containers"
+msgstr "容器"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "The containers module introduces container and containable behaviors for content items."
+msgstr "容器组件为内容项目引用容器和可包含的行为。"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Containers.Description"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "Container and containable parts to enable parent-child relationships between content items."
+msgstr "容器与可包含元件用于实现内容条目的父子关系。"
+
+#: ~/Core/Containers/Module.txt
+#| msgid "Containers.Category"
+msgctxt "~/Core/Containers/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Contents"
+msgstr "内容"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "The contents module enables the creation of custom content types."
+msgstr "内容模块允许创建自定义内容类型"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Default custom content type definition, creation and management."
+msgstr "默认的自定义内容类型定义、 创建和管理。"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.Category"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "The dashboard module is providing the dashboard screen of the admininstration UI of the application."
+msgstr "控制面板模块提供应用程序的管理UI界面。"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Dashboard.Description"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Standard admin dashboard."
+msgstr "标准后台管理控制面板。"
+
+#: ~/Core/Dashboard/Module.txt
+#| msgid "Dashboard.Category"
+msgctxt "~/Core/Dashboard/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "Feeds"
+msgstr "源"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "The Feeds module is providing RSS feeds to content items."
+msgstr "Feeds模块为内容项目提供RSS源。"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Feeds.Description"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "RSS feeds for content items."
+msgstr "内容项的RSS 源。"
+
+#: ~/Core/Feeds/Module.txt
+#| msgid "Feeds.Category"
+msgctxt "~/Core/Feeds/Module.txt"
+msgid "Syndication"
+msgstr "联合组织"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "HomePage"
+msgstr "主页"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "The HomePage module enables the promotion of a content item or container to be the home page of the site."
+msgstr "主页模块允许将内容项目或容器设置为主页。"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "HomePage.Description"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "Standard site home page that allows a specified content type or container to *be* the home page."
+msgstr "标准网站的主页允许制定一个内容类型或容器成为主页。"
+
+#: ~/Core/HomePage/Module.txt
+#| msgid "HomePage.Category"
+msgctxt "~/Core/HomePage/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Navigation"
+msgstr "导航"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "The navigation module creates and manages a simple navigation menu for the front-end of the application."
+msgstr "导航模块创建并管理程序前端的简易导航菜单"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Navigation.Description"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Menu management."
+msgstr "菜单管理。"
+
+#: ~/Core/Navigation/Module.txt
+#| msgid "Navigation.Category"
+msgctxt "~/Core/Navigation/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Reports"
+msgstr "报告"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "The dashboard module is providing the reports screen of the application."
+msgstr "控制面板模块提供应用程序的报告界面。"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Reports.Description"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Reports management."
+msgstr "报表管理。"
+
+#: ~/Core/Reports/Module.txt
+#| msgid "Reports.Category"
+msgctxt "~/Core/Reports/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "Routable"
+msgstr "可路由"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "The routable module enables content items to be accessed through a friendly human-readable URL."
+msgstr "可路由模块允许内容项目通过一个有好的人类可读的URL访问。"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Routable.Description"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "Routable content part."
+msgstr "可路由内容元件。"
+
+#: ~/Core/Routable/Module.txt
+#| msgid "Routable.Category"
+msgctxt "~/Core/Routable/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Scheduling"
+msgstr "调度"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "The scheduling module enables background task scheduling."
+msgstr "调度模块允许后台任务调度。"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Scheduling.Description"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Scheduled background tasks."
+msgstr "计划的后台任务。"
+
+#: ~/Core/Scheduling/Module.txt
+#| msgid "Scheduling.Category"
+msgctxt "~/Core/Scheduling/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "The settings module creates site settings that other modules can contribute to."
+msgstr "设置模块创建其他模块可关联的网站设置。"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Settings.Description"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Site settings."
+msgstr "网站设置"
+
+#: ~/Core/Settings/Module.txt
+#| msgid "Settings.Category"
+msgctxt "~/Core/Settings/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Shapes"
+msgstr "形状"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "The shapes module contains core shape templates and display hooks."
+msgstr "形状模块包含核心形状模板和界面亮点。"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Shapes.Description"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Core shape templates and display hooks."
+msgstr "核心形状模板和显示钩子。"
+
+#: ~/Core/Shapes/Module.txt
+#| msgid "Shapes.Category"
+msgctxt "~/Core/Shapes/Module.txt"
+msgid "Core"
+msgstr "核心"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "Name"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "XmlRpc"
+msgstr "XmlRpc"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "Author"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "Website"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "Description"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "The XmlRpc module enables creation of contents from client applications such as LiveWriter."
+msgstr "XmlRpc模块允许从客户端程序（如LiveWriter）中创建内容。"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "XmlRpc.Description"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "XML-RPC opt-in implementation."
+msgstr "XML-RPC 可选实现。"
+
+#: ~/Core/XmlRpc/Module.txt
+#| msgid "XmlRpc.Category"
+msgctxt "~/Core/XmlRpc/Module.txt"
+msgid "Content Publishing"
+msgstr "内容发布"
+
+#: Orchard.Core.Common.Shapes
+#| msgid "Draft"
+msgctxt "Orchard.Core.Common.Shapes"
+msgid "Draft"
+msgstr "草稿"
+
+#: Orchard.Core.Common.Shapes
+#| msgid "as a Draft"
+msgctxt "Orchard.Core.Common.Shapes"
+msgid "as a Draft"
+msgstr "作为草稿"
+
+#: Orchard.Core.Common.Drivers.CommonPartDriver
+#| msgid "Invalid user name"
+msgctxt "Orchard.Core.Common.Drivers.CommonPartDriver"
+msgid "Invalid user name"
+msgstr "无效用户名"
+
+#: Orchard.Core.Common.Drivers.CommonPartDriver
+#| msgid "Invalid container"
+msgctxt "Orchard.Core.Common.Drivers.CommonPartDriver"
+msgid "Invalid container"
+msgstr "无效容器"
+
+#: ~/Core/Common/Views/Parts.Common.Body.Summary.cshtml
+#| msgid "more"
+msgctxt "~/Core/Common/Views/Parts.Common.Body.Summary.cshtml"
+msgid "more"
+msgstr "更多"
+
+#: ~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml
+#| msgid "Last modified: {0}"
+msgctxt "~/Core/Common/Views/Parts.Common.Metadata.SummaryAdmin.cshtml"
+msgid "Last modified: {0}"
+msgstr "最后修改："
+
+#: ~/Core/Common/Views/DefinitionTemplates/BodyPartSettings.cshtml
+#| msgid "Default flavor"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/BodyPartSettings.cshtml"
+msgid "Default flavor"
+msgstr "默认风格"
+
+#: ~/Core/Common/Views/DefinitionTemplates/BodyTypePartSettings.cshtml
+#| msgid "Flavor"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/BodyTypePartSettings.cshtml"
+msgid "Flavor"
+msgstr "风格"
+
+#: ~/Core/Common/Views/EditorTemplates/Parts.Common.Body.cshtml
+#| msgid "Body"
+msgctxt "~/Core/Common/Views/EditorTemplates/Parts.Common.Body.cshtml"
+msgid "Body"
+msgstr "正文"
+
+#: ~/Core/Common/Views/EditorTemplates/Parts.Common.Owner.cshtml
+#| msgid "Owner"
+msgctxt "~/Core/Common/Views/EditorTemplates/Parts.Common.Owner.cshtml"
+msgid "Owner"
+msgstr "拥有者"
+
+#: Orchard.Core.Containers.Drivers.ContainablePartDriver
+#| msgid "(None)"
+msgctxt "Orchard.Core.Containers.Drivers.ContainablePartDriver"
+msgid "(None)"
+msgstr "（无）"
+
+#: Orchard.Core.Containers.Drivers.ContainerPartDriver
+#| msgid "There are no content types in the system with a Containable part attached. Consider adding a Containable part to some content type, existing or new, in order to relate items to this (Container enabled) item."
+msgctxt "Orchard.Core.Containers.Drivers.ContainerPartDriver"
+msgid "There are no content types in the system with a Containable part attached. Consider adding a Containable part to some content type, existing or new, in order to relate items to this (Container enabled) item."
+msgstr "系统中没有可包含的附加部分的内容类型。可考虑在一些现有的或新的内容类型增加可包含的部分，使其他项目与（容器启用的）项目相关联。"
+
+#: Orchard.Core.Containers.Drivers.ContainerWidgetPartDriver
+#| msgid "(None - create container enabled items first)"
+msgctxt "Orchard.Core.Containers.Drivers.ContainerWidgetPartDriver"
+msgid "(None - create container enabled items first)"
+msgstr "（无 - 首先创建容器启用项目）"
+
+#: ~/Core/Containers/Views/Parts.Container.Contained.SummaryAdmin.cshtml
+#| msgid "Contained Items"
+msgctxt "~/Core/Containers/Views/Parts.Container.Contained.SummaryAdmin.cshtml"
+msgid "Contained Items"
+msgstr "包含的项"
+
+#: ~/Core/Containers/Views/Parts.Container.Contained.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Core/Containers/Views/Parts.Container.Contained.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml
+#| msgid "Default Page Size"
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml"
+msgid "Default Page Size"
+msgstr "默认页面大小"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml
+#| msgid "Show paging controls"
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerPartSettings.cshtml"
+msgid "Show paging controls"
+msgstr "显示页面控件"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettings.cshtml
+#| msgid "Default Page Size"
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettings.cshtml"
+msgid "Default Page Size"
+msgstr "默认页面大小"
+
+#: ~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettings.cshtml
+#| msgid "Show paging controls"
+msgctxt "~/Core/Containers/Views/DefinitionTemplates/ContainerTypePartSettings.cshtml"
+msgid "Show paging controls"
+msgstr "显示页面控件"
+
+#: ~/Core/Containers/Views/EditorTemplates/Containable.cshtml
+#| msgid "Add to"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Containable.cshtml"
+msgid "Add to"
+msgstr "添加到"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Order by"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Order by"
+msgstr "排序依据"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Date Published"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Date Published"
+msgstr "发布日期"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Title"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Slug"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Slug"
+msgstr "芯块"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Custom 1"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Custom 1"
+msgstr "自定义 1"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Custom 2"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Custom 2"
+msgstr "自定义 2"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Custom 3"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Custom 3"
+msgstr "自定义 3"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Ascending"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Ascending"
+msgstr "升序"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Descending"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Descending"
+msgstr "降序"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Page size"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Page size"
+msgstr "页面大小"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Show paging controls"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Show paging controls"
+msgstr "显示页面控件"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Show items from"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Show items from"
+msgstr "显示项目自"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Maximum number of items to display"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Maximum number of items to display"
+msgstr "显示的最大项目数量"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Order by"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Order by"
+msgstr "排序依据"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Date Published"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Date Published"
+msgstr "发表日期"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Title"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Slug"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Slug"
+msgstr "Slug"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Custom 1"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Custom 1"
+msgstr "自定义 1"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Custom 2"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Custom 2"
+msgstr "自定义 2"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Custom 3"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Custom 3"
+msgstr "自定义 3"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Order direction"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Order direction"
+msgstr "排序方向"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Ascending"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Ascending"
+msgstr "升序"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Descending"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Descending"
+msgstr "降序"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Filter items"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Filter items"
+msgstr "过滤项目"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Filter where"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Filter where"
+msgstr "过滤处"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Filter operator"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Filter operator"
+msgstr "过滤操作者"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "is equal to"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "is equal to"
+msgstr "等于"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "is less than"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "is less than"
+msgstr "小于"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "is greater than"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "is greater than"
+msgstr "大于"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "starts with"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "starts with"
+msgstr "开始自"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Filter value"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Filter value"
+msgstr "过滤值"
+
+#: ~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml
+#| msgid "Custom One"
+msgctxt "~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml"
+msgid "Custom One"
+msgstr "自定义一"
+
+#: ~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml
+#| msgid "Custom Two"
+msgctxt "~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml"
+msgid "Custom Two"
+msgstr "自定义二"
+
+#: ~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml
+#| msgid "Custom Three"
+msgctxt "~/Core/Containers/Views/EditorTemplates/CustomProperties.cshtml"
+msgid "Custom Three"
+msgstr "自定义三"
+
+#: Orchard.Core.Contents.AdminMenu
+#| msgid "Content"
+msgctxt "Orchard.Core.Contents.AdminMenu"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Core.Contents.AdminMenu
+#| msgid "Content Items"
+msgctxt "Orchard.Core.Contents.AdminMenu"
+msgid "Content Items"
+msgstr "内容项目"
+
+#: Orchard.Core.Contents.AdminMenu
+#| msgid "New"
+msgctxt "Orchard.Core.Contents.AdminMenu"
+msgid "New"
+msgstr "新建"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't publish selected content."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't publish selected content."
+msgstr "无法发布已选内容。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Content successfully published."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Content successfully published."
+msgstr "内容成功发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't unpublish selected content."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't unpublish selected content."
+msgstr "无法取消已选内容发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Content successfully unpublished."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Content successfully unpublished."
+msgstr "内容成功取消发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't remove selected content."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't remove selected content."
+msgstr "无法移除已选内容。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Content successfully removed."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Content successfully removed."
+msgstr "内容成功移除。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Cannot create content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Cannot create content"
+msgstr "无法创建内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't create content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't create content"
+msgstr "无法创建内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Your content has been created."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Your content has been created."
+msgstr "你的内容已创建。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Your {0} has been created."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Your {0} has been created."
+msgstr "你的{0}已创建。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Cannot edit content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Cannot edit content"
+msgstr "无法编辑内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't publish content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't publish content"
+msgstr "无法发布内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't edit content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't edit content"
+msgstr "无法编辑内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Your content has been saved."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Your content has been saved."
+msgstr "你的内容已保存。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Your {0} has been saved."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Your {0} has been saved."
+msgstr "你的{0}已保存。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't remove content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't remove content"
+msgstr "无法移除内容"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That content has been removed."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That content has been removed."
+msgstr "此内容已移除。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That {0} has been removed."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That {0} has been removed."
+msgstr "{0}已被移除。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That content has been published."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That content has been published."
+msgstr "此内容已发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That {0} has been published."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That {0} has been published."
+msgstr "{0}已发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "Couldn't unpublish content"
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "Couldn't unpublish content"
+msgstr "无法取消内容发布"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That content has been unpublished."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That content has been unpublished."
+msgstr "此内容已取消发布。"
+
+#: Orchard.Core.Contents.Controllers.AdminController
+#| msgid "That {0} has been unpublished."
+msgctxt "Orchard.Core.Contents.Controllers.AdminController"
+msgid "That {0} has been unpublished."
+msgstr "{0}已取消发布。"
+
+#: Orchard.Core.Contents.Controllers.ItemController
+#| msgid "Cannot edit content"
+msgctxt "Orchard.Core.Contents.Controllers.ItemController"
+msgid "Cannot edit content"
+msgstr "不能编辑内容"
+
+#: ~/Core/Contents/Views/Content.ControlWrapper.cshtml
+#| msgid "Edit"
+msgctxt "~/Core/Contents/Views/Content.ControlWrapper.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Core/Contents/Views/Content.PublishButton.cshtml
+#| msgid "Publish Now"
+msgctxt "~/Core/Contents/Views/Content.PublishButton.cshtml"
+msgid "Publish Now"
+msgstr "现在发布"
+
+#: ~/Core/Contents/Views/Content.SaveButton.cshtml
+#| msgid "Save"
+msgctxt "~/Core/Contents/Views/Content.SaveButton.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Core/Contents/Views/Content.SummaryAdmin.cshtml
+#| msgid "Edit"
+msgctxt "~/Core/Contents/Views/Content.SummaryAdmin.cshtml"
+msgid "Edit"
+msgstr "编辑"
+
+#: ~/Core/Contents/Views/Content.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Core/Contents/Views/Content.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Core/Contents/Views/Content.SummaryAdmin.cshtml
+#| msgid "Remove"
+msgctxt "~/Core/Contents/Views/Content.SummaryAdmin.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid "View"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "View"
+msgstr "视图"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid " | "
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid " | "
+msgstr "|"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid "Publish Draft"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "Publish Draft"
+msgstr "发布草稿"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid "Unpublish"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "Unpublish"
+msgstr "取消发布"
+
+#: ~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml
+#| msgid "Publish"
+msgctxt "~/Core/Contents/Views/Parts.Contents.Publish.SummaryAdmin.cshtml"
+msgid "Publish"
+msgstr "发布"
+
+#: ~/Core/Contents/Views/Admin/CreatableTypeList.cshtml
+#| msgid "Create New Content"
+msgctxt "~/Core/Contents/Views/Admin/CreatableTypeList.cshtml"
+msgid "Create New Content"
+msgstr "创建新内容"
+
+#: ~/Core/Contents/Views/Admin/Create.cshtml
+#| msgid "Create {0}"
+msgctxt "~/Core/Contents/Views/Admin/Create.cshtml"
+msgid "Create {0}"
+msgstr "创建 {0}"
+
+#: ~/Core/Contents/Views/Admin/Edit.cshtml
+#| msgid "Edit Content"
+msgctxt "~/Core/Contents/Views/Admin/Edit.cshtml"
+msgid "Edit Content"
+msgstr "编辑内容"
+
+#: ~/Core/Contents/Views/Admin/Edit.cshtml
+#| msgid "Edit {0}"
+msgctxt "~/Core/Contents/Views/Admin/Edit.cshtml"
+msgid "Edit {0}"
+msgstr "编辑{0}"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Manage Content"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Manage Content"
+msgstr "管理内容"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Create New Content"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Create New Content"
+msgstr "创建新内容"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Manage {0} Content"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Manage {0} Content"
+msgstr "管理内容{0}"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Create New {0}"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Create New {0}"
+msgstr "创建新{0}"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Actions:"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Actions:"
+msgstr "操作："
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Publish Now"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Publish Now"
+msgstr "现在发布"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Unpublish"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Unpublish"
+msgstr "取消发布"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Remove"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Apply"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Show"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Show"
+msgstr "显示"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "any (show all)"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "any (show all)"
+msgstr "任意（显示所有）"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "Ordered by"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "Ordered by"
+msgstr "排序依据"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "recently created"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "recently created"
+msgstr "最近创建的"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "recently modified"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "recently modified"
+msgstr "最近编辑过的"
+
+#: ~/Core/Contents/Views/Admin/List.cshtml
+#| msgid "recently published"
+msgctxt "~/Core/Contents/Views/Admin/List.cshtml"
+msgid "recently published"
+msgstr "最近发布的"
+
+#: Orchard.Core.Dashboard.AdminMenu
+#| msgid "Dashboard"
+msgctxt "Orchard.Core.Dashboard.AdminMenu"
+msgid "Dashboard"
+msgstr "控制面板"
+
+#: Orchard.Core.Dashboard.AdminMenu
+#| msgid "Orchard"
+msgctxt "Orchard.Core.Dashboard.AdminMenu"
+msgid "Orchard"
+msgstr "Orchard"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Welcome to Orchard"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Welcome to Orchard"
+msgstr "欢迎使用Orchard！"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the “Manage Themes” menu entry. You can also create new pages and manage existing ones through the “Manage Pages” menu entry or create blogs through “Manage Blogs”."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "This is the place where you can manage your web site, its appearance and its contents. Please take a moment to explore the different menu items on the left of the screen to familiarize yourself with the features of the application. For example, try to change the theme through the “Manage Themes” menu entry. You can also create new pages and manage existing ones through the “Manage Pages” menu entry or create blogs through “Manage Blogs”."
+msgstr "这是可以管理您的 web 站点以及它的外观和内容的地方。请花点时间探索在屏幕左侧的不同菜单项，让自己熟悉应用程序的功能。例如，试着通过 ג € 主题ג€ 菜单项改变主题。此外可以通过 ג € Pagesג€ 菜单条目创建新的页面和管理现有的页面或通过 ג € 管理博客ג€创建博客。"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Have fun!"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Have fun!"
+msgstr "玩得愉快！"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "The Orchard Team"
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "The Orchard Team"
+msgstr "Orchard 团队"
+
+#: ~/Core/Dashboard/Views/Admin/Index.cshtml
+#| msgid "Your browser does not support iframes. You can't see advisory messages."
+msgctxt "~/Core/Dashboard/Views/Admin/Index.cshtml"
+msgid "Your browser does not support iframes. You can't see advisory messages."
+msgstr "您的浏览器不支持iframes。您看不到建议信息。"
+
+#: Orchard.Core.Navigation.AdminMenu
+#| msgid "Navigation"
+msgctxt "Orchard.Core.Navigation.AdminMenu"
+msgid "Navigation"
+msgstr "导航"
+
+#: Orchard.Core.Navigation.AdminMenu
+#| msgid "Main Menu"
+msgctxt "Orchard.Core.Navigation.AdminMenu"
+msgid "Main Menu"
+msgstr "主菜单"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid "Not allowed to manage the main menu"
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Not allowed to manage the main menu"
+msgstr "主菜单管理不被允许"
+
+#: Orchard.Core.Navigation.Controllers.AdminController
+#| msgid "Couldn't manage the main menu"
+msgctxt "Orchard.Core.Navigation.Controllers.AdminController"
+msgid "Couldn't manage the main menu"
+msgstr "无法管理主菜单"
+
+#: Orchard.Core.Navigation.Drivers.MenuPartDriver
+#| msgid "The MenuText field is required"
+msgctxt "Orchard.Core.Navigation.Drivers.MenuPartDriver"
+msgid "The MenuText field is required"
+msgstr "需要MenuText字段"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Manage Main Menu"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Manage Main Menu"
+msgstr "管理主菜单"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Text"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Text"
+msgstr "文本"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Position"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Position"
+msgstr "位置"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Url"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Update All"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Update All"
+msgstr "更新全部"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Add New Item"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Add New Item"
+msgstr "添加新项目"
+
+#: ~/Core/Navigation/Views/Admin/Index.cshtml
+#| msgid "Add"
+msgctxt "~/Core/Navigation/Views/Admin/Index.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid "Show on main menu"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "Show on main menu"
+msgstr "在主菜单中显示"
+
+#: ~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml
+#| msgid "Menu text"
+msgctxt "~/Core/Navigation/Views/EditorTemplates/Parts.Navigation.Menu.Edit.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: Orchard.Core.Reports.AdminMenu
+#| msgid "Configuration"
+msgctxt "Orchard.Core.Reports.AdminMenu"
+msgid "Configuration"
+msgstr "配置"
+
+#: Orchard.Core.Reports.AdminMenu
+#| msgid "Reports"
+msgctxt "Orchard.Core.Reports.AdminMenu"
+msgid "Reports"
+msgstr "报告"
+
+#: Orchard.Core.Reports.Controllers.AdminController
+#| msgid "Not authorized to list reports"
+msgctxt "Orchard.Core.Reports.Controllers.AdminController"
+msgid "Not authorized to list reports"
+msgstr "未授权显示报告清单"
+
+#: Orchard.Core.Reports.Controllers.AdminController
+#| msgid "Not authorized to display report"
+msgctxt "Orchard.Core.Reports.Controllers.AdminController"
+msgid "Not authorized to display report"
+msgstr "未授权显示报告"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid "Display Report"
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "Display Report"
+msgstr "显示报告"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid "This is a table of the reports in your application"
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "This is a table of the reports in your application"
+msgstr "这是你的程序的一个报告表"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid "Type"
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "Type"
+msgstr "类型"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid "Message"
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "Message"
+msgstr "消息"
+
+#: ~/Core/Reports/Views/Admin/Display.cshtml
+#| msgid "Date"
+msgctxt "~/Core/Reports/Views/Admin/Display.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "Manage Reports"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Manage Reports"
+msgstr "管理报表"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "This is a table of the reports in your application"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "This is a table of the reports in your application"
+msgstr "这是你的程序的一个报告表"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "Title"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/Reports/Views/Admin/Index.cshtml
+#| msgid "Date"
+msgctxt "~/Core/Reports/Views/Admin/Index.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#: Orchard.Core.Routable.Controllers.ItemController
+#| msgid "404 - should not have passed path constraint"
+msgctxt "Orchard.Core.Routable.Controllers.ItemController"
+msgid "404 - should not have passed path constraint"
+msgstr "404 - 不应通过路径约束"
+
+#: Orchard.Core.Routable.Controllers.ItemController
+#| msgid "Ambiguous content"
+msgctxt "Orchard.Core.Routable.Controllers.ItemController"
+msgid "Ambiguous content"
+msgstr "模糊内容"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "The \".\" can't be used around routes."
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "The \".\" can't be used around routes."
+msgstr "\".\"不能在路由(routes)内使用。"
+
+#: Orchard.Core.Routable.Drivers.RoutePartDriver
+#| msgid "Please do not use any of the following characters in your slugs: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\". No spaces are allowed (please use dashes or underscores instead)."
+msgctxt "Orchard.Core.Routable.Drivers.RoutePartDriver"
+msgid "Please do not use any of the following characters in your slugs: \":\", \"?\", \"#\", \"[\", \"]\", \"@\", \"!\", \"$\", \"&\", \"'\", \"(\", \")\", \"*\", \"+\", \",\", \";\", \"=\", \", \"<\", \">\". No spaces are allowed (please use dashes or underscores instead)."
+msgstr "请不要在您的静态连结中使用以下任何字符： \":\"，\"?\"，\"#\"，\"[\"，\"]\"，\"@\"，\"!\"，\"$\"，\"&\"，\"'\"，\"(\"，\")\"，\"*\"，\"+\"，\",\"，\";\"，\"=\"，\"，\"<\"，\">\"，\"\"。不允许有空格（请使用破折号或下划线代替）。"
+
+#: Orchard.Core.Routable.Handlers.RoutePartHandler
+#| msgid "Slugs in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgctxt "Orchard.Core.Routable.Handlers.RoutePartHandler"
+msgid "Slugs in conflict. \"{0}\" is already set for a previously created {2} so now it has the slug \"{1}\""
+msgstr "Slug冲突。\"{0}\"在已创建的{2}中设置，所以现在存在Slug\"{1}\""
+
+#: Orchard.Core.Routable.Services.RoutableHomePageProvider
+#| msgid "Invalid home page setting value for {0}: {1}"
+msgctxt "Orchard.Core.Routable.Services.RoutableHomePageProvider"
+msgid "Invalid home page setting value for {0}: {1}"
+msgstr "主页设置值{0}: {1}无效。"
+
+#: ~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml
+#| msgid "Title"
+msgctxt "~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml
+#| msgid "Permalink"
+msgctxt "~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml"
+msgid "Permalink"
+msgstr "永久链接（Permalink）"
+
+#: ~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml
+#| msgid "Set as home page"
+msgctxt "~/Core/Routable/Views/EditorTemplates/Parts.Routable.RoutePart.cshtml"
+msgid "Set as home page"
+msgstr "设为主页"
+
+#: Orchard.Core.Settings.AdminMenu
+#| msgid "Configuration"
+msgctxt "Orchard.Core.Settings.AdminMenu"
+msgid "Configuration"
+msgstr "配置"
+
+#: Orchard.Core.Settings.AdminMenu
+#| msgid "Settings"
+msgctxt "Orchard.Core.Settings.AdminMenu"
+msgid "Settings"
+msgstr "设置"
+
+#: Orchard.Core.Settings.Controllers.AdminController
+#| msgid "Not authorized to manage settings"
+msgctxt "Orchard.Core.Settings.Controllers.AdminController"
+msgid "Not authorized to manage settings"
+msgstr "没有进行设置的权限"
+
+#: Orchard.Core.Settings.Controllers.AdminController
+#| msgid "Settings updated"
+msgctxt "Orchard.Core.Settings.Controllers.AdminController"
+msgid "Settings updated"
+msgstr "设置更新"
+
+#: Orchard.Core.Settings.Descriptor.ShellDescriptorManager
+#| msgid "Invalid serial number for shell descriptor"
+msgctxt "Orchard.Core.Settings.Descriptor.ShellDescriptorManager"
+msgid "Invalid serial number for shell descriptor"
+msgstr "外壳描述的序号无效"
+
+#: Orchard.Core.Settings.Drivers.SiteSettingsPartDriver
+#| msgid "The user {0} was not found"
+msgctxt "Orchard.Core.Settings.Drivers.SiteSettingsPartDriver"
+msgid "The user {0} was not found"
+msgstr "没有找到{0}用户"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Cultures"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Cultures"
+msgstr "语言"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Manage Settings"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Manage Settings"
+msgstr "管理设置"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid " &#62; "
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid " &#62; "
+msgstr "&#62; "
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Supported Cultures"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Supported Cultures"
+msgstr "支持的语言"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Available Cultures"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Available Cultures"
+msgstr "可用语言"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Add a culture..."
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Add a culture..."
+msgstr "添加一种语言"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Other"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Other"
+msgstr "其他"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Add"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Add"
+msgstr "添加"
+
+#: ~/Core/Settings/Views/Admin/Culture.cshtml
+#| msgid "Cultures this site supports"
+msgctxt "~/Core/Settings/Views/Admin/Culture.cshtml"
+msgid "Cultures this site supports"
+msgstr "本网站支持的语言"
+
+#: ~/Core/Settings/Views/Admin/Index.cshtml
+#| msgid "Manage Settings"
+msgctxt "~/Core/Settings/Views/Admin/Index.cshtml"
+msgid "Manage Settings"
+msgstr "管理设置"
+
+#: ~/Core/Settings/Views/Admin/Index.cshtml
+#| msgid "Save"
+msgctxt "~/Core/Settings/Views/Admin/Index.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Core/Settings/Views/DisplayTemplates/RemovableCulture.cshtml
+#| msgid "Delete"
+msgctxt "~/Core/Settings/Views/DisplayTemplates/RemovableCulture.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Global Settings"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Global Settings"
+msgstr "全局设置"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Site name"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Site name"
+msgstr "网站名称"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Default Site Culture"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Default Site Culture"
+msgstr "默认网站语言"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Add or remove supported cultures for the site."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Add or remove supported cultures for the site."
+msgstr "添加或移除本网站支持的语言。"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Page title separator"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Page title separator"
+msgstr "页面标题分隔符号"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Super user"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Super user"
+msgstr "超级用户"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Enter an existing account name, or nothing if you don't want a Super user account"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Enter an existing account name, or nothing if you don't want a Super user account"
+msgstr "输入一个存在的帐户名，如不需要超级用户帐户则留空"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Resource Debug Mode"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Resource Debug Mode"
+msgstr "资源调试模式"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Determines whether scripts and stylesheets load in their debuggable or minified form."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Determines whether scripts and stylesheets load in their debuggable or minified form."
+msgstr "确定是否加载debug版或min版的脚本和样式表。"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Default number of items per page"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Default number of items per page"
+msgstr "默认每页项目数"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Determines the default number of items that are shown per page."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Determines the default number of items that are shown per page."
+msgstr "确定默认每页显示的项目数。"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "'on' MMM d yyyy 'at' h:mm tt"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "'on' MMM d yyyy 'at' h:mm tt"
+msgstr "“在”月：日：年“的”时：分：秒"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "a moment ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "a moment ago"
+msgstr "1刻前"
+
+#: ~/Core/Shapes/Views/NotFound.cshtml
+#| msgid "Not found"
+msgctxt "~/Core/Shapes/Views/NotFound.cshtml"
+msgid "Not found"
+msgstr "未找到"
+
+#: ~/Core/Shapes/Views/NotFound.cshtml
+#| msgid "The page you are looking for does not exist."
+msgctxt "~/Core/Shapes/Views/NotFound.cshtml"
+msgid "The page you are looking for does not exist."
+msgstr "您要访问的页面不存在。"
+
+#: ~/Core/Shapes/Views/Pager.cshtml
+#| msgid "Older"
+msgctxt "~/Core/Shapes/Views/Pager.cshtml"
+msgid "Older"
+msgstr "较早"
+
+#: ~/Core/Shapes/Views/Pager.cshtml
+#| msgid "Newer"
+msgctxt "~/Core/Shapes/Views/Pager.cshtml"
+msgid "Newer"
+msgstr "较新"
+
+#: ~/Core/Shapes/Views/User.cshtml
+#| msgid "Sign Out"
+msgctxt "~/Core/Shapes/Views/User.cshtml"
+msgid "Sign Out"
+msgstr "登出"
+
+#: ~/Core/Shapes/Views/User.cshtml
+#| msgid "Sign In"
+msgctxt "~/Core/Shapes/Views/User.cshtml"
+msgid "Sign In"
+msgstr "登录"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "1 day ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "1 day ago"
+msgstr "1天前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "{0} days ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "{0} days ago"
+msgstr "{0}天前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "1 hour ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "1 hour ago"
+msgstr "1小时前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "{0} hours ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "{0} hours ago"
+msgstr "{0}小时前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "1 minute ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "1 minute ago"
+msgstr "1分钟前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "{0} minutes ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "{0} minutes ago"
+msgstr "{0}分钟前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "1 second ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "1 second ago"
+msgstr "1秒前"
+
+#: Orchard.Core.Shapes.DateTimeShapes
+#| msgid "{0} seconds ago"
+msgctxt "Orchard.Core.Shapes.DateTimeShapes"
+msgid "{0} seconds ago"
+msgstr "{0}秒前"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.ControlWrapper.Name"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Content Control Wrapper"
+msgstr "内容控件包装器"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.ControlWrapper.Description"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Add an Edit button on the front-end for authenticated users"
+msgstr "为经过身份验证的用户添加前端编辑按钮"
+
+#: ~/Core/Contents/Module.txt
+#| msgid "Contents.ControlWrapper.Category"
+msgctxt "~/Core/Contents/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Core.Common.Drivers.TextFieldDriver
+#| msgid "The fields {0} is mandatory"
+msgctxt "Orchard.Core.Common.Drivers.TextFieldDriver"
+msgid "The fields {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Core.Common.Drivers.TextFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Core.Common.Drivers.TextFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Core.Common.Drivers.TextFieldDriver
+#| msgid "The text associated with the field."
+msgctxt "Orchard.Core.Common.Drivers.TextFieldDriver"
+msgid "The text associated with the field."
+msgstr "与字段关联的文本。"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "Display options"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Display options"
+msgstr "显示选项"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "Default flavor"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Default flavor"
+msgstr "默认风格"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "Required"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "Check to ensure the user enters a value in this field."
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Check to ensure the user enters a value in this field."
+msgstr "检查以确保用户在此字段中输入了值。"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "Help text"
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml
+#| msgid "The help text is written under the field when authors are editing the content item."
+msgctxt "~/Core/Common/Views/DefinitionTemplates/TextFieldSettingsEventsViewModel.cshtml"
+msgid "The help text is written under the field when authors are editing the content item."
+msgstr "当作者编辑内容项目时显示于字段下的帮助文本。"
+
+#: Orchard.Core.Containers.Controllers.ItemController
+#| msgid "Container not found"
+msgctxt "Orchard.Core.Containers.Controllers.ItemController"
+msgid "Container not found"
+msgstr "找不到容器"
+
+#: ~/Core/Containers/Views/EditorTemplates/Containable.cshtml
+#| msgid "Weight"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Containable.cshtml"
+msgid "Weight"
+msgstr "权值"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Show contained items list"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Show contained items list"
+msgstr "显示包含的项列表"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Weight"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Weight"
+msgstr "权值"
+
+#: ~/Core/Containers/Views/EditorTemplates/Container.cshtml
+#| msgid "Title (Title Part)"
+msgctxt "~/Core/Containers/Views/EditorTemplates/Container.cshtml"
+msgid "Title (Title Part)"
+msgstr "标题 （标题元件）"
+
+#: ~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml
+#| msgid "Title (Title Part)"
+msgctxt "~/Core/Containers/Views/EditorTemplates/ContainerWidget.cshtml"
+msgid "Title (Title Part)"
+msgstr "标题 （标题元件）"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Default Time Zone"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Default Time Zone"
+msgstr "默认时区"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Local to server"
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Local to server"
+msgstr "服务器当地时间"
+
+#: ~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml
+#| msgid "Determines the default time zone which will should be used to display date and times."
+msgctxt "~/Core/Settings/Views/EditorTemplates/Parts.Settings.SiteSettingsPart.cshtml"
+msgid "Determines the default time zone which will should be used to display date and times."
+msgstr "确定默认时区用于显示日期和时间。"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid "<<"
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid "<<"
+msgstr "<<"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid "<"
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid "<"
+msgstr "<"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid ">"
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid ">"
+msgstr ">"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid ">>"
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid ">>"
+msgstr ">>"
+
+#: Orchard.Core.Shapes.CoreShapes
+#| msgid "..."
+msgctxt "Orchard.Core.Shapes.CoreShapes"
+msgid "..."
+msgstr "..."
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "January, February, March, April, May, June, July, August, September, October, November, December"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "January, February, March, April, May, June, July, August, September, October, November, December"
+msgstr "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr "一月,二月,三月,四月,五月,六月,七月,八月,九月,十月,十一月,十二月"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr "星期日,星期一,星期二,星期三,星期四,星期五,星期六"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr "周日,周一,周二,周三,周四,周五,周六"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr "周日,周一,周二,周三,周四,周五,周六"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "M/d/yyyy"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "M/d/yyyy"
+msgstr "M/d/yyyy"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "h:mm tt"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "h:mm tt"
+msgstr "h:mm tt"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "MMM d yyyy h:mm tt"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "MMM d yyyy h:mm tt"
+msgstr "MMM d yyyy h:mm tt"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "firstDay: 1"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "firstDay: 1"
+msgstr "firstDay: 1"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "isRTL: false"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "isRTL: false"
+msgstr "isRTL: false"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "showMonthAfterYear: false"
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "showMonthAfterYear: false"
+msgstr "showMonthAfterYear: false"
+
+#: Orchard.Core.Shapes.Localization.DateTimeLocalization
+#| msgid "yearSuffix: "
+msgctxt "Orchard.Core.Shapes.Localization.DateTimeLocalization"
+msgid "yearSuffix: "
+msgstr "yearSuffix: "
+
+#: ~/Core/Shapes/Views/ErrorPage.cshtml
+#| msgid "Oops. Something went wrong ... sorry"
+msgctxt "~/Core/Shapes/Views/ErrorPage.cshtml"
+msgid "Oops. Something went wrong ... sorry"
+msgstr "哎呀。出事了......抱歉"
+
+#: ~/Core/Shapes/Views/ErrorPage.cshtml
+#| msgid "An unhandled exception has occurred and the request was terminated. Please refresh the page. If the error persists, go back"
+msgctxt "~/Core/Shapes/Views/ErrorPage.cshtml"
+msgid "An unhandled exception has occurred and the request was terminated. Please refresh the page. If the error persists, go back"
+msgstr "发生了未处理的异常，该请求被终止。请刷新页面。如果错误仍然存在，请返回"
+
+#: ~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml
+#| msgid "You must provide a unique title for this content item"
+msgctxt "~/Core/Title/Views/EditorTemplates/Parts.Title.TitlePart.cshtml"
+msgid "You must provide a unique title for this content item"
+msgstr "您必须为此内容项目提供一个唯一的标题"
+

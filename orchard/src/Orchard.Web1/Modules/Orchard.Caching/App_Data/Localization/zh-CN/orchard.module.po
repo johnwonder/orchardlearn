@@ -1,0 +1,6 @@
+#: ~/Modules/Orchard.Caching/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Caching/Module.txt"
+msgid "Orchard.Caching"
+msgstr "Orchard.Caching"
+

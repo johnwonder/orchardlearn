@@ -1,0 +1,48 @@
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr "DLR手写体"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr "DLR手写体"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "The DLR scripting module enables the possibility to execute scripts using the DLR."
+msgstr "书写体组件的DLR使用DLR运行手写体成为可能。"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Name"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR Scripting"
+msgstr "DLR手写体"
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Description"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "DLR scripting support."
+msgstr "DLR scripting support."
+
+#: ~/Modules/Orchard.Scripting.Dlr/Module.txt
+#| msgid "Orchard.Scripting.Dlr.Category"
+msgctxt "~/Modules/Orchard.Scripting.Dlr/Module.txt"
+msgid "Scripting"
+msgstr "Scripting"
+

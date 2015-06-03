@@ -12,3 +12,9 @@ E:\dev\orchard\src\ConsoleSocketDemo\bin\Debug\Autofac.xml
 E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.exe
 E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.pdb
 E:\dev\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.exe
+E:\gitremote\orchard\src\ConsoleSocketDemo\bin\Debug\ConsoleSocketDemo.pdb
+E:\gitremote\orchard\src\ConsoleSocketDemo\bin\Debug\Autofac.xml
+E:\gitremote\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.exe
+E:\gitremote\orchard\src\ConsoleSocketDemo\obj\x86\Debug\ConsoleSocketDemo.pdb

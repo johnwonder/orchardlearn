@@ -10,3 +10,9 @@ E:\dev\orchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
 E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.exe
 E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.pdb
 E:\dev\orchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\Orchard\bin\Debug\Orchard.exe.config
+E:\gitremote\orchard\src\Tools\Orchard\bin\Debug\Orchard.exe
+E:\gitremote\orchard\src\Tools\Orchard\bin\Debug\Orchard.pdb
+E:\gitremote\orchard\src\Tools\Orchard\obj\Debug\Orchard.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\Orchard\obj\Debug\Orchard.exe
+E:\gitremote\orchard\src\Tools\Orchard\obj\Debug\Orchard.pdb

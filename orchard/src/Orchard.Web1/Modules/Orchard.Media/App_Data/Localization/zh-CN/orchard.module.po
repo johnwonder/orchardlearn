@@ -1,0 +1,732 @@
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "The media module offer basic media management features. It currently only supports image files. Storage goes into the current Orchard file system, which can be the server's physical file system or Azure blob storage."
+msgstr "媒体组件提供基本的媒体管理功能。他目前只支持图像文件。存储资料到Orchard文件系统可以是服务器的真实文件系统或者Azure虚拟系统。"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Orchard.Media.Name"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "Media"
+msgstr "媒体"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Orchard.Media.Description"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "File system based media upload, storage and management."
+msgstr "基于文件系统的媒体上传、 存储和管理。"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Orchard.Media.Category"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.AdminMenu
+#| msgid "Media"
+msgctxt "Orchard.Media.AdminMenu"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Deleting Folder failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Deleting Folder failed: {0}"
+msgstr "删除文件夹失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't create media folder"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't create media folder"
+msgstr "不能创建媒体文件夹"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media folder created"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media folder created"
+msgstr "媒体文件夹已创建"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Creating Folder failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Creating Folder failed: {0}"
+msgstr "创建文件夹失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't delete media file"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't delete media file"
+msgstr "不能删除媒体文件"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media file deleted"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media file deleted"
+msgstr "媒体文件已删除"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't delete media folder"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't delete media folder"
+msgstr "不能删除媒体文件夹"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media folder deleted"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media folder deleted"
+msgstr "媒体文件夹已删除"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Deleting failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Deleting failed: {0}"
+msgstr "删除失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Deleting media folder failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Deleting media folder failed: {0}"
+msgstr "删除媒体文件夹失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't rename media folder"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't rename media folder"
+msgstr "不能重命名媒体文件夹"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media folder properties modified"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media folder properties modified"
+msgstr "媒体文件夹的属性已修改"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Modifying media folder properties failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Modifying media folder properties failed: {0}"
+msgstr "修改媒体文件夹属性失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't upload media file"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't upload media file"
+msgstr "不能上传媒体文件"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Select a file to upload"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Select a file to upload"
+msgstr "选择要上传的文件"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "That file type is not allowed."
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "That file type is not allowed."
+msgstr "不允许此文件类型。"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media file(s) uploaded"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media file(s) uploaded"
+msgstr "媒体文件已上传"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Uploading media file failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Uploading media file failed: {0}"
+msgstr "上传媒体文件失败: {0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "ERROR: You don't have permission to upload media files"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "ERROR: You don't have permission to upload media files"
+msgstr "错误：你没权限上传媒体文件。"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "HEY: You didn't give me a file to upload"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "HEY: You didn't give me a file to upload"
+msgstr "提示：你没有选择要上传的文件"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "ERROR: Uploading media file failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "ERROR: Uploading media file failed: {0}"
+msgstr "错误：上传媒体文件失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media deleted"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media deleted"
+msgstr "媒体已删除"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Removing media file failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Removing media file failed: {0}"
+msgstr "移除媒体文件失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Couldn't modify media file"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't modify media file"
+msgstr "不能修改媒体文件"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Media information updated"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Media information updated"
+msgstr "媒体信息已更新"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Editing media file failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Editing media file failed: {0}"
+msgstr "编辑媒体文件失败: {0}"
+
+#: Orchard.Media.Services.MediaService
+#| msgid "New file name {0} not allowed"
+msgctxt "Orchard.Media.Services.MediaService"
+msgid "New file name {0} not allowed"
+msgstr "不允许新文件名 {0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Add Media"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Add Media"
+msgstr "添加媒体"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Media Folders"
+msgstr "媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "File Path <span> - multiple files must be in a zipped folder</span>"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "File Path <span> - multiple files must be in a zipped folder</span>"
+msgstr "文件路径<span>-多个文件一定要在一个压缩文件夹中</span>"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Browse"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Browse"
+msgstr "浏览"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Extract Zip"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Extract Zip"
+msgstr "解压缩 Zip"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "After your files have been uploaded, you can edit the titles and descriptions."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "After your files have been uploaded, you can edit the titles and descriptions."
+msgstr "你的文件夹上传以后，你可以编辑它的标题和描述。"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Upload"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Upload"
+msgstr "上传"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Create.cshtml
+#| msgid "Add a Folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Create.cshtml"
+msgid "Add a Folder"
+msgstr "添加文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Create.cshtml
+#| msgid "Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Create.cshtml"
+msgid "Media Folders"
+msgstr "媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Create.cshtml
+#| msgid "Folder Name"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Create.cshtml"
+msgid "Folder Name"
+msgstr "文件夹名称"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Create.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Create.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Manage Folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Manage Folder"
+msgstr "管理文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Media Folders"
+msgstr "媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Folder Properties"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Folder Properties"
+msgstr "文件夹属性"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Actions:"
+msgstr "行为："
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Add media"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Add media"
+msgstr "添加媒体"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Add a folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Add a folder"
+msgstr "添加一个文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "This is a table of the pages currently available for use in your application."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "This is a table of the pages currently available for use in your application."
+msgstr "这是一个关于现在可以在你的应用程序中使用的页面的表格。"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Author"
+msgstr "作者"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Last Updated"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Type"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Type"
+msgstr "类型"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Size"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Size"
+msgstr "大小"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Checkbox.File.{0}"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Checkbox.File.{0}"
+msgstr "Checkbox.File.{0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Checkbox.Folder.{0}"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Checkbox.Folder.{0}"
+msgstr "Checkbox.Folder.{0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Folder"
+msgstr "文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Edit Media - {0}"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Edit Media - {0}"
+msgstr "编辑媒体- {0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Media Folders"
+msgstr "媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Edit Media"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Edit Media"
+msgstr "编辑媒体"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Dimensions: <span>500 x 375 pixels</span>"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Dimensions: <span>500 x 375 pixels</span>"
+msgstr "尺寸：<span>500 x 375 pixels</span>"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Size: <span>{0}</span>"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Size: <span>{0}</span>"
+msgstr "大小: <span>{0}</span>"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Added on: <span>{0}</span>"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Added on: <span>{0}</span>"
+msgstr "添加到：<span>{0}</span>"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Embed:"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Embed:"
+msgstr "插入："
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Copy this html to add this image to your site."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Copy this html to add this image to your site."
+msgstr "复制此html，把图片添加到你的网站。"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Folder Properties"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Folder Properties"
+msgstr "文件夹属性"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Media Folders"
+msgstr "媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Folder Name:"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Folder Name:"
+msgstr "文件夹名称："
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Manage Media Folders"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Manage Media Folders"
+msgstr "管理媒体文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "行为："
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Add a folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Add a folder"
+msgstr "添加文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "This is a table of the media folders currently available for use in your application."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "This is a table of the media folders currently available for use in your application."
+msgstr "这是一个关于现在可以在你的应用程序中使用的媒体文件夹的表格。"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Author"
+msgstr "作者"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Last Updated"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Type"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Type"
+msgstr "类型"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Size"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Size"
+msgstr "大小"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Checkbox.{0}"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Checkbox.{0}"
+msgstr "Checkbox.{0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Folder"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Folder"
+msgstr "文件夹"
+
+#: ~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml
+#| msgid "Media Settings"
+msgctxt "~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml"
+msgid "Media Settings"
+msgstr "媒体设置"
+
+#: ~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml
+#| msgid "Upload allowed file types (list of extensions separated by spaces)"
+msgctxt "~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml"
+msgid "Upload allowed file types (list of extensions separated by spaces)"
+msgstr "允许上传的文件类型（以空格隔开附件列表）"
+
+#: Orchard.Media.Services.XmlRpcHandler
+#| msgid "Access denied"
+msgctxt "Orchard.Media.Services.XmlRpcHandler"
+msgid "Access denied"
+msgstr "访问被拒绝"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid "Can't upload file. Supported file types are {0}."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Can't upload file. Supported file types are {0}."
+msgstr "不能上传文件。支持的文件类型是 {0}。"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Editing failed: {0}"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Editing failed: {0}"
+msgstr "编辑失败：{0}"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Uploading media file failed:"
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Uploading media file failed:"
+msgstr "上传媒体文件失败："
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid "Editing media file failed."
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Editing media file failed."
+msgstr "编辑媒体文件失败。"
+
+#: Orchard.Media.Handlers.MediaSettingsPartHandler
+#| msgid "Media"
+msgctxt "Orchard.Media.Handlers.MediaSettingsPartHandler"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.Services.provides
+#| msgid "New file name \"{0}\" is not allowed. Please provide a file extension."
+msgctxt "Orchard.Media.Services.provides"
+msgid "New file name \"{0}\" is not allowed. Please provide a file extension."
+msgstr "不允许新文件名 \"{0}\"。请加上附加名。"
+
+#: Orchard.Media.Services.provides
+#| msgid "New file name \"{0}\" is not allowed."
+msgctxt "Orchard.Media.Services.provides"
+msgid "New file name \"{0}\" is not allowed."
+msgstr "不允许新文件名 \"{0}\""
+
+#: Orchard.Media.Services.provides
+#| msgid "Could not upload file {0}. Supported file types are {1}."
+msgctxt "Orchard.Media.Services.provides"
+msgid "Could not upload file {0}. Supported file types are {1}."
+msgstr "不能上传文件{0}。支持的文件类型是{1}。"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Media"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Media"
+msgstr "媒体"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml
+#| msgid "Media"
+msgctxt "~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml"
+msgid "Media"
+msgstr "媒体"
+
+#: ~/Modules/Orchard.Media/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Module.txt"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Media.AdminMenu"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Media.Controllers.AdminController"
+msgid "Couldn't delete media folder"
+msgstr "不能删除媒体文件夹"
+
+#: Orchard.Media.Handlers.MediaSettingsPartHandler
+#| msgid ""
+msgctxt "Orchard.Media.Handlers.MediaSettingsPartHandler"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.Services.provides
+#| msgid ""
+msgctxt "Orchard.Media.Services.provides"
+msgid "New file name \"{0}\" is not allowed. Please provide a file extension."
+msgstr "不允许新文件名 \"{0}\"。请加上附加名。"
+
+#: Orchard.Media.Services.XmlRpcHandler
+#| msgid ""
+msgctxt "Orchard.Media.Services.XmlRpcHandler"
+msgid "Access denied"
+msgstr "访问被拒绝"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Add.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Add.cshtml"
+msgid "Add Media"
+msgstr "添加媒体"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Create.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Create.cshtml"
+msgid "Add a Folder"
+msgstr "添加文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Edit.cshtml"
+msgid "Manage Folder"
+msgstr "管理文件夹"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Edit Media - {0}"
+msgstr "编辑媒体- {0}"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditProperties.cshtml"
+msgid "Folder Properties"
+msgstr "文件夹属性"
+
+#: ~/Modules/Orchard.Media/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/Admin/Index.cshtml"
+msgid "Media"
+msgstr "媒体"
+
+#: ~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Media/Views/EditorTemplates/Parts/Media.MediaSettings.cshtml"
+msgid "Media"
+msgstr "媒体"
+
+#: Orchard.Media.AdminMenu
+#| msgid "Media Storage"
+msgctxt "Orchard.Media.AdminMenu"
+msgid "Media Storage"
+msgstr "媒体存储"
+
+#: ~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml
+#| msgid "Copy this html to add this media file to your site."
+msgctxt "~/Modules/Orchard.Media/Views/Admin/EditMedia.cshtml"
+msgid "Copy this html to add this media file to your site."
+msgstr "复制此 html 代码可将媒体文件添加到您的网站。"
+

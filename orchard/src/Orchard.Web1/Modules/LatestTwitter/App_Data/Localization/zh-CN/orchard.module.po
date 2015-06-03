@@ -1,0 +1,114 @@
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "LatestTwitter"
+msgstr "LatestTwitter"
+
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "Maarten Balliauw"
+msgstr "Maarten Balliauw"
+
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "http://blog.maartenballiauw.be"
+msgstr "http://blog.maartenballiauw.be"
+
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "Display latest Tweets for a user in a widget."
+msgstr "在一个部件中显示用户最新的推特。"
+
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "LatestTwitter.Description"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "Display latest Tweets for a user in a widget."
+msgstr "在一个部件中显示用户最新的推特。"
+
+#: ~/Modules/LatestTwitter/Module.txt
+#| msgid "LatestTwitter.Category"
+msgctxt "~/Modules/LatestTwitter/Module.txt"
+msgid "Widget"
+msgstr "部件"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Twitter username"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Twitter username"
+msgstr "推特用户名"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Number of Tweets to display"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Number of Tweets to display"
+msgstr "要显示的推数"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Time to cache Tweets (in minutes)"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Time to cache Tweets (in minutes)"
+msgstr "缓存推特的时间（分钟）"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Additional options"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Additional options"
+msgstr "附加选项"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show avatars"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show avatars"
+msgstr "显示头像"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show username in tweets"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show username in tweets"
+msgstr "在推特中显示的用户名"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show timestamps"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show timestamps"
+msgstr "显示时间戳"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show as links"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show as links"
+msgstr "显示为链接"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show mentions as links"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show mentions as links"
+msgstr "显示“提到我的”链接"
+
+#: ~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml
+#| msgid "Show hashtags as links"
+msgctxt "~/Modules/LatestTwitter/Views/EditorTemplates/Parts/TwitterWidget.cshtml"
+msgid "Show hashtags as links"
+msgstr "Hashtags 作为链接显示"
+
+#: ~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml
+#| msgid "follow"
+msgctxt "~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml"
+msgid "follow"
+msgstr "关注"
+
+#: ~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml
+#| msgid "on twitter"
+msgctxt "~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml"
+msgid "on twitter"
+msgstr "在 Twitter 上"
+
+#: ~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml
+#| msgid " "
+msgctxt "~/Modules/LatestTwitter/Views/Parts/TwitterWidget.cshtml"
+msgid " "
+msgstr " "
+

@@ -1,0 +1,1314 @@
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Modules"
+msgstr "模块"
+
+#: Orchard.Packaging.AdminMenuGalleryUpdates
+#| msgid ""
+msgctxt "Orchard.Packaging.AdminMenuGalleryUpdates"
+msgid "Updates"
+msgstr "更新"
+
+#: Orchard.Packaging.Commands.PackagingCommands
+#| msgid ""
+msgctxt "Orchard.Packaging.Commands.PackagingCommands"
+msgid "Module or Theme \"{0}\" does not exist in this Orchard installation."
+msgstr "模块或主题\"{0}\"在此Orchard安装中不存在。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid ""
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to list sources"
+msgstr "未授权对源列表"
+
+#: Orchard.Packaging.Controllers.GalleryUpdatesController
+#| msgid ""
+msgctxt "Orchard.Packaging.Controllers.GalleryUpdatesController"
+msgid "The feed has been notified for update. It might take a few minutes before the updates are displayed."
+msgstr "The feed has been notified for update. It might take a few minutes before the updates are displayed."
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid ""
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to add themes"
+msgstr "未授权添加主题"
+
+#: Orchard.Packaging.Events.ExtensionDisplayEventHandler
+#| msgid ""
+msgctxt "Orchard.Packaging.Events.ExtensionDisplayEventHandler"
+msgid "Version {0} is available (See <a href=\"{1}\">Updates</a>)."
+msgstr "版本{0}可用（见<a href=\"{1}\">更新</a>）。"
+
+#: Orchard.Packaging.Services.FolderUpdater
+#| msgid ""
+msgctxt "Orchard.Packaging.Services.FolderUpdater"
+msgid "Skipping file \"{0}\" because it is the same content as the source file"
+msgstr "跳过文件\"{0}\"，因为其与源文件内容相同"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid ""
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "The specified package could not be found, id:{0} version:{1}"
+msgstr "指定封装包无法找到，名称：{0} 版本：{1}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml"
+msgid "Add a Feed"
+msgstr "添加一个种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Modules"
+msgstr "模块"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Themes"
+msgstr "主题"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Modules"
+msgstr "模块"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Themes"
+msgstr "主题"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml"
+msgid "Install a module from your computer"
+msgstr "从你的电脑中安装模块"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml"
+msgid "Install a theme from your computer"
+msgstr "从你的电脑中安装主题"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml"
+msgid "{0} - {1} Details"
+msgstr "{0} - {1}细节"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallPackageFailed.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallPackageFailed.cshtml"
+msgid "Install package failed"
+msgstr "Install package failed"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to list modules"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to list modules"
+msgstr "未授权对模块列表"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to list themes"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to list themes"
+msgstr "未授权对主题列表"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Package not found: "
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Package not found: "
+msgstr "Package not found: "
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Project Url: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Project Url: "
+msgstr "Project Url: "
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Project Url: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Project Url: "
+msgstr "Project Url: "
+
+#: Orchard.Packaging.Controllers.GalleryUpdatesController
+#| msgid "The feed has been notified for update. It might take a few minutes before the updates are displayed."
+msgctxt "Orchard.Packaging.Controllers.GalleryUpdatesController"
+msgid "The feed has been notified for update. It might take a few minutes before the updates are displayed."
+msgstr "The feed has been notified for update. It might take a few minutes before the updates are displayed."
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Most recent check for updates: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Most recent check for updates: {0}"
+msgstr "Most recent check for updates: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Check for Updates"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Check for Updates"
+msgstr "Check for Updates"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Most recent check for updates: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Most recent check for updates: {0}"
+msgstr "Most recent check for updates: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Check for Updates"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Check for Updates"
+msgstr "Check for Updates"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Updates.Name"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Package Updates"
+msgstr "封装更新"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Updates.Description"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Manages updates for packages."
+msgstr "管理封装更新。"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Updates.Category"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid "Settings"
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Settings"
+msgstr "设置"
+
+#: Orchard.Packaging.AdminMenuGalleryUpdates
+#| msgid "Updates"
+msgctxt "Orchard.Packaging.AdminMenuGalleryUpdates"
+msgid "Updates"
+msgstr "更新"
+
+#: Orchard.Packaging.AdminMenuGalleryUpdates
+#| msgid "Updates ({0})"
+msgctxt "Orchard.Packaging.AdminMenuGalleryUpdates"
+msgid "Updates ({0})"
+msgstr "更新（{0}）"
+
+#: Orchard.Packaging.AdminMenuGalleryUpdates
+#| msgid "Modules"
+msgctxt "Orchard.Packaging.AdminMenuGalleryUpdates"
+msgid "Modules"
+msgstr "模块"
+
+#: Orchard.Packaging.AdminMenuGalleryUpdates
+#| msgid "Themes"
+msgctxt "Orchard.Packaging.AdminMenuGalleryUpdates"
+msgid "Themes"
+msgstr "主题"
+
+#: Orchard.Packaging.Controllers.GalleryUpdatesController
+#| msgid "Not authorized to add sources"
+msgctxt "Orchard.Packaging.Controllers.GalleryUpdatesController"
+msgid "Not authorized to add sources"
+msgstr "未授权添加源"
+
+#: Orchard.Packaging.Controllers.GalleryUpdatesController
+#| msgid "No Gallery feed configured"
+msgctxt "Orchard.Packaging.Controllers.GalleryUpdatesController"
+msgid "No Gallery feed configured"
+msgstr "无已设置的库的种子"
+
+#: Orchard.Packaging.Controllers.GalleryUpdatesController
+#| msgid "Package retrieve error: {0}"
+msgctxt "Orchard.Packaging.Controllers.GalleryUpdatesController"
+msgid "Package retrieve error: {0}"
+msgstr "封装包检索错误：{0}"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to add sources"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to add sources"
+msgstr "未授权添加源"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "The theme has been successfully installed. It can be enabled in the \"Themes\" page accessible from the menu."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "The theme has been successfully installed. It can be enabled in the \"Themes\" page accessible from the menu."
+msgstr "主题被成功安装。可在菜单中访问\"Themes\"页面启用。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "The module has been successfully installed."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "The module has been successfully installed."
+msgstr "模块被成功安装。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Package installation failed."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Package installation failed."
+msgstr "封装包安装失败。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Recipes contains {0} unsuported module installation steps."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Recipes contains {0} unsuported module installation steps."
+msgstr "方法包含{0}不支持的模块安装步骤。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Post installation steps failed with error: {0}"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Post installation steps failed with error: {0}"
+msgstr "安装后步骤失败，错误： {0}"
+
+#: Orchard.Packaging.Events.ExtensionDisplayEventHandler
+#| msgid "Version {0} is available (See <a href=\"{1}\">Updates</a>)."
+msgctxt "Orchard.Packaging.Events.ExtensionDisplayEventHandler"
+msgid "Version {0} is available (See <a href=\"{1}\">Updates</a>)."
+msgstr "版本{0}可用（见<a href=\"{1}\">更新</a>）。"
+
+#: Orchard.Packaging.Services.FolderUpdater
+#| msgid "Skipping file \"{0}\" because it is the same content as the source file"
+msgctxt "Orchard.Packaging.Services.FolderUpdater"
+msgid "Skipping file \"{0}\" because it is the same content as the source file"
+msgstr "跳过文件\"{0}\"，因为其与源文件内容相同"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Unable to backup existing local package directory."
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Unable to backup existing local package directory."
+msgstr "无法对已存在的本地封装包目录进行备份。"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Unable to un-install local package before updating."
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Unable to un-install local package before updating."
+msgstr "更新前无法卸载本地封装包。"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Backup folder {0} has too many backups subfolder (limit is 1,000)"
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Backup folder {0} has too many backups subfolder (limit is 1,000)"
+msgstr "备份文件夹{0}已有太多备份子文件夹（上限为1000）"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Successfully backed up local package to local folder \"{0}\""
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Successfully backed up local package to local folder \"{0}\""
+msgstr "成功备份本地封装包至本地文件夹\"{0}\""
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Successfully un-installed local package {0}"
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Successfully un-installed local package {0}"
+msgstr "成功写在本地封装包{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Modules"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Modules"
+msgstr "模块"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "All feeds"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "All feeds"
+msgstr "所有种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Sort by:"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Sort by:"
+msgstr "排序依据："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Downloads"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Downloads"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Ratings"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Ratings"
+msgstr "评分"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Alphanumeric"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Alphanumeric"
+msgstr "字母数字"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Downloads: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Downloads: {0}"
+msgstr "下载：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Rating: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Rating: "
+msgstr "评分："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Rating: {0} out of 5 ({1} total)."
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Rating: {0} out of 5 ({1} total)."
+msgstr "评分：{0}到5（总共{1}）。"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Settings"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Settings"
+msgstr "设置"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Gallery"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Gallery"
+msgstr "库"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Themes"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Themes"
+msgstr "主题"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Show"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Show"
+msgstr "显示"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "All feeds"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "All feeds"
+msgstr "所有种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Sort by:"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Sort by:"
+msgstr "排序依据："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Downloads"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Downloads"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Ratings"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Ratings"
+msgstr "评分"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Alphanumeric"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Alphanumeric"
+msgstr "字母数字"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Search"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Search"
+msgstr "搜索"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Downloads: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Downloads: {0}"
+msgstr "下载：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Rating: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Rating: "
+msgstr "评分："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Rating: {0} out of 5 ({1} total)."
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Rating: {0} out of 5 ({1} total)."
+msgstr "评分：{0}到5（总共{1}）。"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "No themes available."
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "No themes available."
+msgstr "无可用主题。"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Modules"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Modules"
+msgstr "模块"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "No module updates available."
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "No module updates available."
+msgstr "无可用模块更新。"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Version: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Version: {0}"
+msgstr "版本：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Install Latest"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Install Latest"
+msgstr "安装最新"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Download"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Download"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "(No description"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "(No description"
+msgstr "（无描述"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Last Updated: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Last Updated: {0}"
+msgstr "上次更新：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Author: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Author: {0}"
+msgstr "作者：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Unknown"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Unknown"
+msgstr "未知"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Downloads: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Downloads: {0}"
+msgstr "下载：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Website: "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Website: "
+msgstr "网址："
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Rating: "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Rating: "
+msgstr "评分："
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml
+#| msgid "Rating: {0} out of 5 ({1} total)."
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ModulesUpdates.cshtml"
+msgid "Rating: {0} out of 5 ({1} total)."
+msgstr "评分：{0}到5（总共{1}）。"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Themes"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Themes"
+msgstr "主题"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "No theme updates available."
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "No theme updates available."
+msgstr "无可用主题更新。"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Version: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Version: {0}"
+msgstr "版本：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Install Latest"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Install Latest"
+msgstr "安装最新"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Download"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Download"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "(No description"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "(No description"
+msgstr "（无描述"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Last Updated: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Last Updated: {0}"
+msgstr "上次更新：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Author: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Author: {0}"
+msgstr "作者：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Unknown"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Unknown"
+msgstr "未知"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Downloads: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Downloads: {0}"
+msgstr "下载：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Website: "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Website: "
+msgstr "网址："
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Rating: "
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Rating: "
+msgstr "评分："
+
+#: ~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml
+#| msgid "Rating: {0} out of 5 ({1} total)."
+msgctxt "~/Modules/Orchard.Packaging/Views/GalleryUpdates/ThemesUpdates.cshtml"
+msgid "Rating: {0} out of 5 ({1} total)."
+msgstr "评分：{0}到5（总共{1}）。"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml
+#| msgid "Install a module from your computer"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml"
+msgid "Install a module from your computer"
+msgstr "从你的电脑中安装模块"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml
+#| msgid "Install a theme from your computer"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml"
+msgid "Install a theme from your computer"
+msgstr "从你的电脑中安装主题"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml
+#| msgid "{0} - {1} Details"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml"
+msgid "{0} - {1} Details"
+msgstr "{0} - {1}细节"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml
+#| msgid "Pick the recipes you want to run"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml"
+msgid "Pick the recipes you want to run"
+msgstr "选择你想运行的方法"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml
+#| msgid "Pick the features you want enabled"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml"
+msgid "Pick the features you want enabled"
+msgstr "选择你想启用的功能"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml
+#| msgid "Ok"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallModuleDetails.cshtml"
+msgid "Ok"
+msgstr "好"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Package installation failed: {0}"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Package installation failed: {0}"
+msgstr "Package installation failed: {0}"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Package uploading and installation failed: "
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Package uploading and installation failed: "
+msgstr "Package uploading and installation failed: "
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Recipes contains {0} unsupported module installation steps."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Recipes contains {0} unsupported module installation steps."
+msgstr "Recipes contains {0} unsupported module installation steps."
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "The package is compatible with version {0} and above. Please update Orchard or install another version of this package."
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "The package is compatible with version {0} and above. Please update Orchard or install another version of this package."
+msgstr "The package is compatible with version {0} and above. Please update Orchard or install another version of this package."
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Successfully restored local package to local folder \"{0}\""
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Successfully restored local package to local folder \"{0}\""
+msgstr "Successfully restored local package to local folder \"{0}\""
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "more..."
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "more..."
+msgstr "more..."
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "more..."
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "more..."
+msgstr "more..."
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/InstallPackageFailed.cshtml
+#| msgid "Install package failed"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/InstallPackageFailed.cshtml"
+msgid "Install package failed"
+msgstr "Install package failed"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "The packaging module enables packaging modules using the OPC format."
+msgstr "封装模块中可用OPC格式对模块进行封装。"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "PackagingServices.Name"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging Services"
+msgstr "封装服务"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "PackagingServices.Description"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Core services for packaging using the OPC format."
+msgstr "使用OPC格式封装的核心服务。"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "PackagingServices.Category"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Orchard.Packaging.Name"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Orchard.Packaging.Description"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Commands for creating/installing local modules."
+msgstr "Commands for creating/installing local modules."
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Orchard.Packaging.Category"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Name"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Gallery"
+msgstr "库"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Description"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Module gallery management."
+msgstr "模块库管理。"
+
+#: ~/Modules/Orchard.Packaging/Module.txt
+#| msgid "Gallery.Category"
+msgctxt "~/Modules/Orchard.Packaging/Module.txt"
+msgid "Packaging"
+msgstr "封装"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid "Gallery"
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Gallery"
+msgstr "库"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid "Modules"
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Modules"
+msgstr "模块"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid "Themes"
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Themes"
+msgstr "主题"
+
+#: Orchard.Packaging.AdminMenu
+#| msgid "Feeds"
+msgctxt "Orchard.Packaging.AdminMenu"
+msgid "Feeds"
+msgstr "Feeds"
+
+#: Orchard.Packaging.Commands.PackagingCommands
+#| msgid "Module or Theme \"{0}\" does not exist in this Orchard installation."
+msgctxt "Orchard.Packaging.Commands.PackagingCommands"
+msgid "Module or Theme \"{0}\" does not exist in this Orchard installation."
+msgstr "模块或主题\"{0}\"在此Orchard安装中不存在。"
+
+#: Orchard.Packaging.Commands.PackagingCommands
+#| msgid "Package \"{0}\" successfully created"
+msgctxt "Orchard.Packaging.Commands.PackagingCommands"
+msgid "Package \"{0}\" successfully created"
+msgstr "封装包\"{0}\"成功创建"
+
+#: Orchard.Packaging.Commands.PackagingCommands
+#| msgid "Could not install the package: {0}"
+msgctxt "Orchard.Packaging.Commands.PackagingCommands"
+msgid "Could not install the package: {0}"
+msgstr "无法安装封装包：{0}"
+
+#: Orchard.Packaging.Commands.PackagingCommands
+#| msgid "Could not unintall the package: {0}"
+msgctxt "Orchard.Packaging.Commands.PackagingCommands"
+msgid "Could not unintall the package: {0}"
+msgstr "无法卸载封装包：{0}"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to list sources"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to list sources"
+msgstr "未授权对源列表"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to remove sources"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to remove sources"
+msgstr "未授权移除源"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The feed has been removed successfully."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The feed has been removed successfully."
+msgstr "种子移除成功。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to add sources"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to add sources"
+msgstr "未授权添加源"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The Url is not valid"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The Url is not valid"
+msgstr "此URL无效"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Url is required"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Url is required"
+msgstr "URL是必要的"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The feed has no title."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The feed has no title."
+msgstr "此种子无标题。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The url of the feed or its content is not valid."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The url of the feed or its content is not valid."
+msgstr "种子的URL或内容无效。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The feed has been added successfully."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The feed has been added successfully."
+msgstr "种子添加成功。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Adding feed failed: {0}"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Adding feed failed: {0}"
+msgstr "添加种子失败：{0}"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to list {0}"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to list {0}"
+msgstr "Not authorized to list {0}"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Error loading extensions from gallery source '{0}'. {1}."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Error loading extensions from gallery source '{0}'. {1}."
+msgstr "从库中源“{0}”中加载扩展发生错误。{1}。"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Not authorized to install packages"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Not authorized to install packages"
+msgstr "Not authorized to install packages"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to add themes"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to add themes"
+msgstr "未授权添加主题"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to remove themes"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to remove themes"
+msgstr "未授权移除主题"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to add modules"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to add modules"
+msgstr "未授权添加模块"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to install packages"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to install packages"
+msgstr "未授权安装封装包"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Select a file to upload."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Select a file to upload."
+msgstr "选择一个要上传的文件。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Installed package \"{0}\", version {1} of type \"{2}\" at location \"{3}\""
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Installed package \"{0}\", version {1} of type \"{2}\" at location \"{3}\""
+msgstr "Installed package \"{0}\", version {1} of type \"{2}\" at location \"{3}\""
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Uploading module package failed: {0}"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Uploading module package failed: {0}"
+msgstr "Uploading module package failed: {0}"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Not authorized to uninstall packages"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Not authorized to uninstall packages"
+msgstr "未授权卸载封装包"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Uninstalled package \"{0}\""
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Uninstalled package \"{0}\""
+msgstr "已卸载的封装包\"{0}\""
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Uninstall failed: {0}"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Uninstall failed: {0}"
+msgstr "卸载失败：{0}"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "The specified package could not be found, id:{0} version:{1}"
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "The specified package could not be found, id:{0} version:{1}"
+msgstr "指定封装包无法找到，名称：{0} 版本：{1}"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "No version"
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "No version"
+msgstr "无版本"
+
+#: Orchard.Packaging.Services.PackageInstaller
+#| msgid "Package not found: {0}"
+msgctxt "Orchard.Packaging.Services.PackageInstaller"
+msgid "Package not found: {0}"
+msgstr "封装包未找到：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml
+#| msgid "Add a Feed"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml"
+msgid "Add a Feed"
+msgstr "添加一个种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml
+#| msgid "Feed Url"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml"
+msgid "Feed Url"
+msgstr "种子URL"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml
+#| msgid "Add Feed"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/AddSource.cshtml"
+msgid "Add Feed"
+msgstr "添加种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Browse Gallery - Modules"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Browse Gallery - Modules"
+msgstr "Browse Gallery - Modules"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Feed:"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Feed:"
+msgstr "种子："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Any (show all feeds)"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Any (show all feeds)"
+msgstr "Any (show all feeds)"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Version: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Version: {0}"
+msgstr "版本：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Install"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Install"
+msgstr "安装"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Download"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Download"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "(No description"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "(No description"
+msgstr "（无描述"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Last Updated: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Last Updated: {0}"
+msgstr "上次更新：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Author: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Author: {0}"
+msgstr "作者：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Unknown"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Unknown"
+msgstr "未知"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Rating: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Rating: {0}"
+msgstr "Rating: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Ratings Count: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Ratings Count: {0}"
+msgstr "Ratings Count: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml
+#| msgid "Website: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Modules.cshtml"
+msgid "Website: "
+msgstr "网址："
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Gallery Feeds"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Gallery Feeds"
+msgstr "Gallery Feeds"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Add Feed"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Add Feed"
+msgstr "添加种子"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "This is a table of the gallery feeds in your application"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "This is a table of the gallery feeds in your application"
+msgstr "这是你的程序中库的种子的表"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Url"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Sources.cshtml"
+msgid "Remove"
+msgstr "Remove"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Browse Gallery - Themes"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Browse Gallery - Themes"
+msgstr "Browse Gallery - Themes"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Feed:"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Feed:"
+msgstr "Feed:"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Any (show all feeds)"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Any (show all feeds)"
+msgstr "Any (show all feeds)"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Version: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Version: {0}"
+msgstr "版本：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Install"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Install"
+msgstr "安装"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid " | "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid " | "
+msgstr " | "
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Download"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Download"
+msgstr "下载"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "(No description"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "(No description"
+msgstr "（无描述"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Last Updated: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Last Updated: {0}"
+msgstr "上次更新：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Author: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Author: {0}"
+msgstr "作者：{0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Unknown"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Unknown"
+msgstr "未知"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Rating: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Rating: {0}"
+msgstr "Rating: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Ratings Count: {0}"
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Ratings Count: {0}"
+msgstr "Ratings Count: {0}"
+
+#: ~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml
+#| msgid "Website: "
+msgctxt "~/Modules/Orchard.Packaging/Views/Gallery/Themes.cshtml"
+msgid "Website: "
+msgstr "网址："
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml
+#| msgid "Install a Module"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml"
+msgid "Install a Module"
+msgstr "Install a Module"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml
+#| msgid "Module Package"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml"
+msgid "Module Package"
+msgstr "模块封装"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml
+#| msgid "Install"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddModule.cshtml"
+msgid "Install"
+msgstr "安装"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml
+#| msgid "Install a Theme"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml"
+msgid "Install a Theme"
+msgstr "Install a Theme"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml
+#| msgid "Theme Package"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml"
+msgid "Theme Package"
+msgstr "主题封装"
+
+#: ~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml
+#| msgid "Install"
+msgctxt "~/Modules/Orchard.Packaging/Views/PackagingServices/AddTheme.cshtml"
+msgid "Install"
+msgstr "安装"
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The theme has been successfully installed. It can be enabled in the \"Themes\" page accessible from the menu."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The theme has been successfully installed. It can be enabled in the \"Themes\" page accessible from the menu."
+msgstr "The theme has been successfully installed. It can be enabled in the \"Themes\" page accessible from the menu."
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "The module has been successfully installed. Its features can be enabled in the \"Configuration | Features\" page accessible from the menu."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "The module has been successfully installed. Its features can be enabled in the \"Configuration | Features\" page accessible from the menu."
+msgstr "The module has been successfully installed. Its features can be enabled in the \"Configuration | Features\" page accessible from the menu."
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "Package installation failed."
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "Package installation failed."
+msgstr "Package installation failed."
+
+#: Orchard.Packaging.Controllers.GalleryController
+#| msgid "{0}"
+msgctxt "Orchard.Packaging.Controllers.GalleryController"
+msgid "{0}"
+msgstr "{0}"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "Package uploading and installation failed."
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "Package uploading and installation failed."
+msgstr "封装包上传安装失败。"
+
+#: Orchard.Packaging.Controllers.PackagingServicesController
+#| msgid "{0}"
+msgctxt "Orchard.Packaging.Controllers.PackagingServicesController"
+msgid "{0}"
+msgstr "{0}"
+

@@ -1,0 +1,846 @@
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "TaxonomyMenuItem.Name"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Taxonomy Main Menu"
+msgstr "Taxonomy Main Menu"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "TaxonomyMenuItem.Description"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Displays Taxonomies on main menu."
+msgstr "Displays Taxonomies on main menu."
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "TaxonomyMenuItem.Category"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Navigation"
+msgstr "Navigation"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "The term {0} already exists at this level"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "The term {0} already exists at this level"
+msgstr "The term {0} already exists at this level"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to manage terms"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to manage terms"
+msgstr "Not allowed to manage terms"
+
+#: Contrib.Taxonomies.Drivers.TaxonomyMenuItemPartDriver
+#| msgid "Menu item name is required"
+msgctxt "Contrib.Taxonomies.Drivers.TaxonomyMenuItemPartDriver"
+msgid "Menu item name is required"
+msgstr "Menu item name is required"
+
+#: Contrib.Taxonomies.Drivers.TaxonomyPartDriver
+#| msgid "A taxonomy with the same name already exists"
+msgctxt "Contrib.Taxonomies.Drivers.TaxonomyPartDriver"
+msgid "A taxonomy with the same name already exists"
+msgstr "A taxonomy with the same name already exists"
+
+#: Contrib.Taxonomies.Drivers.TermPartDriver
+#| msgid "The term {0} already exists at this level"
+msgctxt "Contrib.Taxonomies.Drivers.TermPartDriver"
+msgid "The term {0} already exists at this level"
+msgstr "The term {0} already exists at this level"
+
+#: Contrib.Taxonomies.Drivers.TermPartDriver
+#| msgid "Unknown taxonomy: {0}"
+msgctxt "Contrib.Taxonomies.Drivers.TermPartDriver"
+msgid "Unknown taxonomy: {0}"
+msgstr "Unknown taxonomy: {0}"
+
+#: Contrib.Taxonomies.Drivers.TermWidgetPartDriver
+#| msgid "Unknown taxonomy: {0}"
+msgctxt "Contrib.Taxonomies.Drivers.TermWidgetPartDriver"
+msgid "Unknown taxonomy: {0}"
+msgstr "Unknown taxonomy: {0}"
+
+#: Contrib.Taxonomies.Drivers.TermWidgetPartDriver
+#| msgid "Unknown term: {0}"
+msgctxt "Contrib.Taxonomies.Drivers.TermWidgetPartDriver"
+msgid "Unknown term: {0}"
+msgstr "Unknown term: {0}"
+
+#: Contrib.Taxonomies.Projections.TermsFilter
+#| msgid "Taxonomy"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilter"
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: Contrib.Taxonomies.Projections.TermsFilter
+#| msgid "Has Terms"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilter"
+msgid "Has Terms"
+msgstr "Has Terms"
+
+#: Contrib.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized content items"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilter"
+msgid "Categorized content items"
+msgstr "Categorized content items"
+
+#: Contrib.Taxonomies.Projections.TermsFilter
+#| msgid "Any term"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilter"
+msgid "Any term"
+msgstr "Any term"
+
+#: Contrib.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized with {0}"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with {0}"
+msgstr "Categorized with {0}"
+
+#: Contrib.Taxonomies.Projections.TermsFilterForms
+#| msgid "Terms"
+msgctxt "Contrib.Taxonomies.Projections.TermsFilterForms"
+msgid "Terms"
+msgstr "Terms"
+
+#: Contrib.Taxonomies.Projections.TermsFilterForms
+#| msgid "Select some terms."
+msgctxt "Contrib.Taxonomies.Projections.TermsFilterForms"
+msgid "Select some terms."
+msgstr "Select some terms."
+
+#: ~/Modules/Contrib.Taxonomies/Views/Taxonomies.TermContentItems.List.cshtml
+#| msgid "There is no content associated to this term."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Taxonomies.TermContentItems.List.cshtml"
+msgid "There is no content associated to this term."
+msgstr "There is no content associated to this term."
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "Edit"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Terms"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Terms"
+msgstr "Terms"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Restrictions"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Help text"
+msgstr "Help text"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "The help text is written under the field when authors are editing the content item."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are editing the content item."
+msgstr "The help text is written under the field when authors are editing the content item."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Select the taxonomy whose terms will be rendered in the menu."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Select the taxonomy whose terms will be rendered in the menu."
+msgstr "Select the taxonomy whose terms will be rendered in the menu."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Root Term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Root Term"
+msgstr "Root Term"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "- Parent Taxonomy -"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "- Parent Taxonomy -"
+msgstr "- Parent Taxonomy -"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Select the root term to display"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Select the root term to display"
+msgstr "Select the root term to display"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Number of levels to display"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Number of levels to display"
+msgstr "Number of levels to display"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Enter \"0\" to render all sub-levels."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Enter \"0\" to render all sub-levels."
+msgstr "Enter \"0\" to render all sub-levels."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Display top level menu item"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Display top level menu item"
+msgstr "Display top level menu item"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "When checked, the selected term to display will be rendered as a root element in the menu."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "When checked, the selected term to display will be rendered as a root element in the menu."
+msgstr "When checked, the selected term to display will be rendered as a root element in the menu."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Hide empty entries"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Hide empty entries"
+msgstr "Hide empty entries"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "When checked, any term which has no content item associated to it won't be rendered."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "When checked, any term which has no content item associated to it won't be rendered."
+msgstr "When checked, any term which has no content item associated to it won't be rendered."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "Display content count"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "Display content count"
+msgstr "Display content count"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml
+#| msgid "When checked, the number of content items is rendered following the term name."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Menu.cshtml"
+msgid "When checked, the number of content items is rendered following the term name."
+msgstr "When checked, the number of content items is rendered following the term name."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Select a taxonomy."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Select a taxonomy."
+msgstr "Select a taxonomy."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Term"
+msgstr "Term"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "- None -"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "- None -"
+msgstr "- None -"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Select the term whose content items will be displayed."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Select the term whose content items will be displayed."
+msgstr "Select the term whose content items will be displayed."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Field"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Field"
+msgstr "Field"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Optional. You can specify which field name to use if several terms references are defined on the same content type."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Optional. You can specify which field name to use if several terms references are defined on the same content type."
+msgstr "Optional. You can specify which field name to use if several terms references are defined on the same content type."
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Number of items to display"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Number of items to display"
+msgstr "Number of items to display"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Order By"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Order By"
+msgstr "Order By"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Recently created"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Recently created"
+msgstr "Recently created"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Recently published"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Recently published"
+msgstr "Recently published"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Recently modified"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Recently modified"
+msgstr "Recently modified"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Content Type"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Content Type"
+msgstr "Content Type"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "- Any -"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "- Any -"
+msgstr "- Any -"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml
+#| msgid "Select which Content Type you want to display"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermWidget.cshtml"
+msgid "Select which Content Type you want to display"
+msgstr "Select which Content Type you want to display"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Parts/Taxonomies.Menu.cshtml
+#| msgid " ({0})"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Parts/Taxonomies.Menu.cshtml"
+msgid " ({0})"
+msgstr " ({0})"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Parts/TermWidget.List.cshtml
+#| msgid "There are no items for this term."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Parts/TermWidget.List.cshtml"
+msgid "There are no items for this term."
+msgstr "There are no items for this term."
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Manage terms for {0}"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Manage terms for {0}"
+msgstr "Manage terms for {0}"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Edit"
+msgstr "Edit"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Sébastien Ros"
+msgstr "SÃ©bastien Ros"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "http://orchardtaxonomies.codeplex.com"
+msgstr "http://orchardtaxonomies.codeplex.com"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "The taxonomy module is providing custom categorization of arbitrary content types."
+msgstr "分类模块提供任意类型内容的定制归类功能。"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Contrib.Taxonomies.Name"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Contrib.Taxonomies.Description"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Categorize a content item."
+msgstr "将有内容的条目编入目录。"
+
+#: ~/Modules/Contrib.Taxonomies/Module.txt
+#| msgid "Contrib.Taxonomies.Category"
+msgctxt "~/Modules/Contrib.Taxonomies/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: Contrib.Taxonomies.AdminMenu
+#| msgid "Taxonomies"
+msgctxt "Contrib.Taxonomies.AdminMenu"
+msgid "Taxonomies"
+msgstr "分类方法"
+
+#: Contrib.Taxonomies.AdminMenu
+#| msgid "Manage Taxonomies"
+msgctxt "Contrib.Taxonomies.AdminMenu"
+msgid "Manage Taxonomies"
+msgstr "管理分类方法"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't delete taxonomy"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "Couldn't delete taxonomy"
+msgstr "无法删除分类方法"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't create taxonomy"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "Couldn't create taxonomy"
+msgstr "无法创建分类方法"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "A taxonomy with the same name already exists"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "A taxonomy with the same name already exists"
+msgstr "存在重名的分类方法"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't edit taxonomy"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "Couldn't edit taxonomy"
+msgstr "无法编辑分类方法"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't import terms"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "Couldn't import terms"
+msgstr "无法导入条目"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "A term with the same name already exist in this taxonomy: {0}"
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "A term with the same name already exist in this taxonomy: {0}"
+msgstr "重名的条目内容已在此分类方法中存在：{0}"
+
+#: Contrib.Taxonomies.Controllers.AdminController
+#| msgid "The terms have been imported successfully."
+msgctxt "Contrib.Taxonomies.Controllers.AdminController"
+msgid "The terms have been imported successfully."
+msgstr "条目已成功导入"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't delete term"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't delete term"
+msgstr "无法删除条目"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "{0} term have been removed."
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "{0} term have been removed."
+msgstr "{0}条目已被移除"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to create terms"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to create terms"
+msgstr "不允许创建条目"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to select terms"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to select terms"
+msgstr "不允许选择条目"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't create term"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't create term"
+msgstr "无法创建条目"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "The {0} term has been created."
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "The {0} term has been created."
+msgstr "条目{0}已被创建。"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to manage taxonomies"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to manage taxonomies"
+msgstr "不允许管理分类方法"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't edit taxonomy"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't edit taxonomy"
+msgstr "无法编辑分类方法"
+
+#: Contrib.Taxonomies.Controllers.TermAdminController
+#| msgid "Term information updated"
+msgctxt "Contrib.Taxonomies.Controllers.TermAdminController"
+msgid "Term information updated"
+msgstr "条目信息已更新"
+
+#: Contrib.Taxonomies.Drivers.TermPartDriver
+#| msgid "The term {0} already exists in this taxonomy"
+msgctxt "Contrib.Taxonomies.Drivers.TermPartDriver"
+msgid "The term {0} already exists in this taxonomy"
+msgstr "条目{0}在此分类方法中已存在"
+
+#: Contrib.Taxonomies.Services.TaxonomyService
+#| msgid "The term {0} already exists in this taxonomy"
+msgctxt "Contrib.Taxonomies.Services.TaxonomyService"
+msgid "The term {0} already exists in this taxonomy"
+msgstr "条目{0}在此分类方法中已存在"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Parts.Taxonomies.TermContentItems.List.cshtml
+#| msgid "There is no content associated to this term."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Parts.Taxonomies.TermContentItems.List.cshtml"
+msgid "There is no content associated to this term."
+msgstr "无与此条目有关联的内容"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Create.cshtml
+#| msgid "Create New Taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Create.cshtml"
+msgid "Create New Taxonomy"
+msgstr "创建新分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Edit.cshtml
+#| msgid "Taxonomy Properties"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Edit.cshtml"
+msgid "Taxonomy Properties"
+msgstr "分类方法属性"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Import Terms for {0}"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import Terms for {0}"
+msgstr "为{0}导入条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "One term per line, followed by a semi-colon and the slug"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "One term per line, followed by a semi-colon and the slug"
+msgstr "每行一个条目，最后加分号和slug"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Hierarchies are defined using tabs (handled in this editor zone)"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Hierarchies are defined using tabs (handled in this editor zone)"
+msgstr "等级使用标签定义（在此编辑区中处理）"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "e.g,"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "e.g,"
+msgstr "如，"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Red; red"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Red; red"
+msgstr "红"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Blue; blue"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Blue; blue"
+msgstr "蓝"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Light Blue; light-blue"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Light Blue; light-blue"
+msgstr "浅蓝"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Import"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import"
+msgstr "导入"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Manage Taxonomies"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Manage Taxonomies"
+msgstr "管理分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "操作："
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Add a taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Add a taxonomy"
+msgstr "添加一个分类法"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "This is a table of the taxonomies in your application"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "This is a table of the taxonomies in your application"
+msgstr "这是你的程序中的分类方法列表"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Properties"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Properties"
+msgstr "属性"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Vocabulary"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Vocabulary"
+msgstr "词汇表"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "删除"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Import"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Import"
+msgstr "导入"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Select a taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Select a taxonomy"
+msgstr "选择一个分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Choose a taxonomy ..."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Choose a taxonomy ..."
+msgstr "选择一个分类方法..."
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Restrict selectable elements to leaves only"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrict selectable elements to leaves only"
+msgstr "可选元素只限于叶"
+
+#: ~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Allow only one term to be selected"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Allow only one term to be selected"
+msgstr "只允许选择一个条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml
+#| msgid "Show on main menu"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml"
+msgid "Show on main menu"
+msgstr "在主菜单中显示"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml
+#| msgid "Menu text"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml"
+msgid "Menu text"
+msgstr "菜单文本"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml
+#| msgid "Position"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TaxonomyMenuItem.cshtml"
+msgid "Position"
+msgstr "位置"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "Selectable"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Selectable"
+msgstr "可选择的"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "Uncheck if users should not be able to select this term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Uncheck if users should not be able to select this term"
+msgstr "如用户不能选择此条目，不选中"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "If specified, will be used to sort terms at the same level"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "If specified, will be used to sort terms at the same level"
+msgstr "如被指定，将会在相同等级中对条目分类"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermsWidget.cshtml
+#| msgid "For Taxonomy"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermsWidget.cshtml"
+msgid "For Taxonomy"
+msgstr "对于分类方法"
+
+#: ~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermsWidget.cshtml
+#| msgid "Show the terms for which taxonomy? "
+msgctxt "~/Modules/Contrib.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.TermsWidget.cshtml"
+msgid "Show the terms for which taxonomy? "
+msgstr "显示哪个分类方法的条目？"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Items/Content-Term.Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Items/Content-Term.Edit.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Items/Taxonomies.Term.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Items/Taxonomies.Term.cshtml"
+msgid "Save"
+msgstr "保存"
+
+#: ~/Modules/Contrib.Taxonomies/Views/Items/Taxonomy.List.cshtml
+#| msgid "Contents associated with {0}"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/Items/Taxonomy.List.cshtml"
+msgid "Contents associated with {0}"
+msgstr "与{0}有联系的内容"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Create.cshtml
+#| msgid "Create New Term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Create.cshtml"
+msgid "Create New Term"
+msgstr "创建新条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Edit.cshtml
+#| msgid "Term properties"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Edit.cshtml"
+msgid "Term properties"
+msgstr "条目属性"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Manage vocabulary for {0}"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Manage vocabulary for {0}"
+msgstr "为{0}管理词汇表"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Actions:"
+msgstr "操作："
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Choose action..."
+msgstr "选择操作..."
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Remove"
+msgstr "移除"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Apply"
+msgstr "应用"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Add a term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Add a term"
+msgstr "添加一个条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "This is a table of the terms in your application"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "This is a table of the terms in your application"
+msgstr "这是你的程序中的条目列表"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Properties"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Properties"
+msgstr "属性"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Move"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Move"
+msgstr "移动"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "Parent term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Parent term"
+msgstr "上级条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "- None -"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "- None -"
+msgstr "-无-"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "By selecting a parent term you can create hierarchies"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "你可以通过选择上级条目创建新等级"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Select"
+msgstr "选择"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "Parent term"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Parent term"
+msgstr "上级条目"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "- None -"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "- None -"
+msgstr "-无-"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "By selecting a parent term you can create hierarchies"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "你可以通过选择上级条目创建新等级"
+
+#: ~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Contrib.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Select"
+msgstr "选择"
+

@@ -8,3 +8,8 @@ E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.p
 E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
 E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb
 E:\dev\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.dll
+E:\gitremote\orchard\src\Tools\MSBuild.Orchard.Tasks\bin\Debug\MSBuild.Orchard.Tasks.pdb
+E:\gitremote\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.dll
+E:\gitremote\orchard\src\Tools\MSBuild.Orchard.Tasks\obj\Debug\MSBuild.Orchard.Tasks.pdb

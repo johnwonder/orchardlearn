@@ -1,0 +1,372 @@
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Featured Item Slider"
+msgstr "Featured Item Slider"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "NimblePros"
+msgstr "NimblePros"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "http://bitbucket.org/nimblepros/orchard-featureditemslider"
+msgstr "http://bitbucket.org/nimblepros/orchard-featureditemslider"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Adds a new content type called FeaturedItem, which includes an image and a headline, and optionally a sub-headline and link URL. Also includes a FeaturedItemsWidget for displaying the featured items using a jQuery slider. This module depends on the Contrib.MediaPickerField module."
+msgstr "添加一个新的内容类型，称为 FeaturedItem，其中包括图像和标题，和可选的子标题和链接的 URL。此外包括使用 jQuery Cycle 插件显示的FeaturedItemsWidget。此模块依赖于 Contrib.MediaPickerField 模块。"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "FeaturedItemSlider.Description"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Adds a new content type called FeaturedItem, which includes an image and a headline, and optionally a sub-headline and link URL. Also includes a FeaturedItemsWidget for displaying the featured items using the jQuery Cycle plugin."
+msgstr "添加一个新的内容类型，称为 FeaturedItem，其中包括图像和标题，和可选的子标题和链接的 URL。此外包括使用 jQuery Cycle 插件显示的FeaturedItemsWidget。"
+
+#: ~/Modules/FeaturedItemSlider/Module.txt
+#| msgid "FeaturedItemSlider.Category"
+msgctxt "~/Modules/FeaturedItemSlider/Module.txt"
+msgid "Widget"
+msgstr "小部件"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Featured Items"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Featured Items"
+msgstr "功能列表"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "New Feature Group"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "New Feature Group"
+msgstr "新功能组"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Manage Feature Groups"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Manage Feature Groups"
+msgstr "管理功能组"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "New Feature"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "New Feature"
+msgstr "新功能"
+
+#: FeaturedItemSlider.AdminMenu
+#| msgid "Manage Features"
+msgctxt "FeaturedItemSlider.AdminMenu"
+msgid "Manage Features"
+msgstr "管理功能"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "You have not yet created any Groups. Create a"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "You have not yet created any Groups. Create a"
+msgstr "尚未创建任何组。创建"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "new group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "new group"
+msgstr "新组"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml
+#| msgid "now."
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Groups.cshtml"
+msgid "now."
+msgstr "现在"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "Featured Items"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "Featured Items"
+msgstr "功能列表"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "You have not yet created any featured items. Create a"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "You have not yet created any featured items. Create a"
+msgstr "尚未创建任何特色的项目。创建"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "new featured item"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "new featured item"
+msgstr "新功能"
+
+#: ~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml
+#| msgid "now."
+msgctxt "~/Modules/FeaturedItemSlider/Views/Admin/Items.cshtml"
+msgid "now."
+msgstr "现在"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Can be an absolute or relative url. The Headline and Image (if any) will be linked, unless the 'Separate Link' option is checked below."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Can be an absolute or relative url. The Headline and Image (if any) will be linked, unless the 'Separate Link' option is checked below."
+msgstr "可以是相对路径，也可以是绝对路径。头行及图片（如果有）将会被链接，除非下面的“独立链接”选项被选中。"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Separate Link"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Separate Link"
+msgstr "独立链接"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "Use the Slide Order to control the order in which the slides are loaded into the widget."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "Use the Slide Order to control the order in which the slides are loaded into the widget."
+msgstr "使用幻灯片的顺序来控制幻灯片加载到小部件的顺序。"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "For the group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "For the group"
+msgstr "组"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml
+#| msgid "the picture should be"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItem.Edit.cshtml"
+msgid "the picture should be"
+msgstr "这个图片应该"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "A Feature Group is a collection of Feature Items that may be placed in any zone of your site. The settings of your feature group define the width and height of each feature item. You may add as many feature items to a group. Only one feature item will display at a time and a new feature will slide into place every few seconds."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "A Feature Group is a collection of Feature Items that may be placed in any zone of your site. The settings of your feature group define the width and height of each feature item. You may add as many feature items to a group. Only one feature item will display at a time and a new feature will slide into place every few seconds."
+msgstr "A Feature Group is a collection of Feature Items that may be placed in any zone of your site. The settings of your feature group define the width and height of each feature item. You may add as many feature items to a group. Only one feature item will display at a time and a new feature will slide into place every few seconds."
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Display Properties"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Display Properties"
+msgstr "显示属性"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Name"
+msgstr "名称"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Group Width"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Group Width"
+msgstr "组宽"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the overall width of one slide in the widget"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the overall width of one slide in the widget"
+msgstr "这是一张幻灯片在小部件中的整体宽度"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Group Height"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Group Height"
+msgstr "组高"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the overall height of one slide in the widget"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the overall height of one slide in the widget"
+msgstr "这是一张幻灯片在小部件中的整体高度"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Include images in the slider"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Include images in the slider"
+msgstr "在幻灯片中包含图像"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example of a slider using Inline images"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example of a slider using Inline images"
+msgstr "幻灯片使用内联图像的例子"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example"
+msgstr "例如"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Example of a slider using Background images"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Example of a slider using Background images"
+msgstr "使用背景图像的例子"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Image Width"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Image Width"
+msgstr "图片宽"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the width for the image portion of a slide (should not be greater than the Group Width)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the width for the image portion of a slide (should not be greater than the Group Width)"
+msgstr "这是一张幻灯片 （不应大于组宽度） 的图像部分的宽度"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Image Height"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Image Height"
+msgstr "图片高"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the height for the image portion of a slide (should not be greater than the Group Height)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the height for the image portion of a slide (should not be greater than the Group Height)"
+msgstr "这是一张幻灯片 （不应大于组高度） 的图像部分的高度"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Offset - Top"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Offset - Top"
+msgstr "文本偏移量-顶部"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Top of the slide"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Top of the slide"
+msgstr "这是幻灯片文本区域 （标题/子标题) 顶部填充的像素数"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Offset - Left"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Offset - Left"
+msgstr "文本偏移量-左"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Left side of the slide"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of pixels of padding the text area (headline/subheadline) will have from the Left side of the slide"
+msgstr "这是幻灯片文本区域 （标题/子标题) 左侧填充的像素"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Area Background Color"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Area Background Color"
+msgstr "文字区域背景颜色"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Enter a hex code or use the color picker. Leave empty for a transparent background."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Enter a hex code or use the color picker. Leave empty for a transparent background."
+msgstr "输入的十六进制代码或使用拾色器。留空为透明的背景。"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Text Foreground Color"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Text Foreground Color"
+msgstr "文本前景颜色"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Enter a hex code or use the color picker."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Enter a hex code or use the color picker."
+msgstr "输入的十六进制代码或使用拾色器。"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Behavior"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Behavior"
+msgstr "换页动作"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Transition Effect"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Transition Effect"
+msgstr "翻译效果"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "The effects are provided by the jQuery Cycle plugin. The available effects can be seen at"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "The effects are provided by the jQuery Cycle plugin. The available effects can be seen at"
+msgstr "jQuery Cycle 插件提供效果，效果将被看见在"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Speed"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Speed"
+msgstr "换页速度"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of milliseconds it will take for one slide to transition to the next"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of milliseconds it will take for one slide to transition to the next"
+msgstr "这是一张幻灯片过渡到下一步将间隔的毫秒数"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Slide Pause"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Slide Pause"
+msgstr "幻灯片暂停"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This is the number of milliseconds a slide will be diplayed"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This is the number of milliseconds a slide will be diplayed"
+msgstr "这是幻灯片停留（显示）的毫秒数"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Show pager"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Show pager"
+msgstr "显示页"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This option will display pager controls superimposed over the text area of the slides"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This option will display pager controls superimposed over the text area of the slides"
+msgstr "选择此选项将显示在幻灯片的文本区域叠加的导航控件"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "Show slide numbers"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "Show slide numbers"
+msgstr "显示幻灯片编号"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "This determines if the slide number and total slides are displayed on each slide (e.g. 1 of 5)"
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "This determines if the slide number and total slides are displayed on each slide (e.g. 1 of 5)"
+msgstr "这就决定了是否每个幻灯片 （例如 1 5） 上显示的幻灯片编号和总的幻灯片数"
+
+#: ~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml
+#| msgid "<strong>Note:</strong> This will result in a 25px gap from the top of the slide to the starting position of the text area. Adjust the Text Offset - Top setting accordingly."
+msgctxt "~/Modules/FeaturedItemSlider/Views/EditorTemplates/Parts.FeaturedItemGroup.Edit.cshtml"
+msgid "<strong>Note:</strong> This will result in a 25px gap from the top of the slide to the starting position of the text area. Adjust the Text Offset - Top setting accordingly."
+msgstr "<strong>注：</strong>这将导致一个 25px 空白从幻灯片的顶部到文本区域的起始位置。调整文本偏移-顶部相应地设置。"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml
+#| msgid "Group"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml"
+msgid "Group"
+msgstr "组"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml
+#| msgid "Slide Order"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItem.SummaryAdmin.cshtml"
+msgid "Slide Order"
+msgstr "幻灯片顺序"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml
+#| msgid "Item"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml"
+msgid "Item"
+msgstr "项目"
+
+#: ~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml
+#| msgid "Items"
+msgctxt "~/Modules/FeaturedItemSlider/Views/Parts/FeaturedItemGroup.SummaryAdmin.cshtml"
+msgid "Items"
+msgstr "项目"
+

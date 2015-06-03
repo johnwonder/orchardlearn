@@ -1,0 +1,60 @@
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "通信"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "The Messaging module adds messaging functionalities."
+msgstr "消息模块添加消息传递功能。"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Name"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "通信"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Description"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging services."
+msgstr "消息传递服务。"
+
+#: ~/Modules/Orchard.Messaging/Module.txt
+#| msgid "Orchard.Messaging.Category"
+msgctxt "~/Modules/Orchard.Messaging/Module.txt"
+msgid "Messaging"
+msgstr "通信"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Messaging"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Messaging"
+msgstr "消息传递"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "Default channel service for messages"
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "Default channel service for messages"
+msgstr "默认消息传递服务频道"
+
+#: ~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml
+#| msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgctxt "~/Modules/Orchard.Messaging/Views/EditorTemplates/Parts/MessageSettings.cshtml"
+msgid "You must enable a messaging channel (e.g., Orchard.Email) before being able to send messages."
+msgstr "在发送消息前你必须启用一个消息频道（如Orchard.Email）。"
+

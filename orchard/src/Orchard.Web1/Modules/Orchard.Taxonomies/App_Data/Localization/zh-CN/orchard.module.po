@@ -1,0 +1,960 @@
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类法"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard团队"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "The taxonomy module is providing custom categorization of arbitrary content types."
+msgstr "分类法模块提供任意类型内容的定制归类功能。"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Orchard.Taxonomies.Name"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类法"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Orchard.Taxonomies.Description"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Categorize a content item."
+msgstr "分类内容项。"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid "Orchard.Taxonomies.Category"
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Content"
+msgstr "内容"
+
+#: Orchard.Taxonomies.AdminMenu
+#| msgid "Taxonomies"
+msgctxt "Orchard.Taxonomies.AdminMenu"
+msgid "Taxonomies"
+msgstr "分类法"
+
+#: Orchard.Taxonomies.AdminMenu
+#| msgid "Manage Taxonomies"
+msgctxt "Orchard.Taxonomies.AdminMenu"
+msgid "Manage Taxonomies"
+msgstr "管理分类法"
+
+#: Orchard.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't delete taxonomy"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "Couldn't delete taxonomy"
+msgstr "无法删除分类法"
+
+#: Orchard.Taxonomies.Controllers.AdminController
+#| msgid "Couldn't import terms"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "Couldn't import terms"
+msgstr "无法导入术语"
+
+#: Orchard.Taxonomies.Controllers.AdminController
+#| msgid "The term {0} already exists at this level"
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "The term {0} already exists at this level"
+msgstr "此级别已存在术语 {0}"
+
+#: Orchard.Taxonomies.Controllers.AdminController
+#| msgid "The terms have been imported successfully."
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "The terms have been imported successfully."
+msgstr "术语已成功导入"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't delete term"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't delete term"
+msgstr "无法删除术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't move terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't move terms"
+msgstr "不能移动术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "{0} term have been removed."
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "{0} term have been removed."
+msgstr "已删除术语 {0}"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to create terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to create terms"
+msgstr "不允许创建术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to select terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to select terms"
+msgstr "不允许选择术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to move terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to move terms"
+msgstr "不允许移动术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't create term"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't create term"
+msgstr "无法创建术语"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "The {0} term has been created."
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "The {0} term has been created."
+msgstr "术语 {0} 已被创建。"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to manage taxonomies"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to manage taxonomies"
+msgstr "不允许管理分类法"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Couldn't edit taxonomy"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't edit taxonomy"
+msgstr "无法编辑分类法"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Term information updated"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Term information updated"
+msgstr "术语信息已更新"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid "Not allowed to manage terms"
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Not allowed to manage terms"
+msgstr "不允许管理术语"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyFieldDriver
+#| msgid "The field {0} is mandatory."
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyFieldDriver
+#| msgid "You're not allowed to create new terms for this taxonomy"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "You're not allowed to create new terms for this taxonomy"
+msgstr "You're not allowed to create new terms for this taxonomy"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyFieldDriver
+#| msgid "The {0} term has been created."
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "The {0} term has been created."
+msgstr "已创建术语 {0}。"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyPartDriver
+#| msgid "A taxonomy with the same name already exists"
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyPartDriver"
+msgid "A taxonomy with the same name already exists"
+msgstr "A taxonomy with the same name already exists"
+
+#: Orchard.Taxonomies.Drivers.TermPartDriver
+#| msgid "The term {0} already exists at this level"
+msgctxt "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgid "The term {0} already exists at this level"
+msgstr "The term {0} already exists at this level"
+
+#: Orchard.Taxonomies.Drivers.TermPartDriver
+#| msgid "Unknown taxonomy: {0}"
+msgctxt "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgid "Unknown taxonomy: {0}"
+msgstr "Unknown taxonomy: {0}"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Taxonomy"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Taxonomy"
+msgstr "分类法"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Has Terms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Has Terms"
+msgstr "有术语"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized content items"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized content items"
+msgstr "Categorized content items"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Any term"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Any term"
+msgstr "Any term"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized with one of {0}"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with one of {0}"
+msgstr "Categorized with one of {0}"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized with all of {0}"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with all of {0}"
+msgstr "Categorized with all of {0}"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid "Categorized with {0}"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Categorized with {0}"
+msgstr "Categorized with {0}"
+
+#: Orchard.Taxonomies.Projections.TermsFilterForms
+#| msgid "Terms"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Terms"
+msgstr "Terms"
+
+#: Orchard.Taxonomies.Projections.TermsFilterForms
+#| msgid "Select some terms."
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Select some terms."
+msgstr "Select some terms."
+
+#: Orchard.Taxonomies.Projections.TermsFilterForms
+#| msgid "Is one of"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Is one of"
+msgstr "Is one of"
+
+#: Orchard.Taxonomies.Projections.TermsFilterForms
+#| msgid "Is all of"
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Is all of"
+msgstr "Is all of"
+
+#: Orchard.Taxonomies.Services.TaxonomyService
+#| msgid "The term {0} already exists in this taxonomy"
+msgctxt "Orchard.Taxonomies.Services.TaxonomyService"
+msgid "The term {0} already exists in this taxonomy"
+msgstr "The term {0} already exists in this taxonomy"
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid "Taxonomy Field"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Taxonomy Field"
+msgstr "Taxonomy Field"
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid "Tokens for Taxonomy Fields"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Tokens for Taxonomy Fields"
+msgstr "Tokens for Taxonomy Fields"
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid "Terms"
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Terms"
+msgstr "Terms"
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid "The terms (Content) associated with field."
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "The terms (Content) associated with field."
+msgstr "The terms (Content) associated with field."
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid "A term by its index. Can be chained with Content tokens."
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "A term by its index. Can be chained with Content tokens."
+msgstr "A term by its index. Can be chained with Content tokens."
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml
+#| msgid "Create New Taxonomy"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml"
+msgid "Create New Taxonomy"
+msgstr "Create New Taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml
+#| msgid "Taxonomy Properties"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml"
+msgid "Taxonomy Properties"
+msgstr "Taxonomy Properties"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Import Terms for {0}"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import Terms for {0}"
+msgstr "Import Terms for {0}"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "One term per line, followed by a semi-colon and the slug"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "One term per line, followed by a semi-colon and the slug"
+msgstr "One term per line, followed by a semi-colon and the slug"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Hierarchies are defined using tabs (handled in this editor zone)"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Hierarchies are defined using tabs (handled in this editor zone)"
+msgstr "Hierarchies are defined using tabs (handled in this editor zone)"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "e.g,"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "e.g,"
+msgstr "e.g,"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Red; red"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Red; red"
+msgstr "Red; red"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Blue; blue"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Blue; blue"
+msgstr "Blue; blue"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Light Blue; light-blue"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Light Blue; light-blue"
+msgstr "Light Blue; light-blue"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid "Import"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import"
+msgstr "Import"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Manage Taxonomies"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Manage Taxonomies"
+msgstr "Manage Taxonomies"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Actions:"
+msgstr "Actions:"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Choose action..."
+msgstr "Choose action..."
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Remove"
+msgstr "Remove"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Apply"
+msgstr "Apply"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Add a taxonomy"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Add a taxonomy"
+msgstr "Add a taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "This is a table of the taxonomies in your application"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "This is a table of the taxonomies in your application"
+msgstr "This is a table of the taxonomies in your application"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Name"
+msgstr "Name"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Edit"
+msgstr "Edit"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Terms"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Terms"
+msgstr "Terms"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Delete"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Delete"
+msgstr "Delete"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid "Import"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Import"
+msgstr "Import"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Select a taxonomy"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Select a taxonomy"
+msgstr "Select a taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Choose a taxonomy ..."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Choose a taxonomy ..."
+msgstr "Choose a taxonomy ..."
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Restrictions"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Restrict selectable elements to leaves (parent / child terms) only"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Restrict selectable elements to leaves (parent / child terms) only"
+msgstr "Restrict selectable elements to leaves (parent / child terms) only"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "A leave is the last descendant in a parent/child hierarchy"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "A leave is the last descendant in a parent/child hierarchy"
+msgstr "A leave is the last descendant in a parent/child hierarchy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Allow only one term to be selected"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Allow only one term to be selected"
+msgstr "Allow only one term to be selected"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Required"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Required"
+msgstr "Required"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Check if the field is required."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Check if the field is required."
+msgstr "Check if the field is required."
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Autocomplete"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Autocomplete"
+msgstr "Autocomplete"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Enable Autocomplete"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Enable Autocomplete"
+msgstr "Enable Autocomplete"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Allow new terms to be created"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Allow new terms to be created"
+msgstr "Allow new terms to be created"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Help text"
+msgstr "Help text"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid "The help text is written under the field when authors are editing the content item."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are editing the content item."
+msgstr "The help text is written under the field when authors are editing the content item."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+msgstr "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid "This taxonomy does not allow you to create new terms."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "This taxonomy does not allow you to create new terms."
+msgstr "This taxonomy does not allow you to create new terms."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid "Enter multiple terms. Hit <i>tab</i>, <i>enter</i> or <i>,</i> to add multiple terms."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Enter multiple terms. Hit <i>tab</i>, <i>enter</i> or <i>,</i> to add multiple terms."
+msgstr "Enter multiple terms. Hit <i>tab</i>, <i>enter</i> or <i>,</i> to add multiple terms."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid "There are no terms defined for {0} yet."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "There are no terms defined for {0} yet."
+msgstr "There are no terms defined for {0} yet."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid "Create some terms"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Create some terms"
+msgstr "Create some terms"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml
+#| msgid "There are no terms defined for {0} yet."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "There are no terms defined for {0} yet."
+msgstr "There are no terms defined for {0} yet."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml
+#| msgid "Create some terms"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "Create some terms"
+msgstr "Create some terms"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Taxonomy"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Select the taxonomy whose terms will be rendered in the menu."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Select the taxonomy whose terms will be rendered in the menu."
+msgstr "Select the taxonomy whose terms will be rendered in the menu."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Root Term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Root Term"
+msgstr "Root Term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "- Parent Taxonomy -"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "- Parent Taxonomy -"
+msgstr "- Parent Taxonomy -"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Select the root term to display"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Select the root term to display"
+msgstr "Select the root term to display"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Display top level menu item"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Display top level menu item"
+msgstr "Display top level menu item"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "When checked, the selected term to display will be rendered as a root element in the menu."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, the selected term to display will be rendered as a root element in the menu."
+msgstr "When checked, the selected term to display will be rendered as a root element in the menu."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Hide empty entries"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Hide empty entries"
+msgstr "Hide empty entries"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "When checked, any term which has no content item associated to it won't be rendered."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, any term which has no content item associated to it won't be rendered."
+msgstr "When checked, any term which has no content item associated to it won't be rendered."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "Display content count"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Display content count"
+msgstr "Display content count"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid "When checked, the number of content items is rendered following the term name."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "When checked, the number of content items is rendered following the term name."
+msgstr "When checked, the number of content items is rendered following the term name."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "Selectable"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Selectable"
+msgstr "Selectable"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "Uncheck if users should not be able to select this term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Uncheck if users should not be able to select this term"
+msgstr "Uncheck if users should not be able to select this term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid "If specified, will be used to sort terms at the same level"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "If specified, will be used to sort terms at the same level"
+msgstr "If specified, will be used to sort terms at the same level"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml
+#| msgid "Save"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml"
+msgid "Save"
+msgstr "Save"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml
+#| msgid "Create New Term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml"
+msgid "Create New Term"
+msgstr "Create New Term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml
+#| msgid "Term Properties"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml"
+msgid "Term Properties"
+msgstr "Term Properties"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Manage terms for {0}"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Manage terms for {0}"
+msgstr "Manage terms for {0}"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Actions:"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Actions:"
+msgstr "Actions:"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Choose action..."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Choose action..."
+msgstr "Choose action..."
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Remove"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Remove"
+msgstr "Remove"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Move"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Move"
+msgstr "Move"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Apply"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Apply"
+msgstr "Apply"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Add a term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Add a term"
+msgstr "Add a term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "This is a table of the terms in your application"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "This is a table of the terms in your application"
+msgstr "This is a table of the terms in your application"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Name"
+msgstr "Name"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid "Edit"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Edit"
+msgstr "Edit"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "Merging terms"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Merging terms"
+msgstr "Merging terms"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "You are going to merge the terms '{0}' into the term you select below, please be aware that this term will then be delete"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "You are going to merge the terms '{0}' into the term you select below, please be aware that this term will then be delete"
+msgstr "You are going to merge the terms '{0}' into the term you select below, please be aware that this term will then be delete"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "Parent term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Parent term"
+msgstr "Parent term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "Republish content"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Republish content"
+msgstr "Republish content"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "This will republish all content that is currently published. It will not publish out content if the latest version is in draft."
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "This will republish all content that is currently published. It will not publish out content if the latest version is in draft."
+msgstr "This will republish all content that is currently published. It will not publish out content if the latest version is in draft."
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Select"
+msgstr "Select"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "Parent term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Parent term"
+msgstr "Parent term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "- None -"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "- None -"
+msgstr "- None -"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "By selecting a parent term you can create hierarchies"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "By selecting a parent term you can create hierarchies"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Select"
+msgstr "Select"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "Parent term"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Parent term"
+msgstr "Parent term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "- None -"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "- None -"
+msgstr "- None -"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "By selecting a parent term you can create hierarchies"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "By selecting a parent term you can create hierarchies"
+msgstr "By selecting a parent term you can create hierarchies"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid "Select"
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Select"
+msgstr "Select"
+
+#: ~/Modules/Orchard.Taxonomies/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Module.txt"
+msgid "Taxonomies"
+msgstr "分类法"
+
+#: Orchard.Taxonomies.AdminMenu
+#| msgid ""
+msgctxt "Orchard.Taxonomies.AdminMenu"
+msgid "Taxonomies"
+msgstr "分类法"
+
+#: Orchard.Taxonomies.Controllers.AdminController
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Controllers.AdminController"
+msgid "Couldn't delete taxonomy"
+msgstr "无法删除分类法"
+
+#: Orchard.Taxonomies.Controllers.TermAdminController
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Controllers.TermAdminController"
+msgid "Couldn't delete term"
+msgstr "无法删除术语"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyFieldDriver
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyNavigationPartDriver"
+msgid "The levels to display must be a positive number"
+msgstr "The levels to display must be a positive number"
+
+#: Orchard.Taxonomies.Drivers.TaxonomyPartDriver
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Drivers.TaxonomyPartDriver"
+msgid "A taxonomy with the same name already exists"
+msgstr "A taxonomy with the same name already exists"
+
+#: Orchard.Taxonomies.Drivers.TermPartDriver
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Drivers.TermPartDriver"
+msgid "The term {0} already exists at this level"
+msgstr "The term {0} already exists at this level"
+
+#: Orchard.Taxonomies.Projections.TermsFilter
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Projections.TermsFilter"
+msgid "Taxonomy"
+msgstr "分类法"
+
+#: Orchard.Taxonomies.Projections.TermsFilterForms
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Projections.TermsFilterForms"
+msgid "Terms"
+msgstr "Terms"
+
+#: Orchard.Taxonomies.Services.TaxonomyService
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Services.TaxonomyService"
+msgid "The term {0} already exists in this taxonomy"
+msgstr "The term {0} already exists in this taxonomy"
+
+#: Orchard.Taxonomies.Tokens.TaxonomyTokens
+#| msgid ""
+msgctxt "Orchard.Taxonomies.Tokens.TaxonomyTokens"
+msgid "Taxonomy Field"
+msgstr "Taxonomy Field"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Create.cshtml"
+msgid "Create New Taxonomy"
+msgstr "Create New Taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Edit.cshtml"
+msgid "Taxonomy Properties"
+msgstr "Taxonomy Properties"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Import.cshtml"
+msgid "Import Terms for {0}"
+msgstr "Import Terms for {0}"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Admin/Index.cshtml"
+msgid "Manage Taxonomies"
+msgstr "Manage Taxonomies"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TaxonomyFieldSettings.cshtml"
+msgid "Select a taxonomy"
+msgstr "Select a taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/DefinitionTemplates/TermPartSettings.cshtml"
+msgid "Child display type"
+msgstr "Child display type"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.Autocomplete.cshtml"
+msgid "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+msgstr "Enter a single term. Hit <i>tab</i> or <i>enter</i> to apply the term."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Fields/TaxonomyField.cshtml"
+msgid "There are no terms defined for {0} yet."
+msgstr "There are no terms defined for {0} yet."
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Navigation.Taxonomy.Edit.cshtml"
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: ~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/EditorTemplates/Parts/Taxonomies.Term.Fields.cshtml"
+msgid "Selectable"
+msgstr "Selectable"
+
+#: ~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/Items/Content-Term.Edit.cshtml"
+msgid "Save"
+msgstr "Save"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Create.cshtml"
+msgid "Create New Term"
+msgstr "Create New Term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Edit.cshtml"
+msgid "Term Properties"
+msgstr "Term Properties"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Index.cshtml"
+msgid "Manage terms for {0}"
+msgstr "Manage terms for {0}"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/Merge.cshtml"
+msgid "Merging terms"
+msgstr "Merging terms"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/MoveTerm.cshtml"
+msgid "Parent term"
+msgstr "Parent term"
+
+#: ~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Taxonomies/Views/TermAdmin/SelectTerm.cshtml"
+msgid "Parent term"
+msgstr "Parent term"
+

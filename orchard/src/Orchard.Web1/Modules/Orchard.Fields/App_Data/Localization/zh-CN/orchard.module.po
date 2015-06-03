@@ -1,0 +1,1218 @@
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Fields"
+msgstr "字段"
+
+#: Orchard.Fields.Drivers.BooleanFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.BooleanFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.DateTimeFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.DateTimeFieldDriver"
+msgid "{0} is required."
+msgstr "{0} 是必需的。"
+
+#: Orchard.Fields.Drivers.EnumerationFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.EnumerationFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.InputFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.InputFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "Url is required for {0}"
+msgstr "{0} 必须填写 URL"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid ""
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid ""
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Link Field"
+msgstr "链接字段"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Add a neutral option"
+msgstr "添加一个中性的选项"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Display options"
+msgstr "显示选项"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "An option is required"
+msgstr "选项是必需的"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Input type"
+msgstr "输入类型"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Target"
+msgstr "目标"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml"
+msgid "Select an option"
+msgstr "请选择一个选项"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml
+#| msgid ""
+msgctxt "~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml"
+msgid "{0}"
+msgstr "{0}"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Link Field"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Link Field"
+msgstr "链接字段"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Tokens for Link Fields"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Tokens for Link Fields"
+msgstr "链接字段的标记"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Text"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Text"
+msgstr "文本"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The text of the link."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The text of the link."
+msgstr "链接的文本。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Url"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Url"
+msgstr "URL"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The url of the link."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The url of the link."
+msgstr "链接的 URL。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Target"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Target"
+msgstr "目标"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The target of the link."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The target of the link."
+msgstr "链接的目标。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Date Time Field"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Date Time Field"
+msgstr "日期时间字段"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Tokens for Date Time Fields"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Tokens for Date Time Fields"
+msgstr "日期时间字段的标记"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Date"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Date"
+msgstr "日期"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The date only."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The date only."
+msgstr "仅限日期。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Time"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Time"
+msgstr "时间"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The time only."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The time only."
+msgstr "仅限时间。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Media Picker Field"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Media Picker Field"
+msgstr "媒体选取器字段"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Tokens for Media Picker Fields"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Tokens for Media Picker Fields"
+msgstr "媒体选择器字段的标记"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The url of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The url of the media."
+msgstr "媒体的 URL。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Alternate Text"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Alternate Text"
+msgstr "备用文本"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The alternate text of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The alternate text of the media."
+msgstr "媒体的备用文本。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Class"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Class"
+msgstr "HTML 类"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The class of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The class of the media."
+msgstr "媒体的 HTML 类。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Style"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Style"
+msgstr "样式"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The style of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The style of the media."
+msgstr "媒体的样式。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Alignment"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Alignment"
+msgstr "对齐方式"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The alignment of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The alignment of the media."
+msgstr "媒体的对齐方式。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Width"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Width"
+msgstr "宽度"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The width of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The width of the media."
+msgstr "媒体的宽度。"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Height"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Height"
+msgstr "高度"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The height of the media."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The height of the media."
+msgstr "媒体的高度。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Check to ensure the user is providing a valid media for this field."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Check to ensure the user is providing a valid media for this field."
+msgstr "选中以确保用户为此字段提供一个有效的媒体。"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/MediaPicker.Edit.cshtml
+#| msgid "Clear"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/MediaPicker.Edit.cshtml"
+msgid "Clear"
+msgstr "清除"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Fields"
+msgstr "字段"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Antoine Griffard, S�bastien Ros"
+msgstr "Antoine Griffard, S�bastien Ros"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "http://orchardfields.codeplex.com"
+msgstr "http://orchardfields.codeplex.com"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Some content fields"
+msgstr "一些内容字段"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Orchard.Fields.Description"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Contains the following fields: Input, Boolean, DateTime, Numeric, Link, Enumeration, Media Picker"
+msgstr "包含以下字段： 输入、 布尔型、 日期时间、 数字、 链接、 枚举、 媒体选取器"
+
+#: ~/Modules/Orchard.Fields/Module.txt
+#| msgid "Orchard.Fields.Category"
+msgctxt "~/Modules/Orchard.Fields/Module.txt"
+msgid "Fields"
+msgstr "字段"
+
+#: Orchard.Fields.Drivers.BooleanFieldDriver
+#| msgid "The field {0} is mandatory."
+msgctxt "Orchard.Fields.Drivers.BooleanFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.BooleanFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Fields.Drivers.BooleanFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Fields.Drivers.BooleanFieldDriver
+#| msgid "The boolean value of the field."
+msgctxt "Orchard.Fields.Drivers.BooleanFieldDriver"
+msgid "The boolean value of the field."
+msgstr "字段的布尔值。"
+
+#: Orchard.Fields.Drivers.DateTimeFieldDriver
+#| msgid "{0} is required"
+msgctxt "Orchard.Fields.Drivers.DateTimeFieldDriver"
+msgid "{0} is required"
+msgstr "{0} 是必填的。"
+
+#: Orchard.Fields.Drivers.DateTimeFieldDriver
+#| msgid "{0} is an invalid date and time"
+msgctxt "Orchard.Fields.Drivers.DateTimeFieldDriver"
+msgid "{0} is an invalid date and time"
+msgstr "{0} 是无效的日期时间"
+
+#: Orchard.Fields.Drivers.DateTimeFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Fields.Drivers.DateTimeFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Fields.Drivers.DateTimeFieldDriver
+#| msgid "The date time value of the field."
+msgctxt "Orchard.Fields.Drivers.DateTimeFieldDriver"
+msgid "The date time value of the field."
+msgstr "日期时间字段的值。"
+
+#: Orchard.Fields.Drivers.EnumerationFieldDriver
+#| msgid "The field {0} is mandatory"
+msgctxt "Orchard.Fields.Drivers.EnumerationFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.EnumerationFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Fields.Drivers.EnumerationFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Fields.Drivers.EnumerationFieldDriver
+#| msgid "The selected values of the field."
+msgctxt "Orchard.Fields.Drivers.EnumerationFieldDriver"
+msgid "The selected values of the field."
+msgstr "字段选择的值。"
+
+#: Orchard.Fields.Drivers.InputFieldDriver
+#| msgid "The field {0} is mandatory."
+msgctxt "Orchard.Fields.Drivers.InputFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.InputFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Fields.Drivers.InputFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Fields.Drivers.InputFieldDriver
+#| msgid "The value of the field."
+msgctxt "Orchard.Fields.Drivers.InputFieldDriver"
+msgid "The value of the field."
+msgstr "字段的值。"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "Url is required for {0}"
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "Url is required for {0}"
+msgstr "{0} 必须填写 URL"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "{0} is an invalid url."
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "{0} is an invalid url."
+msgstr "{0} 是无效的 URL。"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "Text is required for {0}."
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "Text is required for {0}."
+msgstr "{0} 须填写文本。"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "Text"
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "Text"
+msgstr "文本"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "The text of the link."
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "The text of the link."
+msgstr "链接的文本。"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "Url"
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "Url"
+msgstr "URL"
+
+#: Orchard.Fields.Drivers.LinkFieldDriver
+#| msgid "The url of the link."
+msgctxt "Orchard.Fields.Drivers.LinkFieldDriver"
+msgid "The url of the link."
+msgstr "链接的 URL。"
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "The field {0} must be have one of these extensions: {1}"
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "The field {0} must be have one of these extensions: {1}"
+msgstr "字段 {0} 必须具有这些扩展名之一： {1}"
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "The field {0} is mandatory"
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "The field {0} is mandatory"
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "The media in {0} could not be found"
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "The media in {0} could not be found"
+msgstr "找不到 {0} 中的媒体"
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "Url"
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "Url"
+msgstr "URL"
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "The url of the media."
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "The url of the media."
+msgstr "媒体的 URL。"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "The field {0} is mandatory."
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The field {0} is mandatory."
+msgstr "字段 {0} 是必须的"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "The value must be greater than {0}"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The value must be greater than {0}"
+msgstr "值必须大于 {0}"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "The value must be less than {0}"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The value must be less than {0}"
+msgstr "值必须小于 {0}"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "The field {0} must be an integer"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The field {0} must be an integer"
+msgstr "字段 {0} 必须是一个整数"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "Invalid number of digits for {0}, max allowed: {1}"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "Invalid number of digits for {0}, max allowed: {1}"
+msgstr "无效的数字位数为 {0}，最大允许: {1}"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "Value"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "Value"
+msgstr "值"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "The value of the field."
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "The value of the field."
+msgstr "字段的值。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "The help text is written under the field when the user is selecting a value."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "The help text is written under the field when the user is selecting a value."
+msgstr "当用户输入值的时候显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Add a neutral option"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Add a neutral option"
+msgstr "添加一个中性的选项"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Check to allow the user to enter a neutral value, like 'Maybe'."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Check to allow the user to enter a neutral value, like 'Maybe'."
+msgstr "选中以允许用户输入一个中立值，例如“可能”。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Neutral option text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Neutral option text"
+msgstr "中立选项文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "The text displayed when the field is not selected."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "The text displayed when the field is not selected."
+msgstr "未显示此字段时显示的文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "On Label"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "On Label"
+msgstr "开启时的标签"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "The text displayed when the field is selected."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "The text displayed when the field is selected."
+msgstr "未选择此字段时显示的文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Off Label"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Off Label"
+msgstr "关闭时的标签"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "The text displayed when the field is unselected."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "The text displayed when the field is unselected."
+msgstr "未选择此字段时显示的文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Selection mode"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Selection mode"
+msgstr "选择模式"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Checkbox"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Checkbox"
+msgstr "复选框"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Radio buttons"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Radio buttons"
+msgstr "单选按钮"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Dropdown list"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Dropdown list"
+msgstr "下拉列表"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "When Checkbox is selected, the label for 'on' will be used."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "When Checkbox is selected, the label for 'on' will be used."
+msgstr "当复选框选择以后将使用“开启”标签。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Default value"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Default value"
+msgstr "默认值"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "Neutral"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "Neutral"
+msgstr "中立"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "True"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "True"
+msgstr "真"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml
+#| msgid "False"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/BooleanFieldSettings.cshtml"
+msgid "False"
+msgstr "假"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "The help text is written under the field when the user is entering a value."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "The help text is written under the field when the user is entering a value."
+msgstr "当用户输入值的时候显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Display options"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Display options"
+msgstr "显示选项"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Date and time"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Date and time"
+msgstr "日期和时间"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Date only"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Date only"
+msgstr "仅限日期"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Time only"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Time only"
+msgstr "仅限时间"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml
+#| msgid "Check if the field is required."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/DateTimeFieldSettings.cshtml"
+msgid "Check if the field is required."
+msgstr "选中表示该字段必填。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "The help text is written under the field when users are selecting an option."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "The help text is written under the field when users are selecting an option."
+msgstr "当用户选择选项的时候显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "An option is required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "An option is required"
+msgstr "选项是必需的"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Check to ensure the user is providing an option for this field."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Check to ensure the user is providing an option for this field."
+msgstr "选中以确保用户提供此字段的选项。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Options"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Options"
+msgstr "选项"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Enter an option per line."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Enter an option per line."
+msgstr "输入选项，每个一行。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "List mode"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "List mode"
+msgstr "列表模式"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Dropdown list"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Dropdown list"
+msgstr "下拉列表"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Radio button list"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Radio button list"
+msgstr "单选按钮列表"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Listbox"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Listbox"
+msgstr "列表框"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml
+#| msgid "Checkbox"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/EnumerationFieldSettings.cshtml"
+msgid "Checkbox"
+msgstr "复选框"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "The help text is written under the field when the user is entering a value."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "The help text is written under the field when the user is entering a value."
+msgstr "当用户输入值的时候显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Input type"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Input type"
+msgstr "输入类型"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Text"
+msgstr "文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Url"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Tel"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Tel"
+msgstr "电话"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Email"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Email"
+msgstr "电子邮件"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Defines what format should be applied to the text."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Defines what format should be applied to the text."
+msgstr "定义什么格式应该应用于文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Pattern"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Pattern"
+msgstr "模式"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Declaring what pattern should be used for validating a field’s value, in the form of a regular expression. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Declaring what pattern should be used for validating a field’s value, in the form of a regular expression. (optional)"
+msgstr "声明用于验证字段值的模式，使用正则表达式。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Title"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Title"
+msgstr "标题"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "The title attribute of the field. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "The title attribute of the field. (optional)"
+msgstr "该字段的标题属性。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Check if the field is required."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Check if the field is required."
+msgstr "选中表示该字段必填。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Autofocus"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Autofocus"
+msgstr "自动焦点"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Whether focus should be set to this field as soon as it has loaded."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Whether focus should be set to this field as soon as it has loaded."
+msgstr "当字段加载是是否尽快将输入焦点至于其上。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Automatic completion"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Automatic completion"
+msgstr "自动完成"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "An option to turn off automatic form completion of values. Leave unchecked to disable automatic completion."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "An option to turn off automatic form completion of values. Leave unchecked to disable automatic completion."
+msgstr "关闭表单自动完成的选项。未选中表示关闭自动完成。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Watermark"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Watermark"
+msgstr "水印"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "A hint to display when the input is empty. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "A hint to display when the input is empty. (optional)"
+msgstr "当输入为空时显示的提示。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Editor css class"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Editor css class"
+msgstr "编辑器 CSS 类"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "The css class to use for the editor. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "The css class to use for the editor. (optional)"
+msgstr "编辑器使用的 CSS 类。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "Maximum length"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "Maximum length"
+msgstr "最大长度"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml
+#| msgid "The maximum number of chars allowed. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/InputFieldSettings.cshtml"
+msgid "The maximum number of chars allowed. (optional)"
+msgstr "最大的允许的字符数。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "The help text is written under the field."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "The help text is written under the field."
+msgstr "该字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Target"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Target"
+msgstr "目标"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "No target"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "No target"
+msgstr "没有目标"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Open link in new window"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Open link in new window"
+msgstr "在新窗口中打开链接"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Open link in the parent frameset"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Open link in the parent frameset"
+msgstr "在父框架集中打开链接"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Open link in the full body of the window"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Open link in the full body of the window"
+msgstr "在窗口的完整正文里打开链接"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Allow the user to choose"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Allow the user to choose"
+msgstr "允许用户选择"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Whether the url is required."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Whether the url is required."
+msgstr "URL 是否必填。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Link text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Link text"
+msgstr "链接文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Optional"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Optional"
+msgstr "可选"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Static"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Static"
+msgstr "静态"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Url"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "Define how the title field should behave in the editor."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "Define how the title field should behave in the editor."
+msgstr "定义标题字段在编辑器中的行为。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml
+#| msgid "The title to display for the link"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/LinkFieldSettings.cshtml"
+msgid "The title to display for the link"
+msgstr "链接显示的标题"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "The help text is written under the field when authors are selecting a media."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "The help text is written under the field when authors are selecting a media."
+msgstr "当作者选择媒体时显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "The media is required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "The media is required"
+msgstr "媒体是必填的"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Check to ensure the user if providing a valid media for this field."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Check to ensure the user if providing a valid media for this field."
+msgstr "选中以确保用户为此字段提供一个有效的媒体。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Allow only specific extensions"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Allow only specific extensions"
+msgstr "允许仅指定的扩展名"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "You can define a set of extensions the user will be able to pick, separated by spaces, e.g. jpg png gif"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "You can define a set of extensions the user will be able to pick, separated by spaces, e.g. jpg png gif"
+msgstr "您可以定义一组扩展名让用户选取，用空格分隔开，例如 jpg png gif"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Leave it empty if you don't want to apply any restriction."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Leave it empty if you don't want to apply any restriction."
+msgstr "如果不想限制请保持为空"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Provide custom parameters"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Provide custom parameters"
+msgstr "提供自定义参数"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Custom parameters can be used if your own views."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Custom parameters can be used if your own views."
+msgstr "如果您有自己的视图的话可以使用自定义参数。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Custom1"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Custom1"
+msgstr "自定义1"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Custom2"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Custom2"
+msgstr "自定义2"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml
+#| msgid "Custom3"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/MediaPickerFieldSettings.cshtml"
+msgid "Custom3"
+msgstr "自定义3"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Help text"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Help text"
+msgstr "帮助文本"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "The help text is written under the field when the user is entering a value."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "The help text is written under the field when the user is entering a value."
+msgstr "当用户输入值的时候显示在字段下的帮助文本。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Required"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Required"
+msgstr "必填"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Check if the field is required."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Check if the field is required."
+msgstr "选中表示该字段必填。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Scale"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Scale"
+msgstr "量程"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "The number of digits to the right of the decimal. Put 0 for integers."
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "The number of digits to the right of the decimal. Put 0 for integers."
+msgstr "小数点右侧的位数。“0”表示整数。"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Minimum"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Minimum"
+msgstr "最小值"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "The minimum value allowed. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "The minimum value allowed. (optional)"
+msgstr "允许的最小值。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "Maximum"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "Maximum"
+msgstr "最大值"
+
+#: ~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml
+#| msgid "The maximum value allowed. (optional)"
+msgctxt "~/Modules/Orchard.Fields/Views/DefinitionTemplates/NumericFieldSettings.cshtml"
+msgid "The maximum value allowed. (optional)"
+msgstr "允许的最小值。（可选）"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/DateTime.Edit.cshtml
+#| msgid "Date"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/DateTime.Edit.cshtml"
+msgid "Date"
+msgstr "日期"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/DateTime.Edit.cshtml
+#| msgid "Time"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/DateTime.Edit.cshtml"
+msgid "Time"
+msgstr "时间"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml
+#| msgid "Select an option"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml"
+msgid "Select an option"
+msgstr "请选择一个选项"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml
+#| msgid "unset"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Enumeration.Edit.cshtml"
+msgid "unset"
+msgstr "未设置"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "Url"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "Url"
+msgstr "URL"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "A valid url, i.e. http://orchardproject.net, /content/file.pdf, ..."
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "A valid url, i.e. http://orchardproject.net, /content/file.pdf, ..."
+msgstr "一个有效的 URL，例如 http://orchardproject.net，/content/file.pdf，......"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "Text"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "Text"
+msgstr "文本"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "The text of the link. If left empty, the url will be used instead."
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "The text of the link. If left empty, the url will be used instead."
+msgstr "链接的文本。如果留空将使用 URL。"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "Target"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "Target"
+msgstr "目标"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml
+#| msgid "A valid HTML target attribute value. e.g., _blank, _parent, _top, or an anchor. "
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/Link.Edit.cshtml"
+msgid "A valid HTML target attribute value. e.g., _blank, _parent, _top, or an anchor. "
+msgstr "一个有效的 HTML 目标属性值。例如，_blank，_parent，_top 或一个锚点。"
+
+#: ~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/MediaPicker.Edit.cshtml
+#| msgid "Browse"
+msgctxt "~/Modules/Orchard.Fields/Views/EditorTemplates/Fields/MediaPicker.Edit.cshtml"
+msgid "Browse"
+msgstr "浏览"
+
+#: ~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml
+#| msgid "{0}"
+msgctxt "~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml"
+msgid "{0}"
+msgstr "{0}"
+
+#: ~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml
+#| msgid ", "
+msgctxt "~/Modules/Orchard.Fields/Views/Fields/Enumeration.cshtml"
+msgid ", "
+msgstr ", "
+
+#: Orchard.Fields.Drivers.MediaPickerFieldDriver
+#| msgid "The field {0} must have one of these extensions: {1}"
+msgctxt "Orchard.Fields.Drivers.MediaPickerFieldDriver"
+msgid "The field {0} must have one of these extensions: {1}"
+msgstr "字段 {0} 必须具有这些扩展名之一： {1}"
+
+#: Orchard.Fields.Drivers.NumericFieldDriver
+#| msgid "{0} is an invalid number"
+msgctxt "Orchard.Fields.Drivers.NumericFieldDriver"
+msgid "{0} is an invalid number"
+msgstr "{0} 是无效数字"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "Date Time"
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "Date Time"
+msgstr "日期时间"
+
+#: Orchard.Fields.Tokens.FieldTokens
+#| msgid "The date and time."
+msgctxt "Orchard.Fields.Tokens.FieldTokens"
+msgid "The date and time."
+msgstr "日期和时间。"
+

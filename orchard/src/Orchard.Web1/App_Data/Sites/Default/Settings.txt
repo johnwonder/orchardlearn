@@ -1,0 +1,12 @@
+Name: Default
+DataProvider: SqlServer
+DataConnectionString: Data Source=.;Initial Catalog=OrchardNoCMS;Persist Security Info=True;User ID=sa;Password=123456
+DataPrefix: default
+RequestUrlHost: null
+RequestUrlPrefix: null
+State: Running
+EncryptionAlgorithm: AES
+EncryptionKey: D4AB66DA23EFADBA6D260E1532FEBD32114D9DDED0BF2BDDB006374862282165
+HashAlgorithm: HMACSHA256
+HashKey: 00E2238CE94B5CAFB8A4EC9A631768BE84446AE8AADA9A2C1402D21F672779301563C334B7F1C9B112A65F55771B73A0AF5881D0095B74FA42B6D08A401323C1
+Themes: 

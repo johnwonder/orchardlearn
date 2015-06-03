@@ -18,3 +18,12 @@ E:\dev\orchard\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
 E:\dev\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
 E:\dev\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb
 E:\dev\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.dll
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.Tests.pdb
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.exe
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Orchard.pdb
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Moq.pdb
+E:\gitremote\orchard\src\Tools\Orchard.Tests\bin\Debug\Moq.xml
+E:\gitremote\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.csprojResolveAssemblyReference.cache
+E:\gitremote\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.dll
+E:\gitremote\orchard\src\Tools\Orchard.Tests\obj\Debug\Orchard.Tests.pdb

@@ -167,7 +167,11 @@ namespace Orchard.Environment.ShellBuilders {
                 ControllerName = controllerName,
             };
         }
-
+        /// <summary>
+        /// 找到需要创建映射关系的实体类
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         private static bool IsRecord(Type type) {
             return ((type.Namespace ?? "").EndsWith(".Models") || (type.Namespace ?? "").EndsWith(".Records")) &&
                    type.GetProperty("Id") != null &&

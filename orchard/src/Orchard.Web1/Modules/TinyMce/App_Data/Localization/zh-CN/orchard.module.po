@@ -1,0 +1,60 @@
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Author"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "The Orchard Team"
+msgstr "Orchard 团队"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Website"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "http://orchardproject.net"
+msgstr "http://orchardproject.net"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Description"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "The TinyMCE module enables rich text contents to be created using a \"What You See Is What You Get\" user interface."
+msgstr "TinyMCE 模块允许在一个所见即所得的用户界面中创建富文本内容。"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Name"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMce"
+msgstr "TinyMce"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Description"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMCE HTML WYSIWYG editor."
+msgstr "TinyMCE HTML 所见即所得编辑器。"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "TinyMce.Category"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "Input Editor"
+msgstr "输入编辑器"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid "Name"
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMce"
+msgstr "TinyMce"
+
+#: ~/Modules/TinyMce/Views/Body-Html.Editor.cshtml
+#| msgid "Insert/Update Media"
+msgctxt "~/Modules/TinyMce/Views/Body-Html.Editor.cshtml"
+msgid "Insert/Update Media"
+msgstr "插入/更新媒体"
+
+#: ~/Modules/TinyMce/Module.txt
+#| msgid ""
+msgctxt "~/Modules/TinyMce/Module.txt"
+msgid "TinyMce"
+msgstr "TinyMce"
+
+#: ~/Modules/TinyMce/Views/Body-Html.Editor.cshtml
+#| msgid ""
+msgctxt "~/Modules/TinyMce/Views/Body-Html.Editor.cshtml"
+msgid "Insert/Update Media"
+msgstr "插入/更新媒体"
+
