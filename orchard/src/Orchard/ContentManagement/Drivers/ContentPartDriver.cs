@@ -8,6 +8,11 @@ using Orchard.DisplayManagement.Descriptors;
 using Orchard.DisplayManagement.Shapes;
 
 namespace Orchard.ContentManagement.Drivers {
+    /// <summary>
+    /// 对于模块开发者，最常见的形状是通过驱动器将数据通过一个模板呈现出来。
+    /// 一个驱动器是继承Orchard.ContentManagement.Drivers.ContentPartDriver类。
+    /// </summary>
+    /// <typeparam name="TContent"></typeparam>
     public abstract class ContentPartDriver<TContent> : IContentPartDriver where TContent : ContentPart, new() {
         protected virtual string Prefix { get { return ""; } }
 
@@ -112,6 +117,13 @@ namespace Orchard.ContentManagement.Drivers {
 
         protected virtual void GetContentItemMetadata(TContent context, ContentItemMetadata metadata) {}
 
+        /// <summary>
+        /// 子类重写Display方法和Editor方法。
+        /// </summary>
+        /// <param name="part"></param>
+        /// <param name="displayType"></param>
+        /// <param name="shapeHelper"></param>
+        /// <returns></returns>
         protected virtual DriverResult Display(TContent part, string displayType, dynamic shapeHelper) { return null; }
         protected virtual DriverResult Editor(TContent part, dynamic shapeHelper) { return null; }
         protected virtual DriverResult Editor(TContent part, IUpdateModel updater, dynamic shapeHelper) { return null; }
