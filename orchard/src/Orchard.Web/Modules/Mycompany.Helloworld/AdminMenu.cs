@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using Orchard.UI.Navigation;
 using Orchard.Localization;
+using System.Web.Routing;
 
 namespace Mycompany.Helloworld
 {
@@ -26,7 +27,12 @@ namespace Mycompany.Helloworld
                 .Add(
                     T("Hello World"),
                     "5",
-                    menu => menu.Action("Index", "Admin", new  { area = "MyCompany.Helloworld" })
+                    menu => menu.Action("Index", "Admin", new RouteValueDictionary{
+                                
+                                        {"area","MyCompany.Helloworld"},
+                                        {"controller","Home"},
+                                        {"action","Index"}
+                                })
                 );
         }
     }
