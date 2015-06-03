@@ -33,3 +33,5 @@ orchard/src/Orchard.Web/obj
 orchard/src/Orchard.Web/Orchard.Web.csproj.user
 orchard/src/Orchard.suo
 orchard/src/Orchard.sln.docstates.suo
+orchard/src/Orchard/bin
+orchard/src/Orchard/obj
