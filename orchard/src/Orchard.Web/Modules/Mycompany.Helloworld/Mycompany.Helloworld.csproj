@@ -78,18 +78,21 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminMenu.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Migrations.cs" />
+    <Compile Include="Models\TextRecord.cs" />
     <Compile Include="Routes.cs" />
-    <Compile Include="Views\Index.cshtml.cs" />
-    <Compile Include="Views\Index.cshtml.designer.cs">
-      <DependentUpon>Index.cshtml.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Services\ITextService.cs" />
+    <Compile Include="Services\TextService.cs" />
+    <Compile Include="ViewModels\EditTextViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

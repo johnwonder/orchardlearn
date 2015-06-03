@@ -1,0 +1,17 @@
+﻿@using MyCompany.Helloworld.ViewModels
+@model EditTextViewModel
+
+<!--设置标题-->
+@{ Layout.Title = T("Manage Hello World Text").ToString(); }
+
+@Html.ValidationSummary() 
+
+@using (Html.BeginFormAntiForgeryPost()) { 
+    <fieldset>
+        @Html.LabelFor(m => m.Content)
+        @Html.TextBoxFor(m => m.Content, new { @class = "text" })
+    </fieldset>
+    <fieldset>
+        <button class="primaryAction" type="submit" name="submit.Save" value="yes">@T("Save")</button>
+    </fieldset>
+}

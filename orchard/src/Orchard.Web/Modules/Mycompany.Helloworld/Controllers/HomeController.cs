@@ -2,6 +2,7 @@ using System.Web.Mvc;
 using Orchard.Localization;
 using Orchard;
 using Orchard.Themes;
+using Mycompany.Helloworld.Services;
 
 namespace MyCompany.Helloworld.Controllers {
     
@@ -10,19 +11,28 @@ namespace MyCompany.Helloworld.Controllers {
     /// </summary>
     [Themed]
     public class HomeController : Controller {
-        public IOrchardServices Services { get; set; }
 
-        public HomeController(IOrchardServices services) {
-            Services = services;
-            T = NullLocalizer.Instance;
+        private readonly ITextService _textService;
+
+        public HomeController(ITextService textService)
+        {
+            _textService = textService;
+          
         }
 
         public ActionResult Index()
         {
             string model = "Hello World";
+
+            var textRecord = _textService.GetText();
+            if (textRecord != null)
+            {
+                model = textRecord.Content;
+            }
+
             return View((object)model);
         }
 
-        public Localizer T { get; set; }
+     
     }
 }
