@@ -28,3 +28,8 @@ obj/
 [Rr]elease*/
 _ReSharper*/
 [Tt]est[Rr]esult*
+orchard/src/Orchard.Web/bin
+orchard/src/Orchard.Web/obj
+orchard/src/Orchard.Web/Orchard.Web.csproj.user
+orchard/src/Orchard.suo
+orchard/src/Orchard.sln.docstates.suo
