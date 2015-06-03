@@ -4,6 +4,11 @@ using System.Linq;
 using System.Linq.Expressions;
 
 namespace Orchard.Data {
+    /// <summary>
+    /// 通过该接口操作数据库
+    /// 只需要通过IRepository<T>接口就可以对相应实体T所对应的数据表进行增、删、改、查的操作了
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public interface IRepository<T> {
         void Create(T entity);
         void Update(T entity);
