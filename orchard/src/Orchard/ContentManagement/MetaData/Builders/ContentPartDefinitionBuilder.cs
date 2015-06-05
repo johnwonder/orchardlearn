@@ -28,6 +28,10 @@ namespace Orchard.ContentManagement.MetaData.Builders {
 
         public string Name { get { return _name; } }
 
+        /// <summary>
+        /// 返回ContentPartDefinition实例，带name field settings
+        /// </summary>
+        /// <returns></returns>
         public ContentPartDefinition Build() {
             return new ContentPartDefinition(_name, _fields, _settings);
         }

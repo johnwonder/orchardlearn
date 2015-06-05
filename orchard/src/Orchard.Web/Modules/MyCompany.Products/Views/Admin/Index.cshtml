@@ -1,0 +1,12 @@
+﻿@using MyCompany.Products.Extensions;
+@using Orchard.Core.Contents.ViewModels;
+@using Orchard.Utility.Extensions;
+
+<!--设置标题-->
+@{ Layout.Title = T("Manage Products").ToString(); }
+
+
+<div class="actions"><a class="add button primaryAction" href="@Url.ProductCreate()">@T("新产品")</a></div>
+        <fieldset class="contentItems bulk-items">
+            @Display(Model.ContentItems)
+        </fieldset>

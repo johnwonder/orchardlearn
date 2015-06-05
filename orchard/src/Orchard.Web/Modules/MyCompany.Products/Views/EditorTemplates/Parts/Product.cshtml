@@ -1,0 +1,11 @@
+﻿@model MyCompany.Products.Models.ProductPart
+<fieldset>
+    @Html.LabelFor(m => m.Price, T("Price"))
+    @Html.TextBoxFor(m => m.Price, new { @class = "textMedium" })
+    @Html.ValidationMessageFor(m => m.Price, "*")
+</fieldset>
+<fieldset>
+    @Html.LabelFor(m => m.Brand, T("Brand"))
+    @Html.TextBoxFor(m => m.Brand, new { @class = "textMedium" })
+    @Html.ValidationMessageFor(m => m.Brand, "*")
+</fieldset>

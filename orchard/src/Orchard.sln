@@ -152,6 +152,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSocketDemo", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mycompany.Helloworld", "Orchard.Web\Modules\Mycompany.Helloworld\Mycompany.Helloworld.csproj", "{D7C60B12-4AF7-4FE6-899C-EACFB641A6EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCompany.Products", "Orchard.Web\Modules\MyCompany.Products\MyCompany.Products.csproj", "{C651B2F9-182E-4A1E-98BD-B8A248DE36E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -171,6 +173,10 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C651B2F9-182E-4A1E-98BD-B8A248DE36E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C651B2F9-182E-4A1E-98BD-B8A248DE36E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C651B2F9-182E-4A1E-98BD-B8A248DE36E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C651B2F9-182E-4A1E-98BD-B8A248DE36E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{50B779EA-EC00-4699-84C0-03B395C365D2}.CodeCoverage|Any CPU.ActiveCfg = Release|Any CPU
 		{50B779EA-EC00-4699-84C0-03B395C365D2}.CodeCoverage|Any CPU.Build.0 = Release|Any CPU
 		{50B779EA-EC00-4699-84C0-03B395C365D2}.CodeCoverage|Mixed Platforms.ActiveCfg = Release|Any CPU
@@ -1977,5 +1983,6 @@ Global
 		{AC4402A1-61C4-4229-B840-FB1777DAE10C} = {3E10BF6D-ADA5-417D-B36C-EBB0660B475E}
 		{F0D78691-73CE-4228-A7E7-20FA9356650A} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
 		{01F6608D-78BC-4152-80EB-3FF1E7969734} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
+		{C651B2F9-182E-4A1E-98BD-B8A248DE36E3} = {E9C9F120-07BA-4DFB-B9C3-3AFB9D44C9D5}
 	EndGlobalSection
 EndGlobal

@@ -11,6 +11,10 @@ namespace Orchard.ContentManagement.Drivers {
     /// <summary>
     /// 对于模块开发者，最常见的形状是通过驱动器将数据通过一个模板呈现出来。
     /// 一个驱动器是继承Orchard.ContentManagement.Drivers.ContentPartDriver类。
+    /// 可重写其查看界面显示方法(Display)，编辑界面显示方法(Editor-Get时执行)
+    /// 编辑界面提交方法(Editor-Post时执行)
+    /// 还有其他一些导入导出之类的方法，从这些重写的方法来看，驱动器就好比是内容部件的Controller,
+    /// 驱动器的方法好比是内容部件的action.
     /// </summary>
     /// <typeparam name="TContent"></typeparam>
     public abstract class ContentPartDriver<TContent> : IContentPartDriver where TContent : ContentPart, new() {

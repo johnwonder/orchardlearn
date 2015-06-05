@@ -23,6 +23,7 @@ using Orchard.Utility.Extensions;
 // ReSharper disable InconsistentNaming
 
 namespace Orchard.Core.Shapes {
+    
     public class CoreShapes : IShapeTableProvider {
         private readonly Work<WorkContext> _workContext;
         private readonly Work<IResourceManager> _resourceManager;
@@ -252,6 +253,16 @@ namespace Orchard.Core.Shapes {
             Output.Write(zoneWrapper.ToString(TagRenderMode.EndTag));
         }
 
+        /// <summary>
+        /// 呈现形状的方法就是通过为形状添加一个方法来定义并呈现形状。
+        /// 这个方法必须是一个Shape特性
+        /// Orchard.DisplayManagement.ShapeAttribute类。
+        /// 这个方法必须返回一个IHtmlString对象，而不是用模板来展现。
+        /// 这个返回的对象包含了要呈现形状的Html代码。
+        /// </summary>
+        /// <param name="Display"></param>
+        /// <param name="Shape"></param>
+        /// <param name="Output"></param>
         [Shape]
         public void ContentZone(dynamic Display, dynamic Shape, TextWriter Output) {
             foreach (var item in ordered_hack(Shape))

@@ -3,6 +3,10 @@ using System.Linq;
 using Orchard.Utility.Extensions;
 
 namespace Orchard.ContentManagement.MetaData.Models {
+    
+    /// <summary>
+    /// 内容部件的定义
+    /// </summary>
     public class ContentPartDefinition {
         public ContentPartDefinition(string name, IEnumerable<ContentPartFieldDefinition> fields, SettingsDictionary settings) {
             Name = name;

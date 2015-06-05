@@ -23,7 +23,7 @@ namespace Orchard.ContentManagement.MetaData {
         public static void AlterTypeDefinition(this IContentDefinitionManager manager, string name, Action<ContentTypeDefinitionBuilder> alteration) {
             var typeDefinition = manager.GetTypeDefinition(name) ?? new ContentTypeDefinition(name, name.CamelFriendly());
             var builder = new ContentTypeDefinitionBuilder(typeDefinition);
-            alteration(builder);
+            alteration(builder);//这里去调用alteration委托 WithPart之类
             manager.StoreTypeDefinition(builder.Build());
         }
         public static void AlterPartDefinition(this IContentDefinitionManager manager, string name, Action<ContentPartDefinitionBuilder> alteration) {
