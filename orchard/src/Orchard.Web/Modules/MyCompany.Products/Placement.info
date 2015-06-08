@@ -1,6 +1,9 @@
 ﻿<Placement>
   <Place Parts_Product="Content:10"/>
   <Place Parts_Product_Edit="Content:7.5"/>
+  <Place Parts_RecentProducts_Edit="Content:7.5"/>
+  <!-- widgets -->
+  <Place Parts_RecentProducts="Content"/>
   <!--<Place Fields_ContentPicker_Edit="Content:2.3"/>-->
 
   <!--<Match DisplayType="Detail">

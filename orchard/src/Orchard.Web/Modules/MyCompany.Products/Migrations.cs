@@ -30,5 +30,24 @@ namespace MyCompany.Products {
                 );
             return 1;
         }
+
+        public int UpdateFrom1()
+        {
+            SchemaBuilder.CreateTable("RecentProductsPartRecord", table => table
+                .ContentPartRecord()
+                .Column<int>("Count")
+                );
+            //定义一个部件
+            ContentDefinitionManager.AlterTypeDefinition("RecentProducts", cfg => cfg
+                 .WithPart("RecentProductsPart")
+                 .WithPart("WidgetPart")
+                 .WithPart("CommonPart")
+                 .WithSetting("Stereotype", "Widget")
+                 );
+
+            return 2;
+        }
+
+
     }
 }

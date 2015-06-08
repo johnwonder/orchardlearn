@@ -30,6 +30,7 @@ namespace MyCompany.Products.Controllers
             var list = Services.New.List();
             list.AddRange(_productService.Get(VersionOptions.Latest).Select(p =>
             {
+                
                 var product = Services.ContentManager.BuildDisplay(p, "Summary");
                 return product;
             }));

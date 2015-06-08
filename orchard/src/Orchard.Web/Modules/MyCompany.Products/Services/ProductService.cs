@@ -23,6 +23,7 @@ namespace MyCompany.Products.Services
 
         public IEnumerable<ProductPart> Get(VersionOptions versionOptions)
         {
+            //从数据库获取ProductPart
             return _contentManager.Query<ProductPart, ProductRecord>(versionOptions)
                 //.Join<RoutePartRecord>()
                 //.OrderBy(br => br.Title)
