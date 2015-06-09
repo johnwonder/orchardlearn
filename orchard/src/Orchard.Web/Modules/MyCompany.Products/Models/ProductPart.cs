@@ -10,7 +10,7 @@ namespace MyCompany.Products.Models
     public class ProductPart:ContentPart<ProductRecord>
     {
         [Required]
-        public double Price
+        public  double Price
         {
             get { return Record.Price; }
             set { Record.Price = value; }

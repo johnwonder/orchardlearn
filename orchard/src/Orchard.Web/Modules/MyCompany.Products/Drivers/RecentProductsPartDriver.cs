@@ -20,7 +20,7 @@ namespace MyCompany.Products.Drivers
 
         protected override DriverResult Display(RecentProductsPart part, string displayType, dynamic shapeHelper)
         {
-            var products = _contentManager.Query<ProductPart>()
+            var products = _contentManager.Query<ProductPart,ProductRecord>()
                 //.OrderByDescending<ProductRecord,int>(p => p.Id,)           //通过产品Id到排序取最新数据
                 .Slice(0, part.Count)                                       //取最新多少条数据
                 .Select(ci => ci.As<ProductPart>());
