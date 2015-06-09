@@ -71,6 +71,12 @@ namespace Orchard.ContentManagement {
 
         /* Query related extension methods */
 
+        /// <summary>
+        /// 貌似不起作用
+        /// </summary>
+        /// <typeparam name="TPart"></typeparam>
+        /// <param name="manager"></param>
+        /// <returns></returns>
         public static IContentQuery<TPart> Query<TPart>(this IContentManager manager)
             where TPart : ContentPart {
             return manager.Query().ForPart<TPart>();

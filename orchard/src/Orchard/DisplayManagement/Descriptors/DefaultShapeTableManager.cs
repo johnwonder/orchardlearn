@@ -40,7 +40,7 @@ namespace Orchard.DisplayManagement.Descriptors {
                 Logger.Information("Start building shape table");
 
                 var alterationSets = _parallelCacheContext.RunInParallel(_bindingStrategies, bindingStrategy => {
-                    Feature strategyDefaultFeature = bindingStrategy.Metadata.ContainsKey("Feature") ?
+                    Feature strategyDefaultFeature = bindingStrategy.Metadata.ContainsKey("Feature") ? //在ShellContainerFactory中 注册时WithMetadata("Feature",item.Feature)
                                                                (Feature)bindingStrategy.Metadata["Feature"] :
                                                                null;
 
