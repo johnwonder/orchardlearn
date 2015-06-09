@@ -31,6 +31,12 @@
     <References />
   </Dependency>
   <Dependency>
+    <ModuleName>Helloworld</ModuleName>
+    <VirtualPath>~/Modules/Helloworld/Helloworld.csproj</VirtualPath>
+    <LoaderName>DynamicExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
     <ModuleName>Lucene</ModuleName>
     <VirtualPath>~/Modules/Lucene/bin/Lucene.dll</VirtualPath>
     <LoaderName>PrecompiledExtensionLoader</LoaderName>
@@ -53,6 +59,18 @@
         <VirtualPath>~/Modules/Markdown/bin/MarkdownSharp.dll</VirtualPath>
       </Reference>
     </References>
+  </Dependency>
+  <Dependency>
+    <ModuleName>Mycompany.Helloworld</ModuleName>
+    <VirtualPath>~/Modules/Mycompany.Helloworld/bin/Mycompany.Helloworld.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <References />
+  </Dependency>
+  <Dependency>
+    <ModuleName>MyCompany.Products</ModuleName>
+    <VirtualPath>~/Modules/MyCompany.Products/bin/MyCompany.Products.dll</VirtualPath>
+    <LoaderName>PrecompiledExtensionLoader</LoaderName>
+    <References />
   </Dependency>
   <Dependency>
     <ModuleName>Navigation</ModuleName>
