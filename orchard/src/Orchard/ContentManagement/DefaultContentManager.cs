@@ -21,6 +21,9 @@ using Orchard.Logging;
 using Orchard.UI;
 
 namespace Orchard.ContentManagement {
+    /// <summary>
+    /// 所有的内容都通过ContentManager对象访问
+    /// </summary>
     public class DefaultContentManager : IContentManager {
         private readonly IComponentContext _context;
         private readonly IRepository<ContentTypeRecord> _contentTypeRepository;

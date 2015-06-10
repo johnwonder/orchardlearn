@@ -12,6 +12,10 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
     public interface ILayoutAwareViewEngine : IDependency, IViewEngine {
     }
 
+    /// <summary>
+    /// LayoutAwareViewEnginey的引入 包含了依赖当前主题去寻找正确View的逻辑，
+    /// 代理了实际视图引擎的渲染工作。
+    /// </summary>
     public class LayoutAwareViewEngine : ILayoutAwareViewEngine {
         private readonly WorkContext _workContext;
         private readonly IThemeAwareViewEngine _themeAwareViewEngine;

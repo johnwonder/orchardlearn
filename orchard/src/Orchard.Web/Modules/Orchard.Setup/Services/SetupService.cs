@@ -165,7 +165,7 @@ namespace Orchard.Setup.Services {
                     throw;
                 }
             }
-
+            //保存设置
             _shellSettingsManager.SaveSettings(shellSettings);
  
             return executionId;

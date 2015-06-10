@@ -126,7 +126,7 @@ namespace Orchard.Data {
             _appDataFolder.CreateDirectory(shellPath);
 
             var shellFolder = _appDataFolder.MapPath(shellPath);
-
+            //这里获取DataConnectionString
             return new SessionFactoryParameters {
                 Provider = _shellSettings.DataProvider,
                 DataFolder = shellFolder,
