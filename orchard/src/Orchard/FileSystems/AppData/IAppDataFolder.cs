@@ -5,6 +5,7 @@ using Orchard.Caching;
 
 namespace Orchard.FileSystems.AppData {
     /// <summary>
+    /// App_Data文件夹的抽象类
     /// Abstraction of App_Data folder. All virtual paths passed in or returned are relative to "~/App_Data". 
     /// Expected to work on physical filesystem, but decouples core system from web hosting apis
     /// </summary>

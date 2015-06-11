@@ -19,6 +19,11 @@ using Orchard.Data.Conventions;
 using Orchard.Environment.ShellBuilders.Models;
 
 namespace Orchard.Data.Providers {
+    
+    /// <summary>
+    /// Fluent NHibernate提供了一个方法让你不再需要去写NHibernate的标准映射文件(.hbm.xml)，而是可以把你的映射文件都使用C#来写。这样做，方便了我们的代码重构，提供了代码的易读性，并精简了项目代码。
+    /// http://www.cnblogs.com/n-pei/archive/2011/01/04/1925648.html
+    /// </summary>
     [Serializable]
     public abstract class AbstractDataServicesProvider : IDataServicesProvider {
 

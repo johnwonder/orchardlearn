@@ -35,6 +35,7 @@ namespace Orchard.Data {
             var hash = ComputeHash().Value;
 
             // if the current configuration is unchanged, return it
+            //当前配置没有改变，就返回当前配置
             if(_currentConfig != null && _currentConfig.Hash == hash) {
                 return _currentConfig.Configuration;
             }
@@ -83,7 +84,11 @@ namespace Orchard.Data {
                     Logger.Warning("Error storing new NHibernate cache configuration: {0}", scan.Message);
             }
         }
-
+        /// <summary>
+        /// 读取配置 hash比较
+        /// </summary>
+        /// <param name="hash"></param>
+        /// <returns></returns>
         private ConfigurationCache ReadConfiguration(string hash) {
             if (!_hostEnvironment.IsFullTrust)
                 return null;
@@ -140,6 +145,7 @@ namespace Orchard.Data {
             hash.AddString(_shellSettings.DataConnectionString);
             hash.AddString(_shellSettings.Name);
 
+            //ShellBlueprint的Records
             // Assembly names, record names and property names
             foreach (var tableName in _shellBlueprint.Records.Select(x => x.TableName)) {
                 hash.AddString(tableName);

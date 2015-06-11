@@ -13,6 +13,8 @@ namespace Orchard.Utility {
         public string Value {
             get {
                 return _hash.ToString("x", CultureInfo.InvariantCulture);
+                //转换成十六进制
+                //http://www.cnblogs.com/bignjl/archive/2011/01/14/1935645.html
             }
         }
 
@@ -46,6 +48,7 @@ namespace Orchard.Utility {
         /// <summary>
         /// We need a custom string hash code function, because .NET string.GetHashCode()
         /// function is not guaranteed to be constant across multiple executions.
+        /// 多次执行后不是常量
         /// </summary>
         private static long GetStringHashCode(string s) {
             unchecked {
