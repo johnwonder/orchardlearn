@@ -4,6 +4,12 @@ using Autofac.Features.Metadata;
 
 namespace Orchard.Data.Providers {
 
+    /// <summary>
+    /// 可以把实现IDataServicesProvider的类注入委托 再通过委托实例化
+    /// </summary>
+    /// <param name="dataFolder"></param>
+    /// <param name="connectionString"></param>
+    /// <returns></returns>
     public delegate IDataServicesProvider CreateDataServicesProvider(string dataFolder, string connectionString);
 
     public class DataServicesProviderFactory : IDataServicesProviderFactory {

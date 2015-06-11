@@ -104,7 +104,7 @@ namespace Orchard.Data {
             // cannot be done in fluent config
             // the IsSelectable = false prevents unused ContentPartRecord proxies from being created 
             // for each ContentItemRecord or ContentItemVersionRecord.
-            // done for perf reasons - has no other side-effect
+            // done for perf reasons - has no other side-effect (副作用)
 
             foreach (var persistentClass in config.ClassMappings) {
                 if (persistentClass.EntityName.StartsWith("Orchard.ContentManagement.Records.")) {

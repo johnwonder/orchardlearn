@@ -80,6 +80,8 @@ namespace Orchard.ContentManagement {
 
         private void Where<TRecord>(Expression<Func<TRecord, bool>> predicate) where TRecord : ContentPartRecord {
 
+            //http://www.cnblogs.com/Terrylee/archive/2008/08/25/custom-linq-provider-part-2-IQueryable-IQueryProvider.html
+            //Linq Providerœ‡πÿ
             // build a linq to nhibernate expression
             var options = new QueryOptions();
             var queryProvider = new NHibernateQueryProvider(BindSession(), options);
