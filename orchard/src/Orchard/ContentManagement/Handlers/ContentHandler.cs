@@ -5,14 +5,14 @@ using Orchard.Logging;
 
 namespace Orchard.ContentManagement.Handlers {
     /// <summary>
-    /// ������Ҳ��һ���࣬��������Ӧ���ݲ�������Ϊ���¼��Լ��ڳ���ǰ��������ģ�͡�
-    /// ���ǿ��԰�������Ϊ���ݲ�����Filter,�������Orchard�����δ������Part.
-    /// ����һ��request������Ҫ��ʾһ�����ݵ�ʱ��ϵͳ���ȸ���Route���� �ҵ��������Ӧ��
-    /// Controller��Ӧ��action. Ȼ���ڴ�actiong��ͨ��IContentManager�ӿڻ�ȡ���ݡ�
-    /// ����IContentManager��ȡ���ݵ�ʱ��Orchard��ܻ��Զ�ͨ��������ݲ������������ṩ��
-    /// ���ݴ洢Filter����ȡ��ز��������ݣ�������ͨ��BuildDisplay ����һ����Ҫ��ʾ����ͼ�ϵĶ�̬��Model,
-    /// ������ݵĸ�����������Ϊ�����̬������ԡ����Orchard��ͼ������ݸ��������������ṩ����ʾ������
-    /// �ҵ���Ӧ����ʾģ�壬������ϳ�һ��UI���ָ��û������ֱ༭ҳ����ύ�༭���ݵ� ԭ��������ͬ��
+    /// 处理器也是一个类，定义了相应内容部件的行为，事件以及在呈现前操作数据模型。
+    /// 我们可以把它理解为内容部件的Filter,负责告诉Orchard框架如何处理你的Part.
+    /// 当有一个request请求需要显示一个内容的时候，系统首先根据Route规则 找到该请求对应的
+    /// Controller对应的action. 然后在此action中通过IContentManager接口获取内容。
+    /// 在用IContentManager获取内容的时候，Orchard框架会自动通过相关内容部件处理器所提供的
+    /// 数据存储Filter来获取相关部件的数据，接下来通过BuildDisplay 构建一个需要显示到视图上的动态类Model,
+    /// 组成内容的各个部件都作为这个动态类的属性。最后Orchard视图引擎根据各部件驱动器所提供的显示方法，
+    /// 找到对应的显示模板，最终组合成一个UI呈现给用户。呈现编辑页面和提交编辑数据的 原理大致相同。
     /// </summary>
     public abstract class ContentHandler : IContentHandler {
         protected ContentHandler() {

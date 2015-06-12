@@ -169,6 +169,9 @@ namespace Orchard.Environment.ShellBuilders {
         }
         /// <summary>
         /// 找到需要创建映射关系的实体类
+        /// 命名空间判断 Models 或者 Records结尾
+        /// 并且有virtual的 Id属性 
+        /// 继承IContent或者ContentPartRecord接口的
         /// </summary>
         /// <param name="type"></param>
         /// <returns></returns>
@@ -181,6 +184,13 @@ namespace Orchard.Environment.ShellBuilders {
                    (!typeof(IContent).IsAssignableFrom(type) || typeof(ContentPartRecord).IsAssignableFrom(type));
         }
 
+        /// <summary>
+        /// 相当于返回表名列表
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="feature"></param>
+        /// <param name="settings"></param>
+        /// <returns></returns>
         private static RecordBlueprint BuildRecord(Type type, Feature feature, ShellSettings settings) {
             var extensionDescriptor = feature.Descriptor.Extension;
             var extensionName = extensionDescriptor.Id.Replace('.', '_');

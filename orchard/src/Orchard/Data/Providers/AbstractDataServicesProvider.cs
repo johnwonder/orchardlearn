@@ -21,7 +21,7 @@ using Orchard.Environment.ShellBuilders.Models;
 namespace Orchard.Data.Providers {
     
     /// <summary>
-    /// Fluent NHibernateÌá¹©ÁËÒ»¸ö·½·¨ÈÃÄã²»ÔÙĞèÒªÈ¥Ğ´NHibernateµÄ±ê×¼Ó³ÉäÎÄ¼ş(.hbm.xml)£¬¶øÊÇ¿ÉÒÔ°ÑÄãµÄÓ³ÉäÎÄ¼ş¶¼Ê¹ÓÃC#À´Ğ´¡£ÕâÑù×ö£¬·½±ãÁËÎÒÃÇµÄ´úÂëÖØ¹¹£¬Ìá¹©ÁË´úÂëµÄÒ×¶ÁĞÔ£¬²¢¾«¼òÁËÏîÄ¿´úÂë¡£
+    /// Fluent NHibernateæä¾›äº†ä¸€ä¸ªæ–¹æ³•è®©ä½ ä¸å†éœ€è¦å»å†™NHibernateçš„æ ‡å‡†æ˜ å°„æ–‡ä»¶(.hbm.xml)ï¼Œè€Œæ˜¯å¯ä»¥æŠŠä½ çš„æ˜ å°„æ–‡ä»¶éƒ½ä½¿ç”¨C#æ¥å†™ã€‚è¿™æ ·åšï¼Œæ–¹ä¾¿äº†æˆ‘ä»¬çš„ä»£ç é‡æ„ï¼Œæä¾›äº†ä»£ç çš„æ˜“è¯»æ€§ï¼Œå¹¶ç²¾ç®€äº†é¡¹ç›®ä»£ç ã€‚
     /// http://www.cnblogs.com/n-pei/archive/2011/01/04/1925648.html
     /// </summary>
     [Serializable]
@@ -32,10 +32,11 @@ namespace Orchard.Data.Providers {
         public Configuration BuildConfiguration(SessionFactoryParameters parameters) {
             var database = GetPersistenceConfigurer(parameters.CreateDatabase);
             var persistenceModel = CreatePersistenceModel(parameters.RecordDescriptors.ToList());
-
+            //AutoMappingæœ‰å¾ˆå¤šå¥‘çº¦ï¼Œæ‚¨éœ€è¦æŒ‰ç…§ä¸€å®šçš„è§„èŒƒç¼–å†™æ‚¨çš„å¯¹è±¡
+            //ä¸éœ€è¦ç¼–å†™æ˜ å°„ç±» 
             return Fluently.Configure()
                 .Database(database)
-                .Mappings(m => m.AutoMappings.Add(persistenceModel))
+                .Mappings(m => m.AutoMappings.Add(persistenceModel)) //AutoMap.AssemblyOf<T>()
                 .ExposeConfiguration(cfg => cfg.EventListeners.LoadEventListeners = new ILoadEventListener[] { new OrchardLoadEventListener() })
                 .BuildConfiguration()
                 ;
@@ -48,7 +49,9 @@ namespace Orchard.Data.Providers {
 
             return AutoMap.Source(new TypeSource(recordDescriptors))
                 // Ensure that namespaces of types are never auto-imported, so that 
-                // identical type names from different namespaces can be mapped without ambiguity
+                // identical type names from different namespaces can be mapped without ambiguity(æ­§ä¹‰ï¼‰
+                //Conventions.Setup æ–¹æ³• æ˜¯å°†æ˜ å°„çš„å…·ä½“è§„åˆ™ ç»‘å®šåˆ°AutoMappingé…ç½®ä¸­
+                //FluentNHibernate.Conventions.IHibernateMappingConvention
                 .Conventions.Setup(x => x.Add(AutoImport.Never()))
                 .Conventions.Add(new RecordTableNameConvention(recordDescriptors))
                 .Conventions.Add(new CacheConvention(recordDescriptors))

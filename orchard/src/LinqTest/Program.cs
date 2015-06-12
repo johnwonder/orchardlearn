@@ -10,11 +10,24 @@ namespace LinqTest
     {
         static void Main(string[] args)
         {
+            
             SimpleExpressions();
 
             ParameteExpressions();
 
             Console.ReadLine();
+        }
+        /// <summary>
+        /// http://www.cnblogs.com/Terrylee/archive/2008/08/01/custom-linq-provider-part-1-expression-tree.html
+        /// </summary>
+        static void ExpressionDelegate()
+        {
+            //无返回类型用Action
+            //有返回类型用Func
+            //http://www.cnblogs.com/Gyoung/archive/2013/04/04/2997050.html
+            Expression<Action<int, int>> expression = (a, b) => Console.WriteLine((a * b) + 2);
+
+            expression.Compile()(2, 3);
         }
 
         static void SimpleExpressions()

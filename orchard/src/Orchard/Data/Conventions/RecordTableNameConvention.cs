@@ -10,13 +10,16 @@ namespace Orchard.Data.Conventions {
         private readonly Dictionary<Type, RecordBlueprint> _descriptors;
 
         public RecordTableNameConvention(IEnumerable<RecordBlueprint> descriptors) {
+            //转换成Type - RecodrBlueprint的Dictionary
             _descriptors = descriptors.ToDictionary(d => d.Type);
+
         }
 
         public void Apply(IClassInstance instance) {
             RecordBlueprint desc;
             if (_descriptors.TryGetValue(instance.EntityType, out desc)) {
                 instance.Table(desc.TableName);
+                ////定义生成表名的规则，desc.TableName  
             }
         }
     }
