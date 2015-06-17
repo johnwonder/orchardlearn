@@ -13,6 +13,11 @@ namespace Orchard.Environment.AutofacUtil.DynamicProxy2 {
             _dynamicProxyContext = dynamicProxyContext;
         }
 
+        /// <summary>
+        /// 找到构造器
+        /// </summary>
+        /// <param name="targetType"></param>
+        /// <returns></returns>
         public ConstructorInfo[] FindConstructors(Type targetType) {
             Type proxyType;
             if (_dynamicProxyContext.TryGetProxy(targetType, out proxyType)) {

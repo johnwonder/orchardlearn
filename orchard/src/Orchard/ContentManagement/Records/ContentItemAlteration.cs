@@ -34,7 +34,7 @@ namespace Orchard.ContentManagement.Records {
             });
 
             model.Override<ContentItemVersionRecord>(mapping => {
-                foreach (var descriptor in _recordDescriptors.Where(d => Utility.IsPartVersionRecord(d.Type))) {
+                foreach (var descriptor in _recordDescriptors.Where(d => Utility.IsPartVersionRecord(d.Type))) {//寻找ContentPartVersionRecord
                     var type = typeof(Alteration<,>).MakeGenericType(typeof(ContentItemVersionRecord), descriptor.Type);
                     var alteration = (IAlteration<ContentItemVersionRecord>)Activator.CreateInstance(type);
                     alteration.Override(mapping);
@@ -61,14 +61,15 @@ namespace Orchard.ContentManagement.Records {
                 var dynamicMethod = new DynamicMethod(name, typeof(TPartRecord), null, typeof(TItemRecord));
                 var syntheticMethod = new SyntheticMethodInfo(dynamicMethod, typeof(TItemRecord));
                 var syntheticProperty = new SyntheticPropertyInfo(syntheticMethod);
-
+            // http://www.cnblogs.com/artech/archive/2011/03/26/Propertyaccesstest.html
                 // record => record.TPartRecord
                 var parameter = Expression.Parameter(typeof(TItemRecord), "record");
                 var syntheticExpression = (Expression<Func<TItemRecord, TPartRecord>>)Expression.Lambda(
                     typeof(Func<TItemRecord, TPartRecord>),
-                    Expression.Property(parameter, syntheticProperty),
+                    Expression.Property(parameter,syntheticProperty),
                     parameter);
-
+                
+                //与另一实体的关联
                 mapping.References(syntheticExpression)
                     .Access.NoOp()
                     .Column("Id")

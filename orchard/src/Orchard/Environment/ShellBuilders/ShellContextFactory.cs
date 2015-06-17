@@ -51,13 +51,13 @@ namespace Orchard.Environment.ShellBuilders {
 
             Logger.Debug("Creating shell context for tenant {0}", settings.Name);
 
-            //´Ó»º´æ»ñÈ¡cache.datÎÄ¼ş
+            //ä»ç¼“å­˜è·å–cache.datæ–‡ä»¶
             var knownDescriptor = _shellDescriptorCache.Fetch(settings.Name);
             if (knownDescriptor == null) {
                 Logger.Information("No descriptor cached. Starting with minimum components.");
                 knownDescriptor = MinimumShellDescriptor();
             }
-            //knownDescriptor ´Ó»º´æ»ñÈ¡
+            //knownDescriptor ä»ç¼“å­˜è·å–
             var blueprint = _compositionStrategy.Compose(settings, knownDescriptor);
             var shellScope = _shellContainerFactory.CreateContainer(settings, blueprint);
 
@@ -69,10 +69,11 @@ namespace Orchard.Environment.ShellBuilders {
 
             if (currentDescriptor != null && knownDescriptor.SerialNumber != currentDescriptor.SerialNumber) {
                 Logger.Information("Newer descriptor obtained. Rebuilding shell container.");
-                //Ò»¿ªÊ¼Í¨¹ıMinimumShellDescriptor()°Ñ Orchard.Framework  StoreÁËÆğÀ´¡£
+                //ä¸€å¼€å§‹é€šè¿‡MinimumShellDescriptor()æŠŠ Orchard.Framework  Storeäº†èµ·æ¥ã€‚
                 _shellDescriptorCache.Store(settings.Name, currentDescriptor);
                 blueprint = _compositionStrategy.Compose(settings, currentDescriptor);
-                shellScope.Dispose();
+                shellScope.Dispose(); //LifeTimeScope.Dispose()
+                //é‡æ–°åˆ›å»ºSellScope
                 shellScope = _shellContainerFactory.CreateContainer(settings, blueprint);
             }
 
@@ -111,7 +112,7 @@ namespace Orchard.Environment.ShellBuilders {
             var blueprint = _compositionStrategy.Compose(settings, descriptor);
             var shellScope = _shellContainerFactory.CreateContainer(settings, blueprint);
 
-            //·µ»ØĞÂµÄShellContext
+            //è¿”å›æ–°çš„ShellContext
             return new ShellContext {
                 Settings = settings,
                 Descriptor = descriptor,

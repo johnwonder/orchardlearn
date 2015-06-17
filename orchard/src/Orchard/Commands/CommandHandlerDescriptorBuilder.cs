@@ -8,7 +8,11 @@ namespace Orchard.Commands {
         public CommandHandlerDescriptor Build(Type type) {
             return new CommandHandlerDescriptor { Commands = CollectMethods(type) };
         }
-
+        /// <summary>
+        /// 收集类上的方法
+        /// </summary>
+        /// <param name="type"></param>
+        /// <returns></returns>
         private IEnumerable<CommandDescriptor> CollectMethods(Type type) {
             var methods = type
                 .GetMethods(BindingFlags.Instance | BindingFlags.Public | BindingFlags.DeclaredOnly)
@@ -35,6 +39,11 @@ namespace Orchard.Commands {
             return string.Empty;
         }
 
+        /// <summary>
+        /// 获取命令名称
+        /// </summary>
+        /// <param name="methodInfo"></param>
+        /// <returns></returns>
         private string GetCommandName(MethodInfo methodInfo) {
             var attributes = methodInfo.GetCustomAttributes(typeof(CommandNameAttribute), false/*inherit*/);
             if (attributes != null && attributes.Any()) {

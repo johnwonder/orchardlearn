@@ -96,7 +96,7 @@ namespace Orchard.Environment {
 		/// Ensures shells are activated, or re-activated if extensions have changed
 		/// </summary>
 		IEnumerable<ShellContext> BuildCurrent() {
-            //µÚ¶ş´ÎÆô¶¯¾Í²»ÎªnullÁË
+            //ç¬¬äºŒæ¬¡å¯åŠ¨å°±ä¸ä¸ºnulläº†
 			if (_shellContexts == null) {
 				lock (_syncLock) {
 					if (_shellContexts == null) {
@@ -126,7 +126,7 @@ namespace Orchard.Environment {
 			Logger.Information("Start creation of shells");
 
 			// is there any tenant right now ?
-            //¶ÁÈ¡Settings.txtÎÄ¼ş
+            //è¯»å–Settings.txtæ–‡ä»¶
 			var allSettings = _shellSettingsManager.LoadSettings().ToArray();
 
 			// load all tenants, and activate their shell
@@ -142,6 +142,7 @@ namespace Orchard.Environment {
 				}
 			}
 			// no settings, run the Setup
+                //å¼€å§‹å®‰è£…è¿‡ç¨‹
 			else {
 				var setupContext = CreateSetupContext();
 				ActivateShell(setupContext);
@@ -155,12 +156,16 @@ namespace Orchard.Environment {
 		/// </summary>
 		private void ActivateShell(ShellContext context) {
 			Logger.Debug("Activating context for tenant {0}", context.Settings.Name); 
-			context.Shell.Activate();//Õâ±ßÃ²ËÆºÜÖØÒª
+			context.Shell.Activate();//è¿™è¾¹è²Œä¼¼å¾ˆé‡è¦
 
 			_shellContexts = (_shellContexts ?? Enumerable.Empty<ShellContext>()).Union(new [] {context});
-			_runningShellTable.Add(context.Settings);//°ÑSettings¼ÓÈërunningShellTable
+			_runningShellTable.Add(context.Settings);//æŠŠSettingsåŠ å…¥runningShellTable
 		}
 
+        /// <summary>
+        /// Newä¸€ä¸ªShellSettingså¯¹è±¡
+        /// </summary>
+        /// <returns></returns>
 		ShellContext CreateSetupContext() {
 			Logger.Debug("Creating shell context for root setup");
 			return _shellContextFactory.CreateSetupContext(new ShellSettings { Name = ShellSettings.DefaultName });
@@ -175,7 +180,7 @@ namespace Orchard.Environment {
 
 			Logger.Debug("Creating shell context for tenant {0}", settings.Name);
 			return _shellContextFactory.CreateShellContext(settings);
-            //Ö±½ÓCreateShellContext
+            //ç›´æ¥CreateShellContext
 		}
 
 		private void SetupExtensions() {

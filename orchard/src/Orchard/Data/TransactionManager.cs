@@ -10,6 +10,9 @@ namespace Orchard.Data {
         void Cancel();
     }
 
+    /// <summary>
+    /// 内部调用了TransactionScope
+    /// </summary>
     public class TransactionManager : ITransactionManager, IDisposable {
         private TransactionScope _scope;
         private bool _cancelled;
@@ -76,6 +79,8 @@ namespace Orchard.Data {
 
         public void OnException(ExceptionContext filterContext) {
             _transactionManager.Cancel();
+
+            //AddFilters(new FilterInfo());
         }
     }
 }
