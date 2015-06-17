@@ -5,4 +5,5 @@
 3.Orchard 模块打包和安装的秘密  
 4.Orchard 如何获取模块并加入缓存  
 5.Orchard 如何缓存  
-6.Orchard 的依赖注入解析
+6.Orchard 的依赖注入解析  
+7.Orchard是如何运用皮肤的?
