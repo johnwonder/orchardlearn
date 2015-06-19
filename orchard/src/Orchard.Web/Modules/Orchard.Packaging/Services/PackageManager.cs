@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.IO;
 using System.Linq;
 using NuGet;
@@ -47,6 +47,12 @@ namespace Orchard.Packaging.Services {
 
         #region IPackageManager Members
 
+        /// <summary>
+        /// 发现扩展模块 收割; 收成
+        /// 通过ExtensionManager.AvailableExtensions()
+        /// </summary>
+        /// <param name="extensionName"></param>
+        /// <returns></returns>
         public PackageData Harvest(string extensionName) {
             ExtensionDescriptor extensionDescriptor = _extensionManager.AvailableExtensions().FirstOrDefault(x => x.Id == extensionName);
             if (extensionDescriptor == null) {

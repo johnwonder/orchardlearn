@@ -84,6 +84,12 @@ namespace Orchard.Tests.Environment.Blueprint {
     }
 
     static class DataContractExtensions {
+        /// <summary>
+        /// 参数类型的泛型
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         public static string ToDataString<T>(this T obj) {
             var serializer = new DataContractSerializer(typeof(ShellDescriptor));
             var writer = new StringWriter();

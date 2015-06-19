@@ -48,7 +48,7 @@ namespace Orchard.Packaging.Commands {
 
             // packages are created in a specific folder otherwise they are in /bin, which crashed the current shell
             filename = Path.Combine(path, filename);
-
+            //打包使用了CopyTo
             using ( var stream = File.Create(filename) ) {
                 packageData.PackageStream.CopyTo(stream);
             }

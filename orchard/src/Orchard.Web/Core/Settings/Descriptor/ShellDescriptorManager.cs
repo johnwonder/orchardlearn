@@ -53,6 +53,10 @@ namespace Orchard.Core.Settings.Descriptor {
             return descriptor;
         }
 
+        /// <summary>
+        /// 通过DataModule注入Repository
+        /// </summary>
+        /// <returns></returns>
         private ShellDescriptorRecord GetDescriptorRecord() {
             return _shellDescriptorRepository.Get(x => x != null);
         }

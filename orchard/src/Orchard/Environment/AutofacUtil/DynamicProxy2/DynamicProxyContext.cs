@@ -49,6 +49,7 @@ namespace Orchard.Environment.AutofacUtil.DynamicProxy2 {
             registrationBuilder.OnPreparing(e => {
                 object value;
                 //如果通过InterceptorServicesKey能获取到value
+                //在InterceptedBy中 通过AddInterceptorService添加InterceptorServicesKey
                 if (e.Component.Metadata.TryGetValue(InterceptorServicesKey, out value)) {
                     var interceptorServices = (IEnumerable<Service>)value;
                     var interceptors = interceptorServices.Select(service => e.Context.ResolveService(service)).Cast<IInterceptor>().ToArray();
