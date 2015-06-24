@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Autofac;
 using Autofac.Core;
+using AutofacTest;
 
 namespace ConsoleApplication1
 {
@@ -11,24 +12,33 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            TestLifeTimeScope.EnumerablesFromDifferentLifetimeScope();
+           
+            //AutofacMeta.TestAutofacMeta();
+
+            Console.ReadLine();
+        }
+
+        static void TestLifeTimeScopeWithTag()
+        {
             ContainerBuilder builder = new ContainerBuilder();
-           builder.RegisterType<ShellContainerFactory>().As<IShellContainerFactory>().SingleInstance();
+            builder.RegisterType<ShellContainerFactory>().As<IShellContainerFactory>().SingleInstance();
 
 
-           IContainer container = builder.Build();
+            IContainer container = builder.Build();
 
-           IShellContainerFactory factory = container.Resolve<IShellContainerFactory>();
+            IShellContainerFactory factory = container.Resolve<IShellContainerFactory>();
 
-          ILifetimeScope lifeTime = factory.CreateContainer();
+            ILifetimeScope lifeTime = factory.CreateContainer();
 
-          var workLifetime = lifeTime.BeginLifetimeScope("work");
-          //var workLifetime = lifeTime.BeginLifetimeScope();
+            var workLifetime = lifeTime.BeginLifetimeScope("work");
+            //var workLifetime = lifeTime.BeginLifetimeScope();
             //这里不加work也会出错
 
-          WorkContext workContext = workLifetime.Resolve<WorkContext>();
+            WorkContext workContext = workLifetime.Resolve<WorkContext>();
 
-          IWorker worker = workContext.Resolve<IWorker>();
-          worker.DoWork();
+            IWorker worker = workContext.Resolve<IWorker>();
+            worker.DoWork();
             //ILifetimeScope scope = builder.be
         }
     }

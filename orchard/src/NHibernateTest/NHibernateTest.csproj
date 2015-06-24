@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapTest.cs" />
+    <Compile Include="map\Entity.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="ProductMap.cs" />
     <Compile Include="Program.cs" />

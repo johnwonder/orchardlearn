@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Castle.Core.Interceptor;
+using Orchard.Environment.AutofacUtil.DynamicProxy2;
+using Autofac;
 
 namespace ConsoleDynamicProxy
 {
@@ -10,6 +12,75 @@ namespace ConsoleDynamicProxy
     {
         static void Main(string[] args)
         {
+            //ProxyContextHasBeenProxied();
+
+            InterceptorAddedToContextFromModules();
+            Console.ReadLine();
+        }
+
+        static void ProxyContextHasBeenProxied()
+        {
+            var context = new DynamicProxyContext();
+            context.AddProxy(typeof(SimpleComponent));
+
+            Type proxyType;
+            context.TryGetProxy(typeof(SimpleComponent), out proxyType);
+            Console.WriteLine(proxyType.FullName);
+        }
+
+        static void InterceptorAddedToContextFromModules()
+        {
+            var context = new DynamicProxyContext();
+            var builder = new ContainerBuilder();
+            builder.RegisterType<SimpleComponent>().EnableDynamicProxy(context);
+            builder.RegisterModule(new SimpleInterceptorModule());
+
+            IContainer container =  builder.Build();
+
+            SimpleComponent simpleComponent = container.Resolve<SimpleComponent>();
+
+            Console.WriteLine(simpleComponent.SimpleMethod());
+
+
+        }
+    }
+
+    public class SimpleComponent
+    {
+        public virtual string SimpleMethod()
+        {
+            return "default return value";
+        }
+    }
+
+    public class SimpleInterceptorModule:Module
+    {
+        protected override void Load(ContainerBuilder builder)
+        {
+            builder.RegisterType<SimpleInterceptor>();
+            base.Load(builder);
+        }
+
+        protected override void AttachToComponentRegistration(Autofac.Core.IComponentRegistry componentRegistry, Autofac.Core.IComponentRegistration registration)
+        {
+            if (DynamicProxyContext.From(registration) != null)
+                registration.InterceptedBy<SimpleInterceptor>();
+        }
+    }
+
+    public class SimpleInterceptor:IInterceptor
+    {
+        public void Intercept(IInvocation invocation)
+        {
+            if (invocation.Method.Name == "SimpleMethod")
+            {
+                invocation.Proceed();//调用父类函数 //返回default return value
+              //  invocation.ReturnValue = "different return value";
+            }
+            else
+            {
+                invocation.Proceed();
+            }
         }
     }
 

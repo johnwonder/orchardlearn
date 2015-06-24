@@ -11,16 +11,16 @@ namespace AutofacTest
     /// Autofac测试
     /// http://www.cnblogs.com/wolegequ/archive/2012/06/09/2543320.html
     /// </summary>
-    class  AutofacMeta
+    public  class  AutofacMeta
     {
-        static void Main(string[] args)
-        {
-            //TestAutofacMeta();
-            TestAutofacDelegate();
-            Console.ReadLine();
-        }
+        //static void Main(string[] args)
+        //{
+        //    //TestAutofacMeta();
+        //    TestAutofacDelegate();
+        //    Console.ReadLine();
+        //}
 
-        static void  TestAutofacMeta()
+        public   static void  TestAutofacMeta()
         {
             var builder = new  ContainerBuilder();
  

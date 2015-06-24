@@ -160,6 +160,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutofacTest", "AutofacTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateTest", "NHibernateTest\NHibernateTest.csproj", "{06FD0E2F-8BE2-423A-B338-251596365B26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClayTest", "ClayTest\ClayTest.csproj", "{916C96FA-B265-430B-B95F-E4E30768C3B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		CodeCoverage|Any CPU = CodeCoverage|Any CPU
@@ -2006,6 +2008,31 @@ Global
 		{06FD0E2F-8BE2-423A-B338-251596365B26}.Release|Mixed Platforms.Build.0 = Release|x86
 		{06FD0E2F-8BE2-423A-B338-251596365B26}.Release|x86.ActiveCfg = Release|x86
 		{06FD0E2F-8BE2-423A-B338-251596365B26}.Release|x86.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.CodeCoverage|Any CPU.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.CodeCoverage|Mixed Platforms.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.CodeCoverage|Mixed Platforms.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.CodeCoverage|x86.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.CodeCoverage|x86.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Coverage|Any CPU.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Coverage|Mixed Platforms.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Coverage|Mixed Platforms.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Coverage|x86.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Coverage|x86.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Debug|x86.ActiveCfg = Debug|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Debug|x86.Build.0 = Debug|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.FxCop|Any CPU.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.FxCop|Mixed Platforms.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.FxCop|Mixed Platforms.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.FxCop|x86.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.FxCop|x86.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Release|Any CPU.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Release|Mixed Platforms.Build.0 = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Release|x86.ActiveCfg = Release|x86
+		{916C96FA-B265-430B-B95F-E4E30768C3B4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2081,5 +2108,6 @@ Global
 		{33E4D5B7-CCB2-41FD-B161-3DD2B3453C3F} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
 		{EDA13466-99E9-49C6-8032-149DB5BC8F6D} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
 		{06FD0E2F-8BE2-423A-B338-251596365B26} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
+		{916C96FA-B265-430B-B95F-E4E30768C3B4} = {5EA29A31-DB60-4B06-870E-06A67CC76509}
 	EndGlobalSection
 EndGlobal
