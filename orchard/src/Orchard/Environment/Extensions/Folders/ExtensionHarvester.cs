@@ -55,6 +55,7 @@ namespace Orchard.Environment.Extensions.Folders {
             string key = string.Format("{0}-{1}-{2}", path, manifestName, extensionType);
 
             return _cacheManager.Get(key, ctx => {
+                //ctx.Monitor其实为AddToken
                 ctx.Monitor(_webSiteFolder.WhenPathChanges(path));
                 //这里会导致 _cacheContextAccessor.Current为父级上下文
                 //调用Cache类中的PropagateTokens时
@@ -63,7 +64,7 @@ namespace Orchard.Environment.Extensions.Folders {
         }
 
         private List<ExtensionDescriptor> AvailableExtensionsInFolder(string path, string extensionType, string manifestName, bool manifestIsOptional) {
-            Logger.Information("Start looking for extensions in '{0}'...", path);
+            Logger.Information("开始在 '{0}'中寻找扩展...", path);
             var subfolderPaths = _webSiteFolder.ListDirectories(path);
             var localList = new List<ExtensionDescriptor>();
             foreach (var subfolderPath in subfolderPaths) {

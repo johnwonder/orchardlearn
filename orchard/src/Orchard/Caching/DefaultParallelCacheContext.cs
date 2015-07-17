@@ -65,6 +65,8 @@ namespace Orchard.Caching {
                 IAcquireContext parentContext = _cacheContextAccessor.Current;
                 try {
                     // Push context
+                    //不是同个线程 一开始会为null
+
                     if (parentContext == null) {
                         _cacheContextAccessor.Current = new SimpleAcquireContext(AddToken);
                     }

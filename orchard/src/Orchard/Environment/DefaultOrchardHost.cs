@@ -64,7 +64,7 @@ namespace Orchard.Environment {
 		}
 
 		void IOrchardHost.Initialize() {
-			Logger.Information("Initializing");
+			Logger.Information("初始化开始");
 			BuildCurrent();
 			Logger.Information("Initialized");
 		}
@@ -184,6 +184,7 @@ namespace Orchard.Environment {
 		}
 
 		private void SetupExtensions() {
+            //Orchard.Environment.Extensions.ExtensionLoaderCoordinator
 			_extensionLoaderCoordinator.SetupExtensions();
 		}
 

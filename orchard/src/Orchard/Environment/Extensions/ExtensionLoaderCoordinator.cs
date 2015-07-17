@@ -53,7 +53,7 @@ namespace Orchard.Environment.Extensions {
         public ILogger Logger { get; set; }
 
         public void SetupExtensions() {
-            Logger.Information("Start loading extensions...");
+            Logger.Information("开始加载扩展...");
 
             var context = CreateLoadingContext();
 

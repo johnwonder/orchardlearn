@@ -30,7 +30,7 @@ namespace Orchard.Caching {
         }
 
         public TResult Get<TKey, TResult>(TKey key, Func<AcquireContext<TKey>, TResult> acquire) {
-            return GetCache<TKey, TResult>().Get(key, acquire);//这里调用Cache的Get方法
+            return GetCache<TKey, TResult>().Get(key, acquire);//这里调用Cache的Get方法 ,因为key不一样，所以会Add
         }
     }
 }

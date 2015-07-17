@@ -88,6 +88,7 @@ namespace Orchard.Caching {
             }
             finally {
                 // Pop context //不同的缓存对象间
+               
                 _cacheContextAccessor.Current = parentContext;
             }
             entry.CompactTokens();//Distinct().ToArray();

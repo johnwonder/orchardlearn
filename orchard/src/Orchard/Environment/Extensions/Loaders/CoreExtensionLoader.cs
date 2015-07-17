@@ -58,7 +58,12 @@ namespace Orchard.Environment.Extensions.Loaders {
                 ExportedTypes = assembly.GetExportedTypes().Where(x => IsTypeFromModule(x, descriptor))
             };
         }
-
+        /// <summary>
+        /// 判断类型名字是否以Orchard.Core.模块Id. 开头
+        /// </summary>
+        /// <param name="type">类型</param>
+        /// <param name="descriptor">扩展描述</param>
+        /// <returns></returns>
         private static bool IsTypeFromModule(Type type, ExtensionDescriptor descriptor) {
             return (type.Namespace + ".").StartsWith(CoreAssemblyName + "." + descriptor.Id + ".");
         }

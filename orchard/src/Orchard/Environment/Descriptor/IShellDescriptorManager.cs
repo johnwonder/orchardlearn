@@ -11,6 +11,7 @@ namespace Orchard.Environment.Descriptor {
         /// Uses shell-specific database or other resources to return 
         /// the current "correct" configuration. The host will use this information
         /// to reinitialize the shell.
+        /// 用壳指定的数据库 和其他资源 返回当前正确的配置。
         /// </summary>
         ShellDescriptor GetShellDescriptor();
 

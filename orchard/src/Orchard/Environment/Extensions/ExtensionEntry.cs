@@ -4,6 +4,9 @@ using System.Reflection;
 using Orchard.Environment.Extensions.Models;
 
 namespace Orchard.Environment.Extensions {
+    /// <summary>
+    /// 扩展实体类
+    /// </summary>
     public class ExtensionEntry {
         public ExtensionDescriptor Descriptor { get; set; }
         public Assembly Assembly { get; set; }

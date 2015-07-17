@@ -54,7 +54,9 @@ namespace Orchard.Environment {
 
             _sweepGenerator.Activate();
         }
-
+        /// <summary>
+        /// ÖÕÖ¹Shell
+        /// </summary>
         public void Terminate() {
             SafelyTerminate(() => {
                        using (var events = _eventsFactory()) {
@@ -65,7 +67,10 @@ namespace Orchard.Environment {
             SafelyTerminate(() => _sweepGenerator.Terminate());
         }
 
-
+        /// <summary>
+        /// µ÷ÓÃactionÎ¯ÍÐ
+        /// </summary>
+        /// <param name="action"></param>
         private void SafelyTerminate(Action action) {
             try {
                 action();

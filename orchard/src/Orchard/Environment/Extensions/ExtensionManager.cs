@@ -51,7 +51,10 @@ namespace Orchard.Environment.Extensions {
                 _parallelCacheContext
                     .RunInParallel(_folders, folder => folder.AvailableExtensions().ToList())
                     .SelectMany(descriptors => descriptors)
-                    .ToReadOnlyCollection());
+                    .ToReadOnlyCollection();
+            
+                    
+                    );
         }
 
         public IEnumerable<FeatureDescriptor> AvailableFeatures() {
@@ -64,6 +67,8 @@ namespace Orchard.Environment.Extensions {
 
         internal static int GetPriority(FeatureDescriptor featureDescriptor) {
             return featureDescriptor.Priority;
+
+           //System.Threading.ManualResetEvent manualReset = new System.Threading.ManualResetEvent()
         }
 
         /// <summary>
