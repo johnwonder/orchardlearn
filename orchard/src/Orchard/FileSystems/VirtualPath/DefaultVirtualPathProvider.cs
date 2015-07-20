@@ -41,6 +41,10 @@ namespace Orchard.FileSystems.VirtualPath {
         }
 
         public virtual string ToAppRelative(string virtualPath) {
+            if (virtualPath.Contains("../../../../lib/"))
+            {
+
+            }
             if (IsMalformedVirtualPath(virtualPath))
                 return null;
 
@@ -76,6 +80,10 @@ namespace Orchard.FileSystems.VirtualPath {
         ///       In other words, !IsMalformed does *not* imply "IsWellformed".
         /// </summary>
         public bool IsMalformedVirtualPath(string virtualPath) {
+            if (virtualPath.Contains("../../../../lib/"))
+            {
+
+            }
             if (string.IsNullOrEmpty(virtualPath))
                 return true;
 

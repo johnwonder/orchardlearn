@@ -55,21 +55,22 @@ namespace Orchard.Environment.Extensions.Folders {
             string key = string.Format("{0}-{1}-{2}", path, manifestName, extensionType);
 
             return _cacheManager.Get(key, ctx => {
-                //ctx.Monitor��ʵΪAddToken
+                //ctx.Monitor其实为AddToken
                 ctx.Monitor(_webSiteFolder.WhenPathChanges(path));
-                //����ᵼ�� _cacheContextAccessor.CurrentΪ����������
-                //����Cache���е�PropagateTokensʱ
-                return AvailableExtensionsInFolder(path, extensionType, manifestName, manifestIsOptional).ToReadOnlyCollection(); //Cache�з���entry��Result������ߵ�
+                //这里会导致 _cacheContextAccessor.Current为父级上下文
+                //调用Cache类中的PropagateTokens时
+                //path : ~/Themes   extensionType :Theme manifestName:Themes.txt
+                return AvailableExtensionsInFolder(path, extensionType, manifestName, manifestIsOptional).ToReadOnlyCollection(); //Cache中返回entry的Result就是这边的
             });
         }
 
         private List<ExtensionDescriptor> AvailableExtensionsInFolder(string path, string extensionType, string manifestName, bool manifestIsOptional) {
-            Logger.Information("��ʼ�� '{0}'��Ѱ����չ...", path);
-            var subfolderPaths = _webSiteFolder.ListDirectories(path);
+            Logger.Information("开始在 '{0}'中寻找扩展...", path);
+            var subfolderPaths = _webSiteFolder.ListDirectories(path);//列出子目录
             var localList = new List<ExtensionDescriptor>();
             foreach (var subfolderPath in subfolderPaths) {
-                var extensionId = Path.GetFileName(subfolderPath.TrimEnd('/', '\\'));
-                var manifestPath = Path.Combine(subfolderPath, manifestName);
+                var extensionId = Path.GetFileName(subfolderPath.TrimEnd('/', '\\'));//~/Themes/TheThemeMachine/ 的 话 就是TheThemeMachine
+                var manifestPath = Path.Combine(subfolderPath, manifestName);// 
                 try {
                     var descriptor = GetExtensionDescriptor(path, extensionId, extensionType, manifestPath, manifestIsOptional);
 
@@ -85,7 +86,7 @@ namespace Orchard.Environment.Extensions.Folders {
                                      descriptor.Path));
                         continue;
                     }
-
+                    //没有Path就用Name代替
                     if (descriptor.Path == null) {
                         descriptor.Path = descriptor.Name.IsValidUrlSegment()
                                               ? descriptor.Name
@@ -100,16 +101,24 @@ namespace Orchard.Environment.Extensions.Folders {
                     _criticalErrorProvider.RegisterErrorMessage(T("The extension '{0}' manifest could not be loaded. It was ignored.", extensionId));
                 }
             }
-            Logger.Information("Done looking for extensions in '{0}': {1}", path, string.Join(", ", localList.Select(d => d.Id)));
+            Logger.Information("在 '{0}': {1} 寻找扩展完成", path, string.Join(", ", localList.Select(d => d.Id)));//以逗号分割,如Bootstrap, SafeMode, TheAdmin, TheThemeMachine
             return localList;
         }
 
+        /// <summary>
+        /// 解析Theme.txt Module.txt文件
+        /// </summary>
+        /// <param name="locationPath"></param>
+        /// <param name="extensionId"></param>
+        /// <param name="extensionType"></param>
+        /// <param name="manifestText"></param>
+        /// <returns></returns>
         public static ExtensionDescriptor GetDescriptorForExtension(string locationPath, string extensionId, string extensionType, string manifestText) {
-            Dictionary<string, string> manifest = ParseManifest(manifestText);
+            Dictionary<string, string> manifest = ParseManifest(manifestText);//读取每一行 以冒号分割 存入键值
             var extensionDescriptor = new ExtensionDescriptor {
                 Location = locationPath,
-                Id = extensionId,
-                ExtensionType = extensionType,
+                Id = extensionId,//文件夹名字 如TheThemeMachine
+                ExtensionType = extensionType,//Theme . Module
                 Name = GetValue(manifest, NameSection) ?? extensionId,
                 Path = GetValue(manifest, PathSection),
                 Description = GetValue(manifest, DescriptionSection),
@@ -130,17 +139,17 @@ namespace Orchard.Environment.Extensions.Folders {
 
         private ExtensionDescriptor GetExtensionDescriptor(string locationPath, string extensionId, string extensionType, string manifestPath, bool manifestIsOptional) {
             return _cacheManager.Get(manifestPath, context => {
-                context.Monitor(_webSiteFolder.WhenPathChanges(manifestPath));
+                context.Monitor(_webSiteFolder.WhenPathChanges(manifestPath));//AddToken
                 var manifestText = _webSiteFolder.ReadFile(manifestPath);
                 if (manifestText == null) {
-                    if (manifestIsOptional) {
+                    if (manifestIsOptional) {//默认为false
                         manifestText = string.Format("Id: {0}", extensionId);
                     }
                     else {
                         return null;
                     }
                 }
-
+                //extensionType 为Theme | Module
                 return GetDescriptorForExtension(locationPath, extensionId, extensionType, manifestText);
             });
         }
@@ -158,8 +167,8 @@ namespace Orchard.Environment.Extensions.Folders {
                     for (int i = 0; i < fieldLength; i++) {
                         field[i] = field[i].Trim();
                     }
-                    switch (field[0].ToLowerInvariant()) {
-                        case NameSection:
+                    switch (field[0].ToLowerInvariant()) {//转换成小写
+                        case NameSection://name
                             manifest.Add(NameSection, field[1]);
                             break;
                         case PathSection:
@@ -211,7 +220,7 @@ namespace Orchard.Environment.Extensions.Folders {
                             manifest.Add(SessionStateSection, field[1]);
                             break;
                         case FeaturesSection:
-                            manifest.Add(FeaturesSection, reader.ReadToEnd());
+                            manifest.Add(FeaturesSection, reader.ReadToEnd());//读取到文件末尾
                             break;
                     }
                 }
@@ -223,19 +232,21 @@ namespace Orchard.Environment.Extensions.Folders {
         private static IEnumerable<FeatureDescriptor> GetFeaturesForExtension(IDictionary<string, string> manifest, ExtensionDescriptor extensionDescriptor) {
             var featureDescriptors = new List<FeatureDescriptor>();
 
+            //默认
             // Default feature
             FeatureDescriptor defaultFeature = new FeatureDescriptor {
                 Id = extensionDescriptor.Id,
                 Name = GetValue(manifest, FeatureNameSection) ?? extensionDescriptor.Name,
                 Priority = GetValue(manifest, PrioritySection) != null ? int.Parse(GetValue(manifest, PrioritySection)) : 0,
                 Description = GetValue(manifest, FeatureDescriptionSection) ?? GetValue(manifest, DescriptionSection) ?? string.Empty,
-                Dependencies = ParseFeatureDependenciesEntry(GetValue(manifest, DependenciesSection)),
+                Dependencies = ParseFeatureDependenciesEntry(GetValue(manifest, DependenciesSection)),//解析依赖，以逗号分割
                 Extension = extensionDescriptor,
                 Category = GetValue(manifest, CategorySection)
             };
 
             featureDescriptors.Add(defaultFeature);
 
+            //剩下的
             // Remaining features
             string featuresText = GetValue(manifest, FeaturesSection);
             if (featuresText != null) {
@@ -243,17 +254,18 @@ namespace Orchard.Environment.Extensions.Folders {
                 using (StringReader reader = new StringReader(featuresText)) {
                     string line;
                     while ((line = reader.ReadLine()) != null) {
-                        if (IsFeatureDeclaration(line)) {
+                        if (IsFeatureDeclaration(line)) {//\t Char.IsWhiteSpace判断为true
                             if (featureDescriptor != null) {
-                                if (!featureDescriptor.Equals(defaultFeature)) {
+                                if (!featureDescriptor.Equals(defaultFeature)) {//如果不等于默认的Feature
                                     featureDescriptors.Add(featureDescriptor);
                                 }
 
                                 featureDescriptor = null;
                             }
-
+                            //冒号分割
                             string[] featureDeclaration = line.Split(new[] { ":" }, StringSplitOptions.RemoveEmptyEntries);
                             string featureDescriptorId = featureDeclaration[0].Trim();
+                            //判断featureDescriptorId和extensionDescriptor.Id是否相等
                             if (String.Equals(featureDescriptorId, extensionDescriptor.Id, StringComparison.OrdinalIgnoreCase)) {
                                 featureDescriptor = defaultFeature;
                                 featureDescriptor.Name = extensionDescriptor.Name;
@@ -321,12 +333,18 @@ namespace Orchard.Environment.Extensions.Folders {
 
             return false;
         }
-
+        /// <summary>
+        /// 是否是特征的定义
+        /// 不是\t "    " 开头
+        /// </summary>
+        /// <param name="line"></param>
+        /// <returns></returns>
         private static bool IsFeatureDeclaration(string line) {
             int lineLength = line.Length;
             if (line.StartsWith("\t") && lineLength >= 2) {
                 return !Char.IsWhiteSpace(line[1]);
             }
+            
             if (line.StartsWith("    ") && lineLength >= 5)
                 return !Char.IsWhiteSpace(line[4]);
 

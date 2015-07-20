@@ -209,7 +209,7 @@ namespace Orchard.Environment.Extensions {
 
             var virtualPathModficationDates = new ConcurrentDictionary<string, DateTime>(StringComparer.OrdinalIgnoreCase);
 
-            Logger.Information("Probing extensions");
+            Logger.Information("Probing extensions");//¿ªÊ¼Ì½²â
             var availableExtensionsProbes1 = _parallelCacheContext
                 .RunInParallel(availableExtensions, extension => 
                     _loaders.Select(loader => loader.Probe(extension)).Where(entry => entry != null).ToArray())

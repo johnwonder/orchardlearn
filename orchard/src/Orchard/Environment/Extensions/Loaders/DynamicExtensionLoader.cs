@@ -154,6 +154,11 @@ namespace Orchard.Environment.Extensions.Loaders {
             return result;
         }
 
+        /// <summary>
+        /// 查找.csproj项目文件
+        /// </summary>
+        /// <param name="descriptor"></param>
+        /// <returns></returns>
         public override ExtensionProbeEntry Probe(ExtensionDescriptor descriptor) {
             if (Disabled)
                 return null;
@@ -206,7 +211,8 @@ namespace Orchard.Environment.Extensions.Loaders {
         }
 
         private void AddDependencies(string projectPath, HashSet<string> currentSet) {
-            // Skip files from locations other than "~/Modules" and "~/Themes"
+            // Skip files from locations other than "~/Modules" and "~/Themes" 
+            //跳过不是~/Modules或~/Themes文件夹下的
             if (string.IsNullOrEmpty(PrefixMatch(projectPath, ExtensionsVirtualPathPrefixes))) {
                 return;
             }
@@ -217,6 +223,7 @@ namespace Orchard.Environment.Extensions.Loaders {
             // Add source file paths
             var projectFile = _projectFileParser.Parse(projectPath);
             string basePath = _virtualPathProvider.GetDirectoryName(projectPath);
+            //源代码文件合并
             currentSet.UnionWith(projectFile.SourceFilenames.Select(f => _virtualPathProvider.Combine(basePath, f)));
 
             // Add Project and Library references
@@ -228,6 +235,10 @@ namespace Orchard.Environment.Extensions.Loaders {
 
                     // Normalize the virtual path (avoid ".." in the path name)
                     if (!string.IsNullOrEmpty(path)) {
+                        //if (path.Contains("../../../../lib/"))
+                        //{
+
+                        //}
                         path = _virtualPathProvider.ToAppRelative(path);
                     }
 
@@ -235,7 +246,7 @@ namespace Orchard.Environment.Extensions.Loaders {
                     if (!string.IsNullOrEmpty(path) && !currentSet.Contains(path) && _virtualPathProvider.TryFileExists(path)) {
                         switch (referenceDescriptor.ReferenceType) {
                             case ReferenceType.Project:
-                                AddDependencies(path, currentSet);
+                                AddDependencies(path, currentSet);//递归添加依赖
                                 break;
                             case ReferenceType.Library:
                                 currentSet.Add(path);

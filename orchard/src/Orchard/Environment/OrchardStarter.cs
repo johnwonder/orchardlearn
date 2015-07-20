@@ -72,7 +72,7 @@ namespace Orchard.Environment {
             RegisterVolatileProvider<DefaultDependenciesFolder, IDependenciesFolder>(builder);
             RegisterVolatileProvider<DefaultExtensionDependenciesManager, IExtensionDependenciesManager>(builder);
             RegisterVolatileProvider<DefaultAssemblyProbingFolder, IAssemblyProbingFolder>(builder);
-            RegisterVolatileProvider<DefaultVirtualPathMonitor, IVirtualPathMonitor>(builder);
+            RegisterVolatileProvider<DefaultVirtualPathMonitor, IVirtualPathMonitor>(builder);//在这里注册VirtualPathMonitor
             RegisterVolatileProvider<DefaultVirtualPathProvider, IVirtualPathProvider>(builder);
             
             //单一实例

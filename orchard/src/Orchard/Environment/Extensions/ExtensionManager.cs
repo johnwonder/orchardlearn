@@ -51,7 +51,7 @@ namespace Orchard.Environment.Extensions {
                 _parallelCacheContext
                     .RunInParallel(_folders, folder => folder.AvailableExtensions().ToList())
                     .SelectMany(descriptors => descriptors)
-                    .ToReadOnlyCollection();
+                    .ToReadOnlyCollection()
             
                     
                     );

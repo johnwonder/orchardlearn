@@ -50,7 +50,11 @@ namespace Orchard.Environment.Extensions.Compilers {
                 .Single()
                 .Value;
         }
-
+        /// <summary>
+        /// 获取源代码文件
+        /// </summary>
+        /// <param name="document"></param>
+        /// <returns></returns>
         private static IEnumerable<string> GetSourceFilenames(XDocument document) {
             return document
                 .Elements(ns("Project"))
@@ -79,7 +83,7 @@ namespace Orchard.Environment.Extensions.Compilers {
                             }
 
                             return new ReferenceDescriptor {
-                                SimpleName = ExtractAssemblyName(c.Attribute("Include").Value),
+                                SimpleName = ExtractAssemblyName(c.Attribute("Include").Value),//逗号结束
                                 FullName = c.Attribute("Include").Value,
                                 Path = path,
                                 ReferenceType = ReferenceType.Library

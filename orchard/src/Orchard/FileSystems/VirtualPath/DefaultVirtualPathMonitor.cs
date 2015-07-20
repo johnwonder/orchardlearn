@@ -48,7 +48,7 @@ namespace Orchard.FileSystems.VirtualPath {
 
                 var token = weak.Target;
                 if (token == null) {
-                    token = new Token(virtualPath);
+                    token = new Token(virtualPath);//新建Token
                     weak.Target = token;
                 }
 

@@ -17,11 +17,12 @@ namespace Orchard.Utility.Extensions {
         public static string GetReferenceVirtualPath(this IVirtualPathProvider virtualPathProvider, string basePath, string referenceName, string hintPath) {
             // Check if hint path is valid
             if (!string.IsNullOrEmpty(hintPath)) {
-                if (virtualPathProvider.TryFileExists(virtualPathProvider.Combine(basePath, hintPath)))
+                if (virtualPathProvider.TryFileExists(virtualPathProvider.Combine(basePath, hintPath)))//这里出现。。。Path too many
                     return hintPath;
             }
 
             // Fall back to bin directory
+            //回到bin文件夹
             string relativePath = virtualPathProvider.Combine("bin", referenceName + ".dll");
             if (virtualPathProvider.TryFileExists(virtualPathProvider.Combine(basePath, relativePath)))
                 return relativePath;
