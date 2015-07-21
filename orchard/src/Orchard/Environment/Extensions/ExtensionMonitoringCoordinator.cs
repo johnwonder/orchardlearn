@@ -37,6 +37,7 @@ namespace Orchard.Environment.Extensions {
                 return;
 
             //PERF: Monitor extensions asynchronously.
+            //多线程监视
             monitor(_asyncTokenProvider.GetToken(MonitorExtensionsWork));
         }
 
@@ -50,7 +51,7 @@ namespace Orchard.Environment.Extensions {
             var extensions = _extensionManager.AvailableExtensions().Where(d => DefaultExtensionTypes.IsModule(d.ExtensionType) || DefaultExtensionTypes.IsTheme(d.ExtensionType)).ToList();
             foreach (var extension in extensions) {
                 foreach (var loader in _loaders) {
-                    loader.Monitor(extension, monitor);
+                    loader.Monitor(extension, monitor); //监视
                 }
             }
             Logger.Information("Done monitoring extension files...");

@@ -286,6 +286,7 @@ namespace Orchard.Environment.Extensions.Loaders {
         /// to a ".csproj" file of an active module requires an AppDomain restart.
         /// The purpose of this class is to keep track of all .csproj files monitored until
         /// an AppDomain restart.
+        /// 貌似和NHibernate 有关 一个类型在多个程序集中出现
         /// </summary>
         internal class ReloadWorkaround {
             private readonly List<IVolatileToken> _tokens = new List<IVolatileToken>();
@@ -295,7 +296,9 @@ namespace Orchard.Environment.Extensions.Loaders {
                     _tokens.Add(whenProjectFileChanges);
                 }
             }
-
+            /// <summary>
+            /// 判断是否需要重启AppDomain
+            /// </summary>
             public bool AppDomainRestartNeeded {
                 get {
                     lock (_tokens) {

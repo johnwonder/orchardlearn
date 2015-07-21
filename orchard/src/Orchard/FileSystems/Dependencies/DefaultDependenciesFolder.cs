@@ -24,6 +24,9 @@ namespace Orchard.FileSystems.Dependencies {
 
         public Localizer T { get; set; }
 
+        /// <summary>
+        /// 
+        /// </summary>
         private string PersistencePath {
             get { return _appDataFolder.Combine(BasePath, FileName); }
         }

@@ -58,7 +58,7 @@ namespace Orchard.Environment.Extensions {
             var context = CreateLoadingContext();
 
             // Notify all loaders about extensions removed from the web site
-            ///通知所有扩展加载器
+            ///通知所有扩展加载器 删除
             foreach (var dependency in context.DeletedDependencies) {
                 Logger.Information("Extension {0} has been removed from site", dependency.Name);
                 foreach (var loader in _loaders) {
@@ -79,6 +79,8 @@ namespace Orchard.Environment.Extensions {
             }
 
             // Execute all the work need by "ctx"
+            //复制 删除
+            //提示 Executing list of operations needed for loading extensions
             ProcessContextCommands(context);
 
             // And finally save the new entries in the dependencies folder
@@ -88,6 +90,7 @@ namespace Orchard.Environment.Extensions {
             Logger.Information("Done loading extensions...");
 
             // Very last step: Notify the host environment to restart the AppDomain if needed
+            //通知宿主环境 重启AppDomain
             if (context.RestartAppDomain) {
                 Logger.Information("AppDomain restart required.");
                 _hostEnvironment.RestartAppDomain();
@@ -168,6 +171,7 @@ namespace Orchard.Environment.Extensions {
                 }
             }
 
+            //添加NewDependencies
             if (activatedExtension != null) {
                 context.NewDependencies.Add(new DependencyDescriptor {
                     Name = extension.Id,
@@ -216,6 +220,8 @@ namespace Orchard.Environment.Extensions {
                 .SelectMany(entries => entries)
                 .GroupBy(entry => entry.Descriptor.Id);
 
+            //排序 合并 比如 Theme bin下的BootStrap.dll优先级更高 那就取BootStrap.dll 而不取Bootstrap.csproj
+            //PrecompiledExtensionLoader 比DynamicExtensionLoader 的 ExtensionProbeEntry 优先级高
             var availableExtensionsProbes = _parallelCacheContext
                 .RunInParallel(availableExtensionsProbes1, g =>
                     new { Id = g.Key, Entries = SortExtensionProbeEntries(g, virtualPathModficationDates)})
@@ -223,7 +229,7 @@ namespace Orchard.Environment.Extensions {
             Logger.Information("Done probing extensions");
 
             var deletedDependencies = previousDependencies
-                .Where(e => !availableExtensions.Any(e2 => StringComparer.OrdinalIgnoreCase.Equals(e2.Id, e.Name)))//dependency中没有任何等于e.Name的 extension名称的
+                .Where(e => !availableExtensions.Any(e2 => StringComparer.OrdinalIgnoreCase.Equals(e2.Id, e.Name)))//dependency中没有任何等于e2.Id的 extension名称的
                 .ToList();
 
             // Collect references for all modules
@@ -235,15 +241,17 @@ namespace Orchard.Environment.Extensions {
                 .ToList();
             Logger.Information("Done probing extension references");
 
-            ///根据Descriptor.Id来组合
+            ///根据Descriptor.Id来组合 //bin文件夹下的dll
             var referencesByModule = references
                 .GroupBy(entry => entry.Descriptor.Id, StringComparer.OrdinalIgnoreCase)
                 .ToDictionary(g => g.Key, g => g.AsEnumerable(), StringComparer.OrdinalIgnoreCase);
 
+            //按照Name来分组
             var referencesByName = references
                 .GroupBy(reference => reference.Name, StringComparer.OrdinalIgnoreCase)
                 .ToDictionary(g => g.Key, g => g.AsEnumerable(), StringComparer.OrdinalIgnoreCase);
 
+            //依赖排序
             var sortedAvailableExtensions =
                 availableExtensions.OrderByDependenciesAndPriorities(
                     (item, dep) => referencesByModule.ContainsKey(item.Id) &&
@@ -272,7 +280,7 @@ namespace Orchard.Environment.Extensions {
 
             // Select highest priority group with at least one item
             var firstNonEmptyGroup = groupByPriority.FirstOrDefault(g => g.Any()) ?? Enumerable.Empty<ExtensionProbeEntry>();
-
+            
             // No need for further sorting if only 1 item found
             //不需要再排序了 返回fristNonEmptyGroup
             if (firstNonEmptyGroup.Count() <= 1)

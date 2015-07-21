@@ -48,7 +48,9 @@ namespace Orchard.Environment.ShellBuilders {
             Logger.Debug("Composing blueprint");
 
             //取扩展中Id为Shapes Orchard.Setup Orchard.jQuery 的扩展
-            var enabledFeatures = _extensionManager.EnabledFeatures(descriptor);
+            //Descriptor 中有三个Features Orchard.Setup Shapes Orchard.Jquery
+            //ExtensionManager扩展方法 EnabledFeatures
+            var enabledFeatures = _extensionManager.EnabledFeatures(descriptor);//获取扩展中的Features
             var features = _extensionManager.LoadFeatures(enabledFeatures);
 
             if (descriptor.Features.Any(feature => feature.Name == "Orchard.Framework"))

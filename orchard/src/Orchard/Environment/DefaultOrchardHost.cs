@@ -163,7 +163,7 @@ namespace Orchard.Environment {
 		}
 
         /// <summary>
-        /// New一个ShellSettings对象
+        /// New一个ShellSettings对象 root Setup
         /// </summary>
         /// <returns></returns>
 		ShellContext CreateSetupContext() {
@@ -173,7 +173,7 @@ namespace Orchard.Environment {
 
 		ShellContext CreateShellContext(ShellSettings settings) {
 			if (settings.State.CurrentState == TenantState.State.Uninitialized) {
-				Logger.Debug("Creating shell context for tenant {0} setup", settings.Name);
+				Logger.Debug("Creating shell context for tenant {0} setup", settings.Name);//Default默认
 				return _shellContextFactory.CreateSetupContext(settings);
                 //Setup
 			}

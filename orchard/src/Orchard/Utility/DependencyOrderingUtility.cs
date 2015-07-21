@@ -35,7 +35,16 @@ namespace Orchard.Utility {
 
             return result;
         }
-
+        
+        /// <summary>
+        /// µ›πÈ ≤È’“ ÃÌº”
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="item"></param>
+        /// <param name="list"></param>
+        /// <param name="population"></param>
+        /// <param name="hasDependency"></param>
+        /// <param name="getPriority"></param>
         private static void Add<T>(Linkage<T> item, ICollection<T> list, IEnumerable<Linkage<T>> population, Func<T, T, bool> hasDependency, Func<T, int> getPriority) {
             if (item.Used)
                 return;

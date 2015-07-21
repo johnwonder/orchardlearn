@@ -22,6 +22,12 @@ namespace Orchard.Environment.Extensions {
     /// ExtensionManager扩展方法
     /// </summary>
     public static class ExtensionManagerExtensions {
+        /// <summary>
+        /// 取AvailableFeatures中 Id 为descritor.Features中的Name的
+        /// </summary>
+        /// <param name="extensionManager"></param>
+        /// <param name="descriptor"></param>
+        /// <returns></returns>
         public static IEnumerable<FeatureDescriptor> EnabledFeatures(this IExtensionManager extensionManager, ShellDescriptor descriptor) {
             return extensionManager.AvailableFeatures().Where(fd => descriptor.Features.Any(sf => sf.Name == fd.Id));
         }

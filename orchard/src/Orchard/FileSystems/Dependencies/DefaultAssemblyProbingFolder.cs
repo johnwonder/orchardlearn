@@ -19,6 +19,11 @@ namespace Orchard.FileSystems.Dependencies {
 
         public ILogger Logger { get; set; }
 
+        /// <summary>
+        /// 判断Dependencies 文件夹下是否有这个模块
+        /// </summary>
+        /// <param name="moduleName"></param>
+        /// <returns></returns>
         public bool AssemblyExists(string moduleName) {
             var path = PrecompiledAssemblyPath(moduleName);
             return _appDataFolder.FileExists(path);

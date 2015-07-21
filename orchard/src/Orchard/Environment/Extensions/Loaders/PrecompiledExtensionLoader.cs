@@ -13,6 +13,7 @@ namespace Orchard.Environment.Extensions.Loaders {
     /// <summary>
     /// Load an extension by looking into the "bin" subdirectory of an
     /// extension directory.
+    /// 去bin子目录寻找扩展
     /// </summary>
     public class PrecompiledExtensionLoader : ExtensionLoaderBase {
         private readonly IHostEnvironment _hostEnvironment;
@@ -48,6 +49,11 @@ namespace Orchard.Environment.Extensions.Loaders {
             yield return _assemblyProbingFolder.GetAssemblyVirtualPath(dependency.Name);
         }
 
+        /// <summary>
+        /// 添加DeleteActions
+        /// </summary>
+        /// <param name="ctx"></param>
+        /// <param name="dependency"></param>
         public override void ExtensionRemoved(ExtensionLoadingContext ctx, DependencyDescriptor dependency) {
             if (_assemblyProbingFolder.AssemblyExists(dependency.Name)) {
                 ctx.DeleteActions.Add(
@@ -68,6 +74,7 @@ namespace Orchard.Environment.Extensions.Loaders {
             string sourceFileName = _virtualPathProvider.MapPath(GetAssemblyPath(extension));
 
             // Copy the assembly if it doesn't exist or if it is older than the source file.
+            //先判断需不需要Copy 不存在或者 修改时间 早于 源文件
             bool copyAssembly =
                 !_assemblyProbingFolder.AssemblyExists(extension.Id) ||
                 File.GetLastWriteTimeUtc(sourceFileName) > _assemblyProbingFolder.GetAssemblyDateTimeUtc(extension.Id);
@@ -155,8 +162,8 @@ namespace Orchard.Environment.Extensions.Loaders {
 
             var result = _virtualPathProvider
                 .ListFiles(_virtualPathProvider.GetDirectoryName(assemblyPath))
-                .Where(s => StringComparer.OrdinalIgnoreCase.Equals(Path.GetExtension(s), ".dll"))
-                .Where(s => !StringComparer.OrdinalIgnoreCase.Equals(Path.GetFileNameWithoutExtension(s), descriptor.Id))
+                .Where(s => StringComparer.OrdinalIgnoreCase.Equals(Path.GetExtension(s), ".dll"))//是否是dll文件
+                .Where(s => !StringComparer.OrdinalIgnoreCase.Equals(Path.GetFileNameWithoutExtension(s), descriptor.Id))//并且不是扩展本身的dll
                 .Select(path => new ExtensionReferenceProbeEntry {
                     Descriptor = descriptor,
                     Loader = this,
