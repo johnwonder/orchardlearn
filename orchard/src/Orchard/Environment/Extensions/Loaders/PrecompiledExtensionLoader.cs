@@ -220,7 +220,11 @@ namespace Orchard.Environment.Extensions.Loaders {
             Logger.Information("Done loading reference '{0}'", reference.Name);
             return result;
         }
-
+        /// <summary>
+        /// 基类中调用LoadWorker
+        /// </summary>
+        /// <param name="descriptor"></param>
+        /// <returns></returns>
         protected override ExtensionEntry LoadWorker(ExtensionDescriptor descriptor) {
             if (Disabled)
                 return null;

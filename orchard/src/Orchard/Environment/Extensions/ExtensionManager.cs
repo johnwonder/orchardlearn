@@ -57,6 +57,10 @@ namespace Orchard.Environment.Extensions {
                     );
         }
 
+        /// <summary>
+        /// 获取Features返回
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<FeatureDescriptor> AvailableFeatures() {
             return _cacheManager.Get("AvailableFeatures", ctx =>                
                 AvailableExtensions()
