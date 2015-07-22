@@ -2,6 +2,7 @@
 
 namespace Orchard.Caching {
     /// <summary>
+    /// http://www.ideliverable.com/blog/using-icachemanager-in-orchard-with-expensive-factory-code
     /// Provides the default implementation for a cache manager. 
     /// The cache manager provides an abstraction over the cache holder allowing it to be easily swaped and isolating it within a component context.
     /// </summary>

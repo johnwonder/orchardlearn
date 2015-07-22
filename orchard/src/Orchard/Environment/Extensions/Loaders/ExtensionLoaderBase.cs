@@ -40,7 +40,7 @@ namespace Orchard.Environment.Extensions.Loaders {
         public ExtensionEntry Load(ExtensionDescriptor descriptor) {
             //在dependencies中获取
             var dependency = _dependenciesFolder.GetDescriptor(descriptor.Id);
-            if (dependency != null && dependency.LoaderName == this.Name) {//查找加载器是否一样
+            if (dependency != null && dependency.LoaderName == this.Name) {//判断加载器是否一样
                 return LoadWorker(descriptor);
             }
             return null;

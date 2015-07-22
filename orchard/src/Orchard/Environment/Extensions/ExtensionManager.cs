@@ -114,7 +114,7 @@ namespace Orchard.Environment.Extensions {
         }
 
         private Feature LoadFeature(FeatureDescriptor featureDescriptor) {
-            Debug.Write("Id:" + featureDescriptor.Id + " Name:" + featureDescriptor.Name);
+            Logger.Information("Id:" + featureDescriptor.Id + " Name:" + featureDescriptor.Name);
             var extensionDescriptor = featureDescriptor.Extension;
             var featureId = featureDescriptor.Id;
             var extensionId = extensionDescriptor.Id;
@@ -173,7 +173,7 @@ namespace Orchard.Environment.Extensions {
 
         private ExtensionEntry BuildEntry(ExtensionDescriptor descriptor) {
             foreach (var loader in _loaders) {
-                ExtensionEntry entry = loader.Load(descriptor);
+                ExtensionEntry entry = loader.Load(descriptor);//ExtensionLoaderBase中判断 通过Dependencies.xml中的Loader 和 Loader.Name是否一致
                 if (entry != null)
                     return entry;
             }

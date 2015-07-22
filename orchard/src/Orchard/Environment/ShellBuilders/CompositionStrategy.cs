@@ -52,13 +52,18 @@ namespace Orchard.Environment.ShellBuilders {
             //ExtensionManager扩展方法 EnabledFeatures
             var enabledFeatures = _extensionManager.EnabledFeatures(descriptor);//获取扩展中的Features
             var features = _extensionManager.LoadFeatures(enabledFeatures);
-
+            //Feature
             if (descriptor.Features.Any(feature => feature.Name == "Orchard.Framework"))
                 features = features.Concat(BuiltinFeatures());//这里会导出MvcModule DataModule之类。
 
+            //foreach (var item in features)
+            //{
+            //    //Logger.Information("Feature Name:"+item.Descriptor.)
+            //}
             var excludedTypes = GetExcludedTypes(features);//Orchard.Data.Migration.DataMigrationNotificationProvider
 
             //DependencyBlueprint
+            //ExtensionEntry 
             var modules = BuildBlueprint(features, IsModule, BuildModule, excludedTypes);
             var dependencies = BuildBlueprint(features, IsDependency, (t, f) => BuildDependency(t, f, descriptor), excludedTypes);//获取实现IDependency接口的
         

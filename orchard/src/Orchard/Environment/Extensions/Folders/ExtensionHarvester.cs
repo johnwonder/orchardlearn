@@ -69,7 +69,7 @@ namespace Orchard.Environment.Extensions.Folders {
             var subfolderPaths = _webSiteFolder.ListDirectories(path);//列出子目录
             var localList = new List<ExtensionDescriptor>();
             foreach (var subfolderPath in subfolderPaths) {
-                var extensionId = Path.GetFileName(subfolderPath.TrimEnd('/', '\\'));//~/Themes/TheThemeMachine/ 的 话 就是TheThemeMachine
+                var extensionId = Path.GetFileName(subfolderPath.TrimEnd('/', '\\'));//~/Themes/TheThemeMachine/ 的 话 就是TheThemeMachine ~/Modules/Orchard.jQuery/的话就是Orchard.jQuery
                 var manifestPath = Path.Combine(subfolderPath, manifestName);// 
                 try {
                     var descriptor = GetExtensionDescriptor(path, extensionId, extensionType, manifestPath, manifestIsOptional);

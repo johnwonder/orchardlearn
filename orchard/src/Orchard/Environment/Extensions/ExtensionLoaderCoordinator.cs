@@ -263,7 +263,7 @@ namespace Orchard.Environment.Extensions {
                 AvailableExtensions = sortedAvailableExtensions,
                 PreviousDependencies = previousDependencies,
                 DeletedDependencies = deletedDependencies,
-                AvailableExtensionsProbes = availableExtensionsProbes,
+                AvailableExtensionsProbes = availableExtensionsProbes, //在 availableExtensionsProbes1 loader.Probe(extension)) 时加入对应Loader SetupContext时 加入Dependencies
                 ReferencesByName = referencesByName,
                 ReferencesByModule = referencesByModule,
                 VirtualPathModficationDates = virtualPathModficationDates,
