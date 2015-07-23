@@ -5,6 +5,7 @@ namespace Orchard.Mvc.Filters {
     public class FilterResolvingActionInvoker : ControllerActionInvoker {
         private readonly IEnumerable<IFilterProvider> _filterProviders;
 
+        //IFilterProvider ¼Ì³Ð×ÔIDependency
         public FilterResolvingActionInvoker(IEnumerable<IFilterProvider> filterProviders) {
             _filterProviders = filterProviders;
         }

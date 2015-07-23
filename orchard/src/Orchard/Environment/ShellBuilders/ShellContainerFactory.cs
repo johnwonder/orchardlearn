@@ -49,6 +49,7 @@ namespace Orchard.Environment.ShellBuilders {
                     }
                 });
 
+            //方法中的委托执行过后就执行Module的 Load AttachToComponentRegistration
             return intermediateScope.BeginLifetimeScope(
                 "shell",
                 builder => {

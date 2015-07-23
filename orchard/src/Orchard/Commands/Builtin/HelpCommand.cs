@@ -46,4 +46,9 @@ namespace Orchard.Commands.Builtin {
             }
         }
     }
+
+    public class TestCommand:DefaultOrchardCommandHandler
+    {
+
+    }
 }

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DOCUMENT>
+  <QUERYORDER>
+    <MERCHANTID>001</MERCHANTID>
+    <BRANCHID>value</BRANCHID>
+    <POSID>value</POSID>
+    <ORDERDATE>value</ORDERDATE>
+    <ORDERID>value</ORDERID>
+    <RESULT>value</RESULT>
+    <SIGN>value</SIGN>
+    <ERRCODE>value</ERRCODE>
+  </QUERYORDER>
+</DOCUMENT>
