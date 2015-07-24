@@ -42,7 +42,7 @@ namespace Orchard.Environment {
 
         public void Activate() {
             var allRoutes = new List<RouteDescriptor>();
-            allRoutes.AddRange(_routeProviders.SelectMany(provider => provider.GetRoutes()));
+            allRoutes.AddRange(_routeProviders.SelectMany(provider => provider.GetRoutes()));//SellContainerFactoryÖÐ×¢²áµ½ÈÝÆ÷
             allRoutes.AddRange(_httpRouteProviders.SelectMany(provider => provider.GetRoutes()));
 
             _routePublisher.Publish(allRoutes);

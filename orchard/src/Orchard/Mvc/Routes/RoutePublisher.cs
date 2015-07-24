@@ -31,6 +31,10 @@ namespace Orchard.Mvc.Routes {
             _extensionManager = extensionManager;
         }
 
+        /// <summary>
+        /// 加到RouteCollection中去
+        /// </summary>
+        /// <param name="routes"></param>
         public void Publish(IEnumerable<RouteDescriptor> routes) {
             var routesArray = routes
                 .OrderByDescending(r => r.Priority)
@@ -55,6 +59,7 @@ namespace Orchard.Mvc.Routes {
 
             using (_routeCollection.GetWriteLock()) {
                 // existing routes are removed while the collection is briefly inaccessable
+                //当集合无法访问时 先移除当前存在的路由
                 var cropArray = _routeCollection
                     .OfType<ShellRoute>()
                     .Where(sr => sr.ShellSettingsName == _shellSettings.Name)
@@ -98,6 +103,7 @@ namespace Orchard.Mvc.Routes {
                         IsHttpRoute = routeDescriptor is HttpRouteDescriptor,
                         SessionState = sessionStateBehavior
                     };
+                    //_routeCollection 为RouteTable.Routes
                     _routeCollection.Add(routeDescriptor.Name, shellRoute);
                 }
             }

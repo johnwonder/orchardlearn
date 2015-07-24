@@ -39,7 +39,15 @@ namespace AutofacTest
 
     public class Foo1:IFoo
     {
-
+          private readonly ILifetimeScope _lifetimeScope;
+        /// <summary>
+        /// 自动注入ILifetimeScope
+        /// </summary>
+        /// <param name="lifetimeScope"></param>
+        public Foo1(ILifetimeScope lifetimeScope)
+        {
+            _lifetimeScope = lifetimeScope;
+        }
     }
 
     public class Foo2:IFoo

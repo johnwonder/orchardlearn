@@ -21,6 +21,15 @@ namespace AutofacTest
 
             IProjectFileParser cacheManager = container.Resolve<IProjectFileParser>();
 
+
+           ILifetimeScope  lifeTime =  container.BeginLifetimeScope((b) => {
+
+                b.RegisterType<MyController>().As<IController>();
+            
+            });
+
+          IController controller =   lifeTime.Resolve<IController>();
+
         }
     }
 
@@ -59,6 +68,7 @@ namespace AutofacTest
 
     }
 
+
     public class DefaultCacheHolder : ICacheHolder
     {
     }
@@ -69,7 +79,7 @@ namespace AutofacTest
         {
             builder.RegisterType<DefaultCacheManager>()
                 .As<ICacheManager>()
-                .InstancePerDependency();
+                .InstancePerDependency();//  PerDependency  如果新开一个LifetimeScope 那么会访问不到
         }
 
         protected override void AttachToComponentRegistration(Autofac.Core.IComponentRegistry componentRegistry, Autofac.Core.IComponentRegistration registration)
@@ -89,6 +99,21 @@ namespace AutofacTest
                     e.Parameters = e.Parameters.Concat(new[] { parameter });
                 };
             }
+        }
+    }
+
+
+    public interface IController
+    {
+
+    }
+
+    public class MyController:IController
+    {
+        private readonly ICacheManager _cacheManager;
+        public MyController(ICacheManager cacheManager)
+        {
+            _cacheManager = cacheManager;
         }
     }
 }

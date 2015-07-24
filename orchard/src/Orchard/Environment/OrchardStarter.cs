@@ -38,9 +38,11 @@ namespace Orchard.Environment {
             var builder = new ContainerBuilder();
             builder.RegisterModule(new CollectionOrderModule());
             builder.RegisterModule(new LoggingModule());
-            builder.RegisterModule(new EventsModule());
+            builder.RegisterModule(new EventsModule());//创建了事件模块
             builder.RegisterModule(new CacheModule());
-
+            //builder.RegisterType<DefaultCacheManager>()
+            //   .As<ICacheManager>()
+            //   .InstancePerDependency();
             // a single default host implementation is needed for bootstrapping a web app domain
             builder.RegisterType<DefaultOrchardEventBus>().As<IEventBus>().SingleInstance();
             builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance();

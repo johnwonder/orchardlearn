@@ -6,7 +6,7 @@ namespace Orchard.Commands {
     public class CommandModule : Module {
         
         /// <summary>
-        /// 注册Command后 触发
+        /// 注册Command后 触发 Setup的时候先触发HelpCommand 然后是SetupCommand
         /// </summary>
         /// <param name="componentRegistry"></param>
         /// <param name="registration"></param>
