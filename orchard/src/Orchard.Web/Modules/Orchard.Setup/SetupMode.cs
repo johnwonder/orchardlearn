@@ -51,6 +51,8 @@ namespace Orchard.Setup {
             builder.RegisterModule(new WorkContextModule());
             builder.RegisterModule(new CacheModule());
 
+            //ICacheManager cacheManager=  builder.
+
             builder.RegisterType<RoutePublisher>().As<IRoutePublisher>().InstancePerLifetimeScope();
             builder.RegisterType<ModelBinderPublisher>().As<IModelBinderPublisher>().InstancePerLifetimeScope();
             builder.RegisterType<WebFormViewEngineProvider>().As<IViewEngineProvider>().As<IShapeTemplateViewEngine>().SingleInstance();
@@ -64,6 +66,7 @@ namespace Orchard.Setup {
             builder.RegisterType<DataServicesProviderFactory>().As<IDataServicesProviderFactory>().InstancePerLifetimeScope();
             builder.RegisterType<DefaultCommandManager>().As<ICommandManager>().InstancePerLifetimeScope();
             builder.RegisterType<HelpCommand>().As<ICommandHandler>().InstancePerLifetimeScope();
+            //builder.RegisterType<TestCommand>().As<ICommandHandler>().InstancePerLifetimeScope();
             //builder.RegisterType<WorkContextAccessor>().As<IWorkContextAccessor>().InstancePerMatchingLifetimeScope("shell");
             builder.RegisterType<ResourceManager>().As<IResourceManager>().InstancePerLifetimeScope();
             builder.RegisterType<ResourceFilter>().As<IFilterProvider>().InstancePerLifetimeScope();
@@ -81,13 +84,13 @@ namespace Orchard.Setup {
             builder.RegisterType<RecipeHarvester>().As<IRecipeHarvester>().InstancePerLifetimeScope();
             builder.RegisterType<RecipeParser>().As<IRecipeParser>().InstancePerLifetimeScope();
 
-            builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance();
+           // builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance(); //注册后了一个新的CacheHolder 清空
 
             // in progress - adding services for display/shape support in setup
             builder.RegisterType<DisplayHelperFactory>().As<IDisplayHelperFactory>().InstancePerLifetimeScope();
             builder.RegisterType<DefaultDisplayManager>().As<IDisplayManager>().InstancePerLifetimeScope();
             builder.RegisterType<DefaultShapeFactory>().As<IShapeFactory>().InstancePerLifetimeScope();
-            builder.RegisterType<DefaultShapeTableManager>().As<IShapeTableManager>().InstancePerLifetimeScope();
+            builder.RegisterType<DefaultShapeTableManager>().As<IShapeTableManager>();//.InstancePerLifetimeScope();
             builder.RegisterType<ShapeTableLocator>().As<IShapeTableLocator>().InstancePerMatchingLifetimeScope("work");
 
             builder.RegisterType<ThemeAwareViewEngine>().As<IThemeAwareViewEngine>().InstancePerLifetimeScope();

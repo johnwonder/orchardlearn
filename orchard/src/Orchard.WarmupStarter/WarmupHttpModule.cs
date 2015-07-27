@@ -71,7 +71,19 @@ namespace Orchard.WarmupStarter {
                 temp();
             }
         }
+        //http://www.cnblogs.com/springyangwc/archive/2011/10/12/2208991.html
+        //A、AutoResetEvent.WaitOne()每次只允许一个线程进入，当某个线程得到信号后，AutoResetEvent会自动又将信号置为不发送状态，则其他调用WaitOne的线程只有继续等待，也就是说AutoResetEvent一次只唤醒一个线程； 
+        //B、ManualResetEvent则可以唤醒多个线程，因为当某个线程调用了ManualResetEvent.Set()方法后，其他调用WaitOne的线程获得信号得以继续执行，而ManualResetEvent不会自动将信号置为不发送。
 
+        //C、也就是说，除非手工调用了ManualResetEvent.Reset()方法，则ManualResetEvent将一直保持有信号状态，ManualResetEvent也就可以同时唤醒多个线程继续执行。
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        /// <param name="cb"></param>
+        /// <param name="extradata"></param>
+        /// <returns></returns>
         private IAsyncResult BeginBeginRequest(object sender, EventArgs e, AsyncCallback cb, object extradata) {
             // host is available, process every requests, or file is processed
             if (!InWarmup() || WarmupUtility.DoBeginRequest(_context)) {
@@ -94,6 +106,7 @@ namespace Orchard.WarmupStarter {
         /// AsyncResult for "on hold" request (resumes when "Completed()" is called)
         /// </summary>
         private class WarmupAsyncResult : IAsyncResult {
+            //http://www.cnblogs.com/lzjsky/archive/2011/07/11/2102794.html AutoResetEvent
             private readonly EventWaitHandle _eventWaitHandle = new AutoResetEvent(false/*initialState*/);
             private readonly AsyncCallback _cb;
             private readonly object _asyncState;
@@ -107,7 +120,7 @@ namespace Orchard.WarmupStarter {
 
             public void Completed() {
                 _isCompleted = true;
-                _eventWaitHandle.Set();
+             //   _eventWaitHandle.Set();
                 _cb(this);
             }
 
@@ -133,7 +146,9 @@ namespace Orchard.WarmupStarter {
         /// </summary>
         private class DoneAsyncResult : IAsyncResult {
             private readonly object _asyncState;
-            private static readonly WaitHandle _waitHandle = new ManualResetEvent(true/*initialState*/);
+            //http://www.cnblogs.com/tianzhiliang/archive/2011/03/04/1970726.html
+            //ManualResetEvent 允许线程通过发信号互相通信。通常，此通信涉及一个线程在其他线程进行之前必须完成的任务。当一个线程开始一个活动（此活动必须完成后，其他线程才能开始）时，它调用 Reset 以将 ManualResetEvent 置于非终止状态，此线程可被视为控制 ManualResetEvent。调用 ManualResetEvent 上的 WaitOne 的线程将阻止，并等待信号。当控制线程完成活动时，它调用 Set 以发出等待线程可以继续进行的信号。并释放所有等待线程。一旦它被终止，ManualResetEvent 将保持终止状态（即对 WaitOne 的调用的线程将立即返回，并不阻塞），直到它被手动重置。可以通过将布尔值传递给构造函数来控制 ManualResetEvent 的初始状态，如果初始状态处于终止状态，为 true；否则为 false。
+            private static readonly WaitHandle _waitHandle = new ManualResetEvent(true/*initialState*/);//处于终止状态
 
             public DoneAsyncResult(object asyncState) {
                 _asyncState = asyncState;

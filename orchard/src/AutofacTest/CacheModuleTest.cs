@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Autofac;
+using System.Collections.Concurrent;
 
 namespace AutofacTest
 {
@@ -10,24 +11,24 @@ namespace AutofacTest
     {
         public static void Main(string[] args)
         {
-            ContainerBuilder builder = new ContainerBuilder();
+            DefaultCacheHolder cacheHolder = new DefaultCacheHolder();
+           DefaultProjectFileParser parser =  cacheHolder.GetCache<string, string>(typeof(DefaultProjectFileParser));
 
+           DefaultProjectFileParser parser1 = cacheHolder.GetCache<string, string>(typeof(DefaultProjectFileParser));
+
+            ContainerBuilder builder = new ContainerBuilder();
             builder.RegisterModule(new CacheModule());
             builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance();
             builder.RegisterType<DefaultProjectFileParser>().As<IProjectFileParser>().SingleInstance();
 
-
             IContainer container = builder.Build();
-
             IProjectFileParser cacheManager = container.Resolve<IProjectFileParser>();
-
 
            ILifetimeScope  lifeTime =  container.BeginLifetimeScope((b) => {
 
                 b.RegisterType<MyController>().As<IController>();
             
             });
-
           IController controller =   lifeTime.Resolve<IController>();
 
         }
@@ -71,6 +72,35 @@ namespace AutofacTest
 
     public class DefaultCacheHolder : ICacheHolder
     {
+
+
+        private readonly Dictionary<CacheKey, DefaultProjectFileParser> _caches = new Dictionary<CacheKey, DefaultProjectFileParser>();
+
+        public DefaultProjectFileParser GetCache<TKey, TResult>(Type component)
+        {
+            var cacheKey = new CacheKey(component,typeof(TKey),typeof(TResult));
+            DefaultProjectFileParser parser;
+            if (!_caches.TryGetValue(cacheKey, out parser))//这里第二次会返回true用 Tuple
+            {
+                parser = new DefaultProjectFileParser(null);
+                _caches.Add(cacheKey, new DefaultProjectFileParser(null));
+                return parser;
+            }
+            else
+                return parser;
+                
+        }
+    }
+
+    /// <summary>
+    /// 通过component的类型，key的类型，result的类型来构造CacheKey
+    /// </summary>
+    class CacheKey : Tuple<Type, Type, Type>
+    {
+        public CacheKey(Type component, Type key, Type result)
+            : base(component, key, result)
+        {
+        }
     }
 
     public class CacheModule : Module

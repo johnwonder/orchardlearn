@@ -16,6 +16,7 @@ namespace Orchard.Web {
         }
 
         public static void RegisterRoutes(RouteCollection routes) {
+            //忽略路由。。
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
         }
 
@@ -24,7 +25,10 @@ namespace Orchard.Web {
             _starter = new Starter<IOrchardHost>(HostInitialization, HostBeginRequest, HostEndRequest);
             _starter.OnApplicationStart(this);
         }
-
+        /// <summary>
+        /// 调用starter的OnBeginRequest方法
+        /// 内部调用该类的HostBeginRequest方法
+        /// </summary>
         protected void Application_BeginRequest() {
             _starter.OnBeginRequest(this);
         }
@@ -41,7 +45,12 @@ namespace Orchard.Web {
         private static void HostEndRequest(HttpApplication application, IOrchardHost host) {
             host.EndRequest();
         }
-
+        /// <summary>
+        /// 初始化IOrchardHost对象，
+        /// 用于BeginRequest时候调用
+        /// </summary>
+        /// <param name="application"></param>
+        /// <returns></returns>
         private static IOrchardHost HostInitialization(HttpApplication application) {
             var host = OrchardStarter.CreateHost(MvcSingletons);
 

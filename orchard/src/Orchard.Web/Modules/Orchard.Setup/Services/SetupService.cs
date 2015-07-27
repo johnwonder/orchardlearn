@@ -51,7 +51,7 @@ namespace Orchard.Setup.Services {
             _compositionStrategy = compositionStrategy;
             _processingEngine = processingEngine;
             _recipeHarvester = recipeHarvester;
-            _recipes = _recipeHarvester.HarvestRecipes("Orchard.Setup");
+            _recipes = _recipeHarvester.HarvestRecipes("Orchard.Setup");//这里去寻找Orchard.Setup Recipe
             T = NullLocalizer.Instance;
         }
 
@@ -196,6 +196,7 @@ namespace Orchard.Setup.Services {
             cultureManager.AddCulture("en-US");
 
             var recipeManager = environment.Resolve<IRecipeManager>();
+            //命令 去创建文章 调用Orchard.Pages插件里的 PageCommand OnPublished 去调用Orchard.Autorute插件的AutoroutePartHandler OnPublished
             string executionId = recipeManager.Execute(Recipes().FirstOrDefault(r => r.Name.Equals(context.Recipe, StringComparison.OrdinalIgnoreCase)));
 
             // null check: temporary fix for running setup in command line

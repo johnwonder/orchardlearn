@@ -12,19 +12,23 @@ namespace Orchard.Setup {
         }
 
         /// <summary>
-        /// 获取路由
+        /// 获取路由 如果在Setup上加一个RouteDescriptor的话 会先去寻找它。
         /// </summary>
         /// <returns></returns>
         public IEnumerable<RouteDescriptor> GetRoutes() {
             return new[] {
+                 
                              new RouteDescriptor {
+
                                                      Route = new Route(
                                                          "{controller}/{action}",
                                                          new RouteValueDictionary {
                                                                                       {"area", "Orchard.Setup"},
                                                                                       {"controller", "Setup"},
-                                                                                      {"action", "Index"}
+                                                                                      {"action", "Index"},
+
                                                                                   },
+                                                       
                                                          new RouteValueDictionary {
                                                                                       {"area", "Orchard.Setup"},
                                                                                       {"controller", "Setup"},
@@ -33,7 +37,10 @@ namespace Orchard.Setup {
                                                                                       {"area", "Orchard.Setup"}
                                                                                   },
                                                          new MvcRouteHandler())//默认是MvcRouteHandler
+                                                     
+                                                         
                                                  }
+                          
                          };
         }
     }
