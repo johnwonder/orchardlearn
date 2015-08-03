@@ -29,7 +29,7 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
                 _workContext.CurrentTheme = _themeManager.GetRequestTheme(filterContext.RequestContext);
             }
 
-           viewResultBase.ViewEngineCollection = new ViewEngineCollection(new[] { _layoutAwareViewEngine });
+          //viewResultBase.ViewEngineCollection = new ViewEngineCollection(new[] { _layoutAwareViewEngine });
             //如果去掉这个ViewEngine，那么只会输出Index.cshtml
         }
 

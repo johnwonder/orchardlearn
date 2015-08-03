@@ -132,13 +132,17 @@ namespace Orchard.Mvc.ViewEngines.Razor {
             ResourceManager.AppendMeta(meta, contentSeparator);
         }
 
+        /// <summary>
+        /// 初始化 System.Web.Mvc.AjaxHelper、System.Web.Mvc.HtmlHelper 和 System.Web.Mvc.UrlHelper
+        /// </summary>
         public override void InitHelpers() {
             base.InitHelpers();
 
             _workContext = ViewContext.GetWorkContext();
             
+            //在InitHelpers中 初始化DisplayHelper
             _display = DisplayHelperFactory.CreateHelper(ViewContext, this);
-            _layout = _workContext.Layout;
+            _layout = _workContext.Layout;//在LayoutWorkContext中获取。
         }
 
         public bool AuthorizedFor(Permission permission) {

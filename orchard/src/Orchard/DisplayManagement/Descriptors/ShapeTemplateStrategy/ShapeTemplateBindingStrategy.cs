@@ -131,6 +131,7 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
             Logger.Information("Rendering template file '{0}'", harvestShapeInfo.TemplateVirtualPath);
 
             var htmlHelper = new HtmlHelper(displayContext.ViewContext, displayContext.ViewDataContainer);
+            //这里会去调用ThemeAwareViewEngineShim中的FindPartialView方法。
             var result = htmlHelper.Partial(harvestShapeInfo.TemplateVirtualPath, displayContext.Value);
 
             Logger.Information("Done rendering template file '{0}'", harvestShapeInfo.TemplateVirtualPath);

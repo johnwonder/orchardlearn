@@ -10,6 +10,12 @@ namespace Orchard.UI.Zones {
             _shapeFactory = shapeFactory;
         }
 
+        /// <summary>
+        /// 获取Layout
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="name"></param>
+        /// <returns></returns>
         public Func<WorkContext, T> Get<T>(string name) {
             if (name == "Layout") {
                 var layout = _shapeFactory.Create("Layout", Arguments.Empty());

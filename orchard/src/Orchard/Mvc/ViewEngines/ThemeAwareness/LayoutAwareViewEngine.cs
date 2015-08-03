@@ -37,6 +37,14 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
             return _themeAwareViewEngine.FindPartialView(controllerContext, partialViewName, useCache, true);
         }
 
+        /// <summary>
+        /// ViewEngineCollection属性的FindView方法，如果返回的ViewEngineResult包含一个具体的View（View属性不为空），则直接返回该ViewEngineResult，否则抛出一个InvalidOperation异常，并将通过ViewEngineResult的SearchedLocations属性表示的搜寻位置列表格式化成一个字符串作为该异常的消息，所以图8-5所示的搜寻位置列表实际上是抛出的InvalidOperation异常的消息。
+        /// </summary>
+        /// <param name="controllerContext"></param>
+        /// <param name="viewName"></param>
+        /// <param name="masterName"></param>
+        /// <param name="useCache"></param>
+        /// <returns></returns>
         public ViewEngineResult FindView(ControllerContext controllerContext, string viewName, string masterName, bool useCache) {
             var viewResult = _themeAwareViewEngine.FindPartialView(controllerContext, viewName, useCache, true);
 
