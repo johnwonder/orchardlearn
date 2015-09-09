@@ -68,7 +68,9 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
                     viewContext.TempData,
                     childContentWriter);
 
+                //Shapes Views ShapeResult Display
                 viewResult.View.Render(childContentViewContext, childContentWriter);
+                //_workContext.Layout 应该是一个Shape
                 _workContext.Layout.Metadata.ChildContent = childContentWriter;
 
                 var display = _displayHelperFactory.CreateHelper(viewContext, viewDataContainer);
