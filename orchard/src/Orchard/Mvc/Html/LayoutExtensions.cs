@@ -31,6 +31,12 @@ namespace Orchard.Mvc.Html {
             html.GetWorkContext().Resolve<IPageTitleBuilder>().AppendTitleParts(titleParts);
         }
 
+        /// <summary>
+        /// 生成页面标题
+        /// </summary>
+        /// <param name="html"></param>
+        /// <param name="titleParts"></param>
+        /// <returns></returns>
         public static MvcHtmlString Title(this HtmlHelper html, params string[] titleParts) {
             var pageTitleBuilder = html.GetWorkContext().Resolve<IPageTitleBuilder>();
 

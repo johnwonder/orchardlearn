@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
@@ -33,7 +33,11 @@ namespace Orchard.ContentManagement {
         public bool Has(Type partType) {
             return partType == typeof(ContentItem) || _parts.Any(partType.IsInstanceOfType);
         }
-
+       /// <summary>
+       /// 返回第一个part 
+       /// </summary>
+       /// <param name="partType"></param>
+       /// <returns></returns>
         public IContent Get(Type partType) {
             if (partType == typeof(ContentItem))
                 return this;

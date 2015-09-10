@@ -1,4 +1,4 @@
-using System.Web.Mvc;
+锘縰sing System.Web.Mvc;
 using Orchard.Logging;
 using Orchard.Mvc.Filters;
 using Orchard.Themes;
@@ -29,8 +29,8 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
                 _workContext.CurrentTheme = _themeManager.GetRequestTheme(filterContext.RequestContext);
             }
 
-          //viewResultBase.ViewEngineCollection = new ViewEngineCollection(new[] { _layoutAwareViewEngine });
-            //如果去掉这个ViewEngine，那么只会输出Index.cshtml
+          viewResultBase.ViewEngineCollection = new ViewEngineCollection(new[] { _layoutAwareViewEngine });
+            //濡傛灉鍘绘帀杩欎釜ViewEngine锛岄偅涔堝彧浼氳緭鍑篒ndex.cshtml
         }
 
         public void OnResultExecuted(ResultExecutedContext filterContext) {

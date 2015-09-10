@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Orchard.Settings;
@@ -36,6 +36,7 @@ namespace Orchard.UI.PageTitle {
             return _titleParts.Count == 0 
                 ? String.Empty
                 : String.Join(_titleSeparator, _titleParts.AsEnumerable().Reverse().ToArray());
+            //倒序排列 Orchard Setup - sass - 开始
         }
     }
 }

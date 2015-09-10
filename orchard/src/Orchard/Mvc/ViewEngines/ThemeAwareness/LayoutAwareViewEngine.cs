@@ -15,6 +15,7 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
     /// <summary>
     /// LayoutAwareViewEnginey的引入 包含了依赖当前主题去寻找正确View的逻辑，
     /// 代理了实际视图引擎的渲染工作。
+    /// Awareness(意识)
     /// </summary>
     public class LayoutAwareViewEngine : ILayoutAwareViewEngine {
         private readonly WorkContext _workContext;
@@ -73,6 +74,7 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
                 //_workContext.Layout 应该是一个Shape
                 _workContext.Layout.Metadata.ChildContent = childContentWriter;
 
+                // DisplayHelperFactory -> DisplayHelper
                 var display = _displayHelperFactory.CreateHelper(viewContext, viewDataContainer);
                 IHtmlString result = display(_workContext.Layout);
                 //Display里会去调模板页
