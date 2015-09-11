@@ -1,11 +1,11 @@
-using System;
+ï»¿using System;
 using System.Collections.Concurrent;
 
 namespace Orchard.Caching {
     /// <summary>
     /// Provides the default implementation for a cache holder.
     /// The cache holder is responsible for actually storing the references to cached entities.
-    /// Ìá¹©CacheHolderÄ¬ÈÏµÄÊµÏÖ £¬±£´æ»º´æÊµÀıµÄÒıÓÃ
+    /// æä¾›CacheHolderé»˜è®¤çš„å®ç° ï¼Œä¿å­˜ç¼“å­˜å®ä¾‹çš„å¼•ç”¨
     /// </summary>
     public class DefaultCacheHolder : ICacheHolder {
         private readonly ICacheContextAccessor _cacheContextAccessor;
@@ -15,8 +15,8 @@ namespace Orchard.Caching {
             _cacheContextAccessor = cacheContextAccessor;
         }
         /// <summary>
-        /// Í¨¹ıcomponentµÄÀàĞÍ£¬keyµÄÀàĞÍ£¬resultµÄÀàĞÍÀ´¹¹ÔìCacheKey
-        /// //µÚ¶ş´Î»á·µ»ØtrueÓÃ Tuple
+        /// é€šè¿‡componentçš„ç±»å‹ï¼Œkeyçš„ç±»å‹ï¼Œresultçš„ç±»å‹æ¥æ„é€ CacheKey
+        /// //ç¬¬äºŒæ¬¡ä¼šè¿”å›trueç”¨ Tuple
         /// </summary>
         class CacheKey : Tuple<Type, Type, Type> {
             public CacheKey(Type component, Type key, Type result)

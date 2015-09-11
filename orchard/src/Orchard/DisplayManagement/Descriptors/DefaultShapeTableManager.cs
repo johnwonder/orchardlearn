@@ -43,7 +43,7 @@ namespace Orchard.DisplayManagement.Descriptors {
                     Feature strategyDefaultFeature = bindingStrategy.Metadata.ContainsKey("Feature") ? //在ShellContainerFactory中 注册时WithMetadata("Feature",item.Feature)
                                                                (Feature)bindingStrategy.Metadata["Feature"] :
                                                                null;
-
+                    //这里涉及到CoreShapes
                     var builder = new ShapeTableBuilder(strategyDefaultFeature);
                     bindingStrategy.Value.Discover(builder);
                     return builder.BuildAlterations().ToReadOnlyCollection();
