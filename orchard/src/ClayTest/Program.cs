@@ -14,7 +14,15 @@ namespace ClayTest
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-        
+          var display =   CreateHelper("ss","ssss");
+          display("11",new List<string> {"22" });
+        }
+        static private readonly DisplayHelperBehavior[] _behaviors = new[] { new DisplayHelperBehavior() };
+        public static dynamic CreateHelper(string s1, string s2)
+        {
+            return ClayActivator.CreateInstance<DisplayHelper>(
+                _behaviors,
+                s1, s2);
         }
 
         static void SimpleObject()
@@ -76,6 +84,39 @@ namespace ClayTest
 
             
 
+        }
+
+        class DisplayHelperBehavior : ClayBehavior
+        {
+            public override object InvokeMember(Func<object> proceed, object target, string name, INamedEnumerable<object> args)
+            {
+                return ((DisplayHelper)target).Invoke(name, args);
+            }
+
+
+        }
+    }
+
+    public class DisplayHelper
+    {
+        private readonly string _s1;
+        private readonly string _s2;
+
+        public DisplayHelper(
+            string s1,
+            string s2)
+        {
+            _s1 = s1;
+            _s2 = s2;
+
+        }
+
+        public String S1 { get; set; }
+        public String S2 { get; set; }
+
+        public object Invoke(string name, INamedEnumerable<object> parameters)
+        {
+            return null;
         }
     }
 }
