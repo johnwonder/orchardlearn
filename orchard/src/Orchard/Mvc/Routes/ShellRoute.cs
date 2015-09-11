@@ -70,6 +70,7 @@ namespace Orchard.Mvc.Routes {
 
         public override VirtualPathData GetVirtualPath(RequestContext requestContext, RouteValueDictionary values) {
             // locate appropriate shell settings for request
+            //为请求定位适当的shellSettings 多站点
             var settings = _runningShellTable.Match(requestContext.HttpContext);
 
             // only proceed if there was a match, and it was for this client

@@ -53,6 +53,7 @@ namespace Orchard.DisplayManagement.Implementation {
                 return CoerceHtmlString(context.Value); //Value是Shape
 
             var workContext = _workContextAccessor.GetContext(context.ViewContext);
+            //怎么去寻找形状表的
             var shapeTable = _shapeTableLocator.Value.Lookup(workContext.CurrentTheme.Id);
 
             var displayingContext = new ShapeDisplayingContext {

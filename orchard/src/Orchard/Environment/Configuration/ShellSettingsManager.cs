@@ -38,6 +38,9 @@ namespace Orchard.Environment.Configuration {
 
         /// <summary>
         /// 读取Settings.txt并序列化
+        /// 把Sites 文件夹下的遍历出来
+        /// 多租户 Sites目录下 多个子目录 可以设置名字
+        /// 在后台管理里可以设置
         /// </summary>
         /// <returns></returns>
         IEnumerable<ShellSettings> LoadSettings() {

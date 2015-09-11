@@ -1,5 +1,6 @@
 using System;
 using System.Globalization;
+using System.Collections.Generic;
 
 namespace Orchard.Utility {
     /// <summary>
@@ -43,6 +44,8 @@ namespace Orchard.Utility {
 
         public void AddDateTime(DateTime dateTime) {
             _hash += dateTime.ToBinary();
+
+            //List<string> listString = new List<string>(new List<string>());
         }
 
         /// <summary>

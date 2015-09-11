@@ -7,10 +7,36 @@ using System.Collections.Concurrent;
 
 namespace AutofacTest
 {
+    public interface ISite
+    {
+
+    }
+    public class SafeModeSite:ContentPart,ISite
+    {
+
+    }
+
+    public class ContentPart
+    {
+
+    }
+
+    public class UnSafeModeSite:ContentPart
+    {
+
+    }
+
     public class CacheModuleTest
     {
         public static void Main(string[] args)
         {
+            List<ContentPart> partList = new List<ContentPart>();
+
+            partList.Add(new SafeModeSite());
+            partList.Add(new UnSafeModeSite());
+
+            var part = partList.FirstOrDefault(typeof(ISite).IsInstanceOfType);
+
             DefaultCacheHolder cacheHolder = new DefaultCacheHolder();
            DefaultProjectFileParser parser =  cacheHolder.GetCache<string, string>(typeof(DefaultProjectFileParser));
 

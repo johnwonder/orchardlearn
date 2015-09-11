@@ -70,6 +70,7 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
                     childContentWriter);
 
                 //Shapes Views ShapeResult Display
+                //如果只是childContentWriter的话只有Index.cshtml的内容
                 viewResult.View.Render(childContentViewContext, childContentWriter);
                 //_workContext.Layout 应该是一个Shape
                 _workContext.Layout.Metadata.ChildContent = childContentWriter;

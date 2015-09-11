@@ -16,6 +16,7 @@ namespace Orchard.Caching {
         }
         /// <summary>
         /// 通过component的类型，key的类型，result的类型来构造CacheKey
+        /// //第二次会返回true用 Tuple
         /// </summary>
         class CacheKey : Tuple<Type, Type, Type> {
             public CacheKey(Type component, Type key, Type result)

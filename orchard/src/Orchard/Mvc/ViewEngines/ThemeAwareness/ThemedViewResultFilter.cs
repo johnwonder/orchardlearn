@@ -31,6 +31,7 @@ namespace Orchard.Mvc.ViewEngines.ThemeAwareness {
 
           viewResultBase.ViewEngineCollection = new ViewEngineCollection(new[] { _layoutAwareViewEngine });
             //如果去掉这个ViewEngine，那么只会输出Index.cshtml
+            //Document.cshtml 貌似没加载 导致<head>标签没有内容
         }
 
         public void OnResultExecuted(ResultExecutedContext filterContext) {

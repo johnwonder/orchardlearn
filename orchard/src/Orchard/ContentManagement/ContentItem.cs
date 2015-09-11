@@ -34,7 +34,7 @@ namespace Orchard.ContentManagement {
             return partType == typeof(ContentItem) || _parts.Any(partType.IsInstanceOfType);
         }
        /// <summary>
-       /// 返回第一个part 
+       /// 返回第一个part  判断是否是partType的实例 接口也可以判断
        /// </summary>
        /// <param name="partType"></param>
        /// <returns></returns>

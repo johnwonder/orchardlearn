@@ -11,7 +11,7 @@
 <html lang="@WorkContext.CurrentCulture" class="static @Html.ClassForPage()"> 
 <head> 
     <meta charset="utf-8" />
-    <title>@Html.Title(title, siteName)</title> 
+    <title>@Html.Title("sass", siteName)</title> 
     @Display(Model.Head)
     <script>        (function (d) { d.className = "dyn" + d.className.substring(6, d.className.length); })(document.documentElement);</script> 
 </head> 

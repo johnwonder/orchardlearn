@@ -43,9 +43,15 @@ namespace Orchard.Core.Shapes {
 
         public Localizer T { get; set; }
 
+        /// <summary>
+        /// 核心方法在这边 ，终于找到
+        /// </summary>
+        /// <param name="builder"></param>
         public void Discover(ShapeTableBuilder builder) {
             // the root page shape named 'Layout' is wrapped with 'Document'
             // and has an automatic zone creating behavior
+            //根Layout 被Document包装
+            //有一个自动生成zone的行为
             builder.Describe("Layout")
                 .Configure(descriptor => descriptor.Wrappers.Add("Document"))
                 .OnCreating(creating => creating.Behaviors.Add(new ZoneHoldingBehavior(() => creating.New.Zone(), null)))

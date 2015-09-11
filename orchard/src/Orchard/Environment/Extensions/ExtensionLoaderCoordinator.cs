@@ -97,6 +97,12 @@ namespace Orchard.Environment.Extensions {
             }
         }
 
+        /// <summary>
+        /// 获取扩展Hash, 比较
+        /// </summary>
+        /// <param name="context"></param>
+        /// <param name="dependencyDescriptor"></param>
+        /// <returns></returns>
         private string GetExtensionHash(ExtensionLoadingContext context, DependencyDescriptor dependencyDescriptor) {
             var hash = new Hash();
             hash.AddStringInvariant(dependencyDescriptor.Name);

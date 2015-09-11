@@ -81,6 +81,7 @@ namespace Orchard.Environment {
 
         public ShellSettings Match(HttpContextBase httpContext) {
             // use Host header to prevent proxy alteration of the orignal request
+            //用Host header 防止代理修改原始请求
             return Match(httpContext.Request.Headers["Host"] ?? string.Empty, httpContext.Request.AppRelativeCurrentExecutionFilePath);
         }
 
