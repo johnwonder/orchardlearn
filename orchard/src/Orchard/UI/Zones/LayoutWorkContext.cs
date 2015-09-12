@@ -17,7 +17,9 @@ namespace Orchard.UI.Zones {
         /// <param name="name"></param>
         /// <returns></returns>
         public Func<WorkContext, T> Get<T>(string name) {
+            //名称为Layout的才返回
             if (name == "Layout") {
+                //创建Shape
                 var layout = _shapeFactory.Create("Layout", Arguments.Empty());
                 return ctx => (T)layout;
             }
