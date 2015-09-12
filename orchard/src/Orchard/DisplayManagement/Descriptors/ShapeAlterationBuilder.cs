@@ -37,26 +37,32 @@ namespace Orchard.DisplayManagement.Descriptors {
 
         public ShapeAlterationBuilder BoundAs(string bindingSource, Func<ShapeDescriptor, Func<DisplayContext, IHtmlString>> binder) {
             // schedule the configuration
+            //安排配置,放入_configurations集合中
             return Configure(descriptor => {
 
                 Func<DisplayContext, IHtmlString> target = null;
 
                 var binding = new ShapeBinding {
                     ShapeDescriptor = descriptor,
-                    BindingName = _bindingName,
+                    BindingName = _bindingName,//ShapeType
                     BindingSource = bindingSource,
                     Binding = displayContext => {
 
                         // when used, first realize the actual target once
                         if (target == null)
                             target = binder(descriptor);
+                        //实现Func<ShapeDescriptor, Func<DisplayContext, IHtmlString>> 
+                        //返回Func<DisplayContext,IHtmlString>
 
                         // and execute the re
+                        //执行Func<DisplayContext, IHtmlString>
+                        //返回IHtmlString
                         return target(displayContext);
                     }
                 };
 
                 // ShapeDescriptor.Bindings is a case insensitive dictionary
+                //Bings是个区分大小写的字典
                 descriptor.Bindings[_bindingName] = binding;
 
             });
@@ -83,6 +89,11 @@ namespace Orchard.DisplayManagement.Descriptors {
             });
         }
 
+        /// <summary>
+        /// 添加 Displayed集合 的Action
+        /// </summary>
+        /// <param name="action"></param>
+        /// <returns></returns>
         public ShapeAlterationBuilder OnDisplayed(Action<ShapeDisplayedContext> action) {
             return Configure(descriptor => {
                 var existing = descriptor.Displayed ?? Enumerable.Empty<Action<ShapeDisplayedContext>>();
@@ -104,6 +115,11 @@ namespace Orchard.DisplayManagement.Descriptors {
             });
         }
         
+        /// <summary>
+        /// 返回ShapeAlteration实例
+        /// _configurations IList<Action<ShapeDescriptor>>集合
+        /// </summary>
+        /// <returns></returns>
         public ShapeAlteration Build() {
             return new ShapeAlteration(_shapeType, _feature, _configurations.ToArray());
         }

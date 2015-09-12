@@ -51,6 +51,9 @@ namespace Orchard.DisplayManagement.Descriptors {
         public IList<string> BindingSources { get; set; }
     }
 
+    /// <summary>
+    /// 形状绑定
+    /// </summary>
     public class ShapeBinding {
         public ShapeDescriptor ShapeDescriptor { get; set; }
         public string BindingName { get; set; }

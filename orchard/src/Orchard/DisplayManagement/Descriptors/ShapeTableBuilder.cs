@@ -11,12 +11,22 @@ namespace Orchard.DisplayManagement.Descriptors {
             _feature = feature;
         }
 
+        /// <summary>
+        /// 返回有Feature和shapeType的ShapeAlterationBuilder
+        /// 并且添加进AlterationBuilders集合
+        /// </summary>
+        /// <param name="shapeType"></param>
+        /// <returns></returns>
         public ShapeAlterationBuilder Describe(string shapeType) {
             var alterationBuilder = new ShapeAlterationBuilder(_feature, shapeType);
             _alterationBuilders.Add(alterationBuilder);
             return alterationBuilder;
         }
 
+        /// <summary>
+        /// alterationBuilders通过 Describe方法 添加 订阅
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<ShapeAlteration> BuildAlterations() {
             return _alterationBuilders.Select(b => b.Build());
         }

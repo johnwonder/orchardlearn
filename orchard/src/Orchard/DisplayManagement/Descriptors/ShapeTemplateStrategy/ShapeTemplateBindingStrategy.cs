@@ -76,7 +76,8 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
                     return new { harvesterInfo.harvester, basePath, subPath, virtualPath, fileNames };
                 })).ToList();
                 Logger.Information("Done discovering candidate views filenames");
-
+                //先获取pathContexts
+                //再获取fileContexts
                 var fileContexts = pathContexts.SelectMany(pathContext => _shapeTemplateViewEngines.SelectMany(ve => {
                     var fileNames = ve.DetectTemplateFileNames(pathContext.fileNames);
                     return fileNames.Select(
@@ -110,7 +111,8 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
                         hit.shapeContext.harvestShapeInfo.TemplateVirtualPath,
                         iter.shapeContext.harvestShapeHit.ShapeType,
                         featureDescriptor.Id);
-
+                    //这里添加进ShapeAlterationBuilders
+                    //From把 Feature添加进来
                     builder.Describe(iter.shapeContext.harvestShapeHit.ShapeType)
                         .From(new Feature { Descriptor = featureDescriptor })
                         .BoundAs(

@@ -4,6 +4,7 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
     /// <summary>
     /// This service determines which paths to examine, and provides
     /// the shape type based on the template file paths discovered
+    /// //确定检测哪些路径 ，在发现模板文件的基础上提供shape type 
     /// </summary>
     public interface IShapeTemplateHarvester : IDependency {
         IEnumerable<string> SubPaths();
@@ -12,6 +13,10 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
 
     public class BasicShapeTemplateHarvester : IShapeTemplateHarvester {
 
+        /// <summary>
+        /// 子路径 Views,Views,Views/Parts,Views/Fields
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<string> SubPaths() {
             return new[] { "Views", "Views/Items", "Views/Parts", "Views/Fields" };
         }
@@ -25,6 +30,7 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeTemplateStrategy {
                 };
             }
             else {
+                //FileName 为GetFileNameWithoutExtension得到的文件名
                 var displayType = info.FileName.Substring(lastDot + 1);
                 yield return new HarvestShapeHit {
                     ShapeType = Adjust(info.SubPath, info.FileName.Substring(0, lastDot), displayType),

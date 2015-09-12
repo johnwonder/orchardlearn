@@ -46,6 +46,8 @@ namespace Orchard.DisplayManagement.Descriptors {
                     //这里涉及到CoreShapes
                     var builder = new ShapeTableBuilder(strategyDefaultFeature);
                     bindingStrategy.Value.Discover(builder);
+                    //内部通过Select -> Build 返回ShapeAlteration 列表
+                    //ShapeAlteration 包含 ShapeType,Configurations(Displaying Creating Placement)
                     return builder.BuildAlterations().ToReadOnlyCollection();
                 });
 
@@ -67,6 +69,7 @@ namespace Orchard.DisplayManagement.Descriptors {
                     foreach(var alteration in alterations.Where(a => a.ShapeType == descriptor.ShapeType).ToList()) {
                         var local = new ShapeDescriptor { ShapeType = descriptor.ShapeType };
                         alteration.Alter(local);
+                        //把BindingSource放到descriptor中
                         descriptor.BindingSources.Add(local.BindingSource);
                     }
                 }
