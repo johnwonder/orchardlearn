@@ -58,7 +58,7 @@ namespace Orchard.Environment.Extensions {
         }
 
         /// <summary>
-        /// 获取Features返回
+        /// 从Extensions中获取Features返回
         /// </summary>
         /// <returns></returns>
         public IEnumerable<FeatureDescriptor> AvailableFeatures() {

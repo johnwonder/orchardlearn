@@ -12,7 +12,7 @@ namespace Orchard.Environment.Extensions.Folders {
         /// <param name="paths"></param>
         /// <param name="extensionHarvester"></param>
         public ThemeFolders(IEnumerable<string> paths, IExtensionHarvester extensionHarvester) {
-            _paths = paths;
+            _paths = paths;//这里的paths从 DefaultOrchardHost中注入
             _extensionHarvester = extensionHarvester;
         }
 
