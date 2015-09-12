@@ -28,6 +28,12 @@ namespace Orchard.Environment {
             return (T)resolver();
         }
 
+        /// <summary>
+        /// 寻找解决方案
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="name"></param>
+        /// <returns></returns>
         Func<object> FindResolverForState<T>(string name) {
             var resolver = _workContextStateProviders.Select(wcsp => wcsp.Get<T>(name)).FirstOrDefault(value => !Equals(value, default(T)));
 

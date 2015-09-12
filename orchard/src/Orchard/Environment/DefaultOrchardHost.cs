@@ -249,6 +249,10 @@ namespace Orchard.Environment {
 			}
 		}
 
+        /// <summary>
+        /// StartUpdatedShells 调用
+        /// </summary>
+        /// <param name="settings"></param>
 		void ActivateShell(ShellSettings settings) {
 			// look for the associated shell context
 			var shellContext = _shellContexts.FirstOrDefault(c => c.Settings.Name == settings.Name);
