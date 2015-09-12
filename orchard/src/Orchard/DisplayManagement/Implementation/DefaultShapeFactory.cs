@@ -30,6 +30,7 @@ namespace Orchard.DisplayManagement.Implementation {
         }
 
         public IShape Create(string shapeType, INamedEnumerable<object> parameters, IEnumerable<IClayBehavior> behaviors) {
+            //通过DefaultShapeTableManager查找
             var defaultShapeTable = _shapeTableLocator.Value.Lookup(null);
             ShapeDescriptor shapeDescriptor;
             defaultShapeTable.Descriptors.TryGetValue(shapeType, out shapeDescriptor);
@@ -82,7 +83,7 @@ namespace Orchard.DisplayManagement.Implementation {
             }
             if (shapeDescriptor != null) {
                 foreach (var ev in shapeDescriptor.Creating) {
-                    ev(creatingContext);
+                    ev(creatingContext);//调用Action<ShapeCreatingContext>
                 }
             }
 
@@ -95,6 +96,7 @@ namespace Orchard.DisplayManagement.Implementation {
             var shapeMetadata = new ShapeMetadata { Type = shapeType };
             createdContext.Shape.Metadata = shapeMetadata;
 
+            //这里把Wrappers加上
             if (shapeDescriptor != null)
                 shapeMetadata.Wrappers = shapeMetadata.Wrappers.Concat(shapeDescriptor.Wrappers).ToList();
 

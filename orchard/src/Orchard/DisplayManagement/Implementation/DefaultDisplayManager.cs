@@ -41,6 +41,7 @@ namespace Orchard.DisplayManagement.Implementation {
 
         public IHtmlString Execute(DisplayContext context) {
 
+           //先转换为Shape
             var shape = _convertAsShapeCallsite.Target(_convertAsShapeCallsite, context.Value);
 
             // non-shape arguments are returned as a no-op
@@ -99,7 +100,7 @@ namespace Orchard.DisplayManagement.Implementation {
                     shape.Metadata.ChildContent = Process(frameBinding, shape, context);
                 }
             }
-
+            //实际这里会用wrapper包装
             var displayedContext = new ShapeDisplayedContext {
                 Shape = shape,
                 ShapeMetadata = shape.Metadata,
