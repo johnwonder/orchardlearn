@@ -55,6 +55,7 @@ namespace Orchard.Environment.ShellBuilders {
             var knownDescriptor = _shellDescriptorCache.Fetch(settings.Name);
             if (knownDescriptor == null) {
                 Logger.Information("No descriptor cached. Starting with minimum components.");
+                //没有获取到 那么开始最少的组件 Orchard.Framework，Settings
                 knownDescriptor = MinimumShellDescriptor();
             }
             //knownDescriptor 从缓存获取
@@ -100,6 +101,7 @@ namespace Orchard.Environment.ShellBuilders {
         public ShellContext CreateSetupContext(ShellSettings settings) {
             Logger.Debug("No shell settings available. Creating shell context for setup");
 
+            //CreateContainer 中注入ShellDescriptor
             var descriptor = new ShellDescriptor {
                 SerialNumber = -1,
                 Features = new[] {
