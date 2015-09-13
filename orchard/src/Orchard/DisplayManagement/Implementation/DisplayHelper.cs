@@ -72,6 +72,11 @@ namespace Orchard.DisplayManagement.Implementation {
             return ShapeExecute(shape);
         }
 
+        /// <summary>
+        /// 把shape包装进DisplayContext
+        /// </summary>
+        /// <param name="shape"></param>
+        /// <returns></returns>
         public object ShapeExecute(object shape) {
             var context = new DisplayContext { Display = this, Value = shape, ViewContext = ViewContext, ViewDataContainer = ViewDataContainer };
             return _displayManager.Execute(context);

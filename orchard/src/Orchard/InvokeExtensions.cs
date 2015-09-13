@@ -14,7 +14,7 @@ namespace Orchard {
         public static void Invoke<TEvents>(this IEnumerable<TEvents> events, Action<TEvents> dispatch, ILogger logger) {
             foreach (var sink in events) {
                 try {
-                    dispatch(sink);
+                    dispatch(sink);//遍历事件添加
                 }
                 catch (Exception ex) {
                     if (IsLogged(ex)) {

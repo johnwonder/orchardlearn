@@ -8,8 +8,10 @@ namespace Orchard.DisplayManagement.Shapes {
     public class ShapeMetadata {
         public ShapeMetadata() {
             Wrappers = new List<string>();
+            //初始化Alternates
             Alternates = new List<string>();
             BindingSources = new List<string>();
+            //这边初始化Displaying
             Displaying = Enumerable.Empty<Action<ShapeDisplayingContext>>();
             Displayed = Enumerable.Empty<Action<ShapeDisplayedContext>>();
         }

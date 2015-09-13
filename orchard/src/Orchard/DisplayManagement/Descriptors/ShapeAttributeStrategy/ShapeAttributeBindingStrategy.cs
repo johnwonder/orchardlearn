@@ -32,6 +32,10 @@ namespace Orchard.DisplayManagement.Descriptors.ShapeAttributeStrategy {
             _routeCollection = routeCollection;
         }
 
+        /// <summary>
+        /// Alter的时候调用Configuration 调用BoundAs中的Action
+        /// </summary>
+        /// <param name="builder"></param>
         public void Discover(ShapeTableBuilder builder) {
             foreach (var iter in _shapeAttributeOccurrences) {
                 var occurrence = iter;

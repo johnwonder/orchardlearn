@@ -45,6 +45,9 @@ namespace Orchard.DisplayManagement.Descriptors {
                                                                null;
                     //这里涉及到CoreShapes
                     var builder = new ShapeTableBuilder(strategyDefaultFeature);
+                    //Discover中builder去Describe
+                    //Describe实际是去添加alterationBuilder到builder的alterationBuilders集合中
+                    //然后通过BuildeAlterations  -> alterationBuilder->Build() 返回IEnumerable<ShapeAlteration>
                     bindingStrategy.Value.Discover(builder);
                     //内部通过Select -> Build 返回ShapeAlteration 列表
                     //ShapeAlteration 包含 ShapeType,Configurations(Displaying Creating Placement)
@@ -52,7 +55,7 @@ namespace Orchard.DisplayManagement.Descriptors {
                 });
 
                 var alterations = alterationSets
-                .SelectMany(shapeAlterations => shapeAlterations)
+                .SelectMany(shapeAlterations => shapeAlterations)//转换IList<ShapeAlteration> 到统一的IEnumerable<ShapeAlteration>
                 .Where(alteration => IsModuleOrRequestedTheme(alteration, themeName))
                 .OrderByDependenciesAndPriorities(AlterationHasDependency, GetPriority)
                 .ToList();
@@ -68,11 +71,12 @@ namespace Orchard.DisplayManagement.Descriptors {
                 foreach(var descriptor in descriptors) {
                     foreach(var alteration in alterations.Where(a => a.ShapeType == descriptor.ShapeType).ToList()) {
                         var local = new ShapeDescriptor { ShapeType = descriptor.ShapeType };
-                        alteration.Alter(local);
+                        alteration.Alter(local);//不想重复调用configuration？
                         //把BindingSource放到descriptor中
                         descriptor.BindingSources.Add(local.BindingSource);
                     }
                 }
+                //Bindings 由Descriptors的Bindings ToDictionary
 
                 var result = new ShapeTable {
                     Descriptors = descriptors.ToDictionary(sd => sd.ShapeType, StringComparer.OrdinalIgnoreCase),

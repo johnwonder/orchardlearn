@@ -16,6 +16,7 @@ namespace Orchard.DisplayManagement.Descriptors {
         public Feature Feature { get; private set; }
         //这里调用configuration 
         //加上Wrapper
+        //
         public void Alter(ShapeDescriptor descriptor) {
             foreach (var configuration in _configurations) {
                 configuration(descriptor);

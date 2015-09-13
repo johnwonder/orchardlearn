@@ -25,6 +25,7 @@ namespace Orchard.DisplayManagement.Descriptors {
 
         /// <summary>
         /// alterationBuilders通过 Describe方法 添加 订阅
+        /// 然后通过
         /// </summary>
         /// <returns></returns>
         public IEnumerable<ShapeAlteration> BuildAlterations() {

@@ -101,7 +101,7 @@ namespace Orchard.UI.Zones {
 
                     dynamic parent = _parent;
 
-                    dynamic zone = _zoneFactory();
+                    dynamic zone = _zoneFactory();//这里去创建zone
                     zone.Parent = _parent;
                     zone.ZoneName = _potentialZoneName;
                     parent[_potentialZoneName] = zone;

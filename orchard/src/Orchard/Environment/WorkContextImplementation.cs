@@ -40,6 +40,7 @@ namespace Orchard.Environment {
             if (resolver == null) {
                 return () => default(T);
             }
+            //返回
             return () => resolver(this);
         }
 

@@ -43,7 +43,7 @@ namespace Orchard.DisplayManagement.Descriptors {
                 Func<DisplayContext, IHtmlString> target = null;
 
                 var binding = new ShapeBinding {
-                    ShapeDescriptor = descriptor,
+                    ShapeDescriptor = descriptor,//内部的ShapeDescriptor引用了descriptor
                     BindingName = _bindingName,//ShapeType
                     BindingSource = bindingSource,
                     Binding = displayContext => {
@@ -63,6 +63,7 @@ namespace Orchard.DisplayManagement.Descriptors {
 
                 // ShapeDescriptor.Bindings is a case insensitive dictionary
                 //Bings是个区分大小写的字典
+                //最后其实是放入Descriptor中
                 descriptor.Bindings[_bindingName] = binding;
 
             });

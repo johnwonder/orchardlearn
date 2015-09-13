@@ -20,6 +20,14 @@ namespace Orchard.DisplayManagement.Implementation {
         }
         
         class ShapeFactoryBehavior : ClayBehavior {
+            /// <summary>
+            /// New.DocumentZone会调用此方法去创建形状
+            /// </summary>
+            /// <param name="proceed"></param>
+            /// <param name="target"></param>
+            /// <param name="name"></param>
+            /// <param name="args"></param>
+            /// <returns></returns>
             public override object InvokeMember(Func<object> proceed, object target, string name, INamedEnumerable<object> args) {
                 return ((DefaultShapeFactory)target).Create(name, args);
             }
@@ -91,6 +99,7 @@ namespace Orchard.DisplayManagement.Implementation {
             var createdContext = new ShapeCreatedContext {
                 New = creatingContext.New,
                 ShapeType = creatingContext.ShapeType,
+                //这里有可能会把BaseType改变 ，比如Zone
                 Shape = ClayActivator.CreateInstance(creatingContext.BaseType, creatingContext.Behaviors)
             };
             var shapeMetadata = new ShapeMetadata { Type = shapeType };

@@ -42,6 +42,7 @@ namespace Orchard.DisplayManagement.Implementation {
         public IHtmlString Execute(DisplayContext context) {
 
            //先转换为Shape
+            //比如DocumentZone Create的时候 DocumentZone已经存在Metadata中了
             var shape = _convertAsShapeCallsite.Target(_convertAsShapeCallsite, context.Value);
 
             // non-shape arguments are returned as a no-op
@@ -61,6 +62,7 @@ namespace Orchard.DisplayManagement.Implementation {
                 Shape = shape,
                 ShapeMetadata = shapeMetadata
             };
+            //添加shapeMetaData的OnDisplaying Action
             _shapeDisplayEvents.Invoke(sde => sde.Displaying(displayingContext), Logger);
 
             // find base shape association using only the fundamental shape type. 
@@ -77,6 +79,7 @@ namespace Orchard.DisplayManagement.Implementation {
             }
 
             // invoking ShapeMetadata displaying events
+            //Invoke扩展  遍历Displaying
             shapeMetadata.Displaying.Invoke(action => action(displayingContext), Logger);
 
             // use pre-fectched content if available (e.g. coming from specific cache implmentation)
@@ -85,6 +88,7 @@ namespace Orchard.DisplayManagement.Implementation {
             }
             else {
                 // now find the actual binding to render, taking alternates into account
+                //现在去寻找实际绑定去呈现
                 ShapeBinding actualBinding;
                 if ( TryGetDescriptorBinding(shapeMetadata.Type, shapeMetadata.Alternates, shapeTable, out actualBinding) ) {
                     shape.Metadata.ChildContent = Process(actualBinding, shape, context);
@@ -93,14 +97,14 @@ namespace Orchard.DisplayManagement.Implementation {
                     throw new OrchardException(T("Shape type {0} not found", shapeMetadata.Type));
                 }
             }
-
+            ///包装器输出
             foreach (var frameType in shape.Metadata.Wrappers) {
                 ShapeBinding frameBinding;
                 if (TryGetDescriptorBinding(frameType, Enumerable.Empty<string>(), shapeTable, out frameBinding)) {
                     shape.Metadata.ChildContent = Process(frameBinding, shape, context);
                 }
             }
-            //实际这里会用wrapper包装
+            //如果有wrapper包装,那么ChildContent已经是包装过后输出的ChildContent
             var displayedContext = new ShapeDisplayedContext {
                 Shape = shape,
                 ShapeMetadata = shape.Metadata,
@@ -172,12 +176,20 @@ namespace Orchard.DisplayManagement.Implementation {
             return new HtmlString(HttpUtility.HtmlEncode(value));
         }
 
+        /// <summary>
+        /// 调用Binding输出
+        /// </summary>
+        /// <param name="shapeBinding"></param>
+        /// <param name="shape"></param>
+        /// <param name="context"></param>
+        /// <returns></returns>
         static IHtmlString Process(ShapeBinding shapeBinding, IShape shape, DisplayContext context) {
 
             if (shapeBinding == null || shapeBinding.Binding == null) {
                 // todo: create result from all child shapes
                 return shape.Metadata.ChildContent ?? new HtmlString("");
             }
+            //调用Binding输出
             return CoerceHtmlString(shapeBinding.Binding(context));
         }
 
