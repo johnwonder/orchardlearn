@@ -12,7 +12,7 @@ namespace ClayTest
         /// http://www.cnblogs.com/JustRun1983/p/3529157.html
         /// </summary>
         /// <param name="args"></param>
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
           var display =   CreateHelper("ss","ssss");
           display("11",new List<string> {"22" });
