@@ -159,6 +159,7 @@ namespace Orchard.Data.Migration {
 
         /// <summary>
         /// Returns all the available IDataMigration instances for a specific module, and inject necessary builders
+        /// Feature 其实使用FeatureDescriptor 和ExportedTypes包装的
         /// </summary>
         private IEnumerable<IDataMigration> GetDataMigrations(string feature) {
             var migrations = _dataMigrations

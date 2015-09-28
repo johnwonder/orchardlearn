@@ -54,7 +54,7 @@ namespace Orchard.Core.Shapes {
             //有一个自动生成zone的行为
             builder.Describe("Layout")
                 .Configure(descriptor => descriptor.Wrappers.Add("Document"))
-                .OnCreating(creating => creating.Behaviors.Add(new ZoneHoldingBehavior(() => creating.New.Zone(), null)))
+                .OnCreating(creating => creating.Behaviors.Add(new ZoneHoldingBehavior(() => creating.New.Zone(), null))) 
                 .OnCreated(created => {
                     var layout = created.Shape;
                     
@@ -356,7 +356,14 @@ namespace Orchard.Core.Shapes {
             // do not write to Output directly as Styles are rendered in Zones
             ResourceManager.WriteResource(Html.ViewContext.Writer, Resource, Url, Condition, TagAttributes);
         }
-
+        /// <summary>
+        /// Display(Script)的时候调用
+        /// </summary>
+        /// <param name="Output"></param>
+        /// <param name="Resource"></param>
+        /// <param name="Url"></param>
+        /// <param name="Condition"></param>
+        /// <param name="TagAttributes"></param>
         [Shape]
         public void Script(TextWriter Output, ResourceDefinition Resource, string Url, string Condition, Dictionary<string, string> TagAttributes) {
             ResourceManager.WriteResource(Output, Resource, Url, Condition, TagAttributes);

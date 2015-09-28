@@ -1,6 +1,10 @@
 ﻿using Orchard.Data.Migration;
 
 namespace Orchard.ContentManagement.DataMigrations {
+    /// <summary>
+    /// 这里的Feature属性 应该是 在CompositionStrategy 中 compose buildDependencies中
+    /// 然后在CreateContainerFactory的时候 通过IOC放入
+    /// </summary>
     public class FrameworkDataMigration : DataMigrationImpl {
 
         public int Create() {

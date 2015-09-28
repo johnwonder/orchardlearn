@@ -12,6 +12,8 @@ using Orchard.Localization;
 using Orchard.Themes;
 using Orchard.UI.Notify;
 using Orchard.Utility.Extensions;
+using Orchard.Environment.Extensions.Loaders;
+using Orchard.Caching;
 
 namespace Orchard.Setup.Controllers {
     [ValidateInput(false), Themed]
@@ -20,16 +22,28 @@ namespace Orchard.Setup.Controllers {
         private readonly ShellSettings _shellSettings;
         private readonly INotifier _notifier;
         private readonly ISetupService _setupService;
+        private readonly IEnumerable<IExtensionLoader> _extensionLoaders;
+        private readonly ICacheManager _cacheManager;
+        private readonly ICacheHolder _cacheHolder;
+        private readonly IThemeManager _themeManager;
         private const string DefaultRecipe = "Default";
 
         public SetupController(
             INotifier notifier, 
             ISetupService setupService, 
             IViewsBackgroundCompilation viewsBackgroundCompilation,
-            ShellSettings shellSettings) {
+            ICacheManager cacheManager,
+            ICacheHolder cacheHolder,
+            //IThemeManager themeManger,//如果SetupMode中没有注册 ThemeManager的话这里找不到，OrchardHost中也没有注册
+            ShellSettings shellSettings)//, IEnumerable<IExtensionLoader> extensionLoaders
+        {
             _viewsBackgroundCompilation = viewsBackgroundCompilation;
             _shellSettings = shellSettings;
             _notifier = notifier;
+            _cacheHolder = cacheHolder;
+            _cacheManager = cacheManager;
+            //_themeManager = themeManger;
+            //_extensionLoaders = extensionLoaders;//这里可以访问到
             _setupService = setupService;
 
             T = NullLocalizer.Instance;
@@ -41,6 +55,11 @@ namespace Orchard.Setup.Controllers {
 
         private ActionResult IndexViewResult(SetupViewModel model) {
             return View(model);
+        }
+
+        public ActionResult Second()
+        {
+            return View();
         }
 
         public ActionResult Index() {

@@ -66,6 +66,7 @@ namespace Orchard.Data.Migration.Interpreters {
                 .Append(" (");
 
             var appendComma = false;
+            //遍历 TableCommands  创建列
             foreach (var createColumn in command.TableCommands.OfType<CreateColumnCommand>()) {
                 if (appendComma) {
                     builder.Append(", ");
@@ -88,11 +89,16 @@ namespace Orchard.Data.Migration.Interpreters {
             }
 
             builder.Append(" )");
-            _sqlStatements.Add(builder.ToString());
+            _sqlStatements.Add(builder.ToString());//添加sqlStatements
 
             RunPendingStatements();
         }
 
+       /// <summary>
+       /// 如果shellSettings.DataTablePrefix 为空 才用传入的参数为tableName
+       /// </summary>
+       /// <param name="tableName"></param>
+       /// <returns></returns>
         private string PrefixTableName(string tableName) {
             if (string.IsNullOrEmpty(_shellSettings.DataTablePrefix))
                 return tableName;
@@ -332,7 +338,9 @@ namespace Orchard.Data.Migration.Interpreters {
             }
 
         }
-
+        /// <summary>
+        /// 运行挂起的语句 后会删除Clear()
+        /// </summary>
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Security", "CA2100:Review SQL queries for security vulnerabilities", Justification = "Nothing comes from user input.")]
         private void RunPendingStatements() {
 

@@ -35,7 +35,7 @@ namespace Orchard.Autoroute.Handlers {
 
             // OnVersioned<AutoroutePart>((ctx, part1, part2) => CreateAlias(part1));
 
-            OnPublished<AutoroutePart>((ctx, part) => PublishAlias(part));
+            OnPublished<AutoroutePart>((ctx, part) => PublishAlias(part));//我草 再这边  加入了OnPublished 事件
 
             // Remove alias if removed or unpublished
             OnRemoved<AutoroutePart>((ctx, part) => RemoveAlias(part));
@@ -58,7 +58,7 @@ namespace Orchard.Autoroute.Handlers {
             // should it become the home page ?
             if (part.DisplayAlias == "/") {
                 part.DisplayAlias = String.Empty;
-
+                //volidate
                 // regenerate the alias for the previous home page
                 var currentHomePages = _orchardServices.ContentManager.Query<AutoroutePart, AutoroutePartRecord>().Where(x => x.DisplayAlias == "").List();
                 foreach (var current in currentHomePages) {

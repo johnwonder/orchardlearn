@@ -106,6 +106,7 @@ namespace Orchard.Environment.Extensions.Folders {
         }
 
         /// <summary>
+        /// GetExtensionDescriptor 调用
         /// 解析Theme.txt Module.txt文件
         /// </summary>
         /// <param name="locationPath"></param>
@@ -136,7 +137,16 @@ namespace Orchard.Environment.Extensions.Folders {
 
             return extensionDescriptor;
         }
-
+        
+        /// <summary>
+        /// AvailableExtensionsInFolder 调用
+        /// </summary>
+        /// <param name="locationPath"></param>
+        /// <param name="extensionId"></param>
+        /// <param name="extensionType"></param>
+        /// <param name="manifestPath"></param>
+        /// <param name="manifestIsOptional"></param>
+        /// <returns></returns>
         private ExtensionDescriptor GetExtensionDescriptor(string locationPath, string extensionId, string extensionType, string manifestPath, bool manifestIsOptional) {
             return _cacheManager.Get(manifestPath, context => {
                 context.Monitor(_webSiteFolder.WhenPathChanges(manifestPath));//AddToken
@@ -228,7 +238,12 @@ namespace Orchard.Environment.Extensions.Folders {
 
             return manifest;
         }
-
+        /// <summary>
+        /// GetDescriptorForExtension调用
+        /// </summary>
+        /// <param name="manifest"></param>
+        /// <param name="extensionDescriptor"></param>
+        /// <returns></returns>
         private static IEnumerable<FeatureDescriptor> GetFeaturesForExtension(IDictionary<string, string> manifest, ExtensionDescriptor extensionDescriptor) {
             var featureDescriptors = new List<FeatureDescriptor>();
 
@@ -246,7 +261,7 @@ namespace Orchard.Environment.Extensions.Folders {
 
             featureDescriptors.Add(defaultFeature);
 
-            //剩下的
+            //剩下的 features节点
             // Remaining features
             string featuresText = GetValue(manifest, FeaturesSection);
             if (featuresText != null) {

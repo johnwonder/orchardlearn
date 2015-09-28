@@ -60,6 +60,7 @@ namespace Orchard.Environment.Extensions.Loaders {
         }
         /// <summary>
         /// 判断类型名字是否以Orchard.Core.模块Id. 开头
+        /// 比如Settings的 那就 是Orchard.Core.Settings.开头的
         /// </summary>
         /// <param name="type">类型</param>
         /// <param name="descriptor">扩展描述</param>

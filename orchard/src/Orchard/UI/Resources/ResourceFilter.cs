@@ -24,12 +24,12 @@ namespace Orchard.UI.Resources {
                 return;
 
             var ctx = _workContextAccessor.GetContext();
-            var head = ctx.Layout.Head;
+            var head = ctx.Layout.Head;//这个Head其实是在CoreShapes中去创建的 created.New.DocumentZone(ZoneName: "Head");
             var tail = ctx.Layout.Tail;
             head.Add(_shapeFactory.Metas());
             head.Add(_shapeFactory.HeadLinks());//输出RegisterLink方法
             head.Add(_shapeFactory.StylesheetLinks());//输出Style.Include
-            head.Add(_shapeFactory.HeadScripts());
+            head.Add(_shapeFactory.HeadScripts()); //HeadScripts 调用CoreShapes中的HeadScripts方法
             tail.Add(_shapeFactory.FootScripts());
             //Add 只是放进集合 要到调用Display( Head)时才会调用 
         }

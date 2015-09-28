@@ -10,7 +10,10 @@ namespace Orchard.Environment.Extensions.Folders {
             _paths = paths;//通过Autofac WithParameter参数来
             _extensionHarvester = extensionHarvester;
         }
-
+        /// <summary>
+        /// 在Modules文件夹下寻找
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<ExtensionDescriptor> AvailableExtensions() {
             return _extensionHarvester.HarvestExtensions(_paths, DefaultExtensionTypes.Module, "Module.txt", false/*isManifestOptional*/);
         }
