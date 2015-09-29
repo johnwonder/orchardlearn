@@ -142,9 +142,15 @@ namespace Orchard.Environment.ShellBuilders {
                 });
         }
 
+        /// <summary>
+        /// DependencyBlueprint 继承自ShellBlueprintItem
+        /// </summary>
+        /// <param name="builder"></param>
+        /// <param name="item"></param>
+        /// <returns></returns>
         private IRegistrationBuilder<object, ConcreteReflectionActivatorData, SingleRegistrationStyle> RegisterType(ContainerBuilder builder, ShellBlueprintItem item) {
             return builder.RegisterType(item.Type)
-                .WithProperty("Feature", item.Feature)
+                .WithProperty("Feature", item.Feature) 
                 .WithMetadata("Feature", item.Feature);
         }
     }

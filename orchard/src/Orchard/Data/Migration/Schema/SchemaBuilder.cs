@@ -16,7 +16,7 @@ namespace Orchard.Data.Migration.Schema {
         public SchemaBuilder CreateTable(string name, Action<CreateTableCommand> table) {
             var createTable = new CreateTableCommand(String.Concat(_formatPrefix(_featurePrefix), name));
             table(createTable);
-            Run(createTable);
+            Run(createTable);//CreateTableCommand 实现了 ISchemaBuilderCommand
             return this;
         }
 
@@ -41,7 +41,10 @@ namespace Orchard.Data.Migration.Schema {
             Run(sqlStatmentCommand);
             return this;
         }
-
+        /// <summary>
+        /// 这里会执行sqlCommand
+        /// </summary>
+        /// <param name="command"></param>
         private void Run(ISchemaBuilderCommand command) {
             _interpreter.Visit(command);
         }

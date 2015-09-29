@@ -50,7 +50,9 @@ namespace Orchard.Environment.ShellBuilders {
             //取扩展中Id为Shapes Orchard.Setup Orchard.jQuery 的扩展
             //Descriptor 中有三个Features Orchard.Setup Shapes Orchard.Jquery
             //ExtensionManager扩展方法 EnabledFeatures
+            //比较descriptor的name 和 Id是否相同
             var enabledFeatures = _extensionManager.EnabledFeatures(descriptor);//获取扩展中的Features
+            //LoadFeatures中 加载程序集 Settings为CoreExtensionLoader
             var features = _extensionManager.LoadFeatures(enabledFeatures);
             //Feature
             if (descriptor.Features.Any(feature => feature.Name == "Orchard.Framework"))
@@ -115,6 +117,15 @@ namespace Orchard.Environment.ShellBuilders {
             };
         }
 
+        /// <summary>
+        /// 最后还是通过selector linq返回
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="features"></param>
+        /// <param name="predicate"></param>
+        /// <param name="selector"></param>
+        /// <param name="excludedTypes"></param>
+        /// <returns></returns>
         private static IEnumerable<T> BuildBlueprint<T>(
             IEnumerable<Feature> features,
             Func<Type, bool> predicate,
@@ -139,7 +150,7 @@ namespace Orchard.Environment.ShellBuilders {
         }
 
         private static bool IsDependency(Type type) {
-            Debug.WriteLine("type:" + type.FullName);
+            //Debug.WriteLine("type:" + type.FullName);
             //这里会返回Orchard.Core.Settings.Descriptor.ShellDescriptorManager 等。。
             return typeof(IDependency).IsAssignableFrom(type);
         }

@@ -10,7 +10,11 @@ namespace Orchard.Environment.Extensions.Folders {
             _paths = paths;
             _extensionHarvester = extensionHarvester;
         }
-
+        /// <summary>
+        /// 跟ModuleFolders一样也是寻找Module.txt 
+        /// 只是这边在Core中寻找 ，比如Settings 安装的时候要用到
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<ExtensionDescriptor> AvailableExtensions() {
             return _extensionHarvester.HarvestExtensions(_paths, DefaultExtensionTypes.Module, "Module.txt", false/*isManifestOptional*/);
         }

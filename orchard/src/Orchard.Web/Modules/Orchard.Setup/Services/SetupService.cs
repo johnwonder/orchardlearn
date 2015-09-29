@@ -101,6 +101,7 @@ namespace Orchard.Setup.Services {
             
             #endregion
 
+            //组装 context.EnabledFeatures
             var shellDescriptor = new ShellDescriptor {
                 Features = context.EnabledFeatures.Select(name => new ShellFeature { Name = name })
             };
@@ -112,6 +113,7 @@ namespace Orchard.Setup.Services {
 
                 using (var environment = bootstrapLifetimeScope.CreateWorkContextScope()) {
 
+                  
                     // check if the database is already created (in case an exception occured in the second phase)
                     var schemaBuilder = new SchemaBuilder(environment.Resolve<IDataMigrationInterpreter>());
                     try {
@@ -122,15 +124,16 @@ namespace Orchard.Setup.Services {
                         var reportsCoordinator = environment.Resolve<IReportsCoordinator>();
 
                         reportsCoordinator.Register("Data Migration", "Setup", "Orchard installation");
-
+                        //这里其实是交给了DataMigrationInterpreter
                         schemaBuilder.CreateTable("Orchard_Framework_DataMigrationRecord",
                                                   table => table
                                                                .Column<int>("Id", column => column.PrimaryKey().Identity())
                                                                .Column<string>("DataMigrationClass")
                                                                .Column<int>("Version"));
+                        //三列  Id,DataMigrationClass ,Version
 
                         var dataMigrationManager = environment.Resolve<IDataMigrationManager>();
-                        dataMigrationManager.Update("Settings");
+                        dataMigrationManager.Update("Settings"); //貌似是不是重复了
 
                         foreach (var feature in context.EnabledFeatures) {
                             dataMigrationManager.Update(feature);

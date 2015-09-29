@@ -40,6 +40,7 @@ using Orchard.UI.Zones;
 using IFilterProvider = Orchard.Mvc.Filters.IFilterProvider;
 
 namespace Orchard.Setup {
+    //这个SetupMode 也是在CreateShellContainerFactory中注册的
     public class SetupMode : Module {
         public Feature Feature { get; set; }
 
@@ -84,7 +85,7 @@ namespace Orchard.Setup {
             builder.RegisterType<RecipeHarvester>().As<IRecipeHarvester>().InstancePerLifetimeScope();
             builder.RegisterType<RecipeParser>().As<IRecipeParser>().InstancePerLifetimeScope();
 
-           // builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance(); //注册后了一个新的CacheHolder 清空
+            builder.RegisterType<DefaultCacheHolder>().As<ICacheHolder>().SingleInstance(); //注册后了一个新的CacheHolder 清空
 
             // in progress - adding services for display/shape support in setup
             builder.RegisterType<DisplayHelperFactory>().As<IDisplayHelperFactory>().InstancePerLifetimeScope();
@@ -102,6 +103,9 @@ namespace Orchard.Setup {
             builder.RegisterType<ShapeTemplateBindingStrategy>().As<IShapeTableProvider>().InstancePerLifetimeScope();
             builder.RegisterType<BasicShapeTemplateHarvester>().As<IShapeTemplateHarvester>().InstancePerLifetimeScope();
             builder.RegisterType<ShapeAttributeBindingStrategy>().As<IShapeTableProvider>().InstancePerMatchingLifetimeScope("shell");
+            //这里注册了 关键的 Shape方法
+            //会去 CoreShapes中 寻找 有Shape特性的方法 
+            //
             builder.RegisterModule(new ShapeAttributeBindingModule());
         }
 
@@ -141,6 +145,7 @@ namespace Orchard.Setup {
         [UsedImplicitly]
         class SafeModeSiteService : ISiteService {
             public ISite GetSiteSettings() {
+                //Build重新返回一个ContentTypeDefinitionBuilder
                 var siteType = new ContentTypeDefinitionBuilder().Named("Site").Build();
                 var site = new ContentItemBuilder(siteType)
                     .Weld<SafeModeSite>()
@@ -151,10 +156,16 @@ namespace Orchard.Setup {
         }
 
         class SafeModeSite : ContentPart, ISite {
+            /// <summary>
+            /// 标题分割符
+            /// </summary>
             public string PageTitleSeparator {
                 get { return " - "; }
             }
 
+            /// <summary>
+            /// 网站名称 显示在标题中
+            /// </summary>
             public string SiteName {
                 get { return "Orchard Setup"; }
             }
