@@ -57,15 +57,15 @@ namespace Orchard.Core.Shapes {
                 .OnCreating(creating => creating.Behaviors.Add(new ZoneHoldingBehavior(() => creating.New.Zone(), null)))
                 .OnCreated(created => {
                     var layout = created.Shape;
-                    
+                    //去Display Head的时候
                     layout.Head = created.New.DocumentZone(ZoneName: "Head");
                     layout.Body = created.New.DocumentZone(ZoneName: "Body");
                     layout.Tail = created.New.DocumentZone(ZoneName: "Tail");
-
+                    //运行的时候 Layout.MetaData.ChildContent 已经为Layout.cshtml的内容
                     layout.Body.Add(created.New.PlaceChildContent(Source: layout));
 
-                    layout.Content = created.New.Zone();
-                    layout.Content.ZoneName = "Content";
+                    layout.Content = created.New.Zone();//创建Zone 创建Zone形状 调用下面的Zone方法
+                    layout.Content.ZoneName = "Content"; //这里是因为creating的时候把BaseType指向Zone
                     layout.Content.Add(created.New.PlaceChildContent(Source: layout));
 
                 });
