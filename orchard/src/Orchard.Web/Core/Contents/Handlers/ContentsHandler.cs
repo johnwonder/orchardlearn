@@ -20,6 +20,7 @@ namespace Orchard.Core.Contents.Handlers {
                     {"Id", context.ContentItem.Id}
                 };
             }
+            //草在这边加入了
             if (context.Metadata.DisplayRouteValues == null) {
                 context.Metadata.DisplayRouteValues = new RouteValueDictionary {
                     {"Area", "Contents"},
