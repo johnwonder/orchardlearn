@@ -29,6 +29,12 @@ namespace Orchard.Recipes.Services {
         public Localizer T { get; set; }
         public ILogger Logger { get; set; }
 
+        /// <summary>
+        /// 比如extensionId 为 Orchard.Setup
+        /// 找到以.recipe.xml结束的文件
+        /// </summary>
+        /// <param name="extensionId"></param>
+        /// <returns></returns>
         public IEnumerable<Recipe> HarvestRecipes(string extensionId) {
             var recipes = new List<Recipe>();
             var extension = _extensionManager.GetExtension(extensionId);
