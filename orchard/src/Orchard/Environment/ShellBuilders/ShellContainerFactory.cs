@@ -100,6 +100,7 @@ namespace Orchard.Environment.ShellBuilders {
                     }
 
                     foreach (var item in blueprint.Controllers) {
+                        //这里很关键是通过AreaName和ControllerName注入 
                         var serviceKeyName = (item.AreaName + "/" + item.ControllerName).ToLowerInvariant();
                         var serviceKeyType = item.Type;
                         RegisterType(builder, item)

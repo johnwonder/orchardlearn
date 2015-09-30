@@ -31,7 +31,7 @@ namespace Orchard.Core.Contents.Controllers {
             if (!Services.Authorizer.Authorize(Permissions.ViewContent, contentItem, T("Cannot view content"))) {
                 return new HttpUnauthorizedResult();
             }
-
+            //这里创建Shape
             dynamic model = _contentManager.BuildDisplay(contentItem);
             return new ShapeResult(this, model);
         }

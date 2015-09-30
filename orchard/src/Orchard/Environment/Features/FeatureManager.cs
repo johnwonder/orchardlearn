@@ -64,7 +64,7 @@ namespace Orchard.Environment.Features {
         public IEnumerable<string> EnableFeatures(IEnumerable<string> featureIds, bool force) {
             ShellDescriptor shellDescriptor = _shellDescriptorManager.GetShellDescriptor();
             List<ShellFeature> enabledFeatures = shellDescriptor.Features.ToList();
-
+            //判断AvailableFeatures中是否存在于当前的shellDescriptor.Features中
             IDictionary<FeatureDescriptor, bool> availableFeatures = GetAvailableFeatures()
                 .ToDictionary(featureDescriptor => featureDescriptor,
                                 featureDescriptor => enabledFeatures.FirstOrDefault(shellFeature => shellFeature.Name == featureDescriptor.Id) != null);
@@ -142,11 +142,12 @@ namespace Orchard.Environment.Features {
                 new Func<string, IDictionary<FeatureDescriptor, bool>, IDictionary<FeatureDescriptor, bool>>(
                     (currentFeatureId, featuresState) => {
                         KeyValuePair<FeatureDescriptor, bool> feature = featuresState.Single(featureState => featureState.Key.Id.Equals(currentFeatureId, StringComparison.OrdinalIgnoreCase));
-
+                        //先找到当前FeatureId的 feature
+                        //再找feature的依赖
                         // Retrieve disabled dependencies for the current feature
                         return feature.Key.Dependencies
                             .Select(fId => featuresState.Single(featureState => featureState.Key.Id.Equals(fId, StringComparison.OrdinalIgnoreCase)))
-                            .Where(featureState => !featureState.Value)
+                            .Where(featureState => !featureState.Value)//你存在于当前shellDescriptor中的
                             .ToDictionary(f => f.Key, f => f.Value);
                     });
 

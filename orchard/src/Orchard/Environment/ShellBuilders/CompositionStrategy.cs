@@ -181,7 +181,7 @@ namespace Orchard.Environment.ShellBuilders {
             return new ControllerBlueprint {
                 Type = type,
                 Feature = feature,
-                AreaName = areaName,
+                AreaName = areaName,//AreaName在这里加上 便于后面 ControllFactory中去寻找
                 ControllerName = controllerName,
             };
         }

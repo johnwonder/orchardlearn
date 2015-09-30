@@ -26,6 +26,7 @@ namespace Orchard.Core.Containers.Handlers {
                 part.Record.OrderByProperty = part.Is<CommonPart>() ? "CommonPart.CreatedUtc" : string.Empty;
                 part.Record.OrderByDirection = (int)OrderByDirection.Descending;
             });
+            //草 在这边加入了默认的DisplayRouteValues
             OnGetContentItemMetadata<ContainerPart>((context, part) => {
                 context.Metadata.DisplayRouteValues = new RouteValueDictionary {
                 {"Area", "Containers"},

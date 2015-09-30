@@ -26,6 +26,7 @@ namespace Orchard.DisplayManagement.Shapes {
     /// 可以在ChoreShapes.cs中找到这种写法。
     /// </summary>
     [DebuggerTypeProxy(typeof(ShapeDebugView))]
+    //继承了IEnumerable接口 在
     public class Shape : IShape, IEnumerable {
         private const string DefaultPosition = "5";
 
