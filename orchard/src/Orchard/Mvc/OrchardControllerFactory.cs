@@ -45,7 +45,7 @@ namespace Orchard.Mvc {
 
             // Determine the area name for the request, and fall back to stock orchard controllers
             var areaName = routeData.GetAreaName();
-
+            //这里通过routeData里的area controllername 然后去寻找Metadata匹配
             // Service name pattern matches the identification strategy
             var serviceKey = (areaName + "/" + controllerName).ToLowerInvariant();
 
