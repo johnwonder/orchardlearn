@@ -203,7 +203,8 @@ namespace Orchard.Environment.ShellBuilders {
         }
 
         /// <summary>
-        /// 相当于返回表名列表
+        /// 相当于返回表名列表 带上ShellSettings的Name
+        /// 用于在AbstractDataServicesProvider 中 Mapping
         /// </summary>
         /// <param name="type"></param>
         /// <param name="feature"></param>

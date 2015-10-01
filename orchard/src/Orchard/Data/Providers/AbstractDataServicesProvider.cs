@@ -31,6 +31,8 @@ namespace Orchard.Data.Providers {
 
         public Configuration BuildConfiguration(SessionFactoryParameters parameters) {
             var database = GetPersistenceConfigurer(parameters.CreateDatabase);
+
+            //在这边指定了表名
             var persistenceModel = CreatePersistenceModel(parameters.RecordDescriptors.ToList());
             //AutoMapping有很多契约，您需要按照一定的规范编写您的对象
             //不需要编写映射类 

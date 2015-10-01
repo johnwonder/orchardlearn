@@ -25,6 +25,7 @@ namespace Orchard.Environment.Descriptor {
             IEnumerable<ShellFeature> enabledFeatures,
             IEnumerable<ShellParameter> parameters);
 
+        void Changed();
         
     }
 

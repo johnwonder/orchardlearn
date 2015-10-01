@@ -121,6 +121,10 @@ namespace Orchard.Data {
             return config;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public SessionFactoryParameters GetSessionFactoryParameters() {
             var shellPath = _appDataFolder.Combine("Sites", _shellSettings.Name);
             _appDataFolder.CreateDirectory(shellPath);

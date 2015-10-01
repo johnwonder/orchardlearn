@@ -65,7 +65,9 @@ namespace Orchard.Environment.ShellBuilders {
             ShellDescriptor currentDescriptor;
             using (var standaloneEnvironment = shellScope.CreateWorkContextScope()) {
                 var shellDescriptorManager = standaloneEnvironment.Resolve<IShellDescriptorManager>();
+                shellDescriptorManager.Changed();
                 currentDescriptor = shellDescriptorManager.GetShellDescriptor();
+                
             }
 
             if (currentDescriptor != null && knownDescriptor.SerialNumber != currentDescriptor.SerialNumber) {

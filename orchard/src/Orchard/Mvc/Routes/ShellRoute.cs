@@ -10,6 +10,9 @@ using Orchard.Mvc.Extensions;
 
 namespace Orchard.Mvc.Routes {
 
+    /// <summary>
+    /// 存储ShellSettings 用于获取匹配的路由
+    /// </summary>
     public class ShellRoute : RouteBase, IRouteWithArea {
         private readonly RouteBase _route;
         private readonly ShellSettings _shellSettings;
