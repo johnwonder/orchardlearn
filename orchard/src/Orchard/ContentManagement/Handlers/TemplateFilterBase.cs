@@ -6,7 +6,7 @@
         protected virtual void UpdateEditorShape(UpdateEditorContext context, TPart instance) { }
 
         void IContentTemplateFilter.GetContentItemMetadata(GetContentItemMetadataContext context) {
-            if (context.ContentItem.Is<TPart>())
+            if (context.ContentItem.Is<TPart>())//这里有个判断是否是TPart
                 GetContentItemMetadata(context, context.ContentItem.As<TPart>());
         }
 
