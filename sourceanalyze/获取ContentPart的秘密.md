@@ -45,8 +45,9 @@
         }            
 
 Filters是在PartHandler构造函数传入的，比较特殊的如BodyPartRecord 因为它是继承自ContentPartVersionRecord
-所以是加入的StorageVersionFilter
-     public static StorageFilter<TRecord> For<TRecord>(IRepository<TRecord> repository) where TRecord : ContentPartRecord, new() {		
+所以是加入的StorageVersionFilter。
+
+		public static StorageFilter<TRecord> For<TRecord>(IRepository<TRecord> repository) where TRecord : ContentPartRecord, new() {		
      		//如果TRecord是ContentPartVersionRecord的子类那么返回StorageVersionFilter
             if (typeof(TRecord).IsSubclassOf(typeof(ContentPartVersionRecord))) {
                 var filterType = typeof(StorageVersionFilter<>).MakeGenericType(typeof(TRecord));
