@@ -55,3 +55,8 @@ Filters是在PartHandler构造函数传入的，比较特殊的如BodyPartRecord
             }
             return new StorageFilter<TRecord>(repository);
         }
+我们再来看看StorateFilter的Loading方法，其实是加入Loader，然后在获取Record的时候再去调用Loader中的委托。
+		protected override void Loading(LoadContentContext context, ContentPart<TRecord> instance) {
+            var versionRecord = context.ContentItemVersionRecord;
+            instance._record.Loader(prior => GetRecordCore(versionRecord) ?? CreateRecordCore(versionRecord, prior));
+        }
